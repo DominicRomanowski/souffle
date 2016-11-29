@@ -1,0 +1,33 @@
+@start-debug
+@t-nonrecursive-rule;orbits;./orbits1/orbits1.dl [13:1-13:24];orbits('earth','sun').;1.5e-05
+@n-nonrecursive-rule;orbits;./orbits1/orbits1.dl [13:1-13:24];orbits('earth','sun').;1
+@t-nonrecursive-rule;orbits;./orbits1/orbits1.dl [14:1-14:25];orbits('moon','earth').;2e-06
+@n-nonrecursive-rule;orbits;./orbits1/orbits1.dl [14:1-14:25];orbits('moon','earth').;2
+@t-nonrecursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];5.1e-05
+@n-nonrecursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];2
+@t-recursive-rule;orbits;0;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;1.2e-05
+@n-recursive-rule;orbits;0;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;0
+@t-recursive-rule;orbits;1;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;9e-06
+@n-recursive-rule;orbits;1;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;1
+@t-recursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];2.4e-05
+@n-recursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];1
+@c-recursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];2e-06
+@t-recursive-rule;orbits;0;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;3e-06
+@n-recursive-rule;orbits;0;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;0
+@t-recursive-rule;orbits;1;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;4e-06
+@n-recursive-rule;orbits;1;./orbits1/orbits1.dl [16:1-18:15];orbits(X,Y) :-     orbits(X,Z),    orbits(Z,Y).;0
+@t-recursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];9e-06
+@n-recursive-relation;orbits;./orbits1/orbits1.dl [8:1-8:30];0
+@t-nonrecursive-rule;intermediate;./orbits1/orbits1.dl [25:1-27:15];intermediate(X,Y) :-     orbits(X,Y),    orbits(_,Y).;1e-05
+@n-nonrecursive-rule;intermediate;./orbits1/orbits1.dl [25:1-27:15];intermediate(X,Y) :-     orbits(X,Y),    orbits(_,Y).;3
+@t-nonrecursive-relation;intermediate;./orbits1/orbits1.dl [10:1-10:36];1.1e-05
+@n-nonrecursive-relation;intermediate;./orbits1/orbits1.dl [10:1-10:36];3
+@t-nonrecursive-rule;star;./orbits1/orbits1.dl [12:1-12:13];star('sun').;5e-06
+@n-nonrecursive-rule;star;./orbits1/orbits1.dl [12:1-12:13];star('sun').;1
+@t-nonrecursive-relation;star;./orbits1/orbits1.dl [7:1-7:24];6e-06
+@n-nonrecursive-relation;star;./orbits1/orbits1.dl [7:1-7:24];1
+@t-nonrecursive-rule;planet;./orbits1/orbits1.dl [20:1-23:22];planet(X) :-     orbits(X,Y),    star(Y),    !intermediate(X,Y).;4e-06
+@n-nonrecursive-rule;planet;./orbits1/orbits1.dl [20:1-23:22];planet(X) :-     orbits(X,Y),    star(Y),    !intermediate(X,Y).;0
+@t-nonrecursive-relation;planet;./orbits1/orbits1.dl [9:1-9:26];5e-06
+@n-nonrecursive-relation;planet;./orbits1/orbits1.dl [9:1-9:26];0
+@runtime;0.000449

@@ -1,0 +1,176 @@
+@start-debug
+@t-nonrecursive-rule;abs;./cba_expr_value/cba_expr_value.dl [58:1-58:16];abs(0,0,8).;1.8e-05
+@n-nonrecursive-rule;abs;./cba_expr_value/cba_expr_value.dl [58:1-58:16];abs(0,0,8).;1
+@t-nonrecursive-rule;abs;./cba_expr_value/cba_expr_value.dl [59:1-59:16];abs(1,1,7).;2e-06
+@n-nonrecursive-rule;abs;./cba_expr_value/cba_expr_value.dl [59:1-59:16];abs(1,1,7).;2
+@t-nonrecursive-rule;abs;./cba_expr_value/cba_expr_value.dl [60:1-60:16];abs(2,2,4).;1e-06
+@n-nonrecursive-rule;abs;./cba_expr_value/cba_expr_value.dl [60:1-60:16];abs(2,2,4).;3
+@t-nonrecursive-relation;abs;./cba_expr_value/cba_expr_value.dl [56:1-56:41];5.9e-05
+@n-nonrecursive-relation;abs;./cba_expr_value/cba_expr_value.dl [56:1-56:41];3
+@t-nonrecursive-rule;app;./cba_expr_value/cba_expr_value.dl [69:1-69:16];app(0,9,1).;1.2e-05
+@n-nonrecursive-rule;app;./cba_expr_value/cba_expr_value.dl [69:1-69:16];app(0,9,1).;1
+@t-nonrecursive-rule;app;./cba_expr_value/cba_expr_value.dl [70:1-70:16];app(1,2,0).;1e-06
+@n-nonrecursive-rule;app;./cba_expr_value/cba_expr_value.dl [70:1-70:16];app(1,2,0).;2
+@t-nonrecursive-rule;app;./cba_expr_value/cba_expr_value.dl [71:1-71:16];app(2,5,6).;2e-06
+@n-nonrecursive-rule;app;./cba_expr_value/cba_expr_value.dl [71:1-71:16];app(2,5,6).;3
+@t-nonrecursive-relation;app;./cba_expr_value/cba_expr_value.dl [67:1-67:44];6.8e-05
+@n-nonrecursive-relation;app;./cba_expr_value/cba_expr_value.dl [67:1-67:44];3
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [40:1-40:21];term(0,'Lit',0).;6e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [40:1-40:21];term(0,'Lit',0).;1
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [41:1-41:21];term(1,'Lit',1).;1e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [41:1-41:21];term(1,'Lit',1).;2
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [51:1-51:21];term(2,'Var',0).;1e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [51:1-51:21];term(2,'Var',0).;3
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [52:1-52:21];term(3,'Var',1).;2e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [52:1-52:21];term(3,'Var',1).;4
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [53:1-53:21];term(4,'Var',2).;2e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [53:1-53:21];term(4,'Var',2).;5
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [62:1-62:21];term(5,'Abs',0).;2e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [62:1-62:21];term(5,'Abs',0).;6
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [63:1-63:21];term(6,'Abs',1).;1e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [63:1-63:21];term(6,'Abs',1).;7
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [64:1-64:21];term(7,'Abs',2).;1e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [64:1-64:21];term(7,'Abs',2).;8
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [73:1-73:21];term(8,'App',0).;0
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [73:1-73:21];term(8,'App',0).;9
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [74:1-74:21];term(9,'App',1).;1e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [74:1-74:21];term(9,'App',1).;10
+@t-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [75:1-75:21];term(10,'App',2).;2e-06
+@n-nonrecursive-rule;term;./cba_expr_value/cba_expr_value.dl [75:1-75:21];term(10,'App',2).;11
+@t-nonrecursive-relation;term;./cba_expr_value/cba_expr_value.dl [30:1-30:42];4.3e-05
+@n-nonrecursive-relation;term;./cba_expr_value/cba_expr_value.dl [30:1-30:42];11
+@t-nonrecursive-rule;ctrl_term;./cba_expr_value/cba_expr_value.dl [116:1-116:42];ctrl_term(i,v) :-     term(i,'Abs',v).;2.1e-05
+@n-nonrecursive-rule;ctrl_term;./cba_expr_value/cba_expr_value.dl [116:1-116:42];ctrl_term(i,v) :-     term(i,'Abs',v).;3
+@t-nonrecursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];2.3e-05
+@n-nonrecursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];3
+@t-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;7.4e-05
+@n-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;1.6e-05
+@n-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;1
+@t-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];0.000117
+@n-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];1
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;7e-06
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;0
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1.1e-05
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;0
+@t-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1.1e-05
+@n-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;0
+@t-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];4e-05
+@n-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];0
+@c-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];4e-06
+@c-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];4e-06
+@t-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;6e-06
+@n-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;7e-06
+@n-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];2.2e-05
+@n-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];0
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;1e-05
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;1
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1.2e-05
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1
+@t-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1.1e-05
+@n-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1
+@t-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];4.4e-05
+@n-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];1
+@c-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];2e-06
+@c-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];2e-06
+@t-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;5e-06
+@n-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;7e-06
+@n-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];2.9e-05
+@n-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];0
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;4e-06
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;0
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1.6e-05
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1
+@t-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1e-05
+@n-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1
+@t-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];4e-05
+@n-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];1
+@c-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];0
+@c-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];1e-06
+@t-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;7e-06
+@n-recursive-rule;ctrl_var;0;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;8e-06
+@n-recursive-rule;ctrl_var;1;./cba_expr_value/cba_expr_value.dl [119:1-119:88];ctrl_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    ctrl_term(b,v).;0
+@t-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];2.1e-05
+@n-recursive-relation;ctrl_var;./cba_expr_value/cba_expr_value.dl [86:1-86:37];0
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;3e-06
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [110:1-110:56];ctrl_term(i,v) :-     term(i,'Var',x),    ctrl_var(x,v).;0
+@t-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;9e-06
+@n-recursive-rule;ctrl_term;0;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;0
+@t-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;1.2e-05
+@n-recursive-rule;ctrl_term;1;./cba_expr_value/cba_expr_value.dl [113:1-113:103];ctrl_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    ctrl_term(b,v).;0
+@t-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];3.3e-05
+@n-recursive-relation;ctrl_term;./cba_expr_value/cba_expr_value.dl [87:1-87:38];0
+@t-nonrecursive-rule;lits;./cba_expr_value/cba_expr_value.dl [37:1-37:16];lits(0,'3').;6e-06
+@n-nonrecursive-rule;lits;./cba_expr_value/cba_expr_value.dl [37:1-37:16];lits(0,'3').;1
+@t-nonrecursive-rule;lits;./cba_expr_value/cba_expr_value.dl [38:1-38:16];lits(1,'2').;1e-06
+@n-nonrecursive-rule;lits;./cba_expr_value/cba_expr_value.dl [38:1-38:16];lits(1,'2').;2
+@t-nonrecursive-relation;lits;./cba_expr_value/cba_expr_value.dl [35:1-35:32];2.4e-05
+@n-nonrecursive-relation;lits;./cba_expr_value/cba_expr_value.dl [35:1-35:32];2
+@t-nonrecursive-rule;data_term;./cba_expr_value/cba_expr_value.dl [93:1-93:52];data_term(i,v) :-     term(i,'Lit',l),    lits(l,v).;1.1e-05
+@n-nonrecursive-rule;data_term;./cba_expr_value/cba_expr_value.dl [93:1-93:52];data_term(i,v) :-     term(i,'Lit',l),    lits(l,v).;2
+@t-nonrecursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];1.3e-05
+@n-nonrecursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2
+@t-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;2.7e-05
+@n-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;2
+@t-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];4.1e-05
+@n-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];2
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;7e-06
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;1.5e-05
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;0
+@t-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2.5e-05
+@n-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];0
+@c-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];7e-06
+@c-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2e-06
+@t-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;1.2e-05
+@n-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;0
+@t-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];1.4e-05
+@n-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;8e-06
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;2
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;1.4e-05
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;2
+@t-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];5.7e-05
+@n-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2
+@c-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];4e-06
+@c-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];3e-06
+@t-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;1.2e-05
+@n-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;0
+@t-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];1.4e-05
+@n-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;5e-06
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;2e-05
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;1
+@t-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2.9e-05
+@n-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];1
+@c-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];1e-06
+@c-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2e-06
+@t-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;9e-06
+@n-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;0
+@t-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];1.7e-05
+@n-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;4e-06
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;1.9e-05
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;1
+@t-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];2.6e-05
+@n-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];1
+@c-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];1e-06
+@c-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];1e-06
+@t-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;8e-06
+@n-recursive-rule;data_var;0;./cba_expr_value/cba_expr_value.dl [104:1-104:88];data_var(i,v) :-     app(_,a,b),    ctrl_term(a,f),    abs(f,i,_),    data_term(b,v).;0
+@t-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];1e-05
+@n-recursive-relation;data_var;./cba_expr_value/cba_expr_value.dl [83:1-83:36];0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;4e-06
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [96:1-96:56];data_term(i,v) :-     term(i,'Var',x),    data_var(x,v).;0
+@t-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;1.5e-05
+@n-recursive-rule;data_term;0;./cba_expr_value/cba_expr_value.dl [99:1-99:103];data_term(i,v) :-     term(i,'App',x),    app(x,t1,_),    ctrl_term(t1,f),    abs(f,_,b),    data_term(b,v).;0
+@t-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];6.3e-05
+@n-recursive-relation;data_term;./cba_expr_value/cba_expr_value.dl [84:1-84:44];0
+@runtime;0.009768

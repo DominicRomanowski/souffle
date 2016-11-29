@@ -1,0 +1,137 @@
+@start-debug
+@t-nonrecursive-rule;edge;./graph/graph.dl [14:1-14:12];edge(0,1).;1.4e-05
+@n-nonrecursive-rule;edge;./graph/graph.dl [14:1-14:12];edge(0,1).;1
+@t-nonrecursive-rule;edge;./graph/graph.dl [15:1-15:12];edge(1,2).;1e-06
+@n-nonrecursive-rule;edge;./graph/graph.dl [15:1-15:12];edge(1,2).;2
+@t-nonrecursive-rule;edge;./graph/graph.dl [16:1-16:12];edge(2,3).;0
+@n-nonrecursive-rule;edge;./graph/graph.dl [16:1-16:12];edge(2,3).;3
+@t-nonrecursive-rule;edge;./graph/graph.dl [17:1-17:12];edge(3,4).;0
+@n-nonrecursive-rule;edge;./graph/graph.dl [17:1-17:12];edge(3,4).;4
+@t-nonrecursive-rule;edge;./graph/graph.dl [18:1-18:12];edge(4,5).;0
+@n-nonrecursive-rule;edge;./graph/graph.dl [18:1-18:12];edge(4,5).;5
+@t-nonrecursive-rule;edge;./graph/graph.dl [19:1-19:12];edge(5,6).;1e-06
+@n-nonrecursive-rule;edge;./graph/graph.dl [19:1-19:12];edge(5,6).;6
+@t-nonrecursive-rule;edge;./graph/graph.dl [20:1-20:12];edge(6,7).;1e-06
+@n-nonrecursive-rule;edge;./graph/graph.dl [20:1-20:12];edge(6,7).;7
+@t-nonrecursive-rule;edge;./graph/graph.dl [21:1-21:12];edge(7,8).;0
+@n-nonrecursive-rule;edge;./graph/graph.dl [21:1-21:12];edge(7,8).;8
+@t-nonrecursive-rule;edge;./graph/graph.dl [22:1-22:12];edge(8,9).;1e-06
+@n-nonrecursive-rule;edge;./graph/graph.dl [22:1-22:12];edge(8,9).;9
+@t-nonrecursive-rule;edge;./graph/graph.dl [23:1-23:13];edge(9,10).;1e-06
+@n-nonrecursive-rule;edge;./graph/graph.dl [23:1-23:13];edge(9,10).;10
+@t-nonrecursive-rule;edge;./graph/graph.dl [24:1-24:13];edge(10,0).;1e-06
+@n-nonrecursive-rule;edge;./graph/graph.dl [24:1-24:13];edge(10,0).;11
+@t-nonrecursive-relation;edge;./graph/graph.dl [7:1-7:40];0.0001
+@n-nonrecursive-relation;edge;./graph/graph.dl [7:1-7:40];11
+@t-nonrecursive-rule;increasing;./graph/graph.dl [11:1-11:37];increasing(X,Y) :-     edge(X,Y),    X < Y.;2e-05
+@n-nonrecursive-rule;increasing;./graph/graph.dl [11:1-11:37];increasing(X,Y) :-     edge(X,Y),    X < Y.;10
+@t-nonrecursive-relation;increasing;./graph/graph.dl [6:1-6:53];2.3e-05
+@n-nonrecursive-relation;increasing;./graph/graph.dl [6:1-6:53];10
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;2.1e-05
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;9
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];3.2e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];9
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];3e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;1.9e-05
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;8
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];2.1e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];8
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];3e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;1.4e-05
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;7
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];2.2e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];7
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];2e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;1.3e-05
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;6
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1.5e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];6
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];2e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;1.1e-05
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;5
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1.3e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];5
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];3e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;1.1e-05
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;4
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1.2e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];4
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];2e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;9e-06
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;3
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1.1e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];3
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;8e-06
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;2
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1.4e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];2
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;8e-06
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;1
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];9e-06
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1
+@c-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1e-06
+@t-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;6e-06
+@n-recursive-rule;increasing;0;./graph/graph.dl [12:1-12:54];increasing(X,Y) :-     edge(X,Z),    increasing(Z,Y),    X < Z.;0
+@t-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];1.1e-05
+@n-recursive-relation;increasing;./graph/graph.dl [6:1-6:53];0
+@t-nonrecursive-rule;reachable;./graph/graph.dl [9:1-9:29];reachable(X,Y) :-     edge(X,Y).;1.3e-05
+@n-nonrecursive-rule;reachable;./graph/graph.dl [9:1-9:29];reachable(X,Y) :-     edge(X,Y).;11
+@t-nonrecursive-relation;reachable;./graph/graph.dl [5:1-5:52];1.5e-05
+@n-nonrecursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;2.4e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.6e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];3e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.9e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.6e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];4e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.9e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.1e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];4e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;2e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.1e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];4e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;2e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.1e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];1.1e-05
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;2e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.2e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];4e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;2e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.6e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];5e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.9e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];3e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.8e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2.1e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];4e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.8e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;11
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];2e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];11
+@c-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];5e-06
+@t-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.3e-05
+@n-recursive-rule;reachable;0;./graph/graph.dl [10:1-10:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;0
+@t-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];1.5e-05
+@n-recursive-relation;reachable;./graph/graph.dl [5:1-5:52];0
+@runtime;0.001054

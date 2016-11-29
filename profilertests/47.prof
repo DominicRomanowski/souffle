@@ -1,0 +1,10 @@
+@start-debug
+@t-nonrecursive-rule;N;./facts/facts.dl [6:1-6:8];N('0').;1.3e-05
+@n-nonrecursive-rule;N;./facts/facts.dl [6:1-6:8];N('0').;1
+@t-nonrecursive-rule;N;./facts/facts.dl [7:1-7:8];N('0').;1e-06
+@n-nonrecursive-rule;N;./facts/facts.dl [7:1-7:8];N('0').;1
+@t-nonrecursive-rule;N;./facts/facts.dl [8:1-8:8];N('1').;1e-06
+@n-nonrecursive-rule;N;./facts/facts.dl [8:1-8:8];N('1').;2
+@t-nonrecursive-relation;N;./facts/facts.dl [4:1-4:21];0.000187
+@n-nonrecursive-relation;N;./facts/facts.dl [4:1-4:21];2
+@runtime;0.000319

@@ -1,0 +1,30 @@
+@start-debug
+@t-nonrecursive-rule;a;./aliases/aliases.dl [26:1-26:8];a(1,2).;1.5e-05
+@n-nonrecursive-rule;a;./aliases/aliases.dl [26:1-26:8];a(1,2).;1
+@t-nonrecursive-rule;a;./aliases/aliases.dl [27:1-27:8];a(2,2).;2e-06
+@n-nonrecursive-rule;a;./aliases/aliases.dl [27:1-27:8];a(2,2).;2
+@t-nonrecursive-rule;a;./aliases/aliases.dl [28:1-28:8];a(3,2).;1e-06
+@n-nonrecursive-rule;a;./aliases/aliases.dl [28:1-28:8];a(3,2).;3
+@t-nonrecursive-relation;a;./aliases/aliases.dl [24:1-24:25];5.2e-05
+@n-nonrecursive-relation;a;./aliases/aliases.dl [24:1-24:25];3
+@t-nonrecursive-rule;r;./aliases/aliases.dl [31:1-31:55];r(x) :-     a(x,x).;1.2e-05
+@n-nonrecursive-rule;r;./aliases/aliases.dl [31:1-31:55];r(x) :-     a(x,x).;1
+@t-nonrecursive-relation;r;./aliases/aliases.dl [30:1-30:25];1.4e-05
+@n-nonrecursive-relation;r;./aliases/aliases.dl [30:1-30:25];1
+@t-nonrecursive-rule;n;./aliases/aliases.dl [14:1-14:6];n(1).;4e-06
+@n-nonrecursive-rule;n;./aliases/aliases.dl [14:1-14:6];n(1).;1
+@t-nonrecursive-rule;n;./aliases/aliases.dl [15:1-15:6];n(2).;0
+@n-nonrecursive-rule;n;./aliases/aliases.dl [15:1-15:6];n(2).;2
+@t-nonrecursive-rule;n;./aliases/aliases.dl [16:1-16:6];n(3).;1e-06
+@n-nonrecursive-rule;n;./aliases/aliases.dl [16:1-16:6];n(3).;3
+@t-nonrecursive-rule;n;./aliases/aliases.dl [17:1-17:6];n(4).;1e-06
+@n-nonrecursive-rule;n;./aliases/aliases.dl [17:1-17:6];n(4).;4
+@t-nonrecursive-rule;n;./aliases/aliases.dl [18:1-18:6];n(5).;0
+@n-nonrecursive-rule;n;./aliases/aliases.dl [18:1-18:6];n(5).;5
+@t-nonrecursive-relation;n;./aliases/aliases.dl [12:1-12:18];4.8e-05
+@n-nonrecursive-relation;n;./aliases/aliases.dl [12:1-12:18];5
+@t-nonrecursive-rule;p;./aliases/aliases.dl [21:1-21:23];p(y,y) :-     n(y).;1e-05
+@n-nonrecursive-rule;p;./aliases/aliases.dl [21:1-21:23];p(y,y) :-     n(y).;5
+@t-nonrecursive-relation;p;./aliases/aliases.dl [20:1-20:33];1.1e-05
+@n-nonrecursive-relation;p;./aliases/aliases.dl [20:1-20:33];5
+@runtime;0.000595

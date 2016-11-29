@@ -1,0 +1,218 @@
+@start-debug
+@t-nonrecursive-rule;InstanceVar;./java-pointsto/java-pointsto.dl [48:1-48:58];InstanceVar(var) :-     LoadInstanceFieldIndex(var,_,_,_).;1.4e-05
+@n-nonrecursive-rule;InstanceVar;./java-pointsto/java-pointsto.dl [48:1-48:58];InstanceVar(var) :-     LoadInstanceFieldIndex(var,_,_,_).;3
+@t-nonrecursive-rule;InstanceVar;./java-pointsto/java-pointsto.dl [49:1-49:59];InstanceVar(var) :-     StoreInstanceFieldIndex(_,var,_,_).;3e-06
+@n-nonrecursive-rule;InstanceVar;./java-pointsto/java-pointsto.dl [49:1-49:59];InstanceVar(var) :-     StoreInstanceFieldIndex(_,var,_,_).;3
+@t-nonrecursive-relation;InstanceVar;./java-pointsto/java-pointsto.dl [47:1-47:43];5.2e-05
+@n-nonrecursive-relation;InstanceVar;./java-pointsto/java-pointsto.dl [47:1-47:43];3
+@t-nonrecursive-rule;InstanceVarType;./java-pointsto/java-pointsto.dl [69:1-71:20];InstanceVarType(var,type) :-     VarType(var,type),    InstanceVar(var).;5.5e-05
+@n-nonrecursive-rule;InstanceVarType;./java-pointsto/java-pointsto.dl [69:1-71:20];InstanceVarType(var,type) :-     VarType(var,type),    InstanceVar(var).;3
+@t-nonrecursive-relation;InstanceVarType;./java-pointsto/java-pointsto.dl [68:1-68:50];9.1e-05
+@n-nonrecursive-relation;InstanceVarType;./java-pointsto/java-pointsto.dl [68:1-68:50];3
+@t-nonrecursive-rule;Superclass;./java-pointsto/java-pointsto.dl [52:1-52:56];Superclass(sub,super) :-     DirectSuperclass(sub,super).;1.7e-05
+@n-nonrecursive-rule;Superclass;./java-pointsto/java-pointsto.dl [52:1-52:56];Superclass(sub,super) :-     DirectSuperclass(sub,super).;15
+@t-nonrecursive-relation;Superclass;./java-pointsto/java-pointsto.dl [51:1-51:49];1.9e-05
+@n-nonrecursive-relation;Superclass;./java-pointsto/java-pointsto.dl [51:1-51:49];15
+@t-recursive-rule;Superclass;0;./java-pointsto/java-pointsto.dl [53:1-53:74];Superclass(sub,super) :-     Superclass(sub,x),    DirectSuperclass(x,super).;1e-05
+@n-recursive-rule;Superclass;0;./java-pointsto/java-pointsto.dl [53:1-53:74];Superclass(sub,super) :-     Superclass(sub,x),    DirectSuperclass(x,super).;0
+@t-recursive-relation;Superclass;./java-pointsto/java-pointsto.dl [51:1-51:49];1.2e-05
+@n-recursive-relation;Superclass;./java-pointsto/java-pointsto.dl [51:1-51:49];0
+@t-nonrecursive-rule;Supertype;./java-pointsto/java-pointsto.dl [56:1-56:49];Supertype(sub,super) :-     Superclass(sub,super).;1.4e-05
+@n-nonrecursive-rule;Supertype;./java-pointsto/java-pointsto.dl [56:1-56:49];Supertype(sub,super) :-     Superclass(sub,super).;15
+@t-nonrecursive-rule;Supertype;./java-pointsto/java-pointsto.dl [57:1-57:69];Supertype(type,interface) :-     DirectSuperinterface(type,interface).;4e-06
+@n-nonrecursive-rule;Supertype;./java-pointsto/java-pointsto.dl [57:1-57:69];Supertype(type,interface) :-     DirectSuperinterface(type,interface).;18
+@t-nonrecursive-relation;Supertype;./java-pointsto/java-pointsto.dl [55:1-55:46];2.2e-05
+@n-nonrecursive-relation;Supertype;./java-pointsto/java-pointsto.dl [55:1-55:46];18
+@t-nonrecursive-rule;InstanceTypes;./java-pointsto/java-pointsto.dl [74:1-76:25];InstanceTypes(x) :-     Supertype(x,_),    InstanceVarType(_,x).;1.9e-05
+@n-nonrecursive-rule;InstanceTypes;./java-pointsto/java-pointsto.dl [74:1-76:25];InstanceTypes(x) :-     Supertype(x,_),    InstanceVarType(_,x).;2
+@t-nonrecursive-rule;InstanceTypes;./java-pointsto/java-pointsto.dl [78:1-80:25];InstanceTypes(x) :-     Supertype(_,x),    InstanceVarType(_,x).;1e-05
+@n-nonrecursive-rule;InstanceTypes;./java-pointsto/java-pointsto.dl [78:1-80:25];InstanceTypes(x) :-     Supertype(_,x),    InstanceVarType(_,x).;2
+@t-nonrecursive-relation;InstanceTypes;./java-pointsto/java-pointsto.dl [73:1-73:31];4e-05
+@n-nonrecursive-relation;InstanceTypes;./java-pointsto/java-pointsto.dl [73:1-73:31];2
+@t-nonrecursive-rule;IsInstanceTypeCompatible;./java-pointsto/java-pointsto.dl [83:1-84:25];IsInstanceTypeCompatible(sub,super) :-     Supertype(sub,super).;1.2e-05
+@n-nonrecursive-rule;IsInstanceTypeCompatible;./java-pointsto/java-pointsto.dl [83:1-84:25];IsInstanceTypeCompatible(sub,super) :-     Supertype(sub,super).;18
+@t-nonrecursive-rule;IsInstanceTypeCompatible;./java-pointsto/java-pointsto.dl [86:1-87:20];IsInstanceTypeCompatible(t,t) :-     InstanceTypes(t).;3e-06
+@n-nonrecursive-rule;IsInstanceTypeCompatible;./java-pointsto/java-pointsto.dl [86:1-87:20];IsInstanceTypeCompatible(t,t) :-     InstanceTypes(t).;20
+@t-nonrecursive-relation;IsInstanceTypeCompatible;./java-pointsto/java-pointsto.dl [82:1-82:63];3.2e-05
+@n-nonrecursive-relation;IsInstanceTypeCompatible;./java-pointsto/java-pointsto.dl [82:1-82:63];20
+@t-nonrecursive-rule;InstanceTypeComparable;./java-pointsto/java-pointsto.dl [90:1-91:42];InstanceTypeComparable(type1,type2) :-     IsInstanceTypeCompatible(type1,type2).;8.7e-05
+@n-nonrecursive-rule;InstanceTypeComparable;./java-pointsto/java-pointsto.dl [90:1-91:42];InstanceTypeComparable(type1,type2) :-     IsInstanceTypeCompatible(type1,type2).;20
+@t-nonrecursive-rule;InstanceTypeComparable;./java-pointsto/java-pointsto.dl [93:1-94:42];InstanceTypeComparable(type1,type2) :-     IsInstanceTypeCompatible(type2,type1).;1.5e-05
+@n-nonrecursive-rule;InstanceTypeComparable;./java-pointsto/java-pointsto.dl [93:1-94:42];InstanceTypeComparable(type1,type2) :-     IsInstanceTypeCompatible(type2,type1).;38
+@t-nonrecursive-relation;InstanceTypeComparable;./java-pointsto/java-pointsto.dl [89:1-89:61];0.000109
+@n-nonrecursive-relation;InstanceTypeComparable;./java-pointsto/java-pointsto.dl [89:1-89:61];38
+@t-nonrecursive-rule;Invocation;./java-pointsto/java-pointsto.dl [60:1-60:96];Invocation(callsite,calledMethod) :-     SpecialMethodInvocationSignature(callsite,calledMethod).;1.1e-05
+@n-nonrecursive-rule;Invocation;./java-pointsto/java-pointsto.dl [60:1-60:96];Invocation(callsite,calledMethod) :-     SpecialMethodInvocationSignature(callsite,calledMethod).;8
+@t-nonrecursive-rule;Invocation;./java-pointsto/java-pointsto.dl [61:1-61:95];Invocation(callsite,calledMethod) :-     StaticMethodInvocationSignature(callsite,calledMethod).;2e-06
+@n-nonrecursive-rule;Invocation;./java-pointsto/java-pointsto.dl [61:1-61:95];Invocation(callsite,calledMethod) :-     StaticMethodInvocationSignature(callsite,calledMethod).;8
+@t-nonrecursive-rule;Invocation;./java-pointsto/java-pointsto.dl [62:1-62:96];Invocation(callsite,calledMethod) :-     VirtualMethodInvocationSignature(callsite,calledMethod).;4e-06
+@n-nonrecursive-rule;Invocation;./java-pointsto/java-pointsto.dl [62:1-62:96];Invocation(callsite,calledMethod) :-     VirtualMethodInvocationSignature(callsite,calledMethod).;12
+@t-nonrecursive-relation;Invocation;./java-pointsto/java-pointsto.dl [59:1-59:74];3.1e-05
+@n-nonrecursive-relation;Invocation;./java-pointsto/java-pointsto.dl [59:1-59:74];12
+@t-nonrecursive-rule;InvocationBase;./java-pointsto/java-pointsto.dl [65:1-65:77];InvocationBase(callsite,var) :-     VirtualMethodInvocationBase(callsite,var).;6e-06
+@n-nonrecursive-rule;InvocationBase;./java-pointsto/java-pointsto.dl [65:1-65:77];InvocationBase(callsite,var) :-     VirtualMethodInvocationBase(callsite,var).;4
+@t-nonrecursive-rule;InvocationBase;./java-pointsto/java-pointsto.dl [66:1-66:77];InvocationBase(callsite,var) :-     SpecialMethodInvocationBase(callsite,var).;6e-06
+@n-nonrecursive-rule;InvocationBase;./java-pointsto/java-pointsto.dl [66:1-66:77];InvocationBase(callsite,var) :-     SpecialMethodInvocationBase(callsite,var).;12
+@t-nonrecursive-relation;InvocationBase;./java-pointsto/java-pointsto.dl [64:1-64:70];1.5e-05
+@n-nonrecursive-relation;InvocationBase;./java-pointsto/java-pointsto.dl [64:1-64:70];12
+@t-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [103:1-103:102];Assign(localVarAssigned,localVarAssignedTo) :-     AssignLocal(localVarAssigned,localVarAssignedTo,_).;1e-05
+@n-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [103:1-103:102];Assign(localVarAssigned,localVarAssignedTo) :-     AssignLocal(localVarAssigned,localVarAssignedTo,_).;7
+@t-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [104:1-104:150];Assign(actualParam,formalParam) :-     Invocation(callsite,method),    FormalParam(index,method,formalParam),    ActualParam(index,callsite,actualParam).;2.5e-05
+@n-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [104:1-104:150];Assign(actualParam,formalParam) :-     Invocation(callsite,method),    FormalParam(index,method,formalParam),    ActualParam(index,callsite,actualParam).;8
+@t-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [105:1-105:130];Assign(returnVar,localVar) :-     ReturnVar(returnVar,method),    Invocation(callsite,method),    AssignReturnValue(callsite,localVar).;2.3e-05
+@n-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [105:1-105:130];Assign(returnVar,localVar) :-     ReturnVar(returnVar,method),    Invocation(callsite,method),    AssignReturnValue(callsite,localVar).;8
+@t-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [106:1-106:107];Assign(base,this) :-     InvocationBase(callsite,base),    Invocation(callsite,method),    ThisVar(method,this).;2.7e-05
+@n-nonrecursive-rule;Assign;./java-pointsto/java-pointsto.dl [106:1-106:107];Assign(base,this) :-     InvocationBase(callsite,base),    Invocation(callsite,method),    ThisVar(method,this).;20
+@t-nonrecursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];0.000113
+@n-nonrecursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];20
+@t-nonrecursive-rule;VarPointsTo;./java-pointsto/java-pointsto.dl [109:1-110:38];VarPointsTo(var,heap) :-     AssignHeapAllocation(heap,var,_).;9e-06
+@n-nonrecursive-rule;VarPointsTo;./java-pointsto/java-pointsto.dl [109:1-110:38];VarPointsTo(var,heap) :-     AssignHeapAllocation(heap,var,_).;6
+@t-nonrecursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];1e-05
+@n-nonrecursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];6
+@t-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;3e-06
+@n-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;0
+@t-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];5e-06
+@n-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];0
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;5.5e-05
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;0
+@t-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;0.000171
+@n-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;6
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;3e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;6
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;3e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;6
+@t-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];0.000259
+@n-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];6
+@t-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;2e-06
+@n-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;0
+@t-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];4e-06
+@n-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];0
+@t-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;4e-06
+@n-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;0
+@t-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];1.9e-05
+@n-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];0
+@t-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;4e-06
+@n-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;3e-06
+@n-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];1.4e-05
+@n-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];0
+@t-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;1e-06
+@n-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;0
+@t-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];3e-06
+@n-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];0
+@c-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];2e-06
+@c-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];4e-06
+@c-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];2e-06
+@c-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];5e-06
+@c-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];1e-06
+@c-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];2e-06
+@t-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;2e-06
+@n-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;0
+@t-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];4e-06
+@n-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];0
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;2e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;0
+@t-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;1.7e-05
+@n-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;4
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;2e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;4
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;3e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;4
+@t-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];4.7e-05
+@n-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];4
+@t-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;1e-06
+@n-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;0
+@t-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];4e-06
+@n-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];0
+@t-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;4e-06
+@n-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;0
+@t-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];6e-06
+@n-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];0
+@t-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;3e-06
+@n-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;4e-06
+@n-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];1.3e-05
+@n-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];0
+@t-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;2e-06
+@n-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;0
+@t-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];2.2e-05
+@n-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];0
+@c-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];1e-06
+@c-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];6e-06
+@c-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];1e-06
+@c-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];2e-06
+@c-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];1e-06
+@c-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];1e-06
+@t-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;3e-06
+@n-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;0
+@t-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];9e-06
+@n-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];0
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;2e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;0
+@t-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;1.8e-05
+@n-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;4
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;2e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;4
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;2e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;4
+@t-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];3.3e-05
+@n-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];4
+@t-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;2e-06
+@n-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;0
+@t-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];6e-06
+@n-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];0
+@t-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;3e-06
+@n-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;0
+@t-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];4e-06
+@n-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];0
+@t-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;3e-06
+@n-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;3e-06
+@n-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];1.8e-05
+@n-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];0
+@t-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;1e-06
+@n-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;0
+@t-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];6e-06
+@n-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];0
+@c-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];1e-06
+@c-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];1e-06
+@c-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];1e-06
+@c-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];0
+@c-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];0
+@c-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];1e-06
+@t-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;2e-06
+@n-recursive-rule;Assign;0;./java-pointsto/java-pointsto.dl [150:1-153:61];Assign(storedVar,varAssignedTo) :-     Alias(iLoadVar,iStoreVar),    StoreInstanceFieldIndex(storedVar,iStoreVar,field,_),    LoadInstanceFieldIndex(iLoadVar,field,varAssignedTo,_).;0
+@t-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];7e-06
+@n-recursive-relation;Assign;./java-pointsto/java-pointsto.dl [102:1-102:55];0
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;2e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;0
+@t-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;1e-05
+@n-recursive-rule;VarPointsTo;1;./java-pointsto/java-pointsto.dl [112:1-114:27];VarPointsTo(var1,heap) :-     Assign(var2,var1),    VarPointsTo(var2,heap).;0
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;1e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [116:1-119:34];VarPointsTo(var1,heap) :-     AssignCast(type,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,type).;0
+@t-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;3e-06
+@n-recursive-rule;VarPointsTo;0;./java-pointsto/java-pointsto.dl [121:1-125:32];VarPointsTo(var1,heap) :-     AssignCast(varType,var2,var1,_),    VarPointsTo(var2,heap),    HeapAllocationType(heap,heapType),    Supertype(heapType,varType).;0
+@t-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];3e-05
+@n-recursive-relation;VarPointsTo;./java-pointsto/java-pointsto.dl [108:1-108:76];0
+@t-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;2e-06
+@n-recursive-rule;LoadInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [133:1-135:40];LoadInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    LoadInstanceFieldIndex(var,_,_,_).;0
+@t-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];6e-06
+@n-recursive-relation;LoadInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [132:1-132:81];0
+@t-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;3e-06
+@n-recursive-rule;InstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [128:1-130:27];InstanceVarPointsTo(var1,var2) :-     InstanceVar(var1),    VarPointsTo(var1,var2).;0
+@t-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];4e-06
+@n-recursive-relation;InstanceVarPointsTo;./java-pointsto/java-pointsto.dl [127:1-127:77];0
+@t-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;3e-06
+@n-recursive-rule;Alias;0;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;2e-06
+@n-recursive-rule;Alias;1;./java-pointsto/java-pointsto.dl [143:1-148:34];Alias(v1,v2) :-     LoadInstanceVarPointsTo(v1,h),    StoreInstanceVarPointsTo(v2,h),    InstanceVarType(v1,t1),    InstanceVarType(v2,t2),    InstanceTypeComparable(t1,t2).;0
+@t-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];1.1e-05
+@n-recursive-relation;Alias;./java-pointsto/java-pointsto.dl [142:1-142:34];0
+@t-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;1e-06
+@n-recursive-rule;StoreInstanceVarPointsTo;0;./java-pointsto/java-pointsto.dl [138:1-140:41];StoreInstanceVarPointsTo(var,heap) :-     InstanceVarPointsTo(var,heap),    StoreInstanceFieldIndex(_,var,_,_).;0
+@t-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];7e-06
+@n-recursive-relation;StoreInstanceVarPointsTo;./java-pointsto/java-pointsto.dl [137:1-137:82];0
+@runtime;0.017863

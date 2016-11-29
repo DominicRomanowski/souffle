@@ -1,0 +1,101 @@
+@start-debug
+@t-nonrecursive-rule;less;./strategies/strategies.dl [30:1-30:11];less(1,2).;1.5e-05
+@n-nonrecursive-rule;less;./strategies/strategies.dl [30:1-30:11];less(1,2).;1
+@t-nonrecursive-rule;less;./strategies/strategies.dl [31:1-31:11];less(2,3).;1e-06
+@n-nonrecursive-rule;less;./strategies/strategies.dl [31:1-31:11];less(2,3).;2
+@t-nonrecursive-rule;less;./strategies/strategies.dl [32:1-32:11];less(3,4).;1e-06
+@n-nonrecursive-rule;less;./strategies/strategies.dl [32:1-32:11];less(3,4).;3
+@t-nonrecursive-rule;less;./strategies/strategies.dl [33:1-33:11];less(4,5).;1e-06
+@n-nonrecursive-rule;less;./strategies/strategies.dl [33:1-33:11];less(4,5).;4
+@t-nonrecursive-rule;less;./strategies/strategies.dl [34:1-34:11];less(5,6).;1e-06
+@n-nonrecursive-rule;less;./strategies/strategies.dl [34:1-34:11];less(5,6).;5
+@t-nonrecursive-relation;less;./strategies/strategies.dl [29:1-29:26];5.6e-05
+@n-nonrecursive-relation;less;./strategies/strategies.dl [29:1-29:26];5
+@t-nonrecursive-rule;A.link;./strategies/strategies.dl [9:5-9:28];A.link(X,Y) :-     less(X,Y).;1.2e-05
+@n-nonrecursive-rule;A.link;./strategies/strategies.dl [9:5-9:28];A.link(X,Y) :-     less(X,Y).;5
+@t-nonrecursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];5e-05
+@n-nonrecursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];5
+@t-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;1.5e-05
+@n-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;4
+@t-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];1.7e-05
+@n-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];4
+@c-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];3e-06
+@t-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;1e-05
+@n-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;3
+@t-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];1.1e-05
+@n-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];3
+@c-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];5e-06
+@t-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;5e-06
+@n-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;2
+@t-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];7e-06
+@n-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];2
+@c-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];1e-06
+@t-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;3e-06
+@n-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;1
+@t-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];5e-06
+@n-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];1
+@c-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];1e-06
+@t-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;2e-06
+@n-recursive-rule;A.link;0;./strategies/strategies.dl [14:5-14:39];A.link(X,Z) :-     A.link(X,Y),    less(Y,Z).;0
+@t-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];7e-06
+@n-recursive-relation;A.link;./strategies/strategies.dl [7:5-7:37];0
+@t-nonrecursive-rule;B.link;./strategies/strategies.dl [9:5-9:28];B.link(X,Y) :-     less(X,Y).;9e-06
+@n-nonrecursive-rule;B.link;./strategies/strategies.dl [9:5-9:28];B.link(X,Y) :-     less(X,Y).;5
+@t-nonrecursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1e-05
+@n-nonrecursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];5
+@t-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;1.1e-05
+@n-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;4
+@t-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1.2e-05
+@n-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];4
+@c-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1e-06
+@t-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;7e-06
+@n-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;3
+@t-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];8e-06
+@n-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];3
+@c-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1e-06
+@t-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;5e-06
+@n-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;2
+@t-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];6e-06
+@n-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];2
+@c-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1e-06
+@t-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;4e-06
+@n-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;1
+@t-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1e-05
+@n-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1
+@c-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];1e-06
+@t-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;3e-06
+@n-recursive-rule;B.link;0;./strategies/strategies.dl [19:5-19:39];B.link(X,Z) :-     less(X,Y),    B.link(Y,Z).;0
+@t-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];4e-06
+@n-recursive-relation;B.link;./strategies/strategies.dl [7:5-7:37];0
+@t-nonrecursive-rule;C.link;./strategies/strategies.dl [9:5-9:28];C.link(X,Y) :-     less(X,Y).;8e-06
+@n-nonrecursive-rule;C.link;./strategies/strategies.dl [9:5-9:28];C.link(X,Y) :-     less(X,Y).;5
+@t-nonrecursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];9e-06
+@n-nonrecursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];5
+@t-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;8e-06
+@n-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;0
+@t-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;1.1e-05
+@n-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;4
+@t-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];2.3e-05
+@n-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];4
+@c-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];2e-06
+@t-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;9e-06
+@n-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;3
+@t-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;9e-06
+@n-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;5
+@t-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];2.7e-05
+@n-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];5
+@c-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];2e-06
+@t-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;7e-06
+@n-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;1
+@t-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;8e-06
+@n-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;1
+@t-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];1.8e-05
+@n-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];1
+@c-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];0
+@t-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;2e-06
+@n-recursive-rule;C.link;0;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;0
+@t-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;7e-06
+@n-recursive-rule;C.link;1;./strategies/strategies.dl [24:5-24:39];C.link(X,Z) :-     C.link(X,Y),    C.link(Y,Z).;0
+@t-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];1.1e-05
+@n-recursive-relation;C.link;./strategies/strategies.dl [7:5-7:37];0
+@runtime;0.000895

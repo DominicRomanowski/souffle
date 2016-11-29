@@ -1,0 +1,12 @@
+@start-debug
+@t-nonrecursive-rule;p;./recursion/recursion.dl [9:1-9:8];p('0').;1.6e-05
+@n-nonrecursive-rule;p;./recursion/recursion.dl [9:1-9:8];p('0').;1
+@t-nonrecursive-rule;p;./recursion/recursion.dl [10:1-10:8];p('1').;1e-06
+@n-nonrecursive-rule;p;./recursion/recursion.dl [10:1-10:8];p('1').;2
+@t-nonrecursive-relation;p;./recursion/recursion.dl [7:1-7:28];5e-05
+@n-nonrecursive-relation;p;./recursion/recursion.dl [7:1-7:28];2
+@t-recursive-rule;p;0;./recursion/recursion.dl [12:1-12:14];p(X) :-     p(X).;1e-05
+@n-recursive-rule;p;0;./recursion/recursion.dl [12:1-12:14];p(X) :-     p(X).;0
+@t-recursive-relation;p;./recursion/recursion.dl [7:1-7:28];1.1e-05
+@n-recursive-relation;p;./recursion/recursion.dl [7:1-7:28];0
+@runtime;0.000202

@@ -1,0 +1,42 @@
+@start-debug
+@t-nonrecursive-rule;true;./arithm/arithm.dl [12:1-12:14];true('true').;1.5e-05
+@n-nonrecursive-rule;true;./arithm/arithm.dl [12:1-12:14];true('true').;1
+@t-nonrecursive-relation;true;./arithm/arithm.dl [11:1-11:16];4.5e-05
+@n-nonrecursive-relation;true;./arithm/arithm.dl [11:1-11:16];1
+@t-nonrecursive-rule;e;./arithm/arithm.dl [17:1-17:33];e((10*2),'10*2',20) :-     true(_).;1.1e-05
+@n-nonrecursive-rule;e;./arithm/arithm.dl [17:1-17:33];e((10*2),'10*2',20) :-     true(_).;1
+@t-nonrecursive-rule;e;./arithm/arithm.dl [18:1-18:33];e((10+2),'10+2',12) :-     true(_).;3e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [18:1-18:33];e((10+2),'10+2',12) :-     true(_).;2
+@t-nonrecursive-rule;e;./arithm/arithm.dl [19:1-19:32];e((10/2),'10/2',5) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [19:1-19:32];e((10/2),'10/2',5) :-     true(_).;3
+@t-nonrecursive-rule;e;./arithm/arithm.dl [20:1-20:37];e((1+(10*2)),'1+10*2',21) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [20:1-20:37];e((1+(10*2)),'1+10*2',21) :-     true(_).;4
+@t-nonrecursive-rule;e;./arithm/arithm.dl [21:1-21:41];e(((1+1)+(10*2)),'1+1+10*2',22) :-     true(_).;3e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [21:1-21:41];e(((1+1)+(10*2)),'1+1+10*2',22) :-     true(_).;5
+@t-nonrecursive-rule;e;./arithm/arithm.dl [22:1-22:45];e((((1*3)+1)+(10*2)),'1*3+1+10*2',24) :-     true(_).;3e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [22:1-22:45];e((((1*3)+1)+(10*2)),'1*3+1+10*2',24) :-     true(_).;6
+@t-nonrecursive-rule;e;./arithm/arithm.dl [23:1-23:39];e((1+((20/2)/5)),'1+20/2/5',3) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [23:1-23:39];e((1+((20/2)/5)),'1+20/2/5',3) :-     true(_).;7
+@t-nonrecursive-rule;e;./arithm/arithm.dl [24:1-24:39];e((((3*40)/2)/5),'3*40/2/5',12) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [24:1-24:39];e((((3*40)/2)/5),'3*40/2/5',12) :-     true(_).;8
+@t-nonrecursive-rule;e;./arithm/arithm.dl [25:1-25:38];e((((20/2)/5)+1),'20/2/5+1',3) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [25:1-25:38];e((((20/2)/5)+1),'20/2/5+1',3) :-     true(_).;9
+@t-nonrecursive-rule;e;./arithm/arithm.dl [26:1-26:32];e((-(2)*10),'-20',-(20)) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [26:1-26:32];e((-(2)*10),'-20',-(20)) :-     true(_).;10
+@t-nonrecursive-rule;e;./arithm/arithm.dl [27:1-27:27];e(-(2),'-2',-(2)) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [27:1-27:27];e(-(2),'-2',-(2)) :-     true(_).;11
+@t-nonrecursive-rule;e;./arithm/arithm.dl [28:1-28:28];e(-(-(2)),'--2',2) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [28:1-28:28];e(-(-(2)),'--2',2) :-     true(_).;12
+@t-nonrecursive-rule;e;./arithm/arithm.dl [29:1-29:36];e((10^2),'10^2',100) :-     true(_).;2.8e-05
+@n-nonrecursive-rule;e;./arithm/arithm.dl [29:1-29:36];e((10^2),'10^2',100) :-     true(_).;13
+@t-nonrecursive-rule;e;./arithm/arithm.dl [30:1-30:33];e((10%3),'10%3',1) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [30:1-30:33];e((10%3),'10%3',1) :-     true(_).;14
+@t-nonrecursive-rule;e;./arithm/arithm.dl [31:1-31:35];e(((2^4)%13),'2^4%13',3) :-     true(_).;2e-06
+@n-nonrecursive-rule;e;./arithm/arithm.dl [31:1-31:35];e(((2^4)%13),'2^4%13',3) :-     true(_).;15
+@t-nonrecursive-relation;e;./arithm/arithm.dl [16:1-16:35];0.000133
+@n-nonrecursive-relation;e;./arithm/arithm.dl [16:1-16:35];15
+@t-nonrecursive-rule;f;./arithm/arithm.dl [35:1-35:30];f(x,t,y) :-     e(x,t,y),    x != y.;2e-06
+@n-nonrecursive-rule;f;./arithm/arithm.dl [35:1-35:30];f(x,t,y) :-     e(x,t,y),    x != y.;0
+@t-nonrecursive-relation;f;./arithm/arithm.dl [34:1-34:42];4e-06
+@n-nonrecursive-relation;f;./arithm/arithm.dl [34:1-34:42];0
+@runtime;0.000273

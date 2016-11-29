@@ -1,0 +1,120 @@
+@start-debug
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [122:1-122:19];ImmDom.edge(1,2).;1.6e-05
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [122:1-122:19];ImmDom.edge(1,2).;1
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [123:1-123:19];ImmDom.edge(1,3).;2e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [123:1-123:19];ImmDom.edge(1,3).;2
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [124:1-124:19];ImmDom.edge(2,3).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [124:1-124:19];ImmDom.edge(2,3).;3
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [125:1-125:19];ImmDom.edge(4,3).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [125:1-125:19];ImmDom.edge(4,3).;4
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [126:1-126:19];ImmDom.edge(8,3).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [126:1-126:19];ImmDom.edge(8,3).;5
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [127:1-127:19];ImmDom.edge(3,4).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [127:1-127:19];ImmDom.edge(3,4).;6
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [128:1-128:19];ImmDom.edge(8,4).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [128:1-128:19];ImmDom.edge(8,4).;7
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [129:1-129:19];ImmDom.edge(4,5).;0
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [129:1-129:19];ImmDom.edge(4,5).;8
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [130:1-130:19];ImmDom.edge(4,6).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [130:1-130:19];ImmDom.edge(4,6).;9
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [131:1-131:19];ImmDom.edge(5,7).;0
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [131:1-131:19];ImmDom.edge(5,7).;10
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [132:1-132:19];ImmDom.edge(6,7).;0
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [132:1-132:19];ImmDom.edge(6,7).;11
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [133:1-133:20];ImmDom.edge(10,7).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [133:1-133:20];ImmDom.edge(10,7).;12
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [134:1-134:19];ImmDom.edge(7,8).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [134:1-134:19];ImmDom.edge(7,8).;13
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [135:1-135:19];ImmDom.edge(8,9).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [135:1-135:19];ImmDom.edge(8,9).;14
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [136:1-136:20];ImmDom.edge(8,10).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [136:1-136:20];ImmDom.edge(8,10).;15
+@t-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [137:1-137:19];ImmDom.edge(9,1).;1e-06
+@n-nonrecursive-rule;ImmDom.edge;./dominance/dominance.dl [137:1-137:19];ImmDom.edge(9,1).;16
+@t-nonrecursive-relation;ImmDom.edge;./dominance/dominance.dl [49:7-49:26];0.000133
+@n-nonrecursive-relation;ImmDom.edge;./dominance/dominance.dl [49:7-49:26];16
+@t-nonrecursive-rule;ImmDom.node;./dominance/dominance.dl [55:7-55:28];ImmDom.node(x) :-     ImmDom.edge(x,_).;1.7e-05
+@n-nonrecursive-rule;ImmDom.node;./dominance/dominance.dl [55:7-55:28];ImmDom.node(x) :-     ImmDom.edge(x,_).;10
+@t-nonrecursive-rule;ImmDom.node;./dominance/dominance.dl [56:7-56:28];ImmDom.node(x) :-     ImmDom.edge(_,x).;5e-06
+@n-nonrecursive-rule;ImmDom.node;./dominance/dominance.dl [56:7-56:28];ImmDom.node(x) :-     ImmDom.edge(_,x).;10
+@t-nonrecursive-relation;ImmDom.node;./dominance/dominance.dl [54:7-54:22];2.5e-05
+@n-nonrecursive-relation;ImmDom.node;./dominance/dominance.dl [54:7-54:22];10
+@t-nonrecursive-rule;ImmDom.start;./dominance/dominance.dl [138:1-138:17];ImmDom.start(1).;4e-06
+@n-nonrecursive-rule;ImmDom.start;./dominance/dominance.dl [138:1-138:17];ImmDom.start(1).;1
+@t-nonrecursive-relation;ImmDom.start;./dominance/dominance.dl [44:7-44:23];6e-06
+@n-nonrecursive-relation;ImmDom.start;./dominance/dominance.dl [44:7-44:23];1
+@t-nonrecursive-rule;ImmDom.non_dom;./dominance/dominance.dl [62:7-62:47];ImmDom.non_dom(x,y) :-     ImmDom.start(x),    ImmDom.node(y),    x != y.;1.3e-05
+@n-nonrecursive-rule;ImmDom.non_dom;./dominance/dominance.dl [62:7-62:47];ImmDom.non_dom(x,y) :-     ImmDom.start(x),    ImmDom.node(y),    x != y.;9
+@t-nonrecursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];1.5e-05
+@n-nonrecursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];9
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;3.4e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;16
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];3.6e-05
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];16
+@c-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];5e-06
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;2.8e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;7
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];3e-05
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];7
+@c-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];3e-06
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;2.6e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;12
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];2.7e-05
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];12
+@c-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];4e-06
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;2e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;6
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];2.1e-05
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];6
+@c-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];2e-06
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;1e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;5
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];1.6e-05
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];5
+@c-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];2e-06
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;2.1e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;8
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];2.3e-05
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];8
+@c-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];1e-05
+@t-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;1e-05
+@n-recursive-rule;ImmDom.non_dom;0;./dominance/dominance.dl [63:7-63:65];ImmDom.non_dom(x,y) :-     ImmDom.non_dom(z,y),    ImmDom.edge(z,x),    !ImmDom.start(x),    x != y.;0
+@t-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];0.000388
+@n-recursive-relation;ImmDom.non_dom;./dominance/dominance.dl [61:7-61:29];0
+@t-nonrecursive-rule;ImmDom.dom;./dominance/dominance.dl [70:7-70:51];ImmDom.dom(x,y) :-     ImmDom.node(x),    ImmDom.node(y),    !ImmDom.non_dom(x,y).;9.2e-05
+@n-nonrecursive-rule;ImmDom.dom;./dominance/dominance.dl [70:7-70:51];ImmDom.dom(x,y) :-     ImmDom.node(x),    ImmDom.node(y),    !ImmDom.non_dom(x,y).;37
+@t-nonrecursive-relation;ImmDom.dom;./dominance/dominance.dl [69:7-69:25];9.6e-05
+@n-nonrecursive-relation;ImmDom.dom;./dominance/dominance.dl [69:7-69:25];37
+@t-nonrecursive-rule;ImmDom.s_dom;./dominance/dominance.dl [76:7-76:38];ImmDom.s_dom(n,d) :-     ImmDom.dom(n,d),    n != d.;5.9e-05
+@n-nonrecursive-rule;ImmDom.s_dom;./dominance/dominance.dl [76:7-76:38];ImmDom.s_dom(n,d) :-     ImmDom.dom(n,d),    n != d.;27
+@t-nonrecursive-relation;ImmDom.s_dom;./dominance/dominance.dl [75:7-75:27];6.2e-05
+@n-nonrecursive-relation;ImmDom.s_dom;./dominance/dominance.dl [75:7-75:27];27
+@t-nonrecursive-rule;dominators;./dominance/dominance.dl [146:1-146:36];dominators(n,s) :-     ImmDom.dom(n,s).;2.8e-05
+@n-nonrecursive-rule;dominators;./dominance/dominance.dl [146:1-146:36];dominators(n,s) :-     ImmDom.dom(n,s).;37
+@t-nonrecursive-relation;dominators;./dominance/dominance.dl [145:1-145:43];3e-05
+@n-nonrecursive-relation;dominators;./dominance/dominance.dl [145:1-145:43];37
+@t-nonrecursive-rule;ImmDom.s_domsize;./dominance/dominance.dl [87:7-87:34];ImmDom.s_domsize(n,0) :-     ImmDom.start(n).;6e-06
+@n-nonrecursive-rule;ImmDom.s_domsize;./dominance/dominance.dl [87:7-87:34];ImmDom.s_domsize(n,0) :-     ImmDom.start(n).;1
+@t-nonrecursive-rule;ImmDom.s_domsize;./dominance/dominance.dl [88:7-88:60];ImmDom.s_domsize(n,count : ImmDom.s_dom(n,_)) :-     ImmDom.s_dom(n,_).;3e-05
+@n-nonrecursive-rule;ImmDom.s_domsize;./dominance/dominance.dl [88:7-88:60];ImmDom.s_domsize(n,count : ImmDom.s_dom(n,_)) :-     ImmDom.s_dom(n,_).;10
+@t-nonrecursive-relation;ImmDom.s_domsize;./dominance/dominance.dl [86:7-86:36];3.9e-05
+@n-nonrecursive-relation;ImmDom.s_domsize;./dominance/dominance.dl [86:7-86:36];10
+@t-nonrecursive-rule;ImmDom.s_domsizes;./dominance/dominance.dl [96:7-96:55];ImmDom.s_domsizes(n,d,s) :-     ImmDom.s_dom(n,d),    ImmDom.s_domsize(d,s).;4.4e-05
+@n-nonrecursive-rule;ImmDom.s_domsizes;./dominance/dominance.dl [96:7-96:55];ImmDom.s_domsizes(n,d,s) :-     ImmDom.s_dom(n,d),    ImmDom.s_domsize(d,s).;27
+@t-nonrecursive-relation;ImmDom.s_domsizes;./dominance/dominance.dl [95:7-95:41];4.6e-05
+@n-nonrecursive-relation;ImmDom.s_domsizes;./dominance/dominance.dl [95:7-95:41];27
+@t-nonrecursive-rule;ImmDom.s_max_domsize;./dominance/dominance.dl [103:8-103:39];ImmDom.s_max_domsize(n,0) :-     ImmDom.start(n).;6e-06
+@n-nonrecursive-rule;ImmDom.s_max_domsize;./dominance/dominance.dl [103:8-103:39];ImmDom.s_max_domsize(n,0) :-     ImmDom.start(n).;1
+@t-nonrecursive-rule;ImmDom.s_max_domsize;./dominance/dominance.dl [104:7-104:78];ImmDom.s_max_domsize(n,max  s0 : ImmDom.s_domsizes(n,_, s0)) :-     ImmDom.s_domsizes(n,_,_).;3.8e-05
+@n-nonrecursive-rule;ImmDom.s_max_domsize;./dominance/dominance.dl [104:7-104:78];ImmDom.s_max_domsize(n,max  s0 : ImmDom.s_domsizes(n,_, s0)) :-     ImmDom.s_domsizes(n,_,_).;10
+@t-nonrecursive-relation;ImmDom.s_max_domsize;./dominance/dominance.dl [102:7-102:40];5.4e-05
+@n-nonrecursive-relation;ImmDom.s_max_domsize;./dominance/dominance.dl [102:7-102:40];10
+@t-nonrecursive-rule;ImmDom.imdom;./dominance/dominance.dl [110:7-110:68];ImmDom.imdom(n,x) :-     ImmDom.s_dom(n,x),    ImmDom.s_domsize(x,s),    ImmDom.s_max_domsize(n,s).;4.3e-05
+@n-nonrecursive-rule;ImmDom.imdom;./dominance/dominance.dl [110:7-110:68];ImmDom.imdom(n,x) :-     ImmDom.s_dom(n,x),    ImmDom.s_domsize(x,s),    ImmDom.s_max_domsize(n,s).;9
+@t-nonrecursive-relation;ImmDom.imdom;./dominance/dominance.dl [109:7-109:27];4.5e-05
+@n-nonrecursive-relation;ImmDom.imdom;./dominance/dominance.dl [109:7-109:27];9
+@t-nonrecursive-rule;immediate_dom;./dominance/dominance.dl [154:1-154:41];immediate_dom(n,s) :-     ImmDom.imdom(n,s).;1.1e-05
+@n-nonrecursive-rule;immediate_dom;./dominance/dominance.dl [154:1-154:41];immediate_dom(n,s) :-     ImmDom.imdom(n,s).;9
+@t-nonrecursive-relation;immediate_dom;./dominance/dominance.dl [153:1-153:46];2.9e-05
+@n-nonrecursive-relation;immediate_dom;./dominance/dominance.dl [153:1-153:46];9
+@runtime;0.001682

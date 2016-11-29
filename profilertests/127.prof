@@ -1,0 +1,338 @@
+@start-debug
+@t-nonrecursive-rule;Transition;./turing1/turing1.dl [101:1-101:39];Transition('S0','S0','x','y','R').;1.7e-05
+@n-nonrecursive-rule;Transition;./turing1/turing1.dl [101:1-101:39];Transition('S0','S0','x','y','R').;1
+@t-nonrecursive-rule;Transition;./turing1/turing1.dl [102:1-102:39];Transition('S0','S1','y','x','L').;3e-06
+@n-nonrecursive-rule;Transition;./turing1/turing1.dl [102:1-102:39];Transition('S0','S1','y','x','L').;2
+@t-nonrecursive-rule;Transition;./turing1/turing1.dl [103:1-103:39];Transition('S1','S1','y','x','L').;2e-06
+@n-nonrecursive-rule;Transition;./turing1/turing1.dl [103:1-103:39];Transition('S1','S1','y','x','L').;3
+@t-nonrecursive-relation;Transition;./turing1/turing1.dl [99:1-99:84];5.5e-05
+@n-nonrecursive-relation;Transition;./turing1/turing1.dl [99:1-99:84];3
+@t-nonrecursive-rule;Tape;./turing1/turing1.dl [111:1-111:17];Tape(0,'x',0).;5e-06
+@n-nonrecursive-rule;Tape;./turing1/turing1.dl [111:1-111:17];Tape(0,'x',0).;1
+@t-nonrecursive-rule;Tape;./turing1/turing1.dl [112:1-112:17];Tape(1,'x',0).;2e-06
+@n-nonrecursive-rule;Tape;./turing1/turing1.dl [112:1-112:17];Tape(1,'x',0).;2
+@t-nonrecursive-rule;Tape;./turing1/turing1.dl [113:1-113:17];Tape(2,'y',0).;2e-06
+@n-nonrecursive-rule;Tape;./turing1/turing1.dl [113:1-113:17];Tape(2,'y',0).;3
+@t-nonrecursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];4.9e-05
+@n-nonrecursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3
+@t-nonrecursive-rule;Configuration;./turing1/turing1.dl [119:1-119:27];Configuration(0,'S0',0).;3e-06
+@n-nonrecursive-rule;Configuration;./turing1/turing1.dl [119:1-119:27];Configuration(0,'S0',0).;1
+@t-nonrecursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];5e-06
+@n-nonrecursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1
+@t-nonrecursive-rule;TapeLimits;./turing1/turing1.dl [116:1-116:21];TapeLimits(0,0,2).;4e-06
+@n-nonrecursive-rule;TapeLimits;./turing1/turing1.dl [116:1-116:21];TapeLimits(0,0,2).;1
+@t-nonrecursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];7e-06
+@n-nonrecursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.7e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.9e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1.3e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1.2e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0.000119
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;7e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;7e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1.5e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];5.4e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;0
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];5e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];0
+@c-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3e-06
+@c-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];2e-06
+@c-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];2e-06
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;8e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.8e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1.5e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;2e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0.000103
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;8e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;7e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1.3e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];5.8e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;9e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;2e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];4.4e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1
+@c-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3e-06
+@c-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];2e-06
+@c-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1e-06
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;7e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.3e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1.6e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];9.9e-05
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;7e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1.4e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;6e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];5.5e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];4.6e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1
+@c-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];2e-06
+@c-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];2e-06
+@c-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1e-06
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;6e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.5e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1.9e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0.000106
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;7e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1.6e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;6e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1.2e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];6e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];5.2e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1
+@c-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];2e-06
+@c-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];2e-06
+@c-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1e-06
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;6e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.7e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;2.2e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;9e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;8e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;3
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0.000109
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];3
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;6e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1.7e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;6e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1.5e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];6.3e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;8e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];5.7e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1
+@c-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];2e-06
+@c-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1e-06
+@c-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1e-06
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;5e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.6e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;2.5e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;3
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;1.1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;9e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;4
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;1.7e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;4
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;4
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0.000134
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];4
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;5e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1.5e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;5e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1.5e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;0
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];5.5e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;5e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;8e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;7e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;1
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];5.9e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1
+@c-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];2e-06
+@c-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];1e-06
+@c-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];1e-06
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;9e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;1.8e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [17:1-20:57];Tape(position,newSymbol,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,_,oldSymbol,newSymbol,_).;0
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;1e-05
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;2.7e-05
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [24:1-27:30];Tape(position,symbol,(step+1)) :-     Tape(position,symbol,step),    Configuration(writePosition,_,step),    position != writePosition.;0
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;8e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [31:1-34:20];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,left,_),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;2e-06
+@n-recursive-rule;Tape;0;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;8e-06
+@n-recursive-rule;Tape;1;./turing1/turing1.dl [38:1-41:21];Tape(position,'b',(step+1)) :-     Configuration(position,_, _tmp_0),    TapeLimits(step,_,right),    position > right,     _tmp_0 = (step+1).;0
+@t-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0.000114
+@n-recursive-relation;Tape;./turing1/turing1.dl [14:1-14:65];0
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;9e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;1.8e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [52:1-55:59];Configuration((position-1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'L').;0
+@t-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;8e-06
+@n-recursive-rule;Configuration;0;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;0
+@t-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;1.8e-05
+@n-recursive-rule;Configuration;1;./turing1/turing1.dl [57:1-60:59];Configuration((position+1),nextState,(step+1)) :-     Tape(position,oldSymbol,step),    Configuration(position,currentState,step),    Transition(currentState,nextState,oldSymbol,_,'R').;0
+@t-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];6.7e-05
+@n-recursive-relation;Configuration;./turing1/turing1.dl [50:1-50:71];0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;8e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [72:1-76:22];TapeLimits((step+1),left,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    left <= position,    position <= right,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;4e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [79:1-82:20];TapeLimits((step+1),position,right) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    position < left,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;3e-06
+@n-recursive-rule;TapeLimits;0;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;0
+@t-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;6e-06
+@n-recursive-rule;TapeLimits;1;./turing1/turing1.dl [85:1-88:21];TapeLimits((step+1),left,position) :-     TapeLimits(step,left,right),    Configuration(position,_, _tmp_0),    right < position,     _tmp_0 = (step+1).;0
+@t-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];5.3e-05
+@n-recursive-relation;TapeLimits;./turing1/turing1.dl [69:1-69:64];0
+@runtime;0.002557

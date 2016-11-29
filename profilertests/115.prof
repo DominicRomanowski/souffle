@@ -1,0 +1,51 @@
+@start-debug
+@t-nonrecursive-rule;mother;./small/small.dl [15:1-15:28];mother('claudette','ann').;1.5e-05
+@n-nonrecursive-rule;mother;./small/small.dl [15:1-15:28];mother('claudette','ann').;1
+@t-nonrecursive-rule;mother;./small/small.dl [16:1-16:29];mother('jeannette','bill').;1e-06
+@n-nonrecursive-rule;mother;./small/small.dl [16:1-16:29];mother('jeannette','bill').;2
+@t-nonrecursive-rule;mother;./small/small.dl [17:1-17:28];mother('mireille','john').;0
+@n-nonrecursive-rule;mother;./small/small.dl [17:1-17:28];mother('mireille','john').;3
+@t-nonrecursive-relation;mother;./small/small.dl [5:1-5:45];5e-05
+@n-nonrecursive-relation;mother;./small/small.dl [5:1-5:45];3
+@t-nonrecursive-rule;father;./small/small.dl [18:1-18:23];father('john','ann').;4e-06
+@n-nonrecursive-rule;father;./small/small.dl [18:1-18:23];father('john','ann').;1
+@t-nonrecursive-rule;father;./small/small.dl [19:1-19:24];father('john','bill').;1e-06
+@n-nonrecursive-rule;father;./small/small.dl [19:1-19:24];father('john','bill').;2
+@t-nonrecursive-rule;father;./small/small.dl [20:1-20:36];father('jean-jacques','alphonse').;1e-06
+@n-nonrecursive-rule;father;./small/small.dl [20:1-20:36];father('jean-jacques','alphonse').;3
+@t-nonrecursive-rule;father;./small/small.dl [21:1-21:32];father('alphonse','mireille').;1e-06
+@n-nonrecursive-rule;father;./small/small.dl [21:1-21:32];father('alphonse','mireille').;4
+@t-nonrecursive-rule;father;./small/small.dl [22:1-22:24];father('brad','john').;1e-06
+@n-nonrecursive-rule;father;./small/small.dl [22:1-22:24];father('brad','john').;5
+@t-nonrecursive-relation;father;./small/small.dl [6:1-6:45];4.5e-05
+@n-nonrecursive-relation;father;./small/small.dl [6:1-6:45];5
+@t-nonrecursive-rule;parent;./small/small.dl [10:1-10:28];parent(X,Y) :-     mother(X,Y).;1.4e-05
+@n-nonrecursive-rule;parent;./small/small.dl [10:1-10:28];parent(X,Y) :-     mother(X,Y).;3
+@t-nonrecursive-rule;parent;./small/small.dl [11:1-11:28];parent(X,Y) :-     father(X,Y).;3e-06
+@n-nonrecursive-rule;parent;./small/small.dl [11:1-11:28];parent(X,Y) :-     father(X,Y).;8
+@t-nonrecursive-relation;parent;./small/small.dl [7:1-7:45];2e-05
+@n-nonrecursive-relation;parent;./small/small.dl [7:1-7:45];8
+@t-nonrecursive-rule;ancestor;./small/small.dl [12:1-12:30];ancestor(X,Y) :-     parent(X,Y).;7e-06
+@n-nonrecursive-rule;ancestor;./small/small.dl [12:1-12:30];ancestor(X,Y) :-     parent(X,Y).;8
+@t-nonrecursive-relation;ancestor;./small/small.dl [8:1-8:47];8e-06
+@n-nonrecursive-relation;ancestor;./small/small.dl [8:1-8:47];8
+@t-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;1.7e-05
+@n-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;6
+@t-recursive-relation;ancestor;./small/small.dl [8:1-8:47];1.9e-05
+@n-recursive-relation;ancestor;./small/small.dl [8:1-8:47];6
+@c-recursive-relation;ancestor;./small/small.dl [8:1-8:47];3e-06
+@t-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;1.1e-05
+@n-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;3
+@t-recursive-relation;ancestor;./small/small.dl [8:1-8:47];1.8e-05
+@n-recursive-relation;ancestor;./small/small.dl [8:1-8:47];3
+@c-recursive-relation;ancestor;./small/small.dl [8:1-8:47];2e-06
+@t-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;7e-06
+@n-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;2
+@t-recursive-relation;ancestor;./small/small.dl [8:1-8:47];9e-06
+@n-recursive-relation;ancestor;./small/small.dl [8:1-8:47];2
+@c-recursive-relation;ancestor;./small/small.dl [8:1-8:47];1e-06
+@t-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;5e-06
+@n-recursive-rule;ancestor;0;./small/small.dl [13:1-13:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;0
+@t-recursive-relation;ancestor;./small/small.dl [8:1-8:47];6e-06
+@n-recursive-relation;ancestor;./small/small.dl [8:1-8:47];0
+@runtime;0.00081

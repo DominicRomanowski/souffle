@@ -1,0 +1,28 @@
+@start-debug
+@t-nonrecursive-rule;inputData;./match3/match3.dl [12:1-12:16];inputData('a').;1.3e-05
+@n-nonrecursive-rule;inputData;./match3/match3.dl [12:1-12:16];inputData('a').;1
+@t-nonrecursive-rule;inputData;./match3/match3.dl [13:1-13:18];inputData('aba').;1e-06
+@n-nonrecursive-rule;inputData;./match3/match3.dl [13:1-13:18];inputData('aba').;2
+@t-nonrecursive-rule;inputData;./match3/match3.dl [14:1-14:20];inputData('ababa').;0
+@n-nonrecursive-rule;inputData;./match3/match3.dl [14:1-14:20];inputData('ababa').;3
+@t-nonrecursive-rule;inputData;./match3/match3.dl [15:1-15:17];inputData('aa').;0
+@n-nonrecursive-rule;inputData;./match3/match3.dl [15:1-15:17];inputData('aa').;4
+@t-nonrecursive-rule;inputData;./match3/match3.dl [16:1-16:19];inputData('aaaa').;0
+@n-nonrecursive-rule;inputData;./match3/match3.dl [16:1-16:19];inputData('aaaa').;5
+@t-nonrecursive-relation;inputData;./match3/match3.dl [5:1-5:27];5.1e-05
+@n-nonrecursive-relation;inputData;./match3/match3.dl [5:1-5:27];5
+@t-nonrecursive-rule;pattern1;./match3/match3.dl [18:1-18:17];pattern1('a.*').;4e-06
+@n-nonrecursive-rule;pattern1;./match3/match3.dl [18:1-18:17];pattern1('a.*').;1
+@t-nonrecursive-relation;pattern1;./match3/match3.dl [6:1-6:26];4e-05
+@n-nonrecursive-relation;pattern1;./match3/match3.dl [6:1-6:26];1
+@t-nonrecursive-rule;pattern2;./match3/match3.dl [19:1-19:17];pattern2('aa').;5e-06
+@n-nonrecursive-rule;pattern2;./match3/match3.dl [19:1-19:17];pattern2('aa').;1
+@t-nonrecursive-rule;pattern2;./match3/match3.dl [20:1-20:20];pattern2('aba.*').;1e-06
+@n-nonrecursive-rule;pattern2;./match3/match3.dl [20:1-20:20];pattern2('aba.*').;2
+@t-nonrecursive-relation;pattern2;./match3/match3.dl [7:1-7:26];8e-06
+@n-nonrecursive-relation;pattern2;./match3/match3.dl [7:1-7:26];2
+@t-nonrecursive-rule;outputData;./match3/match3.dl [10:1-10:83];outputData(x) :-     pattern2(_),    pattern1(y),    inputData(x),    y match x.;7.5e-05
+@n-nonrecursive-rule;outputData;./match3/match3.dl [10:1-10:83];outputData(x) :-     pattern2(_),    pattern1(y),    inputData(x),    y match x.;5
+@t-nonrecursive-relation;outputData;./match3/match3.dl [8:1-8:35];7.7e-05
+@n-nonrecursive-relation;outputData;./match3/match3.dl [8:1-8:35];5
+@runtime;0.000325

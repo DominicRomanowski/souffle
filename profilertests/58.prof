@@ -1,0 +1,34 @@
+@start-debug
+@t-nonrecursive-rule;A;./hex/hex.dl [8:1-8:9];A(241).;1.2e-05
+@n-nonrecursive-rule;A;./hex/hex.dl [8:1-8:9];A(241).;1
+@t-nonrecursive-rule;A;./hex/hex.dl [9:1-9:9];A(226).;2e-06
+@n-nonrecursive-rule;A;./hex/hex.dl [9:1-9:9];A(226).;2
+@t-nonrecursive-rule;A;./hex/hex.dl [10:1-10:9];A(51).;0
+@n-nonrecursive-rule;A;./hex/hex.dl [10:1-10:9];A(51).;3
+@t-nonrecursive-relation;A;./hex/hex.dl [1:1-1:19];0.000311
+@n-nonrecursive-relation;A;./hex/hex.dl [1:1-1:19];3
+@t-nonrecursive-rule;S4;./hex/hex.dl [19:1-19:38];S4(x) :-     A(x),    bnot(bnot(x)) != bnot(x).;1.4e-05
+@n-nonrecursive-rule;S4;./hex/hex.dl [19:1-19:38];S4(x) :-     A(x),    bnot(bnot(x)) != bnot(x).;3
+@t-nonrecursive-relation;S4;./hex/hex.dl [6:1-6:27];1.6e-05
+@n-nonrecursive-relation;S4;./hex/hex.dl [6:1-6:27];3
+@t-nonrecursive-rule;B;./hex/hex.dl [12:1-12:9];B(68).;4e-06
+@n-nonrecursive-rule;B;./hex/hex.dl [12:1-12:9];B(68).;1
+@t-nonrecursive-rule;B;./hex/hex.dl [13:1-13:9];B(241).;0
+@n-nonrecursive-rule;B;./hex/hex.dl [13:1-13:9];B(241).;2
+@t-nonrecursive-rule;B;./hex/hex.dl [14:1-14:9];B(171).;1e-06
+@n-nonrecursive-rule;B;./hex/hex.dl [14:1-14:9];B(171).;3
+@t-nonrecursive-relation;B;./hex/hex.dl [2:1-2:19];4.7e-05
+@n-nonrecursive-relation;B;./hex/hex.dl [2:1-2:19];3
+@t-nonrecursive-rule;S1;./hex/hex.dl [16:1-16:28];S1((xbandy)) :-     A(x),    B(y).;1.1e-05
+@n-nonrecursive-rule;S1;./hex/hex.dl [16:1-16:28];S1((xbandy)) :-     A(x),    B(y).;8
+@t-nonrecursive-relation;S1;./hex/hex.dl [3:1-3:27];1.3e-05
+@n-nonrecursive-relation;S1;./hex/hex.dl [3:1-3:27];8
+@t-nonrecursive-rule;S2;./hex/hex.dl [17:1-17:27];S2((xbory)) :-     A(x),    B(y).;1e-05
+@n-nonrecursive-rule;S2;./hex/hex.dl [17:1-17:27];S2((xbory)) :-     A(x),    B(y).;8
+@t-nonrecursive-relation;S2;./hex/hex.dl [4:1-4:27];1.2e-05
+@n-nonrecursive-relation;S2;./hex/hex.dl [4:1-4:27];8
+@t-nonrecursive-rule;S3;./hex/hex.dl [18:1-18:62];S3(x) :-     A(x),    B(y),    (bnot(x)bandbnot(y)) = bnot((xbory)).;8e-06
+@n-nonrecursive-rule;S3;./hex/hex.dl [18:1-18:62];S3(x) :-     A(x),    B(y),    (bnot(x)bandbnot(y)) = bnot((xbory)).;3
+@t-nonrecursive-relation;S3;./hex/hex.dl [5:1-5:27];1.7e-05
+@n-nonrecursive-relation;S3;./hex/hex.dl [5:1-5:27];3
+@runtime;0.001001

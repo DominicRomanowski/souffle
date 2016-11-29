@@ -1,0 +1,255 @@
+@start-debug
+@t-nonrecursive-rule;indices;./minesweeper/grid.dl [15:1-15:15];indices(0,0).;1e-05
+@n-nonrecursive-rule;indices;./minesweeper/grid.dl [15:1-15:15];indices(0,0).;1
+@t-nonrecursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];4.7e-05
+@n-nonrecursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.7e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;5e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;2
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.5e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;2
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;6e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;3
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];6e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;8e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;3
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;5e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;4
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1.8e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];4
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;4
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;7e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;5
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.3e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];5
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;9e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;5
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;8e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;6
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3.1e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];6
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;9e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;6
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;7
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.5e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];7
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;7
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1.1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;8
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.7e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];8
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.2e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;8
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1.2e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;9
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.7e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];9
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.3e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;9
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1.3e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;10
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.8e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];10
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.4e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;9
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1.4e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;9
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];4.1e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];9
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];8e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.3e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;8
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1.3e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;8
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3.5e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];8
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1.5e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;7
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1.2e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;7
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3.2e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];7
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;6
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1e-05
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;6
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.7e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];6
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;9e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;5
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;9e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;5
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2.1e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];5
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;8e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;4
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;8e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;4
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1.8e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];4
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;6e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;3
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;7e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;3
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1.9e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];3
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;5e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;2
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;5e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;2
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1.5e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];2
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1e-06
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;4e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;1
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;4e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;1
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1.3e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1
+@c-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];0
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;2e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [16:1-16:84];indices((i+1),j) :-     indices(i,j),    parameters(I,J),    i >= 0,    (i+1) < I,    j >= 0,    j < J.;0
+@t-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;3e-06
+@n-recursive-rule;indices;0;./minesweeper/grid.dl [17:1-17:84];indices(i,(j+1)) :-     indices(i,j),    parameters(I,J),    i >= 0,    i < I,    j >= 0,    (j+1) < J.;0
+@t-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];1.5e-05
+@n-recursive-relation;indices;./minesweeper/grid.dl [14:1-14:48];0
+@t-nonrecursive-rule;element;./minesweeper/grid.dl [21:1-21:53];element(i,j,0) :-     indices(i,j),    !values(i,j,_).;0.000198
+@n-nonrecursive-rule;element;./minesweeper/grid.dl [21:1-21:53];element(i,j,0) :-     indices(i,j),    !values(i,j,_).;92
+@t-nonrecursive-rule;element;./minesweeper/grid.dl [22:1-22:52];element(i,j,x) :-     indices(i,j),    values(i,j,x).;0.000101
+@n-nonrecursive-rule;element;./minesweeper/grid.dl [22:1-22:52];element(i,j,x) :-     indices(i,j),    values(i,j,x).;100
+@t-nonrecursive-relation;element;./minesweeper/grid.dl [20:1-20:62];0.000304
+@n-nonrecursive-relation;element;./minesweeper/grid.dl [20:1-20:62];100
+@t-nonrecursive-rule;right;./minesweeper/grid.dl [41:1-41:75];right(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element(i,(j+1),_).;0.000122
+@n-nonrecursive-rule;right;./minesweeper/grid.dl [41:1-41:75];right(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element(i,(j+1),_).;10
+@t-nonrecursive-rule;right;./minesweeper/grid.dl [42:1-42:56];right(i,j,x) :-     element(i,j,_),    element(i, _tmp_0,x),     _tmp_0 = (j+1).;0.000207
+@n-nonrecursive-rule;right;./minesweeper/grid.dl [42:1-42:56];right(i,j,x) :-     element(i,j,_),    element(i, _tmp_0,x),     _tmp_0 = (j+1).;100
+@t-nonrecursive-relation;right;./minesweeper/grid.dl [40:1-40:53];0.000341
+@n-nonrecursive-relation;right;./minesweeper/grid.dl [40:1-40:53];100
+@t-nonrecursive-rule;up_left;./minesweeper/grid.dl [46:1-46:79];up_left(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i-1),(j-1),_).;0.000134
+@n-nonrecursive-rule;up_left;./minesweeper/grid.dl [46:1-46:79];up_left(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i-1),(j-1),_).;19
+@t-nonrecursive-rule;up_left;./minesweeper/grid.dl [47:1-47:60];up_left(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i-1),     _tmp_1 = (j-1).;0.000188
+@n-nonrecursive-rule;up_left;./minesweeper/grid.dl [47:1-47:60];up_left(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i-1),     _tmp_1 = (j-1).;100
+@t-nonrecursive-relation;up_left;./minesweeper/grid.dl [45:1-45:55];0.000333
+@n-nonrecursive-relation;up_left;./minesweeper/grid.dl [45:1-45:55];100
+@t-nonrecursive-rule;up_right;./minesweeper/grid.dl [51:1-51:80];up_right(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i-1),(j+1),_).;0.000133
+@n-nonrecursive-rule;up_right;./minesweeper/grid.dl [51:1-51:80];up_right(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i-1),(j+1),_).;19
+@t-nonrecursive-rule;up_right;./minesweeper/grid.dl [52:1-52:61];up_right(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i-1),     _tmp_1 = (j+1).;0.000191
+@n-nonrecursive-rule;up_right;./minesweeper/grid.dl [52:1-52:61];up_right(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i-1),     _tmp_1 = (j+1).;100
+@t-nonrecursive-relation;up_right;./minesweeper/grid.dl [50:1-50:56];0.000328
+@n-nonrecursive-relation;up_right;./minesweeper/grid.dl [50:1-50:56];100
+@t-nonrecursive-rule;down_left;./minesweeper/grid.dl [56:1-56:81];down_left(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i+1),(j-1),_).;0.000135
+@n-nonrecursive-rule;down_left;./minesweeper/grid.dl [56:1-56:81];down_left(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i+1),(j-1),_).;19
+@t-nonrecursive-rule;down_left;./minesweeper/grid.dl [57:1-57:62];down_left(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i+1),     _tmp_1 = (j-1).;0.000194
+@n-nonrecursive-rule;down_left;./minesweeper/grid.dl [57:1-57:62];down_left(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i+1),     _tmp_1 = (j-1).;100
+@t-nonrecursive-relation;down_left;./minesweeper/grid.dl [55:1-55:57];0.000339
+@n-nonrecursive-relation;down_left;./minesweeper/grid.dl [55:1-55:57];100
+@t-nonrecursive-rule;down_right;./minesweeper/grid.dl [61:1-61:82];down_right(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i+1),(j+1),_).;0.000134
+@n-nonrecursive-rule;down_right;./minesweeper/grid.dl [61:1-61:82];down_right(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i+1),(j+1),_).;19
+@t-nonrecursive-rule;down_right;./minesweeper/grid.dl [62:1-62:63];down_right(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i+1),     _tmp_1 = (j+1).;0.00019
+@n-nonrecursive-rule;down_right;./minesweeper/grid.dl [62:1-62:63];down_right(i,j,x) :-     element(i,j,_),    element( _tmp_0, _tmp_1,x),     _tmp_0 = (i+1),     _tmp_1 = (j+1).;100
+@t-nonrecursive-relation;down_right;./minesweeper/grid.dl [60:1-60:58];0.000342
+@n-nonrecursive-relation;down_right;./minesweeper/grid.dl [60:1-60:58];100
+@t-nonrecursive-rule;down;./minesweeper/grid.dl [31:1-31:74];down(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i+1),j,_).;0.000126
+@n-nonrecursive-rule;down;./minesweeper/grid.dl [31:1-31:74];down(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i+1),j,_).;10
+@t-nonrecursive-rule;down;./minesweeper/grid.dl [32:1-32:55];down(i,j,x) :-     element(i,j,_),    element( _tmp_0,j,x),     _tmp_0 = (i+1).;0.000206
+@n-nonrecursive-rule;down;./minesweeper/grid.dl [32:1-32:55];down(i,j,x) :-     element(i,j,_),    element( _tmp_0,j,x),     _tmp_0 = (i+1).;100
+@t-nonrecursive-relation;down;./minesweeper/grid.dl [30:1-30:52];0.000336
+@n-nonrecursive-relation;down;./minesweeper/grid.dl [30:1-30:52];100
+@t-nonrecursive-rule;left;./minesweeper/grid.dl [36:1-36:74];left(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element(i,(j-1),_).;0.000125
+@n-nonrecursive-rule;left;./minesweeper/grid.dl [36:1-36:74];left(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element(i,(j-1),_).;10
+@t-nonrecursive-rule;left;./minesweeper/grid.dl [37:1-37:55];left(i,j,x) :-     element(i,j,_),    element(i, _tmp_0,x),     _tmp_0 = (j-1).;0.000201
+@n-nonrecursive-rule;left;./minesweeper/grid.dl [37:1-37:55];left(i,j,x) :-     element(i,j,_),    element(i, _tmp_0,x),     _tmp_0 = (j-1).;100
+@t-nonrecursive-relation;left;./minesweeper/grid.dl [35:1-35:52];0.000331
+@n-nonrecursive-relation;left;./minesweeper/grid.dl [35:1-35:52];100
+@t-nonrecursive-rule;up;./minesweeper/grid.dl [26:1-26:72];up(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i-1),j,_).;0.000125
+@n-nonrecursive-rule;up;./minesweeper/grid.dl [26:1-26:72];up(i,j,NULL) :-     element(i,j,_),    default(NULL),    !element((i-1),j,_).;10
+@t-nonrecursive-rule;up;./minesweeper/grid.dl [27:1-27:53];up(i,j,x) :-     element(i,j,_),    element( _tmp_0,j,x),     _tmp_0 = (i-1).;0.000217
+@n-nonrecursive-rule;up;./minesweeper/grid.dl [27:1-27:53];up(i,j,x) :-     element(i,j,_),    element( _tmp_0,j,x),     _tmp_0 = (i-1).;100
+@t-nonrecursive-relation;up;./minesweeper/grid.dl [25:1-25:50];0.000354
+@n-nonrecursive-relation;up;./minesweeper/grid.dl [25:1-25:50];100
+@t-nonrecursive-rule;neighbourhood;./minesweeper/grid.dl [69:1-72:59];neighbourhood(i,j,ul,u,ur,l,x,r,dl,d,dr) :-     up_left(i,j,ul),    up(i,j,u),    up_right(i,j,ur),    left(i,j,l),    element(i,j,x),    right(i,j,r),    down_left(i,j,dl),    down(i,j,d),    down_right(i,j,dr).;0.001013
+@n-nonrecursive-rule;neighbourhood;./minesweeper/grid.dl [69:1-72:59];neighbourhood(i,j,ul,u,ur,l,x,r,dl,d,dr) :-     up_left(i,j,ul),    up(i,j,u),    up_right(i,j,ur),    left(i,j,l),    element(i,j,x),    right(i,j,r),    down_left(i,j,dl),    down(i,j,d),    down_right(i,j,dr).;100
+@t-nonrecursive-relation;neighbourhood;./minesweeper/grid.dl [65:1-68:59];0.001015
+@n-nonrecursive-relation;neighbourhood;./minesweeper/grid.dl [65:1-68:59];100
+@t-nonrecursive-rule;is_valid;./minesweeper/minesweeper.dl [8:1-8:13];is_valid(0).;5e-06
+@n-nonrecursive-rule;is_valid;./minesweeper/minesweeper.dl [8:1-8:13];is_valid(0).;1
+@t-nonrecursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];8e-06
+@n-nonrecursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;7e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];9e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];2e-06
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;3e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];8e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];2e-06
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;2e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];3e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1e-06
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;4e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];6e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];0
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;2e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];3e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1e-06
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;2e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];3e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1e-06
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;2e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];6e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];0
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];3e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];0
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;2e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1.2e-05
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1
+@c-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];1e-06
+@t-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;1e-06
+@n-recursive-rule;is_valid;0;./minesweeper/minesweeper.dl [9:1-9:38];is_valid((x+1)) :-     is_valid(x),    x <= 8.;0
+@t-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];2e-06
+@n-recursive-relation;is_valid;./minesweeper/minesweeper.dl [7:1-7:25];0
+@t-nonrecursive-rule;cell;./minesweeper/minesweeper.dl [13:1-13:44];cell(i,j,-(1)) :-     element(i,j,x),    x != 0.;1.6e-05
+@n-nonrecursive-rule;cell;./minesweeper/minesweeper.dl [13:1-13:44];cell(i,j,-(1)) :-     element(i,j,x),    x != 0.;8
+@t-nonrecursive-rule;cell;./minesweeper/minesweeper.dl [14:1-17:58];cell(i,j,(((((((tl+tc)+tr)+ml)+mr)+bl)+bc)+br)) :-     is_valid( _tmp_0),    neighbourhood(i,j,tl,tc,tr,ml,0,mr,bl,bc,br),     _tmp_0 = (((((((tl+tc)+tr)+ml)+mr)+bl)+bc)+br).;0.000278
+@n-nonrecursive-rule;cell;./minesweeper/minesweeper.dl [14:1-17:58];cell(i,j,(((((((tl+tc)+tr)+ml)+mr)+bl)+bc)+br)) :-     is_valid( _tmp_0),    neighbourhood(i,j,tl,tc,tr,ml,0,mr,bl,bc,br),     _tmp_0 = (((((((tl+tc)+tr)+ml)+mr)+bl)+bc)+br).;100
+@t-nonrecursive-relation;cell;./minesweeper/minesweeper.dl [12:1-12:62];0.000303
+@n-nonrecursive-relation;cell;./minesweeper/minesweeper.dl [12:1-12:62];100
+@runtime;0.006484

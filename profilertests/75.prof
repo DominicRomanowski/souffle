@@ -1,0 +1,94 @@
+@start-debug
+@t-nonrecursive-rule;p;./mrtc/mrtc.dl [13:1-13:12];p('a','b').;1.3e-05
+@n-nonrecursive-rule;p;./mrtc/mrtc.dl [13:1-13:12];p('a','b').;1
+@t-nonrecursive-rule;p;./mrtc/mrtc.dl [14:1-14:12];p('c','d').;1e-06
+@n-nonrecursive-rule;p;./mrtc/mrtc.dl [14:1-14:12];p('c','d').;2
+@t-nonrecursive-relation;p;./mrtc/mrtc.dl [6:1-6:40];4.8e-05
+@n-nonrecursive-relation;p;./mrtc/mrtc.dl [6:1-6:40];2
+@t-nonrecursive-rule;p1;./mrtc/mrtc.dl [24:1-24:15];p1('a1','b1').;5e-06
+@n-nonrecursive-rule;p1;./mrtc/mrtc.dl [24:1-24:15];p1('a1','b1').;1
+@t-nonrecursive-rule;p1;./mrtc/mrtc.dl [25:1-25:15];p1('c1','d1').;1e-06
+@n-nonrecursive-rule;p1;./mrtc/mrtc.dl [25:1-25:15];p1('c1','d1').;2
+@t-nonrecursive-relation;p1;./mrtc/mrtc.dl [9:1-9:41];8e-06
+@n-nonrecursive-relation;p1;./mrtc/mrtc.dl [9:1-9:41];2
+@t-nonrecursive-rule;q;./mrtc/mrtc.dl [15:1-15:12];q('b','c').;4e-06
+@n-nonrecursive-rule;q;./mrtc/mrtc.dl [15:1-15:12];q('b','c').;1
+@t-nonrecursive-rule;q;./mrtc/mrtc.dl [16:1-16:12];q('d','e').;1e-06
+@n-nonrecursive-rule;q;./mrtc/mrtc.dl [16:1-16:12];q('d','e').;2
+@t-nonrecursive-relation;q;./mrtc/mrtc.dl [7:1-7:40];3.9e-05
+@n-nonrecursive-relation;q;./mrtc/mrtc.dl [7:1-7:40];2
+@t-nonrecursive-rule;q1;./mrtc/mrtc.dl [26:1-26:15];q1('b1','c1').;6e-06
+@n-nonrecursive-rule;q1;./mrtc/mrtc.dl [26:1-26:15];q1('b1','c1').;1
+@t-nonrecursive-rule;q1;./mrtc/mrtc.dl [27:1-27:15];q1('d1','e1').;0
+@n-nonrecursive-rule;q1;./mrtc/mrtc.dl [27:1-27:15];q1('d1','e1').;2
+@t-nonrecursive-relation;q1;./mrtc/mrtc.dl [10:1-10:41];1e-05
+@n-nonrecursive-relation;q1;./mrtc/mrtc.dl [10:1-10:41];2
+@t-nonrecursive-rule;pqs1;./mrtc/mrtc.dl [29:1-29:22];pqs1(X,Y) :-     p1(X,Y).;1.3e-05
+@n-nonrecursive-rule;pqs1;./mrtc/mrtc.dl [29:1-29:22];pqs1(X,Y) :-     p1(X,Y).;2
+@t-nonrecursive-rule;pqs1;./mrtc/mrtc.dl [30:1-30:22];pqs1(X,Y) :-     q1(X,Y).;2e-06
+@n-nonrecursive-rule;pqs1;./mrtc/mrtc.dl [30:1-30:22];pqs1(X,Y) :-     q1(X,Y).;4
+@t-nonrecursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];1.9e-05
+@n-nonrecursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];4
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;1e-05
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;1
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;8e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;3
+@t-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];2.9e-05
+@n-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];3
+@c-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];2e-06
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;7e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;1
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;4e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;2
+@t-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];1.4e-05
+@n-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];2
+@c-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];2e-06
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;3e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;0
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;3e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;1
+@t-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];8e-06
+@n-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];1
+@c-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];1e-06
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;1e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [31:1-31:32];pqs1(X,Y) :-     pqs1(X,Z),    p1(Z,Y).;0
+@t-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;2e-06
+@n-recursive-rule;pqs1;0;./mrtc/mrtc.dl [32:1-32:32];pqs1(X,Y) :-     pqs1(X,Z),    q1(Z,Y).;0
+@t-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];5e-06
+@n-recursive-relation;pqs1;./mrtc/mrtc.dl [11:1-11:43];0
+@t-nonrecursive-rule;pqs;./mrtc/mrtc.dl [18:1-18:20];pqs(X,Y) :-     p(X,Y).;8e-06
+@n-nonrecursive-rule;pqs;./mrtc/mrtc.dl [18:1-18:20];pqs(X,Y) :-     p(X,Y).;2
+@t-nonrecursive-rule;pqs;./mrtc/mrtc.dl [19:1-19:20];pqs(X,Y) :-     q(X,Y).;2e-06
+@n-nonrecursive-rule;pqs;./mrtc/mrtc.dl [19:1-19:20];pqs(X,Y) :-     q(X,Y).;4
+@t-nonrecursive-rule;pqs;./mrtc/mrtc.dl [22:1-22:23];pqs(X,Y) :-     pqs1(X,Y).;6e-06
+@n-nonrecursive-rule;pqs;./mrtc/mrtc.dl [22:1-22:23];pqs(X,Y) :-     pqs1(X,Y).;14
+@t-nonrecursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];2e-05
+@n-nonrecursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];14
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;1.4e-05
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;1
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;1e-05
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;3
+@t-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];2.7e-05
+@n-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];3
+@c-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];2e-06
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;4e-06
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;1
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;4e-06
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;2
+@t-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];1.1e-05
+@n-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];2
+@c-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];1e-06
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;3e-06
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;0
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;3e-06
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;1
+@t-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];1.2e-05
+@n-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];1
+@c-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];1e-06
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;2e-06
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [20:1-20:29];pqs(X,Y) :-     pqs(X,Z),    p(Z,Y).;0
+@t-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;1e-06
+@n-recursive-rule;pqs;0;./mrtc/mrtc.dl [21:1-21:29];pqs(X,Y) :-     pqs(X,Z),    q(Z,Y).;0
+@t-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];5e-06
+@n-recursive-relation;pqs;./mrtc/mrtc.dl [8:1-8:42];0
+@runtime;0.00104

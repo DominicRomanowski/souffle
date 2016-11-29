@@ -1,0 +1,49 @@
+@start-debug
+@t-nonrecursive-rule;reaches;./count_sccs/count_sccs.dl [10:1-11:15];reaches(A,B) :-     links(A,B).;2e-05
+@n-nonrecursive-rule;reaches;./count_sccs/count_sccs.dl [10:1-11:15];reaches(A,B) :-     links(A,B).;6
+@t-nonrecursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];5.2e-05
+@n-nonrecursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];6
+@t-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;2.2e-05
+@n-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;7
+@t-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];2.4e-05
+@n-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];7
+@c-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];4e-06
+@t-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;1.6e-05
+@n-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;2
+@t-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];4.2e-05
+@n-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];2
+@c-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];2e-06
+@t-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;6e-06
+@n-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;1
+@t-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];8e-06
+@n-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];1
+@c-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];2e-06
+@t-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;5e-06
+@n-recursive-rule;reaches;0;./count_sccs/count_sccs.dl [12:1-13:30];reaches(A,B) :-     links(A,C),    reaches(C,B).;0
+@t-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];7e-06
+@n-recursive-relation;reaches;./count_sccs/count_sccs.dl [9:1-9:30];0
+@t-nonrecursive-rule;nodes;./count_sccs/count_sccs.dl [6:1-7:27];nodes(A) :-     links(A,_).;8e-06
+@n-nonrecursive-rule;nodes;./count_sccs/count_sccs.dl [6:1-7:27];nodes(A) :-     links(A,_).;4
+@t-nonrecursive-rule;nodes;./count_sccs/count_sccs.dl [6:1-7:27];nodes(A) :-     links(_,A).;2e-06
+@n-nonrecursive-rule;nodes;./count_sccs/count_sccs.dl [6:1-7:27];nodes(A) :-     links(_,A).;5
+@t-nonrecursive-relation;nodes;./count_sccs/count_sccs.dl [5:1-5:20];1.5e-05
+@n-nonrecursive-relation;nodes;./count_sccs/count_sccs.dl [5:1-5:20];5
+@t-nonrecursive-rule;mutually_reaching;./count_sccs/count_sccs.dl [16:1-17:32];mutually_reaching(A,B) :-     reaches(A,B),    reaches(B,A).;2.3e-05
+@n-nonrecursive-rule;mutually_reaching;./count_sccs/count_sccs.dl [16:1-17:32];mutually_reaching(A,B) :-     reaches(A,B),    reaches(B,A).;8
+@t-nonrecursive-rule;mutually_reaching;./count_sccs/count_sccs.dl [18:1-19:12];mutually_reaching(A,A) :-     nodes(A).;4e-06
+@n-nonrecursive-rule;mutually_reaching;./count_sccs/count_sccs.dl [18:1-19:12];mutually_reaching(A,A) :-     nodes(A).;9
+@t-nonrecursive-relation;mutually_reaching;./count_sccs/count_sccs.dl [15:1-15:40];3.5e-05
+@n-nonrecursive-relation;mutually_reaching;./count_sccs/count_sccs.dl [15:1-15:40];9
+@t-nonrecursive-rule;chain;./count_sccs/count_sccs.dl [22:1-23:43];chain(A,B) :-     mutually_reaching(A,B),    ord(A) < ord(B).;5e-06
+@n-nonrecursive-rule;chain;./count_sccs/count_sccs.dl [22:1-23:43];chain(A,B) :-     mutually_reaching(A,B),    ord(A) < ord(B).;2
+@t-nonrecursive-relation;chain;./count_sccs/count_sccs.dl [21:1-21:28];7e-06
+@n-nonrecursive-relation;chain;./count_sccs/count_sccs.dl [21:1-21:28];2
+@t-nonrecursive-rule;leader;./count_sccs/count_sccs.dl [26:1-27:25];leader(A) :-     nodes(A),    !chain(_,A).;1.3e-05
+@n-nonrecursive-rule;leader;./count_sccs/count_sccs.dl [26:1-27:25];leader(A) :-     nodes(A),    !chain(_,A).;3
+@t-nonrecursive-relation;leader;./count_sccs/count_sccs.dl [25:1-25:21];1.5e-05
+@n-nonrecursive-relation;leader;./count_sccs/count_sccs.dl [25:1-25:21];3
+@t-nonrecursive-rule;count_scc;./count_sccs/count_sccs.dl [30:1-31:51];count_scc(A,count : mutually_reaching(A,_)) :-     leader(A).;1.1e-05
+@n-nonrecursive-rule;count_scc;./count_sccs/count_sccs.dl [30:1-31:51];count_scc(A,count : mutually_reaching(A,_)) :-     leader(A).;3
+@t-nonrecursive-relation;count_scc;./count_sccs/count_sccs.dl [29:1-29:41];2.5e-05
+@n-nonrecursive-relation;count_scc;./count_sccs/count_sccs.dl [29:1-29:41];3
+@runtime;0.000817

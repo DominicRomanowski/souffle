@@ -1,0 +1,10 @@
+@start-debug
+@t-nonrecursive-rule;X;./components2/components2.dl [8:1-8:6];X(1).;0.000593
+@n-nonrecursive-rule;X;./components2/components2.dl [8:1-8:6];X(1).;1
+@t-nonrecursive-relation;X;./components2/components2.dl [7:1-7:18];0.000627
+@n-nonrecursive-relation;X;./components2/components2.dl [7:1-7:18];1
+@t-nonrecursive-rule;A;./components2/components2.dl [12:5-12:18];A(x) :-     X(x).;1.2e-05
+@n-nonrecursive-rule;A;./components2/components2.dl [12:5-12:18];A(x) :-     X(x).;1
+@t-nonrecursive-relation;A;./components2/components2.dl [9:1-9:25];1.4e-05
+@n-nonrecursive-relation;A;./components2/components2.dl [9:1-9:25];1
+@runtime;0.005491

@@ -1,0 +1,150 @@
+@start-debug
+@t-nonrecursive-rule;a;./set_ops/set_ops.dl [12:1-12:8];a('a').;1.3e-05
+@n-nonrecursive-rule;a;./set_ops/set_ops.dl [12:1-12:8];a('a').;1
+@t-nonrecursive-rule;a;./set_ops/set_ops.dl [13:1-13:8];a('b').;1e-06
+@n-nonrecursive-rule;a;./set_ops/set_ops.dl [13:1-13:8];a('b').;2
+@t-nonrecursive-rule;a;./set_ops/set_ops.dl [14:1-14:8];a('c').;0
+@n-nonrecursive-rule;a;./set_ops/set_ops.dl [14:1-14:8];a('c').;3
+@t-nonrecursive-relation;a;./set_ops/set_ops.dl [7:1-7:17];4.8e-05
+@n-nonrecursive-relation;a;./set_ops/set_ops.dl [7:1-7:17];3
+@t-nonrecursive-rule;b;./set_ops/set_ops.dl [16:1-16:8];b('a').;5e-06
+@n-nonrecursive-rule;b;./set_ops/set_ops.dl [16:1-16:8];b('a').;1
+@t-nonrecursive-rule;b;./set_ops/set_ops.dl [17:1-17:8];b('b').;1e-06
+@n-nonrecursive-rule;b;./set_ops/set_ops.dl [17:1-17:8];b('b').;2
+@t-nonrecursive-rule;b;./set_ops/set_ops.dl [18:1-18:8];b('c').;0
+@n-nonrecursive-rule;b;./set_ops/set_ops.dl [18:1-18:8];b('c').;3
+@t-nonrecursive-relation;b;./set_ops/set_ops.dl [8:1-8:17];9e-06
+@n-nonrecursive-relation;b;./set_ops/set_ops.dl [8:1-8:17];3
+@t-nonrecursive-rule;a2b;./set_ops/set_ops.dl [48:1-48:23];a2b(x,x) :-     a(x),    b(x).;1.7e-05
+@n-nonrecursive-rule;a2b;./set_ops/set_ops.dl [48:1-48:23];a2b(x,x) :-     a(x),    b(x).;3
+@t-nonrecursive-relation;a2b;./set_ops/set_ops.dl [40:1-40:27];2e-05
+@n-nonrecursive-relation;a2b;./set_ops/set_ops.dl [40:1-40:27];3
+@t-nonrecursive-rule;a2b_a;./set_ops/set_ops.dl [50:1-50:22];a2b_a(x) :-     a2b(x,_).;6e-06
+@n-nonrecursive-rule;a2b_a;./set_ops/set_ops.dl [50:1-50:22];a2b_a(x) :-     a2b(x,_).;3
+@t-nonrecursive-relation;a2b_a;./set_ops/set_ops.dl [41:1-41:21];8e-06
+@n-nonrecursive-relation;a2b_a;./set_ops/set_ops.dl [41:1-41:21];3
+@t-nonrecursive-rule;a2b_b;./set_ops/set_ops.dl [51:1-51:22];a2b_b(x) :-     a2b(_,x).;6e-06
+@n-nonrecursive-rule;a2b_b;./set_ops/set_ops.dl [51:1-51:22];a2b_b(x) :-     a2b(_,x).;3
+@t-nonrecursive-relation;a2b_b;./set_ops/set_ops.dl [42:1-42:21];7e-06
+@n-nonrecursive-relation;a2b_b;./set_ops/set_ops.dl [42:1-42:21];3
+@t-nonrecursive-rule;a2b_unmapped_a;./set_ops/set_ops.dl [53:1-53:38];a2b_unmapped_a(x) :-     a(x),    !a2b_a(x).;5e-06
+@n-nonrecursive-rule;a2b_unmapped_a;./set_ops/set_ops.dl [53:1-53:38];a2b_unmapped_a(x) :-     a(x),    !a2b_a(x).;0
+@t-nonrecursive-relation;a2b_unmapped_a;./set_ops/set_ops.dl [43:1-43:30];1.3e-05
+@n-nonrecursive-relation;a2b_unmapped_a;./set_ops/set_ops.dl [43:1-43:30];0
+@t-nonrecursive-rule;a2b_unmapped_b;./set_ops/set_ops.dl [54:1-54:38];a2b_unmapped_b(x) :-     b(x),    !a2b_b(x).;2e-06
+@n-nonrecursive-rule;a2b_unmapped_b;./set_ops/set_ops.dl [54:1-54:38];a2b_unmapped_b(x) :-     b(x),    !a2b_b(x).;0
+@t-nonrecursive-relation;a2b_unmapped_b;./set_ops/set_ops.dl [44:1-44:30];3e-06
+@n-nonrecursive-relation;a2b_unmapped_b;./set_ops/set_ops.dl [44:1-44:30];0
+@t-nonrecursive-rule;a2b_unmapped_a_exist;./set_ops/set_ops.dl [56:1-56:50];a2b_unmapped_a_exist('yes') :-     a2b_unmapped_a(_).;2e-06
+@n-nonrecursive-rule;a2b_unmapped_a_exist;./set_ops/set_ops.dl [56:1-56:50];a2b_unmapped_a_exist('yes') :-     a2b_unmapped_a(_).;0
+@t-nonrecursive-relation;a2b_unmapped_a_exist;./set_ops/set_ops.dl [45:1-45:36];3e-06
+@n-nonrecursive-relation;a2b_unmapped_a_exist;./set_ops/set_ops.dl [45:1-45:36];0
+@t-nonrecursive-rule;a2b_unmapped_b_exist;./set_ops/set_ops.dl [57:1-57:50];a2b_unmapped_b_exist('yes') :-     a2b_unmapped_b(_).;1e-06
+@n-nonrecursive-rule;a2b_unmapped_b_exist;./set_ops/set_ops.dl [57:1-57:50];a2b_unmapped_b_exist('yes') :-     a2b_unmapped_b(_).;0
+@t-nonrecursive-relation;a2b_unmapped_b_exist;./set_ops/set_ops.dl [46:1-46:36];3e-06
+@n-nonrecursive-relation;a2b_unmapped_b_exist;./set_ops/set_ops.dl [46:1-46:36];0
+@t-nonrecursive-rule;c;./set_ops/set_ops.dl [20:1-20:8];c('a').;5e-06
+@n-nonrecursive-rule;c;./set_ops/set_ops.dl [20:1-20:8];c('a').;1
+@t-nonrecursive-rule;c;./set_ops/set_ops.dl [21:1-21:8];c('c').;0
+@n-nonrecursive-rule;c;./set_ops/set_ops.dl [21:1-21:8];c('c').;2
+@t-nonrecursive-relation;c;./set_ops/set_ops.dl [9:1-9:17];8e-06
+@n-nonrecursive-relation;c;./set_ops/set_ops.dl [9:1-9:17];2
+@t-nonrecursive-rule;a2c;./set_ops/set_ops.dl [69:1-69:23];a2c(x,x) :-     a(x),    c(x).;1e-05
+@n-nonrecursive-rule;a2c;./set_ops/set_ops.dl [69:1-69:23];a2c(x,x) :-     a(x),    c(x).;2
+@t-nonrecursive-relation;a2c;./set_ops/set_ops.dl [61:1-61:27];2.2e-05
+@n-nonrecursive-relation;a2c;./set_ops/set_ops.dl [61:1-61:27];2
+@t-nonrecursive-rule;b2c;./set_ops/set_ops.dl [90:1-90:23];b2c(x,x) :-     b(x),    c(x).;1e-05
+@n-nonrecursive-rule;b2c;./set_ops/set_ops.dl [90:1-90:23];b2c(x,x) :-     b(x),    c(x).;2
+@t-nonrecursive-relation;b2c;./set_ops/set_ops.dl [82:1-82:27];1.1e-05
+@n-nonrecursive-relation;b2c;./set_ops/set_ops.dl [82:1-82:27];2
+@t-nonrecursive-rule;a2c_a;./set_ops/set_ops.dl [71:1-71:22];a2c_a(x) :-     a2c(x,_).;6e-06
+@n-nonrecursive-rule;a2c_a;./set_ops/set_ops.dl [71:1-71:22];a2c_a(x) :-     a2c(x,_).;2
+@t-nonrecursive-relation;a2c_a;./set_ops/set_ops.dl [62:1-62:21];7e-06
+@n-nonrecursive-relation;a2c_a;./set_ops/set_ops.dl [62:1-62:21];2
+@t-nonrecursive-rule;a2c_c;./set_ops/set_ops.dl [72:1-72:22];a2c_c(x) :-     a2c(_,x).;5e-06
+@n-nonrecursive-rule;a2c_c;./set_ops/set_ops.dl [72:1-72:22];a2c_c(x) :-     a2c(_,x).;2
+@t-nonrecursive-relation;a2c_c;./set_ops/set_ops.dl [63:1-63:21];6e-06
+@n-nonrecursive-relation;a2c_c;./set_ops/set_ops.dl [63:1-63:21];2
+@t-nonrecursive-rule;b2c_b;./set_ops/set_ops.dl [92:1-92:22];b2c_b(x) :-     b2c(x,_).;6e-06
+@n-nonrecursive-rule;b2c_b;./set_ops/set_ops.dl [92:1-92:22];b2c_b(x) :-     b2c(x,_).;2
+@t-nonrecursive-relation;b2c_b;./set_ops/set_ops.dl [83:1-83:21];7e-06
+@n-nonrecursive-relation;b2c_b;./set_ops/set_ops.dl [83:1-83:21];2
+@t-nonrecursive-rule;b2c_c;./set_ops/set_ops.dl [93:1-93:22];b2c_c(x) :-     b2c(_,x).;5e-06
+@n-nonrecursive-rule;b2c_c;./set_ops/set_ops.dl [93:1-93:22];b2c_c(x) :-     b2c(_,x).;2
+@t-nonrecursive-relation;b2c_c;./set_ops/set_ops.dl [84:1-84:21];7e-06
+@n-nonrecursive-relation;b2c_c;./set_ops/set_ops.dl [84:1-84:21];2
+@t-nonrecursive-rule;a2c_unmapped_a;./set_ops/set_ops.dl [74:1-74:38];a2c_unmapped_a(x) :-     a(x),    !a2c_a(x).;7e-06
+@n-nonrecursive-rule;a2c_unmapped_a;./set_ops/set_ops.dl [74:1-74:38];a2c_unmapped_a(x) :-     a(x),    !a2c_a(x).;1
+@t-nonrecursive-relation;a2c_unmapped_a;./set_ops/set_ops.dl [64:1-64:30];8e-06
+@n-nonrecursive-relation;a2c_unmapped_a;./set_ops/set_ops.dl [64:1-64:30];1
+@t-nonrecursive-rule;a2c_unmapped_c;./set_ops/set_ops.dl [75:1-75:38];a2c_unmapped_c(x) :-     c(x),    !a2c_c(x).;2e-06
+@n-nonrecursive-rule;a2c_unmapped_c;./set_ops/set_ops.dl [75:1-75:38];a2c_unmapped_c(x) :-     c(x),    !a2c_c(x).;0
+@t-nonrecursive-relation;a2c_unmapped_c;./set_ops/set_ops.dl [65:1-65:30];4e-06
+@n-nonrecursive-relation;a2c_unmapped_c;./set_ops/set_ops.dl [65:1-65:30];0
+@t-nonrecursive-rule;b2c_unmapped_b;./set_ops/set_ops.dl [95:1-95:38];b2c_unmapped_b(x) :-     b(x),    !b2c_b(x).;6e-06
+@n-nonrecursive-rule;b2c_unmapped_b;./set_ops/set_ops.dl [95:1-95:38];b2c_unmapped_b(x) :-     b(x),    !b2c_b(x).;1
+@t-nonrecursive-relation;b2c_unmapped_b;./set_ops/set_ops.dl [85:1-85:30];8e-06
+@n-nonrecursive-relation;b2c_unmapped_b;./set_ops/set_ops.dl [85:1-85:30];1
+@t-nonrecursive-rule;b2c_unmapped_c;./set_ops/set_ops.dl [96:1-96:38];b2c_unmapped_c(x) :-     c(x),    !b2c_c(x).;2e-06
+@n-nonrecursive-rule;b2c_unmapped_c;./set_ops/set_ops.dl [96:1-96:38];b2c_unmapped_c(x) :-     c(x),    !b2c_c(x).;0
+@t-nonrecursive-relation;b2c_unmapped_c;./set_ops/set_ops.dl [86:1-86:30];8e-06
+@n-nonrecursive-relation;b2c_unmapped_c;./set_ops/set_ops.dl [86:1-86:30];0
+@t-nonrecursive-rule;a2c_unmapped_a_exist;./set_ops/set_ops.dl [77:1-77:50];a2c_unmapped_a_exist('yes') :-     a2c_unmapped_a(_).;6e-06
+@n-nonrecursive-rule;a2c_unmapped_a_exist;./set_ops/set_ops.dl [77:1-77:50];a2c_unmapped_a_exist('yes') :-     a2c_unmapped_a(_).;1
+@t-nonrecursive-relation;a2c_unmapped_a_exist;./set_ops/set_ops.dl [66:1-66:36];7e-06
+@n-nonrecursive-relation;a2c_unmapped_a_exist;./set_ops/set_ops.dl [66:1-66:36];1
+@t-nonrecursive-rule;a2c_unmapped_c_exist;./set_ops/set_ops.dl [78:1-78:50];a2c_unmapped_c_exist('yes') :-     a2c_unmapped_c(_).;2e-06
+@n-nonrecursive-rule;a2c_unmapped_c_exist;./set_ops/set_ops.dl [78:1-78:50];a2c_unmapped_c_exist('yes') :-     a2c_unmapped_c(_).;0
+@t-nonrecursive-relation;a2c_unmapped_c_exist;./set_ops/set_ops.dl [67:1-67:36];3e-06
+@n-nonrecursive-relation;a2c_unmapped_c_exist;./set_ops/set_ops.dl [67:1-67:36];0
+@t-nonrecursive-rule;b2c_unmapped_b_exist;./set_ops/set_ops.dl [98:1-98:50];b2c_unmapped_b_exist('yes') :-     b2c_unmapped_b(_).;6e-06
+@n-nonrecursive-rule;b2c_unmapped_b_exist;./set_ops/set_ops.dl [98:1-98:50];b2c_unmapped_b_exist('yes') :-     b2c_unmapped_b(_).;1
+@t-nonrecursive-relation;b2c_unmapped_b_exist;./set_ops/set_ops.dl [87:1-87:36];8e-06
+@n-nonrecursive-relation;b2c_unmapped_b_exist;./set_ops/set_ops.dl [87:1-87:36];1
+@t-nonrecursive-rule;b2c_unmapped_c_exist;./set_ops/set_ops.dl [99:1-99:50];b2c_unmapped_c_exist('yes') :-     b2c_unmapped_c(_).;1e-06
+@n-nonrecursive-rule;b2c_unmapped_c_exist;./set_ops/set_ops.dl [99:1-99:50];b2c_unmapped_c_exist('yes') :-     b2c_unmapped_c(_).;0
+@t-nonrecursive-relation;b2c_unmapped_c_exist;./set_ops/set_ops.dl [88:1-88:36];2e-06
+@n-nonrecursive-relation;b2c_unmapped_c_exist;./set_ops/set_ops.dl [88:1-88:36];0
+@t-nonrecursive-rule;d;./set_ops/set_ops.dl [23:1-23:8];d('a').;4e-06
+@n-nonrecursive-rule;d;./set_ops/set_ops.dl [23:1-23:8];d('a').;1
+@t-nonrecursive-relation;d;./set_ops/set_ops.dl [10:1-10:17];6e-06
+@n-nonrecursive-relation;d;./set_ops/set_ops.dl [10:1-10:17];1
+@t-nonrecursive-rule;e_d;./set_ops/set_ops.dl [31:1-31:20];e_d('yes') :-     d(_).;5e-06
+@n-nonrecursive-rule;e_d;./set_ops/set_ops.dl [31:1-31:20];e_d('yes') :-     d(_).;1
+@t-nonrecursive-relation;e_d;./set_ops/set_ops.dl [30:1-30:19];7e-06
+@n-nonrecursive-relation;e_d;./set_ops/set_ops.dl [30:1-30:19];1
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [33:1-33:34];res('d is empty') :-     !e_d('yes').;1e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [33:1-33:34];res('d is empty') :-     !e_d('yes').;0
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [105:1-105:74];res('a==b') :-     !a2b_unmapped_a_exist('yes'),    !a2b_unmapped_b_exist('yes').;8e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [105:1-105:74];res('a==b') :-     !a2b_unmapped_a_exist('yes'),    !a2b_unmapped_b_exist('yes').;1
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [106:1-106:74];res('a==c') :-     !a2c_unmapped_a_exist('yes'),    !a2c_unmapped_c_exist('yes').;1e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [106:1-106:74];res('a==c') :-     !a2c_unmapped_a_exist('yes'),    !a2c_unmapped_c_exist('yes').;1
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [107:1-107:74];res('b==c') :-     !b2c_unmapped_b_exist('yes'),    !b2c_unmapped_c_exist('yes').;1e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [107:1-107:74];res('b==c') :-     !b2c_unmapped_b_exist('yes'),    !b2c_unmapped_c_exist('yes').;1
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [109:1-109:44];res('a!=b') :-     a2b_unmapped_a_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [109:1-109:44];res('a!=b') :-     a2b_unmapped_a_exist('yes').;1
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [110:1-110:44];res('a!=b') :-     a2b_unmapped_b_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [110:1-110:44];res('a!=b') :-     a2b_unmapped_b_exist('yes').;1
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [112:1-112:44];res('a!=c') :-     a2c_unmapped_a_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [112:1-112:44];res('a!=c') :-     a2c_unmapped_a_exist('yes').;2
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [113:1-113:44];res('a!=c') :-     a2c_unmapped_c_exist('yes').;3e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [113:1-113:44];res('a!=c') :-     a2c_unmapped_c_exist('yes').;2
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [115:1-115:44];res('b!=c') :-     b2c_unmapped_b_exist('yes').;3e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [115:1-115:44];res('b!=c') :-     b2c_unmapped_b_exist('yes').;3
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [116:1-116:44];res('b!=c') :-     b2c_unmapped_c_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [116:1-116:44];res('b!=c') :-     b2c_unmapped_c_exist('yes').;3
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [118:1-118:79];res('a subset b') :-     a2b_unmapped_b_exist('yes'),    !a2b_unmapped_a_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [118:1-118:79];res('a subset b') :-     a2b_unmapped_b_exist('yes'),    !a2b_unmapped_a_exist('yes').;3
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [119:1-119:79];res('b subset a') :-     a2b_unmapped_a_exist('yes'),    !a2b_unmapped_b_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [119:1-119:79];res('b subset a') :-     a2b_unmapped_a_exist('yes'),    !a2b_unmapped_b_exist('yes').;3
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [121:1-121:79];res('a subset c') :-     a2c_unmapped_c_exist('yes'),    !a2c_unmapped_a_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [121:1-121:79];res('a subset c') :-     a2c_unmapped_c_exist('yes'),    !a2c_unmapped_a_exist('yes').;3
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [122:1-122:79];res('c subset a') :-     a2c_unmapped_a_exist('yes'),    !a2c_unmapped_c_exist('yes').;3e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [122:1-122:79];res('c subset a') :-     a2c_unmapped_a_exist('yes'),    !a2c_unmapped_c_exist('yes').;4
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [124:1-124:79];res('b subset c') :-     b2c_unmapped_c_exist('yes'),    !b2c_unmapped_b_exist('yes').;2e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [124:1-124:79];res('b subset c') :-     b2c_unmapped_c_exist('yes'),    !b2c_unmapped_b_exist('yes').;4
+@t-nonrecursive-rule;res;./set_ops/set_ops.dl [125:1-125:79];res('c subset b') :-     b2c_unmapped_b_exist('yes'),    !b2c_unmapped_c_exist('yes').;3e-06
+@n-nonrecursive-rule;res;./set_ops/set_ops.dl [125:1-125:79];res('c subset b') :-     b2c_unmapped_b_exist('yes'),    !b2c_unmapped_c_exist('yes').;5
+@t-nonrecursive-relation;res;./set_ops/set_ops.dl [26:1-26:26];7.6e-05
+@n-nonrecursive-relation;res;./set_ops/set_ops.dl [26:1-26:26];5
+@runtime;0.000662

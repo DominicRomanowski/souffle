@@ -1,0 +1,12 @@
+@start-debug
+@t-nonrecursive-rule;Y;./cat/cat.dl [16:1-16:12];Y('a','b').;1.3e-05
+@n-nonrecursive-rule;Y;./cat/cat.dl [16:1-16:12];Y('a','b').;1
+@t-nonrecursive-rule;Y;./cat/cat.dl [17:1-17:12];Y('c','d').;1e-06
+@n-nonrecursive-rule;Y;./cat/cat.dl [17:1-17:12];Y('c','d').;2
+@t-nonrecursive-relation;Y;./cat/cat.dl [13:1-13:19];4.8e-05
+@n-nonrecursive-relation;Y;./cat/cat.dl [13:1-13:19];2
+@t-nonrecursive-rule;Z;./cat/cat.dl [19:1-19:36];Z(a,b,cat(cat(a,b),a)) :-     Y(a,b).;2e-05
+@n-nonrecursive-rule;Z;./cat/cat.dl [19:1-19:36];Z(a,b,cat(cat(a,b),a)) :-     Y(a,b).;2
+@t-nonrecursive-relation;Z;./cat/cat.dl [14:1-14:31];2.2e-05
+@n-nonrecursive-relation;Z;./cat/cat.dl [14:1-14:31];2
+@runtime;0.000261

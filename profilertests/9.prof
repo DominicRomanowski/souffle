@@ -1,0 +1,44 @@
+@start-debug
+@t-nonrecursive-rule;PointsTo;./andersen/andersen.dl [27:1-28:18];PointsTo(y,x) :-     AddressOf(y,x).;1.4e-05
+@n-nonrecursive-rule;PointsTo;./andersen/andersen.dl [27:1-28:18];PointsTo(y,x) :-     AddressOf(y,x).;3
+@t-nonrecursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];4.7e-05
+@n-nonrecursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];3
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [30:1-32:17];PointsTo(y,x) :-     Assign(y,z),    PointsTo(z,x).;1.1e-05
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [30:1-32:17];PointsTo(y,x) :-     Assign(y,z),    PointsTo(z,x).;1
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;3e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;1
+@t-recursive-rule;PointsTo;1;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;2e-06
+@n-recursive-rule;PointsTo;1;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;1
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;7e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;1
+@t-recursive-rule;PointsTo;1;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;5e-06
+@n-recursive-rule;PointsTo;1;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;2
+@t-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];6.3e-05
+@n-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];2
+@c-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];2e-06
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [30:1-32:17];PointsTo(y,x) :-     Assign(y,z),    PointsTo(z,x).;7e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [30:1-32:17];PointsTo(y,x) :-     Assign(y,z),    PointsTo(z,x).;1
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;3e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;1
+@t-recursive-rule;PointsTo;1;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;3e-06
+@n-recursive-rule;PointsTo;1;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;1
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;3e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;1
+@t-recursive-rule;PointsTo;1;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;3e-06
+@n-recursive-rule;PointsTo;1;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;1
+@t-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];3.4e-05
+@n-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];1
+@c-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];1e-06
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [30:1-32:17];PointsTo(y,x) :-     Assign(y,z),    PointsTo(z,x).;2e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [30:1-32:17];PointsTo(y,x) :-     Assign(y,z),    PointsTo(z,x).;0
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;2e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;0
+@t-recursive-rule;PointsTo;1;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;2e-06
+@n-recursive-rule;PointsTo;1;./andersen/andersen.dl [34:1-37:17];PointsTo(y,w) :-     Load(y,x),    PointsTo(x,z),    PointsTo(z,w).;0
+@t-recursive-rule;PointsTo;0;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;2e-06
+@n-recursive-rule;PointsTo;0;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;0
+@t-recursive-rule;PointsTo;1;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;2e-06
+@n-recursive-rule;PointsTo;1;./andersen/andersen.dl [39:1-42:17];PointsTo(z,w) :-     Store(y,x),    PointsTo(y,z),    PointsTo(x,w).;0
+@t-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];2.6e-05
+@n-recursive-relation;PointsTo;./andersen/andersen.dl [25:1-25:36];0
+@runtime;0.001623

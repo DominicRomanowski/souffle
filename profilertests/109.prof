@@ -1,0 +1,234 @@
+@start-debug
+@t-nonrecursive-rule;X;./rmut/rmut.dl [9:1-9:8];X('a').;1.5e-05
+@n-nonrecursive-rule;X;./rmut/rmut.dl [9:1-9:8];X('a').;1
+@t-nonrecursive-rule;X;./rmut/rmut.dl [10:1-10:8];X('b').;1e-06
+@n-nonrecursive-rule;X;./rmut/rmut.dl [10:1-10:8];X('b').;2
+@t-nonrecursive-rule;X;./rmut/rmut.dl [11:1-11:8];X('c').;0
+@n-nonrecursive-rule;X;./rmut/rmut.dl [11:1-11:8];X('c').;3
+@t-nonrecursive-relation;X;./rmut/rmut.dl [3:1-3:28];5.1e-05
+@n-nonrecursive-relation;X;./rmut/rmut.dl [3:1-3:28];3
+@t-nonrecursive-rule;A;./rmut/rmut.dl [13:1-13:14];A(x) :-     X(x).;1.1e-05
+@n-nonrecursive-rule;A;./rmut/rmut.dl [13:1-13:14];A(x) :-     X(x).;3
+@t-nonrecursive-relation;A;./rmut/rmut.dl [4:1-4:28];1.2e-05
+@n-nonrecursive-relation;A;./rmut/rmut.dl [4:1-4:28];3
+@t-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;5e-06
+@n-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;5e-06
+@n-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;5e-06
+@n-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];6e-05
+@n-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];0
+@t-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;1.2e-05
+@n-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;3
+@t-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;1.3e-05
+@n-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;9e-06
+@n-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;7e-06
+@n-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;6e-06
+@n-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];6e-05
+@n-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];3
+@t-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;7e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;5e-06
+@n-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;8e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;8e-06
+@n-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;6e-06
+@n-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;6e-06
+@n-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];5.5e-05
+@n-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];0
+@t-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;9e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;6e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;5e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;7e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;6e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;6e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;5e-06
+@n-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];6.1e-05
+@n-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];0
+@c-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];2e-06
+@c-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];5e-06
+@c-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];1e-06
+@c-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];1e-06
+@t-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];2.9e-05
+@n-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];0
+@t-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;3e-06
+@n-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;0
+@t-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];2.8e-05
+@n-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];0
+@t-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;4e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;1e-05
+@n-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;3
+@t-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;5e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;1.2e-05
+@n-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;8e-06
+@n-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;7e-06
+@n-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];6.8e-05
+@n-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];3
+@t-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;4e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;8e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;6e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;9e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;8e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;7e-06
+@n-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];5.8e-05
+@n-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];0
+@c-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];1e-06
+@c-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];1e-06
+@c-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];4e-06
+@c-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];0
+@t-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];2.2e-05
+@n-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];0
+@t-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;2e-06
+@n-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;0
+@t-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];3.3e-05
+@n-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];0
+@t-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;2e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;3e-06
+@n-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];2.9e-05
+@n-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];0
+@t-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;4e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;3e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;1.2e-05
+@n-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;3
+@t-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;5e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;8e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;7e-06
+@n-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3
+@t-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];5.7e-05
+@n-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];3
+@c-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];1e-06
+@c-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];0
+@c-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];1e-06
+@c-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];5e-06
+@t-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;0;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;1;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;2;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;A;3;./rmut/rmut.dl [18:1-18:38];A(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];3.3e-05
+@n-recursive-relation;A;./rmut/rmut.dl [4:1-4:28];0
+@t-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;2e-06
+@n-recursive-rule;B;0;./rmut/rmut.dl [14:1-14:20];B(x) :-     X(x),    A(x).;0
+@t-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;B;0;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;B;1;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;B;2;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;B;3;./rmut/rmut.dl [19:1-19:38];B(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];2.3e-05
+@n-recursive-relation;B;./rmut/rmut.dl [5:1-5:28];0
+@t-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;2e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;2e-06
+@n-recursive-rule;C;1;./rmut/rmut.dl [15:1-15:26];C(x) :-     X(x),    A(x),    B(x).;0
+@t-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;C;0;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;C;1;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;C;2;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;2e-06
+@n-recursive-rule;C;3;./rmut/rmut.dl [20:1-20:38];C(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];2.6e-05
+@n-recursive-relation;C;./rmut/rmut.dl [6:1-6:28];0
+@t-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;2e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;2e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;2e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [16:1-16:32];D(x) :-     X(x),    A(x),    B(x),    C(x).;0
+@t-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;D;0;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;4e-06
+@n-recursive-rule;D;1;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;D;2;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;3e-06
+@n-recursive-rule;D;3;./rmut/rmut.dl [21:1-21:38];D(x) :-     X(x),    A(x),    B(x),    C(x),    D(x).;0
+@t-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];3.7e-05
+@n-recursive-relation;D;./rmut/rmut.dl [7:1-7:28];0
+@runtime;0.001493

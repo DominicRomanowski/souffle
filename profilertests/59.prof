@@ -1,0 +1,883 @@
+@start-debug
+@t-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [26:1-26:31];LptrVar(v) :-     StackAlloc(v,_).;0.000117
+@n-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [26:1-26:31];LptrVar(v) :-     StackAlloc(v,_).;274
+@t-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [27:1-27:30];LptrVar(v) :-     HeapAlloc(v,_).;2.5e-05
+@n-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [27:1-27:30];LptrVar(v) :-     HeapAlloc(v,_).;319
+@t-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [28:1-28:25];LptrVar(v) :-     Load(_,v).;0.005032
+@n-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [28:1-28:25];LptrVar(v) :-     Load(_,v).;9589
+@t-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [29:1-29:26];LptrVar(v) :-     Store(_,v).;0.001029
+@n-nonrecursive-rule;LptrVar;./hmmer/hmmer.dl [29:1-29:26];LptrVar(v) :-     Store(_,v).;10926
+@t-nonrecursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.006258
+@n-nonrecursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];10926
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.045436
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;5096
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.031248
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;5607
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.076745
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];5607
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.002044
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.035825
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;1006
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.029025
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;2016
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.06487
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];2016
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.000814
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.025237
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;274
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.021162
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;850
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.046414
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];850
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.000379
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.017381
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;241
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.016947
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;512
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.034354
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];512
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.000232
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.015906
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;600
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.018703
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;771
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.034623
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];771
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.000352
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.018175
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;261
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.015009
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;301
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.033197
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];301
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.000142
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.016574
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;67
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.014732
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;144
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.031332
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];144
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];8.3e-05
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.013783
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;20
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.014714
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;34
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.028509
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];34
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];4e-05
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.013542
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;7
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.013667
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;24
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.027229
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];24
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];1.9e-05
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.012391
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;2
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.010204
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;3
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.022607
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];3
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];4e-06
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.013997
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;1
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.012291
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;2
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.026302
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];2
+@c-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];4e-06
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0.01252
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [30:1-30:43];LptrVar(v) :-     DirectFlow(v,w),    LptrVar(w).;0
+@t-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0.012797
+@n-recursive-rule;LptrVar;0;./hmmer/hmmer.dl [31:1-31:43];LptrVar(v) :-     DirectFlow(w,v),    LptrVar(w).;0
+@t-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0.025351
+@n-recursive-relation;LptrVar;./hmmer/hmmer.dl [18:1-18:22];0
+@t-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [34:1-34:30];IsPtr(v,o) :-     HeapAlloc(v,o).;3.6e-05
+@n-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [34:1-34:30];IsPtr(v,o) :-     HeapAlloc(v,o).;45
+@t-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [35:1-35:31];IsPtr(v,o) :-     StackAlloc(v,o).;0.000196
+@n-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [35:1-35:31];IsPtr(v,o) :-     StackAlloc(v,o).;319
+@t-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [40:1-40:28];IsPtr(v,o) :-     Global(v,o).;0.00082
+@n-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [40:1-40:28];IsPtr(v,o) :-     Global(v,o).;1372
+@t-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [50:1-50:38];IsPtr(v,'ttt_obj') :-     ExtReturn(_,v).;0.002123
+@n-nonrecursive-rule;IsPtr;./hmmer/hmmer.dl [50:1-50:38];IsPtr(v,'ttt_obj') :-     ExtReturn(_,v).;2894
+@t-nonrecursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.003192
+@n-nonrecursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2894
+@t-nonrecursive-rule;Memory;./hmmer/hmmer.dl [53:1-53:48];Memory('ttt_obj','ttt_obj') :-     ExtReturn(_,_).;5e-06
+@n-nonrecursive-rule;Memory;./hmmer/hmmer.dl [53:1-53:48];Memory('ttt_obj','ttt_obj') :-     ExtReturn(_,_).;1
+@t-nonrecursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];7e-06
+@n-nonrecursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];1
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.021486
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;2794
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.004128
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2794
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.006956
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2807
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.000749
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;2807
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.033351
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2807
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000533
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000533
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;5
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.001071
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];5
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.00176
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;2894
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;4e-06
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2894
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;3e-06
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2894
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001771
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];2894
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000567
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];3e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001404
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.02142
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;1122
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.003608
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1130
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.00753
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1158
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001739
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;1190
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.034328
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];1190
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000615
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000612
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;15
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.00123
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];15
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.002205
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;2807
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1.1e-05
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2807
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000681
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2812
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.002905
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];2812
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000399
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];4e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001622
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.018531
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;790
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.006266
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;806
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.008308
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;942
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.003154
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;2064
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.036743
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2064
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000934
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;14
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001261
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;26
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.002202
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];26
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.00202
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;1190
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000199
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1205
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000344
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1313
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.002583
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];1313
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000753
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];7e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.000849
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.018742
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;1780
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.006118
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1791
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.009178
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2309
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.002469
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;2667
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.036536
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2667
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001319
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;34
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001449
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;42
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.002788
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];42
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.003181
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;2064
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.001032
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2202
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000888
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2593
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.005138
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];2593
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000963
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];1.3e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001665
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.018472
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;693
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.007032
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;709
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.009954
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2011
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.002248
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;2106
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.03774
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2106
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000747
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;17
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001568
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;24
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.002323
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];24
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.003172
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;2667
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.00265
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;3322
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.002213
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;4377
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.008048
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];4377
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000834
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];9e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.002759
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.019502
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;1944
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.007218
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2069
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.009169
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;5242
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001781
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;5436
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.037706
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];5436
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.00149
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;136
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001644
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;141
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.00314
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];141
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.002106
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;2105
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.013236
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;5355
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.010818
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;12307
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.026181
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];12307
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.001212
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2.6e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.004971
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.013525
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;3140
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.010881
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;7882
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.012571
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;9688
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.003474
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;10433
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.040475
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];10433
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001552
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;32
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001447
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;57
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.003025
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];57
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.008584
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;5430
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.020501
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;13080
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.013789
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;19622
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.042907
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];19622
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.002951
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2.2e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.015379
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.02611
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;6034
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.018193
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;11213
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.017275
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;19809
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.004702
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;21254
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.06632
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];21254
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.002001
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;290
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.002074
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;335
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.004094
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];335
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.008997
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;9965
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.095503
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;36445
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.093646
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;76986
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.198167
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];76986
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.008
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.000146
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.039321
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.032277
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;11318
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.02346
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;15229
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.04824
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;43077
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.008032
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;47798
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.112053
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];47798
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.002454
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;261
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.002927
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;293
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.005392
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];293
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.024447
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;16879
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.48543
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;89436
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.277714
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;152473
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.787642
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];152473
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.014826
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.00012
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.097801
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.029451
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;25727
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.042082
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;36025
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.023742
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;41820
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.007415
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;49369
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.102719
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];49369
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.006127
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;690
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.004371
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;784
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.010502
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];784
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.032203
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;25759
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.339172
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;37157
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.244251
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;70041
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.61566
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];70041
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.013416
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.0002
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.044007
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.024807
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;19162
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.128982
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;38967
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.101182
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;59483
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.003009
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;61069
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.25802
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];61069
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.008903
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;418
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.01363
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;903
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.022551
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];903
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.032548
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;26635
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1.3542
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;32776
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.407451
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;55557
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];1.79425
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];55557
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.015768
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.000204
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.034213
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.038714
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;36504
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.173283
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;43084
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.154157
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;59412
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.002729
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;61082
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.368939
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];61082
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.007581
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;571
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.006106
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;605
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.013704
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];605
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.039273
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;32232
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;3.44328
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;83273
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.89975
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;104109
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];4.38234
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];104109
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.02131
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.000158
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.072224
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.035095
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;25056
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.363173
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;35303
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.045415
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;41237
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.005912
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;45085
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.44965
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];45085
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.012169
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;864
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.010297
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;876
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.022487
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];876
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.044018
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;30202
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.324806
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;30955
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.761619
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;35688
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];1.1305
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];35688
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.01614
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.000292
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.025972
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.022783
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;12968
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.199038
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;17516
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.174034
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;28698
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.003191
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;29645
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.399093
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];29645
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.010391
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;432
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.011937
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;563
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.022366
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];563
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.031504
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;21885
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2.40775
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;52094
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.586173
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;54780
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];3.02548
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];54780
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.013054
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.000178
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.037533
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.026403
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;16591
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.110937
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;17745
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.093758
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;22221
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.00271
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;23519
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.233853
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];23519
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.006313
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;305
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.00555
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;305
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.011886
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];305
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.017445
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;9119
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1.38937
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;26367
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1.04011
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;28384
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];2.44696
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];28384
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.010388
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.000106
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.020095
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.019609
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;6927
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.154501
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;9221
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.034517
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;11868
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.003966
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;13544
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.212657
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];13544
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.010711
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;164
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.009
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;164
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.019727
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];164
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.017851
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;5951
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.179955
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;6193
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.516477
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;6806
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.714337
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];6806
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.008323
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];9.2e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.00524
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.019182
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;5865
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.052143
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;6568
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.060636
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;7762
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001564
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;7904
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.133576
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];7904
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.009456
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;97
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.008656
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;104
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.018128
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];104
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.011664
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;3473
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.33931
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;3502
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.114536
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;3692
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.46556
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];3692
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.003742
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];4.7e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.002101
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.014211
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;2831
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.037
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;3053
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.03636
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;3660
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001587
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;3726
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.089221
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];3726
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.011228
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;26
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.006523
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;26
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.017778
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];26
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.005883
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;2589
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.080227
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2589
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.057079
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2681
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.143252
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];2681
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.001708
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];1.9e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.002063
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.012808
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;1329
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.024013
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1551
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.029407
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1707
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001263
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;1779
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.067546
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];1779
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001345
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;12
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.005788
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;12
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.007143
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];12
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.002319
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;940
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000167
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;940
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.046132
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;990
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.048635
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];990
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.001026
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];1e-05
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001209
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.012057
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;1068
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.006447
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1068
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.029181
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;1159
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001032
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;1339
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.048752
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];1339
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.001026
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;14
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.004649
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;14
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.00568
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];14
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.001108
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;667
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000265
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;667
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.016272
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;667
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.017657
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];667
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000397
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];7e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.000468
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.010925
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;290
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.004797
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;290
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.029899
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;337
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.000849
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;337
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.046499
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];337
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.00059
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;2
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.004685
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;2
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.005304
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.000879
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;555
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.000231
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;555
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.013206
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;555
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.014346
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];555
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000293
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];5e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.000555
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.011313
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;117
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.004526
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;117
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.029483
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;119
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.000987
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;119
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.046354
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];119
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000478
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;2
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.004819
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;2
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.005318
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.000262
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;8e-06
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.010568
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.010847
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.000108
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];5e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];6e-06
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.009125
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;25
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.004245
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;25
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.028177
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;28
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001205
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;28
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.042839
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];28
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.00055
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.00552
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.00608
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.000115
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;1.6e-05
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.00112
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001266
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2.8e-05
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];1e-06
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.008596
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;6
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.003053
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;6
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.028895
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;6
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001036
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;6
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.041626
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];6
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000473
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.004877
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.005369
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;4.1e-05
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2e-06
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.001209
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001267
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];8e-06
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];1e-06
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.00818
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;2
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.003324
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.026794
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;2
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.001078
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;2
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.039472
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];2
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000484
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.005748
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.006263
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;1.2e-05
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2e-06
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.001327
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001349
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0
+@c-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];8e-06
+@c-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];2e-06
+@c-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];1e-06
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0.00816
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [36:1-36:53];IsPtr(dest,o) :-     DirectFlow(src,dest),    IsPtr(src,o).;0
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.003192
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0
+@t-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0.02889
+@n-recursive-rule;IsPtr;1;./hmmer/hmmer.dl [37:1-37:66];IsPtr(dest,o) :-     Load(dest,addr),    IsPtr(addr,o1),    Memory(o1,o).;0
+@t-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0.000732
+@n-recursive-rule;IsPtr;0;./hmmer/hmmer.dl [38:1-38:52];IsPtr(v,o) :-     ExtReturn(arg,v),    IsReachable(arg,o).;0
+@t-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0.041016
+@n-recursive-relation;IsPtr;./hmmer/hmmer.dl [19:1-19:26];0
+@t-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.000401
+@n-recursive-rule;Memory;0;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0.005463
+@n-recursive-rule;Memory;1;./hmmer/hmmer.dl [42:1-42:66];Memory(o1,o2) :-     Store(src,addr),    IsPtr(src,o2),    IsPtr(addr,o1).;0
+@t-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0.005873
+@n-recursive-relation;Memory;./hmmer/hmmer.dl [20:1-20:28];0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0.000187
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [44:1-44:32];IsReachable(v,o) :-     IsPtr(v,o).;0
+@t-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;2e-06
+@n-recursive-rule;IsReachable;0;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0.001246
+@n-recursive-rule;IsReachable;1;./hmmer/hmmer.dl [45:1-45:53];IsReachable(v,o) :-     Memory(o1,o),    IsReachable(v,o1).;0
+@t-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0.001448
+@n-recursive-relation;IsReachable;./hmmer/hmmer.dl [21:1-21:31];0
+@t-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [47:1-47:46];CFormat(o) :-     EscapePtr(v),    IsReachable(v,o).;0.008632
+@n-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [47:1-47:46];CFormat(o) :-     EscapePtr(v),    IsReachable(v,o).;971
+@t-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [52:1-52:38];CFormat('ttt_obj') :-     ExtReturn(_,_).;1.2e-05
+@n-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [52:1-52:38];CFormat('ttt_obj') :-     ExtReturn(_,_).;971
+@t-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [62:1-62:56];CFormat(o) :-     Load(v,addr),    IsPtr(addr,o),    !LptrVar(v).;0.017502
+@n-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [62:1-62:56];CFormat(o) :-     Load(v,addr),    IsPtr(addr,o),    !LptrVar(v).;1164
+@t-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [63:1-63:57];CFormat(o) :-     Store(v,addr),    IsPtr(addr,o),    !LptrVar(v).;0.006339
+@n-nonrecursive-rule;CFormat;./hmmer/hmmer.dl [63:1-63:57];CFormat(o) :-     Store(v,addr),    IsPtr(addr,o),    !LptrVar(v).;1217
+@t-nonrecursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];0.032536
+@n-nonrecursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];1217
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;3e-06
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;0
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;2e-06
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;0
+@t-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];3.6e-05
+@n-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];0
+@t-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;0.057747
+@n-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;2630
+@t-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0.057762
+@n-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];2630
+@t-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;0.012764
+@n-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;254
+@t-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];0.01279
+@n-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];254
+@c-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];8e-06
+@c-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0.000274
+@c-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];2.7e-05
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;0.006292
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;7
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;0.000394
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;9
+@t-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];0.00669
+@n-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];9
+@t-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;0.015809
+@n-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;0
+@t-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0.015859
+@n-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0
+@t-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;0.003251
+@n-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;0
+@t-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];0.003256
+@n-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];0
+@c-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];9e-06
+@c-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];1.5e-05
+@c-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];3e-06
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;2e-06
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;0
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;1e-06
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;0
+@t-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];2.5e-05
+@n-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];0
+@t-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;0.016604
+@n-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;19
+@t-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0.016611
+@n-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];19
+@t-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;0.003919
+@n-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;1
+@t-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];0.00393
+@n-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];1
+@c-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];2e-06
+@c-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];5e-06
+@c-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];1e-06
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;1.3e-05
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [59:1-59:41];CFormat(o) :-     CPtrLoad(_,v),    IsPtr(v,o).;0
+@t-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;3e-06
+@n-recursive-rule;CFormat;0;./hmmer/hmmer.dl [60:1-60:42];CFormat(o) :-     CPtrStore(_,v),    IsPtr(v,o).;0
+@t-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];1.8e-05
+@n-recursive-relation;CFormat;./hmmer/hmmer.dl [22:1-22:21];0
+@t-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;0.011958
+@n-recursive-rule;CPtrLoad;0;./hmmer/hmmer.dl [56:1-56:85];CPtrLoad(dest,addr) :-     Load(dest,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(dest).;0
+@t-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0.01197
+@n-recursive-relation;CPtrLoad;./hmmer/hmmer.dl [23:1-23:37];0
+@t-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;0.004022
+@n-recursive-rule;CPtrStore;0;./hmmer/hmmer.dl [57:1-57:84];CPtrStore(src,addr) :-     Store(src,addr),    IsPtr(addr,o),    CFormat(o),    LptrVar(src).;0
+@t-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];0.004032
+@n-recursive-relation;CPtrStore;./hmmer/hmmer.dl [24:1-24:38];0
+@runtime;20.9681

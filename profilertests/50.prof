@@ -1,0 +1,47 @@
+@start-debug
+@t-nonrecursive-rule;flight;./flights/flights.dl [16:1-16:25];flight('QA','AU','CHI').;1.7e-05
+@n-nonrecursive-rule;flight;./flights/flights.dl [16:1-16:25];flight('QA','AU','CHI').;1
+@t-nonrecursive-rule;flight;./flights/flights.dl [17:1-17:25];flight('QA','AU','JPN').;2e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [17:1-17:25];flight('QA','AU','JPN').;2
+@t-nonrecursive-rule;flight;./flights/flights.dl [18:1-18:26];flight('QA','JPN','DEN').;1e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [18:1-18:26];flight('QA','JPN','DEN').;3
+@t-nonrecursive-rule;flight;./flights/flights.dl [19:1-19:26];flight('QA','JPN','CHI').;1e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [19:1-19:26];flight('QA','JPN','CHI').;4
+@t-nonrecursive-rule;flight;./flights/flights.dl [20:1-20:25];flight('QA','AU','CHI').;1e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [20:1-20:25];flight('QA','AU','CHI').;4
+@t-nonrecursive-rule;flight;./flights/flights.dl [21:1-21:25];flight('VA','AU','CHI').;1e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [21:1-21:25];flight('VA','AU','CHI').;5
+@t-nonrecursive-rule;flight;./flights/flights.dl [22:1-22:25];flight('VA','JPN','ZA').;2e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [22:1-22:25];flight('VA','JPN','ZA').;6
+@t-nonrecursive-rule;flight;./flights/flights.dl [23:1-23:26];flight('VA','JPN','DEN').;1e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [23:1-23:26];flight('VA','JPN','DEN').;7
+@t-nonrecursive-rule;flight;./flights/flights.dl [24:1-24:25];flight('VA','DEN','ZA').;1e-06
+@n-nonrecursive-rule;flight;./flights/flights.dl [24:1-24:25];flight('VA','DEN','ZA').;8
+@t-nonrecursive-relation;flight;./flights/flights.dl [3:1-3:50];0.000106
+@n-nonrecursive-relation;flight;./flights/flights.dl [3:1-3:50];8
+@t-nonrecursive-rule;QAflies;./flights/flights.dl [8:1-8:34];QAflies(X,Y) :-     flight('QA',X,Y).;1.5e-05
+@n-nonrecursive-rule;QAflies;./flights/flights.dl [8:1-8:34];QAflies(X,Y) :-     flight('QA',X,Y).;4
+@t-nonrecursive-relation;QAflies;./flights/flights.dl [4:1-4:46];1.7e-05
+@n-nonrecursive-relation;QAflies;./flights/flights.dl [4:1-4:46];4
+@t-recursive-rule;QAflies;0;./flights/flights.dl [9:1-9:48];QAflies(X,Y) :-     flight('QA',X,Z),    QAflies(Z,Y).;1.3e-05
+@n-recursive-rule;QAflies;0;./flights/flights.dl [9:1-9:48];QAflies(X,Y) :-     flight('QA',X,Z),    QAflies(Z,Y).;1
+@t-recursive-relation;QAflies;./flights/flights.dl [4:1-4:46];1.5e-05
+@n-recursive-relation;QAflies;./flights/flights.dl [4:1-4:46];1
+@c-recursive-relation;QAflies;./flights/flights.dl [4:1-4:46];3e-06
+@t-recursive-rule;QAflies;0;./flights/flights.dl [9:1-9:48];QAflies(X,Y) :-     flight('QA',X,Z),    QAflies(Z,Y).;6e-06
+@n-recursive-rule;QAflies;0;./flights/flights.dl [9:1-9:48];QAflies(X,Y) :-     flight('QA',X,Z),    QAflies(Z,Y).;0
+@t-recursive-relation;QAflies;./flights/flights.dl [4:1-4:46];7e-06
+@n-recursive-relation;QAflies;./flights/flights.dl [4:1-4:46];0
+@t-nonrecursive-rule;VAflies;./flights/flights.dl [11:1-11:34];VAflies(X,Y) :-     flight('VA',X,Y).;9e-06
+@n-nonrecursive-rule;VAflies;./flights/flights.dl [11:1-11:34];VAflies(X,Y) :-     flight('VA',X,Y).;4
+@t-nonrecursive-relation;VAflies;./flights/flights.dl [5:1-5:46];1.5e-05
+@n-nonrecursive-relation;VAflies;./flights/flights.dl [5:1-5:46];4
+@t-recursive-rule;VAflies;0;./flights/flights.dl [12:1-12:48];VAflies(X,Y) :-     flight('VA',X,Z),    VAflies(Z,Y).;6e-06
+@n-recursive-rule;VAflies;0;./flights/flights.dl [12:1-12:48];VAflies(X,Y) :-     flight('VA',X,Z),    VAflies(Z,Y).;0
+@t-recursive-relation;VAflies;./flights/flights.dl [5:1-5:46];7e-06
+@n-recursive-relation;VAflies;./flights/flights.dl [5:1-5:46];0
+@t-nonrecursive-rule;QAonly;./flights/flights.dl [14:1-14:45];QAonly(X,Y) :-     QAflies(X,Y),    !VAflies(X,Y).;1e-05
+@n-nonrecursive-rule;QAonly;./flights/flights.dl [14:1-14:45];QAonly(X,Y) :-     QAflies(X,Y),    !VAflies(X,Y).;3
+@t-nonrecursive-relation;QAonly;./flights/flights.dl [6:1-6:45];1.1e-05
+@n-nonrecursive-relation;QAonly;./flights/flights.dl [6:1-6:45];3
+@runtime;0.00067

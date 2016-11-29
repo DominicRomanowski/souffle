@@ -1,0 +1,45 @@
+@start-debug
+@t-nonrecursive-rule;edge;./cliquer/cliquer.dl [22:1-22:16];edge('a','b').;1.3e-05
+@n-nonrecursive-rule;edge;./cliquer/cliquer.dl [22:1-22:16];edge('a','b').;1
+@t-nonrecursive-rule;edge;./cliquer/cliquer.dl [23:1-23:16];edge('b','c').;1e-06
+@n-nonrecursive-rule;edge;./cliquer/cliquer.dl [23:1-23:16];edge('b','c').;2
+@t-nonrecursive-rule;edge;./cliquer/cliquer.dl [24:1-24:16];edge('c','d').;1e-06
+@n-nonrecursive-rule;edge;./cliquer/cliquer.dl [24:1-24:16];edge('c','d').;3
+@t-nonrecursive-rule;edge;./cliquer/cliquer.dl [25:1-25:16];edge('d','a').;1e-06
+@n-nonrecursive-rule;edge;./cliquer/cliquer.dl [25:1-25:16];edge('d','a').;4
+@t-nonrecursive-relation;edge;./cliquer/cliquer.dl [13:1-13:43];5.4e-05
+@n-nonrecursive-relation;edge;./cliquer/cliquer.dl [13:1-13:43];4
+@t-nonrecursive-rule;leg;./cliquer/cliquer.dl [16:1-16:34];leg(X,Z) :-     edge(X,Y),    edge(Y,Z).;1.6e-05
+@n-nonrecursive-rule;leg;./cliquer/cliquer.dl [16:1-16:34];leg(X,Z) :-     edge(X,Y),    edge(Y,Z).;4
+@t-nonrecursive-relation;leg;./cliquer/cliquer.dl [14:1-14:42];1.8e-05
+@n-nonrecursive-relation;leg;./cliquer/cliquer.dl [14:1-14:42];4
+@t-nonrecursive-rule;reachable;./cliquer/cliquer.dl [18:1-18:29];reachable(X,Y) :-     edge(X,Y).;6e-06
+@n-nonrecursive-rule;reachable;./cliquer/cliquer.dl [18:1-18:29];reachable(X,Y) :-     edge(X,Y).;4
+@t-nonrecursive-rule;reachable;./cliquer/cliquer.dl [27:1-27:20];reachable('e','f').;1e-06
+@n-nonrecursive-rule;reachable;./cliquer/cliquer.dl [27:1-27:20];reachable('e','f').;5
+@t-nonrecursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];1.1e-05
+@n-nonrecursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];5
+@t-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1.2e-05
+@n-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;4
+@t-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];1.4e-05
+@n-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];4
+@c-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];6e-06
+@t-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;1e-05
+@n-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;4
+@t-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];1.1e-05
+@n-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];4
+@c-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];3e-06
+@t-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;8e-06
+@n-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;4
+@t-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];1e-05
+@n-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];4
+@c-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];2e-06
+@t-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;6e-06
+@n-recursive-rule;reachable;0;./cliquer/cliquer.dl [19:1-19:45];reachable(X,Y) :-     edge(X,Z),    reachable(Z,Y).;0
+@t-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];1.2e-05
+@n-recursive-relation;reachable;./cliquer/cliquer.dl [11:1-11:48];0
+@t-nonrecursive-rule;same_clique;./cliquer/cliquer.dl [20:1-20:52];same_clique(X,Y) :-     reachable(X,Y),    reachable(Y,X).;2.7e-05
+@n-nonrecursive-rule;same_clique;./cliquer/cliquer.dl [20:1-20:52];same_clique(X,Y) :-     reachable(X,Y),    reachable(Y,X).;16
+@t-nonrecursive-relation;same_clique;./cliquer/cliquer.dl [12:1-12:50];2.8e-05
+@n-nonrecursive-relation;same_clique;./cliquer/cliquer.dl [12:1-12:50];16
+@runtime;0.000831

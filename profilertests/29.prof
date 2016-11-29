@@ -1,0 +1,80 @@
+@start-debug
+@t-nonrecursive-rule;SocialNet.e;./components_generic/components_generic.dl [68:1-68:80];SocialNet.e(['Homer','Evergreen Terrace 742'],['Ned','Evergreen Terrace 744']).;0.00085
+@n-nonrecursive-rule;SocialNet.e;./components_generic/components_generic.dl [68:1-68:80];SocialNet.e(['Homer','Evergreen Terrace 742'],['Ned','Evergreen Terrace 744']).;1
+@t-nonrecursive-rule;SocialNet.e;./components_generic/components_generic.dl [69:1-69:77];SocialNet.e(['Ned','Evergreen Terrace 744'],['Ned','Evergreen Terrace 82']).;4e-06
+@n-nonrecursive-rule;SocialNet.e;./components_generic/components_generic.dl [69:1-69:77];SocialNet.e(['Ned','Evergreen Terrace 744'],['Ned','Evergreen Terrace 82']).;2
+@t-nonrecursive-relation;SocialNet.e;./components_generic/components_generic.dl [36:5-36:21];0.000886
+@n-nonrecursive-relation;SocialNet.e;./components_generic/components_generic.dl [36:5-36:21];2
+@t-nonrecursive-rule;SocialNet.G.edge;./components_generic/components_generic.dl [37:5-37:27];SocialNet.G.edge(X,Y) :-     SocialNet.e(X,Y).;1e-05
+@n-nonrecursive-rule;SocialNet.G.edge;./components_generic/components_generic.dl [37:5-37:27];SocialNet.G.edge(X,Y) :-     SocialNet.e(X,Y).;2
+@t-nonrecursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];4.3e-05
+@n-nonrecursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];2
+@t-recursive-rule;SocialNet.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];SocialNet.G.edge(X,Y) :-     SocialNet.G.edge(Y,X).;8e-06
+@n-recursive-rule;SocialNet.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];SocialNet.G.edge(X,Y) :-     SocialNet.G.edge(Y,X).;2
+@t-recursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];1e-05
+@n-recursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];2
+@c-recursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];3e-06
+@t-recursive-rule;SocialNet.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];SocialNet.G.edge(X,Y) :-     SocialNet.G.edge(Y,X).;2e-06
+@n-recursive-rule;SocialNet.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];SocialNet.G.edge(X,Y) :-     SocialNet.G.edge(Y,X).;0
+@t-recursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];9e-06
+@n-recursive-relation;SocialNet.G.edge;./components_generic/components_generic.dl [14:5-14:25];0
+@t-nonrecursive-rule;SocialNet.G.reach;./components_generic/components_generic.dl [21:5-21:29];SocialNet.G.reach(X,Y) :-     SocialNet.G.edge(X,Y).;8e-06
+@n-nonrecursive-rule;SocialNet.G.reach;./components_generic/components_generic.dl [21:5-21:29];SocialNet.G.reach(X,Y) :-     SocialNet.G.edge(X,Y).;4
+@t-nonrecursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];1e-05
+@n-nonrecursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];4
+@t-recursive-rule;SocialNet.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;1.2e-05
+@n-recursive-rule;SocialNet.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;0
+@t-recursive-rule;SocialNet.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;1.5e-05
+@n-recursive-rule;SocialNet.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;5
+@t-recursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];3.5e-05
+@n-recursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];5
+@c-recursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];2e-06
+@t-recursive-rule;SocialNet.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;1.2e-05
+@n-recursive-rule;SocialNet.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;0
+@t-recursive-rule;SocialNet.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;1.4e-05
+@n-recursive-rule;SocialNet.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];SocialNet.G.reach(X,Z) :-     SocialNet.G.reach(X,Y),    SocialNet.G.reach(Y,Z).;0
+@t-recursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];4.1e-05
+@n-recursive-relation;SocialNet.G.reach;./components_generic/components_generic.dl [20:5-20:25];0
+@t-nonrecursive-rule;StreetMap.e;./components_generic/components_generic.dl [51:1-51:22];StreetMap.e('A','B').;5e-06
+@n-nonrecursive-rule;StreetMap.e;./components_generic/components_generic.dl [51:1-51:22];StreetMap.e('A','B').;1
+@t-nonrecursive-rule;StreetMap.e;./components_generic/components_generic.dl [52:1-52:22];StreetMap.e('B','C').;1e-06
+@n-nonrecursive-rule;StreetMap.e;./components_generic/components_generic.dl [52:1-52:22];StreetMap.e('B','C').;2
+@t-nonrecursive-relation;StreetMap.e;./components_generic/components_generic.dl [36:5-36:21];1.4e-05
+@n-nonrecursive-relation;StreetMap.e;./components_generic/components_generic.dl [36:5-36:21];2
+@t-nonrecursive-rule;StreetMap.G.edge;./components_generic/components_generic.dl [37:5-37:27];StreetMap.G.edge(X,Y) :-     StreetMap.e(X,Y).;6e-06
+@n-nonrecursive-rule;StreetMap.G.edge;./components_generic/components_generic.dl [37:5-37:27];StreetMap.G.edge(X,Y) :-     StreetMap.e(X,Y).;2
+@t-nonrecursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];8e-06
+@n-nonrecursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];2
+@t-recursive-rule;StreetMap.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];StreetMap.G.edge(X,Y) :-     StreetMap.G.edge(Y,X).;7e-06
+@n-recursive-rule;StreetMap.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];StreetMap.G.edge(X,Y) :-     StreetMap.G.edge(Y,X).;2
+@t-recursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];1.3e-05
+@n-recursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];2
+@c-recursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];2e-06
+@t-recursive-rule;StreetMap.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];StreetMap.G.edge(X,Y) :-     StreetMap.G.edge(Y,X).;3e-06
+@n-recursive-rule;StreetMap.G.edge;0;./components_generic/components_generic.dl [28:5-28:28];StreetMap.G.edge(X,Y) :-     StreetMap.G.edge(Y,X).;0
+@t-recursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];4e-06
+@n-recursive-relation;StreetMap.G.edge;./components_generic/components_generic.dl [14:5-14:25];0
+@t-nonrecursive-rule;StreetMap.G.reach;./components_generic/components_generic.dl [21:5-21:29];StreetMap.G.reach(X,Y) :-     StreetMap.G.edge(X,Y).;7e-06
+@n-nonrecursive-rule;StreetMap.G.reach;./components_generic/components_generic.dl [21:5-21:29];StreetMap.G.reach(X,Y) :-     StreetMap.G.edge(X,Y).;4
+@t-nonrecursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];1.2e-05
+@n-nonrecursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];4
+@t-recursive-rule;StreetMap.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;1.1e-05
+@n-recursive-rule;StreetMap.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;0
+@t-recursive-rule;StreetMap.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;1.4e-05
+@n-recursive-rule;StreetMap.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;5
+@t-recursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];2.9e-05
+@n-recursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];5
+@c-recursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];3e-06
+@t-recursive-rule;StreetMap.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;1.3e-05
+@n-recursive-rule;StreetMap.G.reach;0;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;0
+@t-recursive-rule;StreetMap.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;1.4e-05
+@n-recursive-rule;StreetMap.G.reach;1;./components_generic/components_generic.dl [22:5-22:42];StreetMap.G.reach(X,Z) :-     StreetMap.G.reach(X,Y),    StreetMap.G.reach(Y,Z).;0
+@t-recursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];3e-05
+@n-recursive-relation;StreetMap.G.reach;./components_generic/components_generic.dl [20:5-20:25];0
+@t-nonrecursive-rule;result;./components_generic/components_generic.dl [75:1-75:45];result('Map Works') :-     StreetMap.G.reach('C','A').;8e-06
+@n-nonrecursive-rule;result;./components_generic/components_generic.dl [75:1-75:45];result('Map Works') :-     StreetMap.G.reach('C','A').;1
+@t-nonrecursive-rule;result;./components_generic/components_generic.dl [76:1-76:109];result('Social Net Works') :-     SocialNet.G.reach(['Ned','Evergreen Terrace 82'],['Homer','Evergreen Terrace 742']).;4e-06
+@n-nonrecursive-rule;result;./components_generic/components_generic.dl [76:1-76:109];result('Social Net Works') :-     SocialNet.G.reach(['Ned','Evergreen Terrace 82'],['Homer','Evergreen Terrace 742']).;2
+@t-nonrecursive-relation;result;./components_generic/components_generic.dl [74:1-74:30];1.4e-05
+@n-nonrecursive-relation;result;./components_generic/components_generic.dl [74:1-74:30];2
+@runtime;0.001506

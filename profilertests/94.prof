@@ -1,0 +1,42 @@
+@start-debug
+@t-nonrecursive-rule;A;./po1/po1.dl [5:1-5:60];A(1,i) :-     Check(_,b,c,d,e,f),    In(_,b,c,d,e,f,i).;0.002019
+@n-nonrecursive-rule;A;./po1/po1.dl [5:1-5:60];A(1,i) :-     Check(_,b,c,d,e,f),    In(_,b,c,d,e,f,i).;5
+@t-nonrecursive-rule;A;./po1/po1.dl [6:1-6:60];A(2,i) :-     Check(a,_,c,d,e,f),    In(a,_,c,d,e,f,i).;0.001737
+@n-nonrecursive-rule;A;./po1/po1.dl [6:1-6:60];A(2,i) :-     Check(a,_,c,d,e,f),    In(a,_,c,d,e,f,i).;10
+@t-nonrecursive-rule;A;./po1/po1.dl [7:1-7:60];A(3,i) :-     Check(a,b,_,d,e,f),    In(a,b,_,d,e,f,i).;0.00226
+@n-nonrecursive-rule;A;./po1/po1.dl [7:1-7:60];A(3,i) :-     Check(a,b,_,d,e,f),    In(a,b,_,d,e,f,i).;15
+@t-nonrecursive-rule;A;./po1/po1.dl [8:1-8:60];A(4,i) :-     Check(a,b,c,_,e,f),    In(a,b,c,_,e,f,i).;0.001952
+@n-nonrecursive-rule;A;./po1/po1.dl [8:1-8:60];A(4,i) :-     Check(a,b,c,_,e,f),    In(a,b,c,_,e,f,i).;20
+@t-nonrecursive-rule;A;./po1/po1.dl [9:1-9:60];A(5,i) :-     Check(a,b,c,d,_,f),    In(a,b,c,d,_,f,i).;0.013396
+@n-nonrecursive-rule;A;./po1/po1.dl [9:1-9:60];A(5,i) :-     Check(a,b,c,d,_,f),    In(a,b,c,d,_,f,i).;26
+@t-nonrecursive-rule;A;./po1/po1.dl [10:1-10:60];A(6,i) :-     Check(a,b,c,d,e,_),    In(a,b,c,d,e,_,i).;0.001689
+@n-nonrecursive-rule;A;./po1/po1.dl [10:1-10:60];A(6,i) :-     Check(a,b,c,d,e,_),    In(a,b,c,d,e,_,i).;31
+@t-nonrecursive-rule;A;./po1/po1.dl [12:1-12:61];A(7,i) :-     Check(_,_,c,d,e,f),    In(_,_,c,d,e,f,i).;0.006373
+@n-nonrecursive-rule;A;./po1/po1.dl [12:1-12:61];A(7,i) :-     Check(_,_,c,d,e,f),    In(_,_,c,d,e,f,i).;41
+@t-nonrecursive-rule;A;./po1/po1.dl [13:1-13:61];A(8,i) :-     Check(a,_,_,d,e,f),    In(a,_,_,d,e,f,i).;0.00189
+@n-nonrecursive-rule;A;./po1/po1.dl [13:1-13:61];A(8,i) :-     Check(a,_,_,d,e,f),    In(a,_,_,d,e,f,i).;51
+@t-nonrecursive-rule;A;./po1/po1.dl [14:1-14:61];A(9,i) :-     Check(a,b,_,_,e,f),    In(a,b,_,_,e,f,i).;0.002655
+@n-nonrecursive-rule;A;./po1/po1.dl [14:1-14:61];A(9,i) :-     Check(a,b,_,_,e,f),    In(a,b,_,_,e,f,i).;61
+@t-nonrecursive-rule;A;./po1/po1.dl [15:1-15:62];A(10,i) :-     Check(a,b,c,_,_,f),    In(a,b,c,_,_,f,i).;0.094062
+@n-nonrecursive-rule;A;./po1/po1.dl [15:1-15:62];A(10,i) :-     Check(a,b,c,_,_,f),    In(a,b,c,_,_,f,i).;71
+@t-nonrecursive-rule;A;./po1/po1.dl [16:1-16:62];A(11,i) :-     Check(a,b,c,d,_,_),    In(a,b,c,d,_,_,i).;0.002054
+@n-nonrecursive-rule;A;./po1/po1.dl [16:1-16:62];A(11,i) :-     Check(a,b,c,d,_,_),    In(a,b,c,d,_,_,i).;81
+@t-nonrecursive-rule;A;./po1/po1.dl [18:1-18:62];A(12,i) :-     Check(_,_,_,d,e,f),    In(_,_,_,d,e,f,i).;0.003962
+@n-nonrecursive-rule;A;./po1/po1.dl [18:1-18:62];A(12,i) :-     Check(_,_,_,d,e,f),    In(_,_,_,d,e,f,i).;91
+@t-nonrecursive-rule;A;./po1/po1.dl [19:1-19:62];A(13,i) :-     Check(a,_,_,_,e,f),    In(a,_,_,_,e,f,i).;0.002937
+@n-nonrecursive-rule;A;./po1/po1.dl [19:1-19:62];A(13,i) :-     Check(a,_,_,_,e,f),    In(a,_,_,_,e,f,i).;101
+@t-nonrecursive-rule;A;./po1/po1.dl [20:1-20:62];A(14,i) :-     Check(a,b,_,_,_,f),    In(a,b,_,_,_,f,i).;0.002406
+@n-nonrecursive-rule;A;./po1/po1.dl [20:1-20:62];A(14,i) :-     Check(a,b,_,_,_,f),    In(a,b,_,_,_,f,i).;111
+@t-nonrecursive-rule;A;./po1/po1.dl [21:1-21:62];A(15,i) :-     Check(a,b,c,_,_,_),    In(a,b,c,_,_,_,i).;0.086302
+@n-nonrecursive-rule;A;./po1/po1.dl [21:1-21:62];A(15,i) :-     Check(a,b,c,_,_,_),    In(a,b,c,_,_,_,i).;121
+@t-nonrecursive-rule;A;./po1/po1.dl [23:1-23:62];A(16,i) :-     Check(_,_,_,_,e,f),    In(_,_,_,_,e,f,i).;0.019962
+@n-nonrecursive-rule;A;./po1/po1.dl [23:1-23:62];A(16,i) :-     Check(_,_,_,_,e,f),    In(_,_,_,_,e,f,i).;131
+@t-nonrecursive-rule;A;./po1/po1.dl [24:1-24:62];A(17,i) :-     Check(a,_,_,_,_,f),    In(a,_,_,_,_,f,i).;0.025476
+@n-nonrecursive-rule;A;./po1/po1.dl [24:1-24:62];A(17,i) :-     Check(a,_,_,_,_,f),    In(a,_,_,_,_,f,i).;141
+@t-nonrecursive-rule;A;./po1/po1.dl [25:1-25:62];A(18,i) :-     Check(a,b,_,_,_,_),    In(a,b,_,_,_,_,i).;0.023225
+@n-nonrecursive-rule;A;./po1/po1.dl [25:1-25:62];A(18,i) :-     Check(a,b,_,_,_,_),    In(a,b,_,_,_,_,i).;151
+@t-nonrecursive-rule;A;./po1/po1.dl [27:1-27:62];A(19,i) :-     Check(a,b,c,d,e,f),    In(a,b,c,d,e,f,i).;0.001564
+@n-nonrecursive-rule;A;./po1/po1.dl [27:1-27:62];A(19,i) :-     Check(a,b,c,d,e,f),    In(a,b,c,d,e,f,i).;151
+@t-nonrecursive-relation;A;./po1/po1.dl [3:1-3:35];0.296141
+@n-nonrecursive-relation;A;./po1/po1.dl [3:1-3:35];151
+@runtime;0.302042

@@ -1,0 +1,14 @@
+@start-debug
+@t-nonrecursive-rule;R;./plus/plus.dl [6:1-6:8];R(1,2).;1.4e-05
+@n-nonrecursive-rule;R;./plus/plus.dl [6:1-6:8];R(1,2).;1
+@t-nonrecursive-rule;R;./plus/plus.dl [7:1-7:8];R(2,3).;1e-06
+@n-nonrecursive-rule;R;./plus/plus.dl [7:1-7:8];R(2,3).;2
+@t-nonrecursive-rule;R;./plus/plus.dl [8:1-8:8];R(3,5).;0
+@n-nonrecursive-rule;R;./plus/plus.dl [8:1-8:8];R(3,5).;3
+@t-nonrecursive-relation;R;./plus/plus.dl [3:1-3:29];5e-05
+@n-nonrecursive-relation;R;./plus/plus.dl [3:1-3:29];3
+@t-nonrecursive-rule;A;./plus/plus.dl [10:1-10:24];A(a,b,(a+b)) :-     R(a,b).;1.3e-05
+@n-nonrecursive-rule;A;./plus/plus.dl [10:1-10:24];A(a,b,(a+b)) :-     R(a,b).;3
+@t-nonrecursive-relation;A;./plus/plus.dl [4:1-4:46];1.5e-05
+@n-nonrecursive-relation;A;./plus/plus.dl [4:1-4:46];3
+@runtime;0.000205

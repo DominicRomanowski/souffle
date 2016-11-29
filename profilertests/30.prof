@@ -1,0 +1,24 @@
+@start-debug
+@t-nonrecursive-rule;substringTable;./contains/contains.dl [22:1-22:21];substringTable('a').;0.000547
+@n-nonrecursive-rule;substringTable;./contains/contains.dl [22:1-22:21];substringTable('a').;1
+@t-nonrecursive-rule;substringTable;./contains/contains.dl [23:1-23:22];substringTable('ab').;1e-06
+@n-nonrecursive-rule;substringTable;./contains/contains.dl [23:1-23:22];substringTable('ab').;2
+@t-nonrecursive-rule;substringTable;./contains/contains.dl [24:1-24:23];substringTable('cab').;0
+@n-nonrecursive-rule;substringTable;./contains/contains.dl [24:1-24:23];substringTable('cab').;3
+@t-nonrecursive-relation;substringTable;./contains/contains.dl [12:1-12:32];0.000587
+@n-nonrecursive-relation;substringTable;./contains/contains.dl [12:1-12:32];3
+@t-nonrecursive-rule;stringTable;./contains/contains.dl [17:1-17:21];stringTable('aaaa').;5e-06
+@n-nonrecursive-rule;stringTable;./contains/contains.dl [17:1-17:21];stringTable('aaaa').;1
+@t-nonrecursive-rule;stringTable;./contains/contains.dl [18:1-18:21];stringTable('abba').;1e-06
+@n-nonrecursive-rule;stringTable;./contains/contains.dl [18:1-18:21];stringTable('abba').;2
+@t-nonrecursive-rule;stringTable;./contains/contains.dl [19:1-19:21];stringTable('bcab').;1e-06
+@n-nonrecursive-rule;stringTable;./contains/contains.dl [19:1-19:21];stringTable('bcab').;3
+@t-nonrecursive-rule;stringTable;./contains/contains.dl [20:1-20:21];stringTable('bdab').;0
+@n-nonrecursive-rule;stringTable;./contains/contains.dl [20:1-20:21];stringTable('bdab').;4
+@t-nonrecursive-relation;stringTable;./contains/contains.dl [11:1-11:29];5.2e-05
+@n-nonrecursive-relation;stringTable;./contains/contains.dl [11:1-11:29];4
+@t-nonrecursive-rule;outputData;./contains/contains.dl [15:1-15:69];outputData(x,y) :-     substringTable(x),    stringTable(y),    x contains y.;2e-05
+@n-nonrecursive-rule;outputData;./contains/contains.dl [15:1-15:69];outputData(x,y) :-     substringTable(x),    stringTable(y),    x contains y.;8
+@t-nonrecursive-relation;outputData;./contains/contains.dl [13:1-13:52];2.2e-05
+@n-nonrecursive-relation;outputData;./contains/contains.dl [13:1-13:52];8
+@runtime;0.000894

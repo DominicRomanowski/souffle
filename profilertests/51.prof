@@ -1,0 +1,52 @@
+@start-debug
+@t-nonrecursive-rule;arg;./func/func.dl [17:1-17:20];arg('x','1','A').;1.6e-05
+@n-nonrecursive-rule;arg;./func/func.dl [17:1-17:20];arg('x','1','A').;1
+@t-nonrecursive-rule;arg;./func/func.dl [18:1-18:20];arg('x','2','B').;2e-06
+@n-nonrecursive-rule;arg;./func/func.dl [18:1-18:20];arg('x','2','B').;2
+@t-nonrecursive-rule;arg;./func/func.dl [19:1-19:20];arg('x','3','Z').;1e-06
+@n-nonrecursive-rule;arg;./func/func.dl [19:1-19:20];arg('x','3','Z').;3
+@t-nonrecursive-rule;arg;./func/func.dl [21:1-21:20];arg('y','1','C').;2e-06
+@n-nonrecursive-rule;arg;./func/func.dl [21:1-21:20];arg('y','1','C').;4
+@t-nonrecursive-rule;arg;./func/func.dl [22:1-22:20];arg('y','2','D').;1e-06
+@n-nonrecursive-rule;arg;./func/func.dl [22:1-22:20];arg('y','2','D').;5
+@t-nonrecursive-rule;arg;./func/func.dl [23:1-23:20];arg('y','3','W').;1e-06
+@n-nonrecursive-rule;arg;./func/func.dl [23:1-23:20];arg('y','3','W').;6
+@t-nonrecursive-relation;arg;./func/func.dl [5:1-5:41];6.6e-05
+@n-nonrecursive-relation;arg;./func/func.dl [5:1-5:41];6
+@t-nonrecursive-rule;succ;./func/func.dl [10:1-10:16];succ('1','2').;8e-06
+@n-nonrecursive-rule;succ;./func/func.dl [10:1-10:16];succ('1','2').;1
+@t-nonrecursive-rule;succ;./func/func.dl [11:1-11:16];succ('2','3').;1e-06
+@n-nonrecursive-rule;succ;./func/func.dl [11:1-11:16];succ('2','3').;2
+@t-nonrecursive-rule;succ;./func/func.dl [12:1-12:16];succ('3','4').;1e-06
+@n-nonrecursive-rule;succ;./func/func.dl [12:1-12:16];succ('3','4').;3
+@t-nonrecursive-relation;succ;./func/func.dl [4:1-4:32];1.6e-05
+@n-nonrecursive-relation;succ;./func/func.dl [4:1-4:32];3
+@t-nonrecursive-rule;args;./func/func.dl [28:1-28:51];args(v,w,'1') :-     arg(v,'1',_),    arg(w,'1',_).;2.8e-05
+@n-nonrecursive-rule;args;./func/func.dl [28:1-28:51];args(v,w,'1') :-     arg(v,'1',_),    arg(w,'1',_).;4
+@t-nonrecursive-relation;args;./func/func.dl [6:1-6:42];3e-05
+@n-nonrecursive-relation;args;./func/func.dl [6:1-6:42];4
+@t-recursive-rule;args;0;./func/func.dl [27:1-27:72];args(v,w,i) :-     succ(p,i),    arg(v,i,k),    arg(w,i,k),    args(v,w,p).;3.3e-05
+@n-recursive-rule;args;0;./func/func.dl [27:1-27:72];args(v,w,i) :-     succ(p,i),    arg(v,i,k),    arg(w,i,k),    args(v,w,p).;2
+@t-recursive-relation;args;./func/func.dl [6:1-6:42];4.5e-05
+@n-recursive-relation;args;./func/func.dl [6:1-6:42];2
+@c-recursive-relation;args;./func/func.dl [6:1-6:42];2e-06
+@t-recursive-rule;args;0;./func/func.dl [27:1-27:72];args(v,w,i) :-     succ(p,i),    arg(v,i,k),    arg(w,i,k),    args(v,w,p).;2.5e-05
+@n-recursive-rule;args;0;./func/func.dl [27:1-27:72];args(v,w,i) :-     succ(p,i),    arg(v,i,k),    arg(w,i,k),    args(v,w,p).;2
+@t-recursive-relation;args;./func/func.dl [6:1-6:42];2.7e-05
+@n-recursive-relation;args;./func/func.dl [6:1-6:42];2
+@c-recursive-relation;args;./func/func.dl [6:1-6:42];2e-06
+@t-recursive-rule;args;0;./func/func.dl [27:1-27:72];args(v,w,i) :-     succ(p,i),    arg(v,i,k),    arg(w,i,k),    args(v,w,p).;1.4e-05
+@n-recursive-rule;args;0;./func/func.dl [27:1-27:72];args(v,w,i) :-     succ(p,i),    arg(v,i,k),    arg(w,i,k),    args(v,w,p).;0
+@t-recursive-relation;args;./func/func.dl [6:1-6:42];2.2e-05
+@n-recursive-relation;args;./func/func.dl [6:1-6:42];0
+@t-nonrecursive-rule;f;./func/func.dl [14:1-14:13];f('x','g').;6e-06
+@n-nonrecursive-rule;f;./func/func.dl [14:1-14:13];f('x','g').;1
+@t-nonrecursive-rule;f;./func/func.dl [15:1-15:13];f('y','f').;1e-06
+@n-nonrecursive-rule;f;./func/func.dl [15:1-15:13];f('y','f').;2
+@t-nonrecursive-relation;f;./func/func.dl [3:1-3:28];1e-05
+@n-nonrecursive-relation;f;./func/func.dl [3:1-3:28];2
+@t-nonrecursive-rule;eq;./func/func.dl [25:1-25:47];eq(a,b) :-     f(v,a),    f(w,b),    args(v,w,'3').;1.4e-05
+@n-nonrecursive-rule;eq;./func/func.dl [25:1-25:47];eq(a,b) :-     f(v,a),    f(w,b),    args(v,w,'3').;2
+@t-nonrecursive-relation;eq;./func/func.dl [7:1-7:37];1.6e-05
+@n-nonrecursive-relation;eq;./func/func.dl [7:1-7:37];2
+@runtime;0.00052

@@ -1,0 +1,21 @@
+@start-debug
+@t-nonrecursive-rule;a;./unpacking/unpacking.dl [10:1-10:10];a([1,2]).;4.5e-05
+@n-nonrecursive-rule;a;./unpacking/unpacking.dl [10:1-10:10];a([1,2]).;1
+@t-nonrecursive-rule;a;./unpacking/unpacking.dl [11:1-11:10];a([2,3]).;3e-06
+@n-nonrecursive-rule;a;./unpacking/unpacking.dl [11:1-11:10];a([2,3]).;2
+@t-nonrecursive-relation;a;./unpacking/unpacking.dl [7:1-7:13];8.1e-05
+@n-nonrecursive-relation;a;./unpacking/unpacking.dl [7:1-7:13];2
+@t-nonrecursive-rule;b;./unpacking/unpacking.dl [14:1-14:20];b(x,y) :-     a([x,y]).;1.1e-05
+@n-nonrecursive-rule;b;./unpacking/unpacking.dl [14:1-14:20];b(x,y) :-     a([x,y]).;2
+@t-nonrecursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];1.3e-05
+@n-nonrecursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];2
+@t-recursive-rule;b;0;./unpacking/unpacking.dl [15:1-15:28];b(x,z) :-     a([x,y]),    b(y,z).;1.1e-05
+@n-recursive-rule;b;0;./unpacking/unpacking.dl [15:1-15:28];b(x,z) :-     a([x,y]),    b(y,z).;1
+@t-recursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];1.3e-05
+@n-recursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];1
+@c-recursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];3e-06
+@t-recursive-rule;b;0;./unpacking/unpacking.dl [15:1-15:28];b(x,z) :-     a([x,y]),    b(y,z).;4e-06
+@n-recursive-rule;b;0;./unpacking/unpacking.dl [15:1-15:28];b(x,z) :-     a([x,y]),    b(y,z).;0
+@t-recursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];6e-06
+@n-recursive-relation;b;./unpacking/unpacking.dl [8:1-8:24];0
+@runtime;0.000388

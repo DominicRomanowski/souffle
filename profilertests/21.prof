@@ -1,0 +1,26 @@
+@start-debug
+@t-nonrecursive-rule;e.Rel;./comp-override3/comp-override3.dl [9:5-9:12];e.Rel(1).;1.2e-05
+@n-nonrecursive-rule;e.Rel;./comp-override3/comp-override3.dl [9:5-9:12];e.Rel(1).;1
+@t-nonrecursive-rule;e.Rel;./comp-override3/comp-override3.dl [18:5-18:12];e.Rel(3).;1e-06
+@n-nonrecursive-rule;e.Rel;./comp-override3/comp-override3.dl [18:5-18:12];e.Rel(3).;2
+@t-nonrecursive-rule;e.Rel;./comp-override3/comp-override3.dl [27:5-27:12];e.Rel(5).;1e-06
+@n-nonrecursive-rule;e.Rel;./comp-override3/comp-override3.dl [27:5-27:12];e.Rel(5).;3
+@t-nonrecursive-relation;e.Rel;./comp-override3/comp-override3.dl [8:5-8:43];4.7e-05
+@n-nonrecursive-relation;e.Rel;./comp-override3/comp-override3.dl [8:5-8:43];3
+@t-nonrecursive-rule;e.d.Rel;./comp-override3/comp-override3.dl [14:5-14:12];e.d.Rel(2).;5e-06
+@n-nonrecursive-rule;e.d.Rel;./comp-override3/comp-override3.dl [14:5-14:12];e.d.Rel(2).;1
+@t-nonrecursive-rule;e.d.Rel;./comp-override3/comp-override3.dl [22:5-22:12];e.d.Rel(4).;0
+@n-nonrecursive-rule;e.d.Rel;./comp-override3/comp-override3.dl [22:5-22:12];e.d.Rel(4).;2
+@t-nonrecursive-relation;e.d.Rel;./comp-override3/comp-override3.dl [13:5-13:31];4e-05
+@n-nonrecursive-relation;e.d.Rel;./comp-override3/comp-override3.dl [13:5-13:31];2
+@t-nonrecursive-rule;f.Rel;./comp-override3/comp-override3.dl [32:5-32:12];f.Rel(6).;6e-06
+@n-nonrecursive-rule;f.Rel;./comp-override3/comp-override3.dl [32:5-32:12];f.Rel(6).;1
+@t-nonrecursive-relation;f.Rel;./comp-override3/comp-override3.dl [8:5-8:43];7e-06
+@n-nonrecursive-relation;f.Rel;./comp-override3/comp-override3.dl [8:5-8:43];1
+@t-nonrecursive-rule;f.d.Rel;./comp-override3/comp-override3.dl [14:5-14:12];f.d.Rel(2).;7e-06
+@n-nonrecursive-rule;f.d.Rel;./comp-override3/comp-override3.dl [14:5-14:12];f.d.Rel(2).;1
+@t-nonrecursive-rule;f.d.Rel;./comp-override3/comp-override3.dl [22:5-22:12];f.d.Rel(4).;0
+@n-nonrecursive-rule;f.d.Rel;./comp-override3/comp-override3.dl [22:5-22:12];f.d.Rel(4).;2
+@t-nonrecursive-relation;f.d.Rel;./comp-override3/comp-override3.dl [13:5-13:31];1e-05
+@n-nonrecursive-relation;f.d.Rel;./comp-override3/comp-override3.dl [13:5-13:31];2
+@runtime;0.001668

@@ -1,0 +1,126 @@
+@start-debug
+@t-nonrecursive-rule;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [11:5-11:13];cha_main.cg.Node(1).;1.4e-05
+@n-nonrecursive-rule;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [11:5-11:13];cha_main.cg.Node(1).;1
+@t-nonrecursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];4.2e-05
+@n-nonrecursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1.2e-05
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1.4e-05
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;5e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];7e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];6e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1.2e-05
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];0
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];0
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;cha_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];cha_main.cg.Node((n+1)) :-     cha_main.cg.Node(n),    n < 10.;0
+@t-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@n-recursive-relation;cha_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];0
+@t-nonrecursive-rule;cha_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [16:5-16:58];cha_main.cg.CallGraphEdge(y,(y+1)) :-     cha_main.cg.Node(y),    cha_main.cg.Node( _tmp_0),     _tmp_0 = (y+1).;1.6e-05
+@n-nonrecursive-rule;cha_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [16:5-16:58];cha_main.cg.CallGraphEdge(y,(y+1)) :-     cha_main.cg.Node(y),    cha_main.cg.Node( _tmp_0),     _tmp_0 = (y+1).;9
+@t-nonrecursive-rule;cha_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [17:5-17:65];cha_main.cg.CallGraphEdge((y+1),y) :-     cha_main.cg.Node( _tmp_0),    cha_main.cg.Node(y),    y < 5,     _tmp_0 = (y+1).;1.1e-05
+@n-nonrecursive-rule;cha_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [17:5-17:65];cha_main.cg.CallGraphEdge((y+1),y) :-     cha_main.cg.Node( _tmp_0),    cha_main.cg.Node(y),    y < 5,     _tmp_0 = (y+1).;13
+@t-nonrecursive-relation;cha_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [9:5-9:63];3.1e-05
+@n-nonrecursive-relation;cha_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [9:5-9:63];13
+@t-nonrecursive-rule;cha_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [28:5-30:57];cha_main.NoWayBack(x,y) :-     cha_main.cg.Node(x),    cha_main.cg.Node(y),    cha_main.cg.CallGraphEdge(x,y),    !cha_main.cg.CallGraphEdge(y,x).;9.4e-05
+@n-nonrecursive-rule;cha_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [28:5-30:57];cha_main.NoWayBack(x,y) :-     cha_main.cg.Node(x),    cha_main.cg.Node(y),    cha_main.cg.CallGraphEdge(x,y),    !cha_main.cg.CallGraphEdge(y,x).;5
+@t-nonrecursive-relation;cha_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [27:5-27:49];9.6e-05
+@n-nonrecursive-relation;cha_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [27:5-27:49];5
+@t-nonrecursive-rule;ci_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [21:5-21:24];ci_main.cg.CallGraphEdge(1,4).;5e-06
+@n-nonrecursive-rule;ci_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [21:5-21:24];ci_main.cg.CallGraphEdge(1,4).;1
+@t-nonrecursive-relation;ci_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [9:5-9:63];1.7e-05
+@n-nonrecursive-relation;ci_main.cg.CallGraphEdge;./comp-parametrized/comp-parametrized.dl [9:5-9:63];1
+@t-nonrecursive-rule;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [11:5-11:13];ci_main.cg.Node(1).;4e-06
+@n-nonrecursive-rule;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [11:5-11:13];ci_main.cg.Node(1).;1
+@t-nonrecursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];6e-06
+@n-nonrecursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;5e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];7e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];6e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];0
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];7e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];0
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;2e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];3e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1
+@c-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];1e-06
+@t-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;1e-06
+@n-recursive-rule;ci_main.cg.Node;0;./comp-parametrized/comp-parametrized.dl [12:5-12:36];ci_main.cg.Node((n+1)) :-     ci_main.cg.Node(n),    n < 10.;0
+@t-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];2e-06
+@n-recursive-relation;ci_main.cg.Node;./comp-parametrized/comp-parametrized.dl [10:5-10:26];0
+@t-nonrecursive-rule;ci_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [28:5-30:57];ci_main.NoWayBack(x,y) :-     ci_main.cg.Node(x),    ci_main.cg.Node(y),    ci_main.cg.CallGraphEdge(x,y),    !ci_main.cg.CallGraphEdge(y,x).;8.9e-05
+@n-nonrecursive-rule;ci_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [28:5-30:57];ci_main.NoWayBack(x,y) :-     ci_main.cg.Node(x),    ci_main.cg.Node(y),    ci_main.cg.CallGraphEdge(x,y),    !ci_main.cg.CallGraphEdge(y,x).;1
+@t-nonrecursive-relation;ci_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [27:5-27:49];9.1e-05
+@n-nonrecursive-relation;ci_main.NoWayBack;./comp-parametrized/comp-parametrized.dl [27:5-27:49];1
+@runtime;0.00118

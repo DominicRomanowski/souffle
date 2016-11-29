@@ -1,0 +1,98 @@
+@start-debug
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [10:1-10:10];a('A',3).;1.4e-05
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [10:1-10:10];a('A',3).;1
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [11:1-11:10];a('A',4).;1e-06
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [11:1-11:10];a('A',4).;2
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [12:1-12:10];a('A',5).;1e-06
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [12:1-12:10];a('A',5).;3
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [13:1-13:10];a('A',6).;1e-06
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [13:1-13:10];a('A',6).;4
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [14:1-14:10];a('B',2).;0
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [14:1-14:10];a('B',2).;5
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [15:1-15:10];a('B',3).;0
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [15:1-15:10];a('B',3).;6
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [16:1-16:10];a('B',4).;0
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [16:1-16:10];a('B',4).;7
+@t-nonrecursive-rule;a;./aggregates/aggregates.dl [17:1-17:10];a('D',4).;1e-06
+@n-nonrecursive-rule;a;./aggregates/aggregates.dl [17:1-17:10];a('D',4).;8
+@t-nonrecursive-relation;a;./aggregates/aggregates.dl [8:1-8:27];8e-05
+@n-nonrecursive-relation;a;./aggregates/aggregates.dl [8:1-8:27];8
+@t-nonrecursive-rule;__agg_rel_0; [53:1-53:61];__agg_rel_0( Z5,A,B) :-     a(A, Z5),    a(B, Z5),    A != B.;2.3e-05
+@n-nonrecursive-rule;__agg_rel_0; [53:1-53:61];__agg_rel_0( Z5,A,B) :-     a(A, Z5),    a(B, Z5),    A != B.;8
+@t-nonrecursive-relation;__agg_rel_0; [53:38-53:39];2.4e-05
+@n-nonrecursive-relation;__agg_rel_0; [53:38-53:39];8
+@t-nonrecursive-rule;__agg_rel_1; [1283507456:32647-0:0];__agg_rel_1( Y6, Z6,A,B) :-     a(A, Z6),    a(B, Y6),    A != B.;6.1e-05
+@n-nonrecursive-rule;__agg_rel_1; [1283507456:32647-0:0];__agg_rel_1( Y6, Z6,A,B) :-     a(A, Z6),    a(B, Y6),    A != B.;38
+@t-nonrecursive-relation;__agg_rel_1; [1283549696:32647-1283549696:32647];6.5e-05
+@n-nonrecursive-relation;__agg_rel_1; [1283549696:32647-1283549696:32647];38
+@t-nonrecursive-rule;__agg_rel_2; [27:55-27:56];__agg_rel_2( Z12,A,B) :-     a(A, Z12),    a(B, Z12),    A != B.;6.2e-05
+@n-nonrecursive-rule;__agg_rel_2; [27:55-27:56];__agg_rel_2( Z12,A,B) :-     a(A, Z12),    a(B, Z12),    A != B.;8
+@t-nonrecursive-relation;__agg_rel_2; [0:0-0:-1342177280];6.5e-05
+@n-nonrecursive-relation;__agg_rel_2; [0:0-0:-1342177280];8
+@t-nonrecursive-rule;__agg_rel_3; [0:0-0:0];__agg_rel_3( Y13, Z13,A,B) :-     a(A, Z13),    a(B, Y13),    A != B.;4.5e-05
+@n-nonrecursive-rule;__agg_rel_3; [0:0-0:0];__agg_rel_3( Y13, Z13,A,B) :-     a(A, Z13),    a(B, Y13),    A != B.;38
+@t-nonrecursive-relation;__agg_rel_3; [0:0-0:0];4.7e-05
+@n-nonrecursive-relation;__agg_rel_3; [0:0-0:0];38
+@t-nonrecursive-rule;__agg_rel_4; [0:0-0:0];__agg_rel_4(X, _0) :-     a(X, _0),    X != 'A'.;1.1e-05
+@n-nonrecursive-rule;__agg_rel_4; [0:0-0:0];__agg_rel_4(X, _0) :-     a(X, _0),    X != 'A'.;4
+@t-nonrecursive-relation;__agg_rel_4; [0:0-0:0];1.3e-05
+@n-nonrecursive-relation;__agg_rel_4; [0:0-0:0];4
+@t-nonrecursive-rule;__agg_rel_5; [0:0-0:0];__agg_rel_5(X, _0) :-     a(X, _0),    X != 'B'.;9e-06
+@n-nonrecursive-rule;__agg_rel_5; [0:0-0:0];__agg_rel_5(X, _0) :-     a(X, _0),    X != 'B'.;5
+@t-nonrecursive-relation;__agg_rel_5; [0:0-0:0];1.8e-05
+@n-nonrecursive-relation;__agg_rel_5; [0:0-0:0];5
+@t-nonrecursive-rule;res1;./aggregates/aggregates.dl [47:1-47:41];res1(X,min  Z14 : a(X, Z14)) :-     a(X,_).;2.1e-05
+@n-nonrecursive-rule;res1;./aggregates/aggregates.dl [47:1-47:41];res1(X,min  Z14 : a(X, Z14)) :-     a(X,_).;3
+@t-nonrecursive-relation;res1;./aggregates/aggregates.dl [46:1-46:37];2.3e-05
+@n-nonrecursive-relation;res1;./aggregates/aggregates.dl [46:1-46:37];3
+@t-nonrecursive-rule;res2;./aggregates/aggregates.dl [50:1-50:63];res2(X,min  Z15 : a(X, Z15),max  Z16 : a(X, Z16)) :-     a(X,_).;2.5e-05
+@n-nonrecursive-rule;res2;./aggregates/aggregates.dl [50:1-50:63];res2(X,min  Z15 : a(X, Z15),max  Z16 : a(X, Z16)) :-     a(X,_).;3
+@t-nonrecursive-relation;res2;./aggregates/aggregates.dl [49:1-49:46];2.7e-05
+@n-nonrecursive-relation;res2;./aggregates/aggregates.dl [49:1-49:46];3
+@t-nonrecursive-rule;res3;./aggregates/aggregates.dl [53:1-53:61];res3(X,max  Z18 : a(X, Z18)) :-     a(X,_),    max  Z18 : a(X, Z18) = min  Z17 : a(X, Z17).;1.8e-05
+@n-nonrecursive-rule;res3;./aggregates/aggregates.dl [53:1-53:61];res3(X,max  Z18 : a(X, Z18)) :-     a(X,_),    max  Z18 : a(X, Z18) = min  Z17 : a(X, Z17).;1
+@t-nonrecursive-relation;res3;./aggregates/aggregates.dl [52:1-52:37];3.5e-05
+@n-nonrecursive-relation;res3;./aggregates/aggregates.dl [52:1-52:37];1
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [20:1-20:36];res('min',min  Z0 : a(_, Z0)).;8e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [20:1-20:36];res('min',min  Z0 : a(_, Z0)).;1
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [21:1-21:39];res('minA',min  Z1 : a('A', Z1)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [21:1-21:39];res('minA',min  Z1 : a('A', Z1)).;2
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [22:1-22:39];res('minB',min  Z2 : a('B', Z2)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [22:1-22:39];res('minB',min  Z2 : a('B', Z2)).;3
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [23:1-23:39];res('minC',min  Z3 : a('C', Z3)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [23:1-23:39];res('minC',min  Z3 : a('C', Z3)).;3
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [25:1-25:44];res('minC2',min  Z4 : a('C', Z4)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [25:1-25:44];res('minC2',min  Z4 : a('C', Z4)).;3
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [26:1-26:56];res('minAB',min  Z5 : __agg_rel_0( Z5,_,_)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [26:1-26:56];res('minAB',min  Z5 : __agg_rel_0( Z5,_,_)).;4
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [27:1-27:59];res('minAB+',min ( Z6+ Y6) : __agg_rel_1( Y6, Z6,_,_)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [27:1-27:59];res('minAB+',min ( Z6+ Y6) : __agg_rel_1( Y6, Z6,_,_)).;5
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [29:1-29:36];res('max',max  Z7 : a(_, Z7)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [29:1-29:36];res('max',max  Z7 : a(_, Z7)).;6
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [30:1-30:39];res('maxA',max  Z8 : a('A', Z8)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [30:1-30:39];res('maxA',max  Z8 : a('A', Z8)).;7
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [31:1-31:39];res('maxB',max  Z9 : a('B', Z9)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [31:1-31:39];res('maxB',max  Z9 : a('B', Z9)).;8
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [32:1-32:39];res('maxC',max  Z10 : a('C', Z10)).;1e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [32:1-32:39];res('maxC',max  Z10 : a('C', Z10)).;8
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [34:1-34:44];res('maxC2',max  Z11 : a('C', Z11)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [34:1-34:44];res('maxC2',max  Z11 : a('C', Z11)).;8
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [35:1-35:56];res('maxAB',max  Z12 : __agg_rel_2( Z12,_,_)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [35:1-35:56];res('maxAB',max  Z12 : __agg_rel_2( Z12,_,_)).;9
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [36:1-36:59];res('maxAB+',max ( Z13+ Y13) : __agg_rel_3( Y13, Z13,_,_)).;4e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [36:1-36:59];res('maxAB+',max ( Z13+ Y13) : __agg_rel_3( Y13, Z13,_,_)).;10
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [38:1-38:38];res('count',count : a(_,_)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [38:1-38:38];res('count',count : a(_,_)).;11
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [39:1-39:41];res('countA',count : a('A',_)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [39:1-39:41];res('countA',count : a('A',_)).;12
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [40:1-40:41];res('countB',count : a('B',_)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [40:1-40:41];res('countB',count : a('B',_)).;13
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [41:1-41:41];res('countC',count : a('C',_)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [41:1-41:41];res('countC',count : a('C',_)).;14
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [43:1-43:56];res('countNotA',count : __agg_rel_4(_,_)).;2e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [43:1-43:56];res('countNotA',count : __agg_rel_4(_,_)).;15
+@t-nonrecursive-rule;res;./aggregates/aggregates.dl [44:1-44:56];res('countNotB',count : __agg_rel_5(_,_)).;3e-06
+@n-nonrecursive-rule;res;./aggregates/aggregates.dl [44:1-44:56];res('countNotB',count : __agg_rel_5(_,_)).;16
+@t-nonrecursive-relation;res;./aggregates/aggregates.dl [19:1-19:36];0.000103
+@n-nonrecursive-relation;res;./aggregates/aggregates.dl [19:1-19:36];16
+@runtime;0.001253

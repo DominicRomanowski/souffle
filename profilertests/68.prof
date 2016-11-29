@@ -1,0 +1,16 @@
+@start-debug
+@t-nonrecursive-rule;inputData;./match/match.dl [10:1-10:19];inputData('aaaa').;1.4e-05
+@n-nonrecursive-rule;inputData;./match/match.dl [10:1-10:19];inputData('aaaa').;1
+@t-nonrecursive-rule;inputData;./match/match.dl [11:1-11:19];inputData('abba').;1e-06
+@n-nonrecursive-rule;inputData;./match/match.dl [11:1-11:19];inputData('abba').;2
+@t-nonrecursive-rule;inputData;./match/match.dl [12:1-12:19];inputData('bcab').;0
+@n-nonrecursive-rule;inputData;./match/match.dl [12:1-12:19];inputData('bcab').;3
+@t-nonrecursive-rule;inputData;./match/match.dl [13:1-13:19];inputData('bdab').;0
+@n-nonrecursive-rule;inputData;./match/match.dl [13:1-13:19];inputData('bdab').;4
+@t-nonrecursive-relation;inputData;./match/match.dl [5:1-5:27];5.4e-05
+@n-nonrecursive-relation;inputData;./match/match.dl [5:1-5:27];4
+@t-nonrecursive-rule;outputData;./match/match.dl [8:1-8:47];outputData(x) :-     inputData(x),    'a.*' match x.;0.000486
+@n-nonrecursive-rule;outputData;./match/match.dl [8:1-8:47];outputData(x) :-     inputData(x),    'a.*' match x.;2
+@t-nonrecursive-relation;outputData;./match/match.dl [6:1-6:35];0.000528
+@n-nonrecursive-relation;outputData;./match/match.dl [6:1-6:35];2
+@runtime;0.000711

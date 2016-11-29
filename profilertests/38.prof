@@ -1,0 +1,18 @@
+@start-debug
+@t-nonrecursive-rule;N;./cproject/cproject.dl [13:1-13:8];N('0').;1.4e-05
+@n-nonrecursive-rule;N;./cproject/cproject.dl [13:1-13:8];N('0').;1
+@t-nonrecursive-rule;N;./cproject/cproject.dl [14:1-14:8];N('1').;1e-06
+@n-nonrecursive-rule;N;./cproject/cproject.dl [14:1-14:8];N('1').;2
+@t-nonrecursive-rule;N;./cproject/cproject.dl [15:1-15:8];N('2').;0
+@n-nonrecursive-rule;N;./cproject/cproject.dl [15:1-15:8];N('2').;3
+@t-nonrecursive-rule;N;./cproject/cproject.dl [16:1-16:8];N('3').;1e-06
+@n-nonrecursive-rule;N;./cproject/cproject.dl [16:1-16:8];N('3').;4
+@t-nonrecursive-relation;N;./cproject/cproject.dl [10:1-10:21];5.2e-05
+@n-nonrecursive-relation;N;./cproject/cproject.dl [10:1-10:21];4
+@t-nonrecursive-rule;A;./cproject/cproject.dl [18:1-18:19];A('0',x) :-     N(x).;1.2e-05
+@n-nonrecursive-rule;A;./cproject/cproject.dl [18:1-18:19];A('0',x) :-     N(x).;4
+@t-nonrecursive-rule;A;./cproject/cproject.dl [19:1-19:19];A('3',x) :-     N(x).;4e-06
+@n-nonrecursive-rule;A;./cproject/cproject.dl [19:1-19:19];A('3',x) :-     N(x).;8
+@t-nonrecursive-relation;A;./cproject/cproject.dl [11:1-11:26];5.1e-05
+@n-nonrecursive-relation;A;./cproject/cproject.dl [11:1-11:26];8
+@runtime;0.000308

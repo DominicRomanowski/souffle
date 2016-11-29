@@ -1,0 +1,31 @@
+@start-debug
+@t-nonrecursive-rule;R;./tree/tree.dl [13:1-13:18];R('1','a','2').;1.4e-05
+@n-nonrecursive-rule;R;./tree/tree.dl [13:1-13:18];R('1','a','2').;1
+@t-nonrecursive-rule;R;./tree/tree.dl [14:1-14:18];R('2','b','3').;2e-06
+@n-nonrecursive-rule;R;./tree/tree.dl [14:1-14:18];R('2','b','3').;2
+@t-nonrecursive-rule;R;./tree/tree.dl [15:1-15:18];R('3','a','4').;1e-06
+@n-nonrecursive-rule;R;./tree/tree.dl [15:1-15:18];R('3','a','4').;3
+@t-nonrecursive-rule;R;./tree/tree.dl [16:1-16:18];R('4','a','5').;1e-06
+@n-nonrecursive-rule;R;./tree/tree.dl [16:1-16:18];R('4','a','5').;4
+@t-nonrecursive-rule;R;./tree/tree.dl [17:1-17:18];R('5','a','6').;1e-06
+@n-nonrecursive-rule;R;./tree/tree.dl [17:1-17:18];R('5','a','6').;5
+@t-nonrecursive-relation;R;./tree/tree.dl [6:1-6:45];5.1e-05
+@n-nonrecursive-relation;R;./tree/tree.dl [6:1-6:45];5
+@t-nonrecursive-rule;T;./tree/tree.dl [10:1-10:42];T(x1,x3) :-     R(x1,a,x2),    R(x2,a,x3).;1.7e-05
+@n-nonrecursive-rule;T;./tree/tree.dl [10:1-10:42];T(x1,x3) :-     R(x1,a,x2),    R(x2,a,x3).;2
+@t-nonrecursive-relation;T;./tree/tree.dl [5:1-5:40];5.1e-05
+@n-nonrecursive-relation;T;./tree/tree.dl [5:1-5:40];2
+@t-recursive-rule;T;0;./tree/tree.dl [9:1-9:53];T(x1,x4) :-     R(x1,_,x2),    R(x2,_,x3),    T(x3,x4).;1.4e-05
+@n-recursive-rule;T;0;./tree/tree.dl [9:1-9:53];T(x1,x4) :-     R(x1,_,x2),    R(x2,_,x3),    T(x3,x4).;2
+@t-recursive-relation;T;./tree/tree.dl [5:1-5:40];1.6e-05
+@n-recursive-relation;T;./tree/tree.dl [5:1-5:40];2
+@c-recursive-relation;T;./tree/tree.dl [5:1-5:40];5e-06
+@t-recursive-rule;T;0;./tree/tree.dl [9:1-9:53];T(x1,x4) :-     R(x1,_,x2),    R(x2,_,x3),    T(x3,x4).;1e-05
+@n-recursive-rule;T;0;./tree/tree.dl [9:1-9:53];T(x1,x4) :-     R(x1,_,x2),    R(x2,_,x3),    T(x3,x4).;0
+@t-recursive-relation;T;./tree/tree.dl [5:1-5:40];1.1e-05
+@n-recursive-relation;T;./tree/tree.dl [5:1-5:40];0
+@t-nonrecursive-rule;S;./tree/tree.dl [8:1-8:39];S(x1,x3) :-     T(x1,x2),    R(x2,_,x3).;9e-06
+@n-nonrecursive-rule;S;./tree/tree.dl [8:1-8:39];S(x1,x3) :-     T(x1,x2),    R(x2,_,x3).;2
+@t-nonrecursive-relation;S;./tree/tree.dl [4:1-4:40];1.1e-05
+@n-nonrecursive-relation;S;./tree/tree.dl [4:1-4:40];2
+@runtime;0.000381

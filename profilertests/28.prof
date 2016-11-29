@@ -1,0 +1,21 @@
+@start-debug
+@t-nonrecursive-rule;c.a.edge;./components3/components3.dl [9:5-9:15];c.a.edge(1,2).;1.3e-05
+@n-nonrecursive-rule;c.a.edge;./components3/components3.dl [9:5-9:15];c.a.edge(1,2).;1
+@t-nonrecursive-rule;c.a.edge;./components3/components3.dl [10:5-10:15];c.a.edge(2,3).;2e-06
+@n-nonrecursive-rule;c.a.edge;./components3/components3.dl [10:5-10:15];c.a.edge(2,3).;2
+@t-nonrecursive-relation;c.a.edge;./components3/components3.dl [8:5-8:42];5e-05
+@n-nonrecursive-relation;c.a.edge;./components3/components3.dl [8:5-8:42];2
+@t-nonrecursive-rule;c.path;./components3/components3.dl [19:5-19:30];c.path(x,y) :-     c.a.edge(x,y).;1.3e-05
+@n-nonrecursive-rule;c.path;./components3/components3.dl [19:5-19:30];c.path(x,y) :-     c.a.edge(x,y).;2
+@t-nonrecursive-relation;c.path;./components3/components3.dl [18:5-18:42];1.5e-05
+@n-nonrecursive-relation;c.path;./components3/components3.dl [18:5-18:42];2
+@t-recursive-rule;c.path;0;./components3/components3.dl [20:5-20:41];c.path(x,y) :-     c.a.edge(x,z),    c.path(z,y).;4.9e-05
+@n-recursive-rule;c.path;0;./components3/components3.dl [20:5-20:41];c.path(x,y) :-     c.a.edge(x,z),    c.path(z,y).;1
+@t-recursive-relation;c.path;./components3/components3.dl [18:5-18:42];9.1e-05
+@n-recursive-relation;c.path;./components3/components3.dl [18:5-18:42];1
+@c-recursive-relation;c.path;./components3/components3.dl [18:5-18:42];1.2e-05
+@t-recursive-rule;c.path;0;./components3/components3.dl [20:5-20:41];c.path(x,y) :-     c.a.edge(x,z),    c.path(z,y).;5e-06
+@n-recursive-rule;c.path;0;./components3/components3.dl [20:5-20:41];c.path(x,y) :-     c.a.edge(x,z),    c.path(z,y).;0
+@t-recursive-relation;c.path;./components3/components3.dl [18:5-18:42];7e-06
+@n-recursive-relation;c.path;./components3/components3.dl [18:5-18:42];0
+@runtime;0.01052

@@ -1,0 +1,38 @@
+@start-debug
+@t-nonrecursive-rule;a;./relop/relop.dl [17:1-17:9];a('a1').;1.2e-05
+@n-nonrecursive-rule;a;./relop/relop.dl [17:1-17:9];a('a1').;1
+@t-nonrecursive-rule;a;./relop/relop.dl [18:1-18:9];a('a2').;1e-06
+@n-nonrecursive-rule;a;./relop/relop.dl [18:1-18:9];a('a2').;2
+@t-nonrecursive-rule;a;./relop/relop.dl [19:1-19:9];a('a3').;0
+@n-nonrecursive-rule;a;./relop/relop.dl [19:1-19:9];a('a3').;3
+@t-nonrecursive-relation;a;./relop/relop.dl [10:1-10:28];4.6e-05
+@n-nonrecursive-relation;a;./relop/relop.dl [10:1-10:28];3
+@t-nonrecursive-rule;b;./relop/relop.dl [21:1-21:9];b('b1').;4e-06
+@n-nonrecursive-rule;b;./relop/relop.dl [21:1-21:9];b('b1').;1
+@t-nonrecursive-rule;b;./relop/relop.dl [22:1-22:9];b('b2').;0
+@n-nonrecursive-rule;b;./relop/relop.dl [22:1-22:9];b('b2').;2
+@t-nonrecursive-rule;b;./relop/relop.dl [23:1-23:9];b('a1').;1e-06
+@n-nonrecursive-rule;b;./relop/relop.dl [23:1-23:9];b('a1').;3
+@t-nonrecursive-relation;b;./relop/relop.dl [11:1-11:28];8e-06
+@n-nonrecursive-relation;b;./relop/relop.dl [11:1-11:28];3
+@t-nonrecursive-rule;cartesian;./relop/relop.dl [35:1-35:30];cartesian(X,Y) :-     a(X),    b(Y).;1.9e-05
+@n-nonrecursive-rule;cartesian;./relop/relop.dl [35:1-35:30];cartesian(X,Y) :-     a(X),    b(Y).;9
+@t-nonrecursive-relation;cartesian;./relop/relop.dl [14:1-14:48];2.1e-05
+@n-nonrecursive-relation;cartesian;./relop/relop.dl [14:1-14:48];9
+@t-nonrecursive-rule;inner_join;./relop/relop.dl [38:1-38:29];inner_join(X) :-     a(X),    b(X).;7e-06
+@n-nonrecursive-rule;inner_join;./relop/relop.dl [38:1-38:29];inner_join(X) :-     a(X),    b(X).;1
+@t-nonrecursive-relation;inner_join;./relop/relop.dl [15:1-15:37];8e-06
+@n-nonrecursive-relation;inner_join;./relop/relop.dl [15:1-15:37];1
+@t-nonrecursive-rule;c;./relop/relop.dl [25:1-25:14];c('a1','b2').;4e-06
+@n-nonrecursive-rule;c;./relop/relop.dl [25:1-25:14];c('a1','b2').;1
+@t-nonrecursive-rule;c;./relop/relop.dl [26:1-26:14];c('a1','a1').;1e-06
+@n-nonrecursive-rule;c;./relop/relop.dl [26:1-26:14];c('a1','a1').;2
+@t-nonrecursive-rule;c;./relop/relop.dl [27:1-27:14];c('a2','b2').;1e-06
+@n-nonrecursive-rule;c;./relop/relop.dl [27:1-27:14];c('a2','b2').;3
+@t-nonrecursive-relation;c;./relop/relop.dl [12:1-12:40];1.6e-05
+@n-nonrecursive-relation;c;./relop/relop.dl [12:1-12:40];3
+@t-nonrecursive-rule;projection;./relop/relop.dl [32:1-32:25];projection(X) :-     c(X,_).;9e-06
+@n-nonrecursive-rule;projection;./relop/relop.dl [32:1-32:25];projection(X) :-     c(X,_).;2
+@t-nonrecursive-relation;projection;./relop/relop.dl [13:1-13:37];1e-05
+@n-nonrecursive-relation;projection;./relop/relop.dl [13:1-13:37];2
+@runtime;0.000737

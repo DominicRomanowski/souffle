@@ -1,0 +1,14 @@
+@start-debug
+@t-nonrecursive-rule;R1;./subtype/subtype.dl [12:1-12:13];R1('0','0').;1.3e-05
+@n-nonrecursive-rule;R1;./subtype/subtype.dl [12:1-12:13];R1('0','0').;1
+@t-nonrecursive-relation;R1;./subtype/subtype.dl [6:1-6:18];4.3e-05
+@n-nonrecursive-relation;R1;./subtype/subtype.dl [6:1-6:18];1
+@t-nonrecursive-rule;R2;./subtype/subtype.dl [13:1-13:13];R2('0','0').;5e-06
+@n-nonrecursive-rule;R2;./subtype/subtype.dl [13:1-13:13];R2('0','0').;1
+@t-nonrecursive-relation;R2;./subtype/subtype.dl [7:1-7:18];6e-06
+@n-nonrecursive-relation;R2;./subtype/subtype.dl [7:1-7:18];1
+@t-nonrecursive-rule;R4;./subtype/subtype.dl [10:1-10:26];R4(x) :-     R2(x,x),    R1(x,x).;1.3e-05
+@n-nonrecursive-rule;R4;./subtype/subtype.dl [10:1-10:26];R4(x) :-     R2(x,x),    R1(x,x).;1
+@t-nonrecursive-relation;R4;./subtype/subtype.dl [8:1-8:21];1.4e-05
+@n-nonrecursive-relation;R4;./subtype/subtype.dl [8:1-8:21];1
+@runtime;0.000194

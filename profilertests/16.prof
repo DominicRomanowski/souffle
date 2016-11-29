@@ -1,0 +1,780 @@
+@start-debug
+@t-nonrecursive-rule;indices;./cellular_automata/array.dl [15:1-15:12];indices(0).;7e-06
+@n-nonrecursive-rule;indices;./cellular_automata/array.dl [15:1-15:12];indices(0).;1
+@t-nonrecursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];4.2e-05
+@n-nonrecursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1.7e-05
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1.9e-05
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];2e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;6e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3.6e-05
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;3e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];4e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;3e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];8e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];7e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];4e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1.2e-05
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];4e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];7e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];6e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];6e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1.2e-05
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;3e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];4e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];6e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];6e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];6e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];4e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1.1e-05
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];7e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];7e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];7e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;1
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1.3e-05
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1
+@c-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];1e-06
+@t-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;2e-06
+@n-recursive-rule;indices;0;./cellular_automata/array.dl [16:1-16:60];indices((i+1)) :-     indices(i),    parameters(l),    i >= 0,    (i+1) < l.;0
+@t-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];3e-06
+@n-recursive-relation;indices;./cellular_automata/array.dl [14:1-14:35];0
+@t-nonrecursive-rule;element;./cellular_automata/array.dl [20:1-20:62];element(i,NULL) :-     indices(i),    default(NULL),    !values(i,_).;3.8e-05
+@n-nonrecursive-rule;element;./cellular_automata/array.dl [20:1-20:62];element(i,NULL) :-     indices(i),    default(NULL),    !values(i,_).;32
+@t-nonrecursive-rule;element;./cellular_automata/array.dl [21:1-21:43];element(i,x) :-     indices(i),    values(i,x).;1.7e-05
+@n-nonrecursive-rule;element;./cellular_automata/array.dl [21:1-21:43];element(i,x) :-     indices(i),    values(i,x).;33
+@t-nonrecursive-relation;element;./cellular_automata/array.dl [19:1-19:49];6.6e-05
+@n-nonrecursive-relation;element;./cellular_automata/array.dl [19:1-19:49];33
+@t-nonrecursive-rule;cell;./cellular_automata/cellular_automata.dl [26:1-26:32];cell(0,i,x) :-     element(i,x).;2.7e-05
+@n-nonrecursive-rule;cell;./cellular_automata/cellular_automata.dl [26:1-26:32];cell(0,i,x) :-     element(i,x).;33
+@t-nonrecursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];3e-05
+@n-nonrecursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.7e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.000922
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.000964
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;3e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.000932
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.000987
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;4e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];3.3e-05
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1.1e-05
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];2e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;1e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1.1e-05
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000149
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2.8e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000136
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000334
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];2e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];2e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];9e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;1e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];6e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2.8e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;4.8e-05
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];8.7e-05
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;8.5e-05
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;33
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0.000106
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];2e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-05
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.4e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.00089
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.000927
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2.2e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.001065
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.001092
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3.5e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;6.1e-05
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000109
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];3e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1.2e-05
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];7e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];9e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000146
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;4.6e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000191
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000394
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];3e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-05
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];8e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;3e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];8e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];6e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;6.2e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000132
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000206
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0.000117
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;33
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0.00013
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];6e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.6e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.000965
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.001011
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2.8e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.000927
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.000966
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;6e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000104
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000176
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;1e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];7e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1.7e-05
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000152
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;7.6e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000246
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000483
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];3e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];6e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;1e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;1e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];5e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;7.5e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000158
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000251
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;9.2e-05
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;33
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];9.9e-05
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];8e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.3e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.001321
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.001359
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2.7e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.001103
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.001137
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;8.1e-05
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000159
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000257
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];3e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];9e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];8e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-05
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000151
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000101
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000304
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000579
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;1e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];7e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;1e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;1e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];6e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000101
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.00021
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000323
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;9.4e-05
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;33
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0.000113
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];6e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.4e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.000958
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.000999
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2.3e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.000991
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.001022
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000113
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000238
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000366
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];3e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];7e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;1e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];9e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000173
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000145
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000379
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.00071
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];6e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];6e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000131
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000266
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.00041
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;9.4e-05
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;33
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0.000104
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];8e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.5e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.001025
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.001076
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2.7e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.001136
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.001169
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;3e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000161
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000299
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000478
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];9e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];8e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];2.1e-05
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000164
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.00017
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.003137
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.003485
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];1e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];2e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];8e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];7e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];7e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000177
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.003007
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.003215
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0.000101
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;33
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0.000114
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];33
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];4e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];4e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1.1e-05
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2.5e-05
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;1
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0.007649
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0.007689
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];33
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2.6e-05
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;1
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0.003615
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.004103
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];33
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;4e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000253
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.004609
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.004965
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];5e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];2.6e-05
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0.01258
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1e-06
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];2e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;4e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];9e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1.2e-05
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000178
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000207
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000555
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;33
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000965
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];33
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;2e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];4e-06
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@c-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];2e-06
+@c-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];1e-06
+@c-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];1.3e-05
+@c-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];1e-06
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [14:1-14:68];prev(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i-1),_).;0
+@t-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;2e-06
+@n-recursive-rule;prev;0;./cellular_automata/cellular_automata.dl [15:1-15:49];prev(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;0
+@t-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];6e-06
+@n-recursive-relation;prev;./cellular_automata/cellular_automata.dl [13:1-13:52];0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [19:1-19:68];next(t,i,NULL) :-     cell(t,i,_),    default(NULL),    !element((i+1),_).;0
+@t-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;2e-06
+@n-recursive-rule;next;0;./cellular_automata/cellular_automata.dl [20:1-20:49];next(t,i,x) :-     cell(t, _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;0
+@t-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];7e-06
+@n-recursive-relation;next;./cellular_automata/cellular_automata.dl [18:1-18:52];0
+@t-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;2e-06
+@n-recursive-rule;environment;0;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000259
+@n-recursive-rule;environment;1;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0.000445
+@n-recursive-rule;environment;2;./cellular_automata/cellular_automata.dl [33:1-34:47];environment(t,i,l,c,r) :-     prev(t,i,l),    cell(t,i,c),    next(t,i,r).;0
+@t-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0.000718
+@n-recursive-relation;environment;./cellular_automata/cellular_automata.dl [32:1-32:93];0
+@t-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;9e-06
+@n-recursive-rule;cell;0;./cellular_automata/cellular_automata.dl [29:1-29:86];cell((t+1),i,x) :-     environment(t,i,l,c,r),    transition(l,c,r,x),    !terminate(t).;0
+@t-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];2.5e-05
+@n-recursive-relation;cell;./cellular_automata/cellular_automata.dl [23:1-23:59];0
+@t-nonrecursive-rule;left;./cellular_automata/array.dl [25:1-25:65];left(i,NULL) :-     element(i,_),    default(NULL),    !element((i-1),_).;3.3e-05
+@n-nonrecursive-rule;left;./cellular_automata/array.dl [25:1-25:65];left(i,NULL) :-     element(i,_),    default(NULL),    !element((i-1),_).;1
+@t-nonrecursive-rule;left;./cellular_automata/array.dl [26:1-26:46];left(i,x) :-     element( _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;7.4e-05
+@n-nonrecursive-rule;left;./cellular_automata/array.dl [26:1-26:46];left(i,x) :-     element( _tmp_0,x),    element(i,_),     _tmp_0 = (i-1).;33
+@t-nonrecursive-relation;left;./cellular_automata/array.dl [24:1-24:39];0.000112
+@n-nonrecursive-relation;left;./cellular_automata/array.dl [24:1-24:39];33
+@t-nonrecursive-rule;right;./cellular_automata/array.dl [30:1-30:66];right(i,NULL) :-     element(i,_),    default(NULL),    !element((i+1),_).;3e-05
+@n-nonrecursive-rule;right;./cellular_automata/array.dl [30:1-30:66];right(i,NULL) :-     element(i,_),    default(NULL),    !element((i+1),_).;1
+@t-nonrecursive-rule;right;./cellular_automata/array.dl [31:1-31:47];right(i,x) :-     element( _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;7.1e-05
+@n-nonrecursive-rule;right;./cellular_automata/array.dl [31:1-31:47];right(i,x) :-     element( _tmp_0,x),    element(i,_),     _tmp_0 = (i+1).;33
+@t-nonrecursive-relation;right;./cellular_automata/array.dl [29:1-29:40];0.000105
+@n-nonrecursive-relation;right;./cellular_automata/array.dl [29:1-29:40];33
+@t-nonrecursive-rule;neighbourhood;./cellular_automata/array.dl [36:1-37:42];neighbourhood(i,l,c,r) :-     left(i,l),    element(i,c),    right(i,r).;7.6e-05
+@n-nonrecursive-rule;neighbourhood;./cellular_automata/array.dl [36:1-37:42];neighbourhood(i,l,c,r) :-     left(i,l),    element(i,c),    right(i,r).;33
+@t-nonrecursive-relation;neighbourhood;./cellular_automata/array.dl [34:1-35:52];8.3e-05
+@n-nonrecursive-relation;neighbourhood;./cellular_automata/array.dl [34:1-35:52];33
+@runtime;0.066577

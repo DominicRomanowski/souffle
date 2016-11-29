@@ -1,0 +1,1090 @@
+@start-debug
+@t-nonrecursive-rule;loop;./cprog2/cprog2.dl [12:1-12:18];loop(0,0,0,0).;1.6e-05
+@n-nonrecursive-rule;loop;./cprog2/cprog2.dl [12:1-12:18];loop(0,0,0,0).;1
+@t-nonrecursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.7e-05
+@n-nonrecursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1.5e-05
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;1
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];9.1e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;8e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;1
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.8e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;8e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;1
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;6e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;8e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.6e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;8e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.4e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.1e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.3e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.3e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.7e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.7e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.1e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;6e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];8.6e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];3e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.7e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;9e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];6.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];6e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;7e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.4e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.4e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.4e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.3e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.3e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.1e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.6e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.8e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.1e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.7e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.7e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];3.9e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;4e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;1
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.8e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];2.7e-05
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;1e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;3e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;5e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;1
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];5.1e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1
+@c-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];1e-06
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [13:1-13:39];loop(1,x,10,z) :-     loop(0,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [14:1-14:39];loop(2,x,20,z) :-     loop(1,x,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;4e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [15:1-15:57];loop(3,30,y,z) :-     loop(2,_,y,_),    loop(1,_,_,z).;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;3e-06
+@n-recursive-rule;loop;1;./cprog2/cprog2.dl [16:1-16:63];loop(4,x,y,z) :-     loop(2,_,y,z),    loop(3,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [17:1-17:47];loop(4,x,y,(z+1)) :-     loop(4,x,y,z),    x > z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [18:1-18:46];loop(5,x,y,z) :-     loop(4,x,y,z),    x <= z.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [19:1-19:48];loop(5,x,(y+1),z) :-     loop(5,x,y,z),    z > y.;0
+@t-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;2e-06
+@n-recursive-rule;loop;0;./cprog2/cprog2.dl [20:1-20:46];loop(6,x,y,z) :-     loop(5,x,y,z),    z <= y.;0
+@t-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];4.2e-05
+@n-recursive-relation;loop;./cprog2/cprog2.dl [9:1-9:51];0
+@t-nonrecursive-rule;Res;./cprog2/cprog2.dl [21:1-21:41];Res() :-     loop(6,z,z,z).;4e-06
+@n-nonrecursive-rule;Res;./cprog2/cprog2.dl [21:1-21:41];Res() :-     loop(6,z,z,z).;1
+@t-nonrecursive-relation;Res;./cprog2/cprog2.dl [10:1-10:19];6e-06
+@n-nonrecursive-relation;Res;./cprog2/cprog2.dl [10:1-10:19];1
+@runtime;0.003314

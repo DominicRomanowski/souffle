@@ -1,0 +1,139 @@
+@start-debug
+@t-nonrecursive-rule;Equal.edge;./components/components.dl [88:1-88:24];Equal.edge('5','five').;1.3e-05
+@n-nonrecursive-rule;Equal.edge;./components/components.dl [88:1-88:24];Equal.edge('5','five').;1
+@t-nonrecursive-rule;Equal.edge;./components/components.dl [89:1-89:21];Equal.edge('5','V').;2e-06
+@n-nonrecursive-rule;Equal.edge;./components/components.dl [89:1-89:21];Equal.edge('5','V').;2
+@t-nonrecursive-relation;Equal.edge;./components/components.dl [20:5-20:31];4.5e-05
+@n-nonrecursive-relation;Equal.edge;./components/components.dl [20:5-20:31];2
+@t-recursive-rule;Equal.edge;0;./components/components.dl [53:5-53:28];Equal.edge(X,Y) :-     Equal.edge(Y,X).;1.5e-05
+@n-recursive-rule;Equal.edge;0;./components/components.dl [53:5-53:28];Equal.edge(X,Y) :-     Equal.edge(Y,X).;2
+@t-recursive-relation;Equal.edge;./components/components.dl [20:5-20:31];1.7e-05
+@n-recursive-relation;Equal.edge;./components/components.dl [20:5-20:31];2
+@c-recursive-relation;Equal.edge;./components/components.dl [20:5-20:31];2e-06
+@t-recursive-rule;Equal.edge;0;./components/components.dl [53:5-53:28];Equal.edge(X,Y) :-     Equal.edge(Y,X).;3e-06
+@n-recursive-rule;Equal.edge;0;./components/components.dl [53:5-53:28];Equal.edge(X,Y) :-     Equal.edge(Y,X).;0
+@t-recursive-relation;Equal.edge;./components/components.dl [20:5-20:31];5e-06
+@n-recursive-relation;Equal.edge;./components/components.dl [20:5-20:31];0
+@t-nonrecursive-rule;Equal.reachable;./components/components.dl [31:5-31:33];Equal.reachable(X,Y) :-     Equal.edge(X,Y).;8e-06
+@n-nonrecursive-rule;Equal.reachable;./components/components.dl [31:5-31:33];Equal.reachable(X,Y) :-     Equal.edge(X,Y).;4
+@t-nonrecursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];9e-06
+@n-nonrecursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];4
+@t-recursive-rule;Equal.reachable;0;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;1.2e-05
+@n-recursive-rule;Equal.reachable;0;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;0
+@t-recursive-rule;Equal.reachable;1;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;1.5e-05
+@n-recursive-rule;Equal.reachable;1;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;5
+@t-recursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];3.6e-05
+@n-recursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];5
+@c-recursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];3e-06
+@t-recursive-rule;Equal.reachable;0;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;1.1e-05
+@n-recursive-rule;Equal.reachable;0;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;0
+@t-recursive-rule;Equal.reachable;1;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;1.2e-05
+@n-recursive-rule;Equal.reachable;1;./components/components.dl [32:2-32:50];Equal.reachable(X,Z) :-     Equal.reachable(X,Y),    Equal.reachable(Y,Z).;0
+@t-recursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];3.1e-05
+@n-recursive-relation;Equal.reachable;./components/components.dl [30:5-30:36];0
+@t-nonrecursive-rule;London.cap.edge;./components/components.dl [104:1-104:45];London.cap.edge('London Bridge','Big Ben').;5e-06
+@n-nonrecursive-rule;London.cap.edge;./components/components.dl [104:1-104:45];London.cap.edge('London Bridge','Big Ben').;1
+@t-nonrecursive-relation;London.cap.edge;./components/components.dl [20:5-20:31];6e-06
+@n-nonrecursive-relation;London.cap.edge;./components/components.dl [20:5-20:31];1
+@t-nonrecursive-rule;London.cap.reachable;./components/components.dl [31:5-31:33];London.cap.reachable(X,Y) :-     London.cap.edge(X,Y).;6e-06
+@n-nonrecursive-rule;London.cap.reachable;./components/components.dl [31:5-31:33];London.cap.reachable(X,Y) :-     London.cap.edge(X,Y).;1
+@t-nonrecursive-relation;London.cap.reachable;./components/components.dl [30:5-30:36];1.8e-05
+@n-nonrecursive-relation;London.cap.reachable;./components/components.dl [30:5-30:36];1
+@t-recursive-rule;London.cap.reachable;0;./components/components.dl [32:2-32:50];London.cap.reachable(X,Z) :-     London.cap.reachable(X,Y),    London.cap.reachable(Y,Z).;0.000479
+@n-recursive-rule;London.cap.reachable;0;./components/components.dl [32:2-32:50];London.cap.reachable(X,Z) :-     London.cap.reachable(X,Y),    London.cap.reachable(Y,Z).;0
+@t-recursive-rule;London.cap.reachable;1;./components/components.dl [32:2-32:50];London.cap.reachable(X,Z) :-     London.cap.reachable(X,Y),    London.cap.reachable(Y,Z).;5e-06
+@n-recursive-rule;London.cap.reachable;1;./components/components.dl [32:2-32:50];London.cap.reachable(X,Z) :-     London.cap.reachable(X,Y),    London.cap.reachable(Y,Z).;0
+@t-recursive-relation;London.cap.reachable;./components/components.dl [30:5-30:36];0.000491
+@n-recursive-relation;London.cap.reachable;./components/components.dl [30:5-30:36];0
+@t-nonrecursive-rule;London.train.edge;./components/components.dl [102:1-102:41];London.train.edge('Airport','Waterloo').;6e-06
+@n-nonrecursive-rule;London.train.edge;./components/components.dl [102:1-102:41];London.train.edge('Airport','Waterloo').;1
+@t-nonrecursive-relation;London.train.edge;./components/components.dl [20:5-20:31];9e-06
+@n-nonrecursive-relation;London.train.edge;./components/components.dl [20:5-20:31];1
+@t-nonrecursive-rule;London.train.reachable;./components/components.dl [31:5-31:33];London.train.reachable(X,Y) :-     London.train.edge(X,Y).;6e-06
+@n-nonrecursive-rule;London.train.reachable;./components/components.dl [31:5-31:33];London.train.reachable(X,Y) :-     London.train.edge(X,Y).;1
+@t-nonrecursive-relation;London.train.reachable;./components/components.dl [30:5-30:36];8e-06
+@n-nonrecursive-relation;London.train.reachable;./components/components.dl [30:5-30:36];1
+@t-recursive-rule;London.train.reachable;0;./components/components.dl [32:2-32:50];London.train.reachable(X,Z) :-     London.train.reachable(X,Y),    London.train.reachable(Y,Z).;3e-06
+@n-recursive-rule;London.train.reachable;0;./components/components.dl [32:2-32:50];London.train.reachable(X,Z) :-     London.train.reachable(X,Y),    London.train.reachable(Y,Z).;0
+@t-recursive-rule;London.train.reachable;1;./components/components.dl [32:2-32:50];London.train.reachable(X,Z) :-     London.train.reachable(X,Y),    London.train.reachable(Y,Z).;3e-06
+@n-recursive-rule;London.train.reachable;1;./components/components.dl [32:2-32:50];London.train.reachable(X,Z) :-     London.train.reachable(X,Y),    London.train.reachable(Y,Z).;0
+@t-recursive-relation;London.train.reachable;./components/components.dl [30:5-30:36];1.5e-05
+@n-recursive-relation;London.train.reachable;./components/components.dl [30:5-30:36];0
+@t-nonrecursive-rule;London.ship.edge;./components/components.dl [103:1-103:46];London.ship.edge('Waterloo','London Bridge').;5e-06
+@n-nonrecursive-rule;London.ship.edge;./components/components.dl [103:1-103:46];London.ship.edge('Waterloo','London Bridge').;1
+@t-nonrecursive-relation;London.ship.edge;./components/components.dl [20:5-20:31];7e-06
+@n-nonrecursive-relation;London.ship.edge;./components/components.dl [20:5-20:31];1
+@t-nonrecursive-rule;London.ship.reachable;./components/components.dl [31:5-31:33];London.ship.reachable(X,Y) :-     London.ship.edge(X,Y).;6e-06
+@n-nonrecursive-rule;London.ship.reachable;./components/components.dl [31:5-31:33];London.ship.reachable(X,Y) :-     London.ship.edge(X,Y).;1
+@t-nonrecursive-relation;London.ship.reachable;./components/components.dl [30:5-30:36];7e-06
+@n-nonrecursive-relation;London.ship.reachable;./components/components.dl [30:5-30:36];1
+@t-recursive-rule;London.ship.reachable;0;./components/components.dl [32:2-32:50];London.ship.reachable(X,Z) :-     London.ship.reachable(X,Y),    London.ship.reachable(Y,Z).;3e-06
+@n-recursive-rule;London.ship.reachable;0;./components/components.dl [32:2-32:50];London.ship.reachable(X,Z) :-     London.ship.reachable(X,Y),    London.ship.reachable(Y,Z).;0
+@t-recursive-rule;London.ship.reachable;1;./components/components.dl [32:2-32:50];London.ship.reachable(X,Z) :-     London.ship.reachable(X,Y),    London.ship.reachable(Y,Z).;2e-06
+@n-recursive-rule;London.ship.reachable;1;./components/components.dl [32:2-32:50];London.ship.reachable(X,Z) :-     London.ship.reachable(X,Y),    London.ship.reachable(Y,Z).;0
+@t-recursive-relation;London.ship.reachable;./components/components.dl [30:5-30:36];2e-05
+@n-recursive-relation;London.ship.reachable;./components/components.dl [30:5-30:36];0
+@t-nonrecursive-rule;London.reachable;./components/components.dl [69:2-69:41];London.reachable(X,Y) :-     London.train.reachable(X,Y).;7e-06
+@n-nonrecursive-rule;London.reachable;./components/components.dl [69:2-69:41];London.reachable(X,Y) :-     London.train.reachable(X,Y).;1
+@t-nonrecursive-rule;London.reachable;./components/components.dl [70:2-70:40];London.reachable(X,Y) :-     London.ship.reachable(X,Y).;2e-06
+@n-nonrecursive-rule;London.reachable;./components/components.dl [70:2-70:40];London.reachable(X,Y) :-     London.ship.reachable(X,Y).;2
+@t-nonrecursive-rule;London.reachable;./components/components.dl [71:2-71:39];London.reachable(X,Y) :-     London.cap.reachable(X,Y).;2e-06
+@n-nonrecursive-rule;London.reachable;./components/components.dl [71:2-71:39];London.reachable(X,Y) :-     London.cap.reachable(X,Y).;3
+@t-nonrecursive-relation;London.reachable;./components/components.dl [68:5-68:35];1.8e-05
+@n-nonrecursive-relation;London.reachable;./components/components.dl [68:5-68:35];3
+@t-recursive-rule;London.reachable;0;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;7e-06
+@n-recursive-rule;London.reachable;0;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;0
+@t-recursive-rule;London.reachable;1;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;1e-05
+@n-recursive-rule;London.reachable;1;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;2
+@t-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];2e-05
+@n-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];2
+@c-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];4e-06
+@t-recursive-rule;London.reachable;0;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;5e-06
+@n-recursive-rule;London.reachable;0;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;1
+@t-recursive-rule;London.reachable;1;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;6e-06
+@n-recursive-rule;London.reachable;1;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;1
+@t-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];1.3e-05
+@n-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];1
+@c-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];1e-06
+@t-recursive-rule;London.reachable;0;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;2e-06
+@n-recursive-rule;London.reachable;0;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;0
+@t-recursive-rule;London.reachable;1;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;4e-06
+@n-recursive-rule;London.reachable;1;./components/components.dl [73:2-73:51];London.reachable(X,Z) :-     London.reachable(X,Y),    London.reachable(Y,Z).;0
+@t-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];8e-06
+@n-recursive-relation;London.reachable;./components/components.dl [68:5-68:35];0
+@t-nonrecursive-rule;SocialNet.edge;./components/components.dl [82:1-82:31];SocialNet.edge('luke','leia').;5e-06
+@n-nonrecursive-rule;SocialNet.edge;./components/components.dl [82:1-82:31];SocialNet.edge('luke','leia').;1
+@t-nonrecursive-rule;SocialNet.edge;./components/components.dl [83:1-83:30];SocialNet.edge('han','luke').;1e-06
+@n-nonrecursive-rule;SocialNet.edge;./components/components.dl [83:1-83:30];SocialNet.edge('han','luke').;2
+@t-nonrecursive-relation;SocialNet.edge;./components/components.dl [20:5-20:31];1.8e-05
+@n-nonrecursive-relation;SocialNet.edge;./components/components.dl [20:5-20:31];2
+@t-nonrecursive-rule;SocialNet.reachable;./components/components.dl [31:5-31:33];SocialNet.reachable(X,Y) :-     SocialNet.edge(X,Y).;7e-06
+@n-nonrecursive-rule;SocialNet.reachable;./components/components.dl [31:5-31:33];SocialNet.reachable(X,Y) :-     SocialNet.edge(X,Y).;2
+@t-nonrecursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];8e-06
+@n-nonrecursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];2
+@t-recursive-rule;SocialNet.reachable;0;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;5e-06
+@n-recursive-rule;SocialNet.reachable;0;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;0
+@t-recursive-rule;SocialNet.reachable;1;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;8e-06
+@n-recursive-rule;SocialNet.reachable;1;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;1
+@t-recursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];1.9e-05
+@n-recursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];1
+@c-recursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];2e-06
+@t-recursive-rule;SocialNet.reachable;0;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;2e-06
+@n-recursive-rule;SocialNet.reachable;0;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;0
+@t-recursive-rule;SocialNet.reachable;1;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;4e-06
+@n-recursive-rule;SocialNet.reachable;1;./components/components.dl [32:2-32:50];SocialNet.reachable(X,Z) :-     SocialNet.reachable(X,Y),    SocialNet.reachable(Y,Z).;0
+@t-recursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];1.2e-05
+@n-recursive-relation;SocialNet.reachable;./components/components.dl [30:5-30:36];0
+@t-nonrecursive-rule;result;./components/components.dl [94:1-94:73];result('Star Wars IV-VI happend!') :-     SocialNet.reachable('han','leia').;8e-06
+@n-nonrecursive-rule;result;./components/components.dl [94:1-94:73];result('Star Wars IV-VI happend!') :-     SocialNet.reachable('han','leia').;1
+@t-nonrecursive-rule;result;./components/components.dl [95:1-95:74];result('Luke isn't a good buddy!') :-     !SocialNet.reachable('leia','han').;1e-06
+@n-nonrecursive-rule;result;./components/components.dl [95:1-95:74];result('Luke isn't a good buddy!') :-     !SocialNet.reachable('leia','han').;2
+@t-nonrecursive-rule;result;./components/components.dl [97:1-97:52];result('V is five') :-     Equal.reachable('V','five').;2e-06
+@n-nonrecursive-rule;result;./components/components.dl [97:1-97:52];result('V is five') :-     Equal.reachable('V','five').;3
+@t-nonrecursive-rule;result;./components/components.dl [98:1-98:52];result('five is V') :-     Equal.reachable('five','V').;3e-06
+@n-nonrecursive-rule;result;./components/components.dl [98:1-98:52];result('five is V') :-     Equal.reachable('five','V').;4
+@t-nonrecursive-rule;result;./components/components.dl [106:1-106:62];result('Connected') :-     London.reachable('Airport','Big Ben').;2e-06
+@n-nonrecursive-rule;result;./components/components.dl [106:1-106:62];result('Connected') :-     London.reachable('Airport','Big Ben').;5
+@t-nonrecursive-relation;result;./components/components.dl [93:1-93:35];2.7e-05
+@n-nonrecursive-relation;result;./components/components.dl [93:1-93:35];5
+@runtime;0.001237

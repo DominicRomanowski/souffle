@@ -1,0 +1,238 @@
+@start-debug
+@t-nonrecursive-rule;degreeFrom;./lubm/lubm.dl [82:1-82:45];degreeFrom(X,Y) :-     doctoralDegreeFrom(X,Y).;0.000374
+@n-nonrecursive-rule;degreeFrom;./lubm/lubm.dl [82:1-82:45];degreeFrom(X,Y) :-     doctoralDegreeFrom(X,Y).;540
+@t-nonrecursive-rule;degreeFrom;./lubm/lubm.dl [90:1-90:44];degreeFrom(X,Y) :-     mastersDegreeFrom(X,Y).;0.000433
+@n-nonrecursive-rule;degreeFrom;./lubm/lubm.dl [90:1-90:44];degreeFrom(X,Y) :-     mastersDegreeFrom(X,Y).;1080
+@t-nonrecursive-rule;degreeFrom;./lubm/lubm.dl [94:1-94:50];degreeFrom(X,Y) :-     undergraduateDegreeFrom(X,Y).;0.001754
+@n-nonrecursive-rule;degreeFrom;./lubm/lubm.dl [94:1-94:50];degreeFrom(X,Y) :-     undergraduateDegreeFrom(X,Y).;3494
+@t-nonrecursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];0.002605
+@n-nonrecursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];3494
+@t-recursive-rule;hasAlumnus;0;./lubm/lubm.dl [53:1-53:37];hasAlumnus(X,Y) :-     degreeFrom(Y,X).;0.004559
+@n-recursive-rule;hasAlumnus;0;./lubm/lubm.dl [53:1-53:37];hasAlumnus(X,Y) :-     degreeFrom(Y,X).;3494
+@t-recursive-relation;hasAlumnus;./lubm/lubm.dl [30:1-30:45];0.004599
+@n-recursive-relation;hasAlumnus;./lubm/lubm.dl [30:1-30:45];3494
+@t-recursive-rule;degreeFrom;0;./lubm/lubm.dl [52:1-52:37];degreeFrom(X,Y) :-     hasAlumnus(Y,X).;2e-06
+@n-recursive-rule;degreeFrom;0;./lubm/lubm.dl [52:1-52:37];degreeFrom(X,Y) :-     hasAlumnus(Y,X).;0
+@t-recursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];4e-06
+@n-recursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];0
+@c-recursive-relation;hasAlumnus;./lubm/lubm.dl [30:1-30:45];0.021001
+@c-recursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];2.5e-05
+@t-recursive-rule;hasAlumnus;0;./lubm/lubm.dl [53:1-53:37];hasAlumnus(X,Y) :-     degreeFrom(Y,X).;3e-06
+@n-recursive-rule;hasAlumnus;0;./lubm/lubm.dl [53:1-53:37];hasAlumnus(X,Y) :-     degreeFrom(Y,X).;0
+@t-recursive-relation;hasAlumnus;./lubm/lubm.dl [30:1-30:45];6e-06
+@n-recursive-relation;hasAlumnus;./lubm/lubm.dl [30:1-30:45];0
+@t-recursive-rule;degreeFrom;0;./lubm/lubm.dl [52:1-52:37];degreeFrom(X,Y) :-     hasAlumnus(Y,X).;0.002067
+@n-recursive-rule;degreeFrom;0;./lubm/lubm.dl [52:1-52:37];degreeFrom(X,Y) :-     hasAlumnus(Y,X).;0
+@t-recursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];0.00208
+@n-recursive-relation;degreeFrom;./lubm/lubm.dl [31:1-31:45];0
+@t-nonrecursive-rule;University;./lubm/lubm.dl [51:1-51:42];University(Y) :-     mastersDegreeFrom(_,Y).;0.00018
+@n-nonrecursive-rule;University;./lubm/lubm.dl [51:1-51:42];University(Y) :-     mastersDegreeFrom(_,Y).;979
+@t-nonrecursive-rule;University;./lubm/lubm.dl [62:1-62:35];University(Y) :-     degreeFrom(_,Y).;0.001126
+@n-nonrecursive-rule;University;./lubm/lubm.dl [62:1-62:35];University(Y) :-     degreeFrom(_,Y).;979
+@t-nonrecursive-rule;University;./lubm/lubm.dl [69:1-69:35];University(X) :-     hasAlumnus(X,_).;0.001087
+@n-nonrecursive-rule;University;./lubm/lubm.dl [69:1-69:35];University(X) :-     hasAlumnus(X,_).;979
+@t-nonrecursive-rule;University;./lubm/lubm.dl [87:1-87:43];University(Y) :-     doctoralDegreeFrom(_,Y).;0.000169
+@n-nonrecursive-rule;University;./lubm/lubm.dl [87:1-87:43];University(Y) :-     doctoralDegreeFrom(_,Y).;979
+@t-nonrecursive-rule;University;./lubm/lubm.dl [89:1-89:48];University(Y) :-     undergraduateDegreeFrom(_,Y).;0.001317
+@n-nonrecursive-rule;University;./lubm/lubm.dl [89:1-89:48];University(Y) :-     undergraduateDegreeFrom(_,Y).;979
+@t-nonrecursive-relation;University;./lubm/lubm.dl [6:1-6:41];0.003907
+@n-nonrecursive-relation;University;./lubm/lubm.dl [6:1-6:41];979
+@t-nonrecursive-rule;worksFor;./lubm/lubm.dl [60:1-60:31];worksFor(X,Y) :-     headOf(X,Y).;1.4e-05
+@n-nonrecursive-rule;worksFor;./lubm/lubm.dl [60:1-60:31];worksFor(X,Y) :-     headOf(X,Y).;540
+@t-nonrecursive-relation;worksFor;./lubm/lubm.dl [42:1-42:49];1.6e-05
+@n-nonrecursive-relation;worksFor;./lubm/lubm.dl [42:1-42:49];540
+@t-nonrecursive-rule;memberOf;./lubm/lubm.dl [72:1-72:33];memberOf(X,Y) :-     worksFor(X,Y).;0.000429
+@n-nonrecursive-rule;memberOf;./lubm/lubm.dl [72:1-72:33];memberOf(X,Y) :-     worksFor(X,Y).;8330
+@t-nonrecursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];0.000431
+@n-nonrecursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];8330
+@t-recursive-rule;member;0;./lubm/lubm.dl [67:1-67:31];member(X,Y) :-     memberOf(Y,X).;0.014084
+@n-recursive-rule;member;0;./lubm/lubm.dl [67:1-67:31];member(X,Y) :-     memberOf(Y,X).;8330
+@t-recursive-relation;member;./lubm/lubm.dl [32:1-32:41];0.014094
+@n-recursive-relation;member;./lubm/lubm.dl [32:1-32:41];8330
+@t-recursive-rule;memberOf;0;./lubm/lubm.dl [66:1-66:31];memberOf(X,Y) :-     member(Y,X).;3e-06
+@n-recursive-rule;memberOf;0;./lubm/lubm.dl [66:1-66:31];memberOf(X,Y) :-     member(Y,X).;0
+@t-recursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];5e-06
+@n-recursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];0
+@c-recursive-relation;member;./lubm/lubm.dl [32:1-32:41];0.002218
+@c-recursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];4.6e-05
+@t-recursive-rule;member;0;./lubm/lubm.dl [67:1-67:31];member(X,Y) :-     memberOf(Y,X).;3e-06
+@n-recursive-rule;member;0;./lubm/lubm.dl [67:1-67:31];member(X,Y) :-     memberOf(Y,X).;0
+@t-recursive-relation;member;./lubm/lubm.dl [32:1-32:41];5e-06
+@n-recursive-relation;member;./lubm/lubm.dl [32:1-32:41];0
+@t-recursive-rule;memberOf;0;./lubm/lubm.dl [66:1-66:31];memberOf(X,Y) :-     member(Y,X).;0.010445
+@n-recursive-rule;memberOf;0;./lubm/lubm.dl [66:1-66:31];memberOf(X,Y) :-     member(Y,X).;0
+@t-recursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];0.010453
+@n-recursive-relation;memberOf;./lubm/lubm.dl [43:1-43:49];0
+@t-recursive-rule;subOrganizationOf;0;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0.000392
+@n-recursive-rule;subOrganizationOf;0;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0
+@t-recursive-rule;subOrganizationOf;1;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0.000683
+@n-recursive-rule;subOrganizationOf;1;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;224
+@t-recursive-relation;subOrganizationOf;./lubm/lubm.dl [40:1-40:58];0.001083
+@n-recursive-relation;subOrganizationOf;./lubm/lubm.dl [40:1-40:58];224
+@c-recursive-relation;subOrganizationOf;./lubm/lubm.dl [40:1-40:58];6.4e-05
+@t-recursive-rule;subOrganizationOf;0;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0.000115
+@n-recursive-rule;subOrganizationOf;0;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0
+@t-recursive-rule;subOrganizationOf;1;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0.000235
+@n-recursive-rule;subOrganizationOf;1;./lubm/lubm.dl [107:1-107:75];subOrganizationOf(X,Z) :-     subOrganizationOf(X,Y),    subOrganizationOf(Y,Z).;0
+@t-recursive-relation;subOrganizationOf;./lubm/lubm.dl [40:1-40:58];0.000356
+@n-recursive-relation;subOrganizationOf;./lubm/lubm.dl [40:1-40:58];0
+@t-nonrecursive-rule;Organization;./lubm/lubm.dl [71:1-71:44];Organization(Y) :-     subOrganizationOf(_,Y).;0.00012
+@n-nonrecursive-rule;Organization;./lubm/lubm.dl [71:1-71:44];Organization(Y) :-     subOrganizationOf(_,Y).;16
+@t-nonrecursive-rule;Organization;./lubm/lubm.dl [75:1-75:33];Organization(X) :-     member(X,_).;0.00197
+@n-nonrecursive-rule;Organization;./lubm/lubm.dl [75:1-75:33];Organization(X) :-     member(X,_).;16
+@t-nonrecursive-rule;Organization;./lubm/lubm.dl [76:1-76:35];Organization(X) :-     Department(X).;6e-06
+@n-nonrecursive-rule;Organization;./lubm/lubm.dl [76:1-76:35];Organization(X) :-     Department(X).;16
+@t-nonrecursive-rule;Organization;./lubm/lubm.dl [85:1-85:35];Organization(X) :-     University(X).;0.000369
+@n-nonrecursive-rule;Organization;./lubm/lubm.dl [85:1-85:35];Organization(X) :-     University(X).;994
+@t-nonrecursive-rule;Organization;./lubm/lubm.dl [97:1-97:38];Organization(X) :-     ResearchGroup(X).;9.6e-05
+@n-nonrecursive-rule;Organization;./lubm/lubm.dl [97:1-97:38];Organization(X) :-     ResearchGroup(X).;1218
+@t-nonrecursive-rule;Organization;./lubm/lubm.dl [104:1-104:44];Organization(X) :-     subOrganizationOf(X,_).;0.000135
+@n-nonrecursive-rule;Organization;./lubm/lubm.dl [104:1-104:44];Organization(X) :-     subOrganizationOf(X,_).;1218
+@t-nonrecursive-relation;Organization;./lubm/lubm.dl [14:1-14:37];0.00274
+@n-nonrecursive-relation;Organization;./lubm/lubm.dl [14:1-14:37];1218
+@t-nonrecursive-rule;Course;./lubm/lubm.dl [68:1-68:30];Course(Y) :-     teacherOf(_,Y).;0.000569
+@n-nonrecursive-rule;Course;./lubm/lubm.dl [68:1-68:30];Course(Y) :-     teacherOf(_,Y).;1627
+@t-nonrecursive-rule;Course;./lubm/lubm.dl [88:1-88:40];Course(Y) :-     teachingAssistantOf(_,Y).;0.000126
+@n-nonrecursive-rule;Course;./lubm/lubm.dl [88:1-88:40];Course(Y) :-     teachingAssistantOf(_,Y).;1627
+@t-nonrecursive-rule;Course;./lubm/lubm.dl [101:1-101:33];Course(X) :-     GraduateCourse(X).;0.000229
+@n-nonrecursive-rule;Course;./lubm/lubm.dl [101:1-101:33];Course(X) :-     GraduateCourse(X).;1627
+@t-nonrecursive-relation;Course;./lubm/lubm.dl [11:1-11:37];0.00093
+@n-nonrecursive-relation;Course;./lubm/lubm.dl [11:1-11:37];1627
+@t-nonrecursive-rule;Work;./lubm/lubm.dl [80:1-80:23];Work(X) :-     Course(X).;0.001697
+@n-nonrecursive-rule;Work;./lubm/lubm.dl [80:1-80:23];Work(X) :-     Course(X).;1627
+@t-nonrecursive-relation;Work;./lubm/lubm.dl [16:1-16:29];0.001707
+@n-nonrecursive-relation;Work;./lubm/lubm.dl [16:1-16:29];1627
+@t-nonrecursive-rule;Publication;./lubm/lubm.dl [95:1-95:43];Publication(X) :-     publicationAuthor(X,_).;0.003228
+@n-nonrecursive-rule;Publication;./lubm/lubm.dl [95:1-95:43];Publication(X) :-     publicationAuthor(X,_).;5999
+@t-nonrecursive-relation;Publication;./lubm/lubm.dl [24:1-24:42];0.003233
+@n-nonrecursive-relation;Publication;./lubm/lubm.dl [24:1-24:42];5999
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [57:1-57:27];Person(Y) :-     member(_,Y).;0.003555
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [57:1-57:27];Person(Y) :-     member(_,Y).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [61:1-61:31];Person(X) :-     degreeFrom(X,_).;0.00118
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [61:1-61:31];Person(X) :-     degreeFrom(X,_).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [63:1-63:31];Person(Y) :-     hasAlumnus(_,Y).;0.001093
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [63:1-63:31];Person(Y) :-     hasAlumnus(_,Y).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [70:1-70:30];Person(X) :-     telephone(X,_).;0.006765
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [70:1-70:30];Person(X) :-     telephone(X,_).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [74:1-74:28];Person(X) :-     advisor(X,_).;0.00097
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [74:1-74:28];Person(X) :-     advisor(X,_).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [78:1-78:38];Person(Y) :-     publicationAuthor(_,Y).;0.00335
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [78:1-78:38];Person(Y) :-     publicationAuthor(_,Y).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [84:1-84:44];Person(X) :-     undergraduateDegreeFrom(X,_).;0.000748
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [84:1-84:44];Person(X) :-     undergraduateDegreeFrom(X,_).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [86:1-86:39];Person(X) :-     doctoralDegreeFrom(X,_).;0.000153
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [86:1-86:39];Person(X) :-     doctoralDegreeFrom(X,_).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [91:1-91:34];Person(X) :-     GraduateStudent(X).;0.000456
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [91:1-91:34];Person(X) :-     GraduateStudent(X).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [92:1-92:36];Person(X) :-     ResearchAssistant(X).;0.000149
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [92:1-92:36];Person(X) :-     ResearchAssistant(X).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [96:1-96:38];Person(X) :-     mastersDegreeFrom(X,_).;0.000155
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [96:1-96:38];Person(X) :-     mastersDegreeFrom(X,_).;8330
+@t-nonrecursive-rule;Person;./lubm/lubm.dl [106:1-106:33];Person(X) :-     emailAddress(X,_).;0.00512
+@n-nonrecursive-rule;Person;./lubm/lubm.dl [106:1-106:33];Person(X) :-     emailAddress(X,_).;8330
+@t-nonrecursive-relation;Person;./lubm/lubm.dl [7:1-7:31];0.023769
+@n-nonrecursive-relation;Person;./lubm/lubm.dl [7:1-7:31];8330
+@t-nonrecursive-rule;Faculty;./lubm/lubm.dl [77:1-77:28];Faculty(X) :-     Lecturer(X).;4.4e-05
+@n-nonrecursive-rule;Faculty;./lubm/lubm.dl [77:1-77:28];Faculty(X) :-     Lecturer(X).;93
+@t-nonrecursive-rule;Faculty;./lubm/lubm.dl [98:1-98:31];Faculty(X) :-     teacherOf(X,_).;0.000544
+@n-nonrecursive-rule;Faculty;./lubm/lubm.dl [98:1-98:31];Faculty(X) :-     teacherOf(X,_).;540
+@t-nonrecursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];0.00062
+@n-nonrecursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];540
+@t-nonrecursive-rule;Professor;./lubm/lubm.dl [56:1-56:40];Professor(X) :-     AssociateProfessor(X).;0.000623
+@n-nonrecursive-rule;Professor;./lubm/lubm.dl [56:1-56:40];Professor(X) :-     AssociateProfessor(X).;176
+@t-nonrecursive-rule;Professor;./lubm/lubm.dl [58:1-58:40];Professor(X) :-     AssistantProfessor(X).;7.6e-05
+@n-nonrecursive-rule;Professor;./lubm/lubm.dl [58:1-58:40];Professor(X) :-     AssistantProfessor(X).;322
+@t-nonrecursive-rule;Professor;./lubm/lubm.dl [79:1-79:31];Professor(Y) :-     advisor(_,Y).;0.000912
+@n-nonrecursive-rule;Professor;./lubm/lubm.dl [79:1-79:31];Professor(Y) :-     advisor(_,Y).;447
+@t-nonrecursive-rule;Professor;./lubm/lubm.dl [81:1-81:35];Professor(X) :-     FullProfessor(X).;3.9e-05
+@n-nonrecursive-rule;Professor;./lubm/lubm.dl [81:1-81:35];Professor(X) :-     FullProfessor(X).;447
+@t-nonrecursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];0.00168
+@n-nonrecursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];447
+@t-nonrecursive-rule;Student;./lubm/lubm.dl [93:1-93:40];Student(X) :-     UndergraduateStudent(X).;0.002917
+@n-nonrecursive-rule;Student;./lubm/lubm.dl [93:1-93:40];Student(X) :-     UndergraduateStudent(X).;5916
+@t-nonrecursive-relation;Student;./lubm/lubm.dl [18:1-18:32];0.002924
+@n-nonrecursive-relation;Student;./lubm/lubm.dl [18:1-18:32];5916
+@t-nonrecursive-rule;TeachingAssistant;./lubm/lubm.dl [83:1-83:51];TeachingAssistant(X) :-     teachingAssistantOf(X,_).;0.000123
+@n-nonrecursive-rule;TeachingAssistant;./lubm/lubm.dl [83:1-83:51];TeachingAssistant(X) :-     teachingAssistantOf(X,_).;407
+@t-nonrecursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];0.000126
+@n-nonrecursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];407
+@t-recursive-rule;Person;0;./lubm/lubm.dl [73:1-73:27];Person(X) :-     Employee(X).;2e-06
+@n-recursive-rule;Person;0;./lubm/lubm.dl [73:1-73:27];Person(X) :-     Employee(X).;0
+@t-recursive-rule;Person;0;./lubm/lubm.dl [99:1-99:24];Person(X) :-     Chair(X).;1e-06
+@n-recursive-rule;Person;0;./lubm/lubm.dl [99:1-99:24];Person(X) :-     Chair(X).;0
+@t-recursive-rule;Person;0;./lubm/lubm.dl [103:1-103:36];Person(X) :-     TeachingAssistant(X).;0.000141
+@n-recursive-rule;Person;0;./lubm/lubm.dl [103:1-103:36];Person(X) :-     TeachingAssistant(X).;0
+@t-recursive-rule;Person;0;./lubm/lubm.dl [105:1-105:26];Person(X) :-     Student(X).;0.002764
+@n-recursive-rule;Person;0;./lubm/lubm.dl [105:1-105:26];Person(X) :-     Student(X).;0
+@t-recursive-relation;Person;./lubm/lubm.dl [7:1-7:31];0.002923
+@n-recursive-relation;Person;./lubm/lubm.dl [7:1-7:31];0
+@t-recursive-rule;Employee;0;./lubm/lubm.dl [54:1-54:28];Employee(X) :-     Faculty(X).;0.000582
+@n-recursive-rule;Employee;0;./lubm/lubm.dl [54:1-54:28];Employee(X) :-     Faculty(X).;540
+@t-recursive-rule;Employee;0;./lubm/lubm.dl [100:1-100:59];Employee(X) :-     Person(X),    worksFor(X,Y),    Organization(Y).;0.006446
+@n-recursive-rule;Employee;0;./lubm/lubm.dl [100:1-100:59];Employee(X) :-     Person(X),    worksFor(X,Y),    Organization(Y).;540
+@t-recursive-relation;Employee;./lubm/lubm.dl [8:1-8:33];0.007046
+@n-recursive-relation;Employee;./lubm/lubm.dl [8:1-8:33];540
+@t-recursive-rule;Faculty;0;./lubm/lubm.dl [55:1-55:29];Faculty(X) :-     Professor(X).;0.00013
+@n-recursive-rule;Faculty;0;./lubm/lubm.dl [55:1-55:29];Faculty(X) :-     Professor(X).;0
+@t-recursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];0.000133
+@n-recursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];0
+@t-recursive-rule;Professor;0;./lubm/lubm.dl [59:1-59:27];Professor(X) :-     Chair(X).;2e-06
+@n-recursive-rule;Professor;0;./lubm/lubm.dl [59:1-59:27];Professor(X) :-     Chair(X).;0
+@t-recursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];4e-06
+@n-recursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];0
+@t-recursive-rule;Chair;0;./lubm/lubm.dl [65:1-65:52];Chair(X) :-     Person(X),    headOf(X,Y),    Department(Y).;0.006313
+@n-recursive-rule;Chair;0;./lubm/lubm.dl [65:1-65:52];Chair(X) :-     Person(X),    headOf(X,Y),    Department(Y).;15
+@t-recursive-relation;Chair;./lubm/lubm.dl [15:1-15:30];0.006319
+@n-recursive-relation;Chair;./lubm/lubm.dl [15:1-15:30];15
+@t-recursive-rule;Student;0;./lubm/lubm.dl [102:1-102:55];Student(X) :-     Person(X),    takesCourse(X,Y),    Course(Y).;0.007215
+@n-recursive-rule;Student;0;./lubm/lubm.dl [102:1-102:55];Student(X) :-     Person(X),    takesCourse(X,Y),    Course(Y).;1874
+@t-recursive-relation;Student;./lubm/lubm.dl [18:1-18:32];0.007221
+@n-recursive-relation;Student;./lubm/lubm.dl [18:1-18:32];1874
+@t-recursive-rule;TeachingAssistant;0;./lubm/lubm.dl [64:1-64:73];TeachingAssistant(X) :-     Person(X),    teachingAssistantOf(X,Y),    Course(Y).;0.008358
+@n-recursive-rule;TeachingAssistant;0;./lubm/lubm.dl [64:1-64:73];TeachingAssistant(X) :-     Person(X),    teachingAssistantOf(X,Y),    Course(Y).;0
+@t-recursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];0.008375
+@n-recursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];0
+@c-recursive-relation;Person;./lubm/lubm.dl [7:1-7:31];4.5e-05
+@c-recursive-relation;Employee;./lubm/lubm.dl [8:1-8:33];0.00011
+@c-recursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];1e-05
+@c-recursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];5e-06
+@c-recursive-relation;Chair;./lubm/lubm.dl [15:1-15:30];4e-06
+@c-recursive-relation;Student;./lubm/lubm.dl [18:1-18:32];0.00045
+@c-recursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];5e-06
+@t-recursive-rule;Person;0;./lubm/lubm.dl [73:1-73:27];Person(X) :-     Employee(X).;0.000169
+@n-recursive-rule;Person;0;./lubm/lubm.dl [73:1-73:27];Person(X) :-     Employee(X).;0
+@t-recursive-rule;Person;0;./lubm/lubm.dl [99:1-99:24];Person(X) :-     Chair(X).;6e-06
+@n-recursive-rule;Person;0;./lubm/lubm.dl [99:1-99:24];Person(X) :-     Chair(X).;0
+@t-recursive-rule;Person;0;./lubm/lubm.dl [103:1-103:36];Person(X) :-     TeachingAssistant(X).;1e-06
+@n-recursive-rule;Person;0;./lubm/lubm.dl [103:1-103:36];Person(X) :-     TeachingAssistant(X).;0
+@t-recursive-rule;Person;0;./lubm/lubm.dl [105:1-105:26];Person(X) :-     Student(X).;0.000564
+@n-recursive-rule;Person;0;./lubm/lubm.dl [105:1-105:26];Person(X) :-     Student(X).;0
+@t-recursive-relation;Person;./lubm/lubm.dl [7:1-7:31];0.000755
+@n-recursive-relation;Person;./lubm/lubm.dl [7:1-7:31];0
+@t-recursive-rule;Employee;0;./lubm/lubm.dl [54:1-54:28];Employee(X) :-     Faculty(X).;1e-06
+@n-recursive-rule;Employee;0;./lubm/lubm.dl [54:1-54:28];Employee(X) :-     Faculty(X).;0
+@t-recursive-rule;Employee;0;./lubm/lubm.dl [100:1-100:59];Employee(X) :-     Person(X),    worksFor(X,Y),    Organization(Y).;3e-06
+@n-recursive-rule;Employee;0;./lubm/lubm.dl [100:1-100:59];Employee(X) :-     Person(X),    worksFor(X,Y),    Organization(Y).;0
+@t-recursive-relation;Employee;./lubm/lubm.dl [8:1-8:33];8e-06
+@n-recursive-relation;Employee;./lubm/lubm.dl [8:1-8:33];0
+@t-recursive-rule;Faculty;0;./lubm/lubm.dl [55:1-55:29];Faculty(X) :-     Professor(X).;1e-06
+@n-recursive-rule;Faculty;0;./lubm/lubm.dl [55:1-55:29];Faculty(X) :-     Professor(X).;0
+@t-recursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];8e-06
+@n-recursive-relation;Faculty;./lubm/lubm.dl [9:1-9:32];0
+@t-recursive-rule;Professor;0;./lubm/lubm.dl [59:1-59:27];Professor(X) :-     Chair(X).;7e-06
+@n-recursive-rule;Professor;0;./lubm/lubm.dl [59:1-59:27];Professor(X) :-     Chair(X).;0
+@t-recursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];9e-06
+@n-recursive-relation;Professor;./lubm/lubm.dl [10:1-10:34];0
+@t-recursive-rule;Chair;0;./lubm/lubm.dl [65:1-65:52];Chair(X) :-     Person(X),    headOf(X,Y),    Department(Y).;3e-06
+@n-recursive-rule;Chair;0;./lubm/lubm.dl [65:1-65:52];Chair(X) :-     Person(X),    headOf(X,Y),    Department(Y).;0
+@t-recursive-relation;Chair;./lubm/lubm.dl [15:1-15:30];5e-06
+@n-recursive-relation;Chair;./lubm/lubm.dl [15:1-15:30];0
+@t-recursive-rule;Student;0;./lubm/lubm.dl [102:1-102:55];Student(X) :-     Person(X),    takesCourse(X,Y),    Course(Y).;3e-06
+@n-recursive-rule;Student;0;./lubm/lubm.dl [102:1-102:55];Student(X) :-     Person(X),    takesCourse(X,Y),    Course(Y).;0
+@t-recursive-relation;Student;./lubm/lubm.dl [18:1-18:32];1.9e-05
+@n-recursive-relation;Student;./lubm/lubm.dl [18:1-18:32];0
+@t-recursive-rule;TeachingAssistant;0;./lubm/lubm.dl [64:1-64:73];TeachingAssistant(X) :-     Person(X),    teachingAssistantOf(X,Y),    Course(Y).;3e-06
+@n-recursive-rule;TeachingAssistant;0;./lubm/lubm.dl [64:1-64:73];TeachingAssistant(X) :-     Person(X),    teachingAssistantOf(X,Y),    Course(Y).;0
+@t-recursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];5e-06
+@n-recursive-relation;TeachingAssistant;./lubm/lubm.dl [25:1-25:48];0
+@runtime;0.825676

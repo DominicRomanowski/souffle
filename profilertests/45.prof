@@ -1,0 +1,156 @@
+@start-debug
+@t-nonrecursive-rule;succ;./equal/equal.dl [12:1-12:16];succ('0','1').;1.3e-05
+@n-nonrecursive-rule;succ;./equal/equal.dl [12:1-12:16];succ('0','1').;1
+@t-nonrecursive-rule;succ;./equal/equal.dl [13:1-13:16];succ('1','2').;2e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [13:1-13:16];succ('1','2').;2
+@t-nonrecursive-rule;succ;./equal/equal.dl [14:1-14:16];succ('2','3').;0
+@n-nonrecursive-rule;succ;./equal/equal.dl [14:1-14:16];succ('2','3').;3
+@t-nonrecursive-rule;succ;./equal/equal.dl [15:1-15:16];succ('3','4').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [15:1-15:16];succ('3','4').;4
+@t-nonrecursive-rule;succ;./equal/equal.dl [16:1-16:16];succ('4','5').;0
+@n-nonrecursive-rule;succ;./equal/equal.dl [16:1-16:16];succ('4','5').;5
+@t-nonrecursive-rule;succ;./equal/equal.dl [17:1-17:16];succ('5','6').;0
+@n-nonrecursive-rule;succ;./equal/equal.dl [17:1-17:16];succ('5','6').;6
+@t-nonrecursive-rule;succ;./equal/equal.dl [18:1-18:16];succ('6','7').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [18:1-18:16];succ('6','7').;7
+@t-nonrecursive-rule;succ;./equal/equal.dl [19:1-19:16];succ('7','8').;1e-05
+@n-nonrecursive-rule;succ;./equal/equal.dl [19:1-19:16];succ('7','8').;8
+@t-nonrecursive-rule;succ;./equal/equal.dl [20:1-20:16];succ('8','9').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [20:1-20:16];succ('8','9').;9
+@t-nonrecursive-rule;succ;./equal/equal.dl [21:1-21:17];succ('9','10').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [21:1-21:17];succ('9','10').;10
+@t-nonrecursive-rule;succ;./equal/equal.dl [22:1-22:18];succ('10','11').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [22:1-22:18];succ('10','11').;11
+@t-nonrecursive-rule;succ;./equal/equal.dl [23:1-23:18];succ('11','12').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [23:1-23:18];succ('11','12').;12
+@t-nonrecursive-rule;succ;./equal/equal.dl [24:1-24:18];succ('12','13').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [24:1-24:18];succ('12','13').;13
+@t-nonrecursive-rule;succ;./equal/equal.dl [25:1-25:18];succ('13','14').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [25:1-25:18];succ('13','14').;14
+@t-nonrecursive-rule;succ;./equal/equal.dl [26:1-26:18];succ('14','15').;0
+@n-nonrecursive-rule;succ;./equal/equal.dl [26:1-26:18];succ('14','15').;15
+@t-nonrecursive-rule;succ;./equal/equal.dl [27:1-27:18];succ('15','16').;0
+@n-nonrecursive-rule;succ;./equal/equal.dl [27:1-27:18];succ('15','16').;16
+@t-nonrecursive-rule;succ;./equal/equal.dl [28:1-28:18];succ('16','17').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [28:1-28:18];succ('16','17').;17
+@t-nonrecursive-rule;succ;./equal/equal.dl [29:1-29:18];succ('17','18').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [29:1-29:18];succ('17','18').;18
+@t-nonrecursive-rule;succ;./equal/equal.dl [30:1-30:18];succ('18','19').;1e-06
+@n-nonrecursive-rule;succ;./equal/equal.dl [30:1-30:18];succ('18','19').;19
+@t-nonrecursive-rule;succ;./equal/equal.dl [31:1-31:18];succ('19','20').;0
+@n-nonrecursive-rule;succ;./equal/equal.dl [31:1-31:18];succ('19','20').;20
+@t-nonrecursive-relation;succ;./equal/equal.dl [3:1-3:34];0.000142
+@n-nonrecursive-relation;succ;./equal/equal.dl [3:1-3:34];20
+@t-nonrecursive-rule;equal;./equal/equal.dl [7:1-7:22];equal('0','0','1').;5e-06
+@n-nonrecursive-rule;equal;./equal/equal.dl [7:1-7:22];equal('0','0','1').;1
+@t-nonrecursive-relation;equal;./equal/equal.dl [4:1-4:52];6e-06
+@n-nonrecursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000403
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000408
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];6e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000353
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000356
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000352
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000356
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.00029
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000294
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000358
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000372
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000341
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000344
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000287
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000289
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000444
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000448
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000358
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.00036
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000304
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000316
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000325
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000328
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000314
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000317
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000318
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000322
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000323
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000326
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000327
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000339
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];2e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000309
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000312
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000341
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000344
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000336
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.00034
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000338
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000342
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.000367
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;1
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.00038
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1
+@c-recursive-relation;equal;./equal/equal.dl [4:1-4:52];1e-06
+@t-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0.00035
+@n-recursive-rule;equal;0;./equal/equal.dl [8:1-8:63];equal(m,n,r) :-     succ(pm,m),    succ(pn,n),    equal(pm,pn,r).;0
+@t-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0.000352
+@n-recursive-relation;equal;./equal/equal.dl [4:1-4:52];0
+@t-nonrecursive-rule;isEqual;./equal/equal.dl [10:1-10:34];isEqual(r) :-     equal('5','7',r).;4e-06
+@n-nonrecursive-rule;isEqual;./equal/equal.dl [10:1-10:34];isEqual(r) :-     equal('5','7',r).;0
+@t-nonrecursive-relation;isEqual;./equal/equal.dl [5:1-5:32];5e-06
+@n-nonrecursive-relation;isEqual;./equal/equal.dl [5:1-5:32];0
+@runtime;0.007864

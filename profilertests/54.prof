@@ -1,0 +1,59 @@
+@start-debug
+@t-nonrecursive-rule;course;./grad/grad.dl [19:1-19:15];course('eng').;1.3e-05
+@n-nonrecursive-rule;course;./grad/grad.dl [19:1-19:15];course('eng').;1
+@t-nonrecursive-rule;course;./grad/grad.dl [20:1-20:15];course('his').;1e-06
+@n-nonrecursive-rule;course;./grad/grad.dl [20:1-20:15];course('his').;2
+@t-nonrecursive-rule;course;./grad/grad.dl [21:1-21:14];course('lp').;0
+@n-nonrecursive-rule;course;./grad/grad.dl [21:1-21:14];course('lp').;3
+@t-nonrecursive-relation;course;./grad/grad.dl [8:1-8:33];5e-05
+@n-nonrecursive-relation;course;./grad/grad.dl [8:1-8:33];3
+@t-nonrecursive-rule;take;./grad/grad.dl [23:1-23:20];take('adam','eng').;6e-06
+@n-nonrecursive-rule;take;./grad/grad.dl [23:1-23:20];take('adam','eng').;1
+@t-nonrecursive-rule;take;./grad/grad.dl [24:1-24:20];take('pete','his').;1e-06
+@n-nonrecursive-rule;take;./grad/grad.dl [24:1-24:20];take('pete','his').;2
+@t-nonrecursive-rule;take;./grad/grad.dl [25:1-25:20];take('pete','eng').;1e-06
+@n-nonrecursive-rule;take;./grad/grad.dl [25:1-25:20];take('pete','eng').;3
+@t-nonrecursive-rule;take;./grad/grad.dl [26:1-26:21];take('scott','his').;2e-06
+@n-nonrecursive-rule;take;./grad/grad.dl [26:1-26:21];take('scott','his').;4
+@t-nonrecursive-rule;take;./grad/grad.dl [27:1-27:20];take('scott','lp').;1e-06
+@n-nonrecursive-rule;take;./grad/grad.dl [27:1-27:20];take('scott','lp').;5
+@t-nonrecursive-rule;take;./grad/grad.dl [28:1-28:20];take('tony','his').;1e-06
+@n-nonrecursive-rule;take;./grad/grad.dl [28:1-28:20];take('tony','his').;6
+@t-nonrecursive-relation;take;./grad/grad.dl [10:1-10:43];5.5e-05
+@n-nonrecursive-relation;take;./grad/grad.dl [10:1-10:43];6
+@t-nonrecursive-rule;grad;./grad/grad.dl [35:1-35:41];grad(S) :-     take(S,'his'),    take(S,'eng').;2.4e-05
+@n-nonrecursive-rule;grad;./grad/grad.dl [35:1-35:41];grad(S) :-     take(S,'his'),    take(S,'eng').;1
+@t-nonrecursive-relation;grad;./grad/grad.dl [11:1-11:31];2.6e-05
+@n-nonrecursive-relation;grad;./grad/grad.dl [11:1-11:31];1
+@t-nonrecursive-rule;pre;./grad/grad.dl [30:1-30:17];pre('eng','lp').;5e-06
+@n-nonrecursive-rule;pre;./grad/grad.dl [30:1-30:17];pre('eng','lp').;1
+@t-nonrecursive-rule;pre;./grad/grad.dl [31:1-31:19];pre('hist','eng').;1e-06
+@n-nonrecursive-rule;pre;./grad/grad.dl [31:1-31:19];pre('hist','eng').;2
+@t-nonrecursive-relation;pre;./grad/grad.dl [9:1-9:42];1.5e-05
+@n-nonrecursive-relation;pre;./grad/grad.dl [9:1-9:42];2
+@t-recursive-rule;pre;0;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;5e-06
+@n-recursive-rule;pre;0;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;0
+@t-recursive-rule;pre;1;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;8e-06
+@n-recursive-rule;pre;1;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;1
+@t-recursive-relation;pre;./grad/grad.dl [9:1-9:42];1.6e-05
+@n-recursive-relation;pre;./grad/grad.dl [9:1-9:42];1
+@c-recursive-relation;pre;./grad/grad.dl [9:1-9:42];2e-06
+@t-recursive-rule;pre;0;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;2e-06
+@n-recursive-rule;pre;0;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;0
+@t-recursive-rule;pre;1;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;3e-06
+@n-recursive-rule;pre;1;./grad/grad.dl [33:1-33:42];pre(Pre,Post) :-     pre(Pre,X),    pre(X,Post).;0
+@t-recursive-relation;pre;./grad/grad.dl [9:1-9:42];1.2e-05
+@n-recursive-relation;pre;./grad/grad.dl [9:1-9:42];0
+@t-nonrecursive-rule;student;./grad/grad.dl [13:1-13:17];student('adam').;4e-06
+@n-nonrecursive-rule;student;./grad/grad.dl [13:1-13:17];student('adam').;1
+@t-nonrecursive-rule;student;./grad/grad.dl [14:1-14:16];student('bob').;1e-06
+@n-nonrecursive-rule;student;./grad/grad.dl [14:1-14:16];student('bob').;2
+@t-nonrecursive-rule;student;./grad/grad.dl [15:1-15:17];student('pete').;0
+@n-nonrecursive-rule;student;./grad/grad.dl [15:1-15:17];student('pete').;3
+@t-nonrecursive-rule;student;./grad/grad.dl [16:1-16:18];student('scott').;1e-06
+@n-nonrecursive-rule;student;./grad/grad.dl [16:1-16:18];student('scott').;4
+@t-nonrecursive-rule;student;./grad/grad.dl [17:1-17:17];student('tony').;0
+@n-nonrecursive-rule;student;./grad/grad.dl [17:1-17:17];student('tony').;5
+@t-nonrecursive-relation;student;./grad/grad.dl [7:1-7:34];2.3e-05
+@n-nonrecursive-relation;student;./grad/grad.dl [7:1-7:34];5
+@runtime;0.000882

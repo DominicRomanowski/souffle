@@ -1,0 +1,129 @@
+@start-debug
+@t-nonrecursive-rule;len;./palindrome/palindrome.dl [48:1-48:10];len(0,5).;1.5e-05
+@n-nonrecursive-rule;len;./palindrome/palindrome.dl [48:1-48:10];len(0,5).;1
+@t-nonrecursive-rule;len;./palindrome/palindrome.dl [59:1-59:10];len(1,7).;1e-06
+@n-nonrecursive-rule;len;./palindrome/palindrome.dl [59:1-59:10];len(1,7).;2
+@t-nonrecursive-rule;len;./palindrome/palindrome.dl [67:1-67:10];len(2,4).;1e-06
+@n-nonrecursive-rule;len;./palindrome/palindrome.dl [67:1-67:10];len(2,4).;3
+@t-nonrecursive-rule;len;./palindrome/palindrome.dl [84:1-84:11];len(3,14).;1e-06
+@n-nonrecursive-rule;len;./palindrome/palindrome.dl [84:1-84:11];len(3,14).;4
+@t-nonrecursive-relation;len;./palindrome/palindrome.dl [8:1-8:31];5.9e-05
+@n-nonrecursive-relation;len;./palindrome/palindrome.dl [8:1-8:31];4
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [43:1-43:16];str(0,0,'h',1).;5e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [43:1-43:16];str(0,0,'h',1).;1
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [44:1-44:16];str(0,1,'e',2).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [44:1-44:16];str(0,1,'e',2).;2
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [45:1-45:16];str(0,2,'l',3).;3e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [45:1-45:16];str(0,2,'l',3).;3
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [46:1-46:16];str(0,3,'l',4).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [46:1-46:16];str(0,3,'l',4).;4
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [47:1-47:16];str(0,4,'o',5).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [47:1-47:16];str(0,4,'o',5).;5
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [52:1-52:16];str(1,0,'r',1).;2e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [52:1-52:16];str(1,0,'r',1).;6
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [53:1-53:16];str(1,1,'a',2).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [53:1-53:16];str(1,1,'a',2).;7
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [54:1-54:16];str(1,2,'c',3).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [54:1-54:16];str(1,2,'c',3).;8
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [55:1-55:16];str(1,3,'e',4).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [55:1-55:16];str(1,3,'e',4).;9
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [56:1-56:16];str(1,4,'c',5).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [56:1-56:16];str(1,4,'c',5).;10
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [57:1-57:16];str(1,5,'a',6).;2e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [57:1-57:16];str(1,5,'a',6).;11
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [58:1-58:16];str(1,6,'r',7).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [58:1-58:16];str(1,6,'r',7).;12
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [63:1-63:16];str(2,0,'n',1).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [63:1-63:16];str(2,0,'n',1).;13
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [64:1-64:16];str(2,1,'o',2).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [64:1-64:16];str(2,1,'o',2).;14
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [65:1-65:16];str(2,2,'o',3).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [65:1-65:16];str(2,2,'o',3).;15
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [66:1-66:16];str(2,3,'n',4).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [66:1-66:16];str(2,3,'n',4).;16
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [70:1-70:16];str(3,0,'n',1).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [70:1-70:16];str(3,0,'n',1).;17
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [71:1-71:16];str(3,1,'e',2).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [71:1-71:16];str(3,1,'e',2).;18
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [72:1-72:16];str(3,2,'v',3).;2e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [72:1-72:16];str(3,2,'v',3).;19
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [73:1-73:16];str(3,3,'e',4).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [73:1-73:16];str(3,3,'e',4).;20
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [74:1-74:16];str(3,4,'r',5).;2e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [74:1-74:16];str(3,4,'r',5).;21
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [75:1-75:16];str(3,5,'o',6).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [75:1-75:16];str(3,5,'o',6).;22
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [76:1-76:16];str(3,6,'d',7).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [76:1-76:16];str(3,6,'d',7).;23
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [77:1-77:16];str(3,7,'d',8).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [77:1-77:16];str(3,7,'d',8).;24
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [78:1-78:16];str(3,8,'o',9).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [78:1-78:16];str(3,8,'o',9).;25
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [79:1-79:17];str(3,9,'r',10).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [79:1-79:17];str(3,9,'r',10).;26
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [80:1-80:18];str(3,10,'e',11).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [80:1-80:18];str(3,10,'e',11).;27
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [81:1-81:18];str(3,11,'v',12).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [81:1-81:18];str(3,11,'v',12).;28
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [82:1-82:18];str(3,12,'e',13).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [82:1-82:18];str(3,12,'e',13).;29
+@t-nonrecursive-rule;str;./palindrome/palindrome.dl [83:1-83:18];str(3,13,'n',14).;1e-06
+@n-nonrecursive-rule;str;./palindrome/palindrome.dl [83:1-83:18];str(3,13,'n',14).;30
+@t-nonrecursive-relation;str;./palindrome/palindrome.dl [7:1-7:51];0.000148
+@n-nonrecursive-relation;str;./palindrome/palindrome.dl [7:1-7:51];30
+@t-nonrecursive-rule;p;./palindrome/palindrome.dl [17:1-17:6];p(0).;7e-06
+@n-nonrecursive-rule;p;./palindrome/palindrome.dl [17:1-17:6];p(0).;1
+@t-nonrecursive-rule;p;./palindrome/palindrome.dl [18:1-18:22];p(x) :-     str(_,_,_,x).;1.7e-05
+@n-nonrecursive-rule;p;./palindrome/palindrome.dl [18:1-18:22];p(x) :-     str(_,_,_,x).;15
+@t-nonrecursive-relation;p;./palindrome/palindrome.dl [15:1-15:18];3.2e-05
+@n-nonrecursive-relation;p;./palindrome/palindrome.dl [15:1-15:18];15
+@t-nonrecursive-rule;palin_aux;./palindrome/palindrome.dl [29:1-29:40];palin_aux(s,x,x) :-     str(s,_,_,_),    p(x).;0.000406
+@n-nonrecursive-rule;palin_aux;./palindrome/palindrome.dl [29:1-29:40];palin_aux(s,x,x) :-     str(s,_,_,_),    p(x).;60
+@t-nonrecursive-rule;palin_aux;./palindrome/palindrome.dl [30:1-30:34];palin_aux(s,x,y) :-     str(s,x,_,y).;4.5e-05
+@n-nonrecursive-rule;palin_aux;./palindrome/palindrome.dl [30:1-30:34];palin_aux(s,x,y) :-     str(s,x,_,y).;90
+@t-nonrecursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];0.000467
+@n-nonrecursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];90
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;0.000132
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;6
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];0.000148
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];6
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];6e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;4.6e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;3
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];4.9e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];3
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];3e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;3.6e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;2
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];6.8e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];2
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];2e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;3e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;1
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];3.2e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;2.9e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;1
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];3.8e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;2.9e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;1
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];3e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;3.1e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;1
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];3.8e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1
+@c-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];1e-06
+@t-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;2.6e-05
+@n-recursive-rule;palin_aux;0;./palindrome/palindrome.dl [31:1-31:66];palin_aux(s,x,y) :-     str(s,x,a,t),    palin_aux(s,t,r),    str(s,r,a,y).;0
+@t-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];2.8e-05
+@n-recursive-relation;palin_aux;./palindrome/palindrome.dl [28:1-28:46];0
+@t-nonrecursive-rule;palindrome;./palindrome/palindrome.dl [34:1-34:45];palindrome(s) :-     palin_aux(s,0,l),    len(s,l).;3.8e-05
+@n-nonrecursive-rule;palindrome;./palindrome/palindrome.dl [34:1-34:45];palindrome(s) :-     palin_aux(s,0,l),    len(s,l).;3
+@t-nonrecursive-relation;palindrome;./palindrome/palindrome.dl [33:1-33:34];4.9e-05
+@n-nonrecursive-relation;palindrome;./palindrome/palindrome.dl [33:1-33:34];3
+@runtime;0.001511

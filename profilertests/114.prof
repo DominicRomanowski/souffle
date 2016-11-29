@@ -1,0 +1,42 @@
+@start-debug
+@t-nonrecursive-rule;customer_city;./ship/ship.dl [12:1-12:30];customer_city('1','london').;1.4e-05
+@n-nonrecursive-rule;customer_city;./ship/ship.dl [12:1-12:30];customer_city('1','london').;1
+@t-nonrecursive-rule;customer_city;./ship/ship.dl [13:1-13:29];customer_city('2','paris').;1e-06
+@n-nonrecursive-rule;customer_city;./ship/ship.dl [13:1-13:29];customer_city('2','paris').;2
+@t-nonrecursive-rule;customer_city;./ship/ship.dl [14:1-14:37];customer_city('3','San Francisco').;1e-06
+@n-nonrecursive-rule;customer_city;./ship/ship.dl [14:1-14:37];customer_city('3','San Francisco').;3
+@t-nonrecursive-rule;customer_city;./ship/ship.dl [15:1-15:30];customer_city('4','munich').;1e-06
+@n-nonrecursive-rule;customer_city;./ship/ship.dl [15:1-15:30];customer_city('4','munich').;4
+@t-nonrecursive-rule;customer_city;./ship/ship.dl [16:1-16:29];customer_city('5','seoul').;1e-06
+@n-nonrecursive-rule;customer_city;./ship/ship.dl [16:1-16:29];customer_city('5','seoul').;5
+@t-nonrecursive-relation;customer_city;./ship/ship.dl [6:1-6:52];5.7e-05
+@n-nonrecursive-relation;customer_city;./ship/ship.dl [6:1-6:52];5
+@t-nonrecursive-rule;has_ordered;./ship/ship.dl [18:1-18:23];has_ordered('1','1').;6e-06
+@n-nonrecursive-rule;has_ordered;./ship/ship.dl [18:1-18:23];has_ordered('1','1').;1
+@t-nonrecursive-rule;has_ordered;./ship/ship.dl [19:1-19:23];has_ordered('2','2').;0
+@n-nonrecursive-rule;has_ordered;./ship/ship.dl [19:1-19:23];has_ordered('2','2').;2
+@t-nonrecursive-rule;has_ordered;./ship/ship.dl [20:1-20:23];has_ordered('3','3').;1e-06
+@n-nonrecursive-rule;has_ordered;./ship/ship.dl [20:1-20:23];has_ordered('3','3').;3
+@t-nonrecursive-rule;has_ordered;./ship/ship.dl [21:1-21:23];has_ordered('4','4').;0
+@n-nonrecursive-rule;has_ordered;./ship/ship.dl [21:1-21:23];has_ordered('4','4').;4
+@t-nonrecursive-rule;has_ordered;./ship/ship.dl [22:1-22:23];has_ordered('5','5').;1e-06
+@n-nonrecursive-rule;has_ordered;./ship/ship.dl [22:1-22:23];has_ordered('5','5').;5
+@t-nonrecursive-relation;has_ordered;./ship/ship.dl [7:1-7:50];1.5e-05
+@n-nonrecursive-relation;has_ordered;./ship/ship.dl [7:1-7:50];5
+@t-nonrecursive-rule;product_name;./ship/ship.dl [24:1-24:26];product_name('1','tea').;5e-06
+@n-nonrecursive-rule;product_name;./ship/ship.dl [24:1-24:26];product_name('1','tea').;1
+@t-nonrecursive-rule;product_name;./ship/ship.dl [25:1-25:28];product_name('2','bread').;1e-06
+@n-nonrecursive-rule;product_name;./ship/ship.dl [25:1-25:28];product_name('2','bread').;2
+@t-nonrecursive-rule;product_name;./ship/ship.dl [26:1-26:30];product_name('3','flowers').;1e-06
+@n-nonrecursive-rule;product_name;./ship/ship.dl [26:1-26:30];product_name('3','flowers').;3
+@t-nonrecursive-rule;product_name;./ship/ship.dl [27:1-27:30];product_name('4','sausage').;0
+@n-nonrecursive-rule;product_name;./ship/ship.dl [27:1-27:30];product_name('4','sausage').;4
+@t-nonrecursive-rule;product_name;./ship/ship.dl [28:1-28:28];product_name('5','horse').;1e-06
+@n-nonrecursive-rule;product_name;./ship/ship.dl [28:1-28:28];product_name('5','horse').;5
+@t-nonrecursive-relation;product_name;./ship/ship.dl [8:1-8:51];1.3e-05
+@n-nonrecursive-relation;product_name;./ship/ship.dl [8:1-8:51];5
+@t-nonrecursive-rule;ship_to;./ship/ship.dl [10:1-10:117];ship_to(ProdName,City) :-     has_ordered(CustNo,ProdNo),    customer_city(CustNo,City),    product_name(ProdNo,ProdName).;2.4e-05
+@n-nonrecursive-rule;ship_to;./ship/ship.dl [10:1-10:117];ship_to(ProdName,City) :-     has_ordered(CustNo,ProdNo),    customer_city(CustNo,City),    product_name(ProdNo,ProdName).;5
+@t-nonrecursive-relation;ship_to;./ship/ship.dl [5:1-5:46];2.6e-05
+@n-nonrecursive-relation;ship_to;./ship/ship.dl [5:1-5:46];5
+@runtime;0.000732

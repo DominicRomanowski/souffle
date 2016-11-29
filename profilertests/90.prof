@@ -1,0 +1,20 @@
+@start-debug
+@t-nonrecursive-rule;n;./ordinals/ordinals.dl [7:1-7:12];n('Homer').;1.3e-05
+@n-nonrecursive-rule;n;./ordinals/ordinals.dl [7:1-7:12];n('Homer').;1
+@t-nonrecursive-rule;n;./ordinals/ordinals.dl [8:1-8:12];n('Marge').;1e-06
+@n-nonrecursive-rule;n;./ordinals/ordinals.dl [8:1-8:12];n('Marge').;2
+@t-nonrecursive-rule;n;./ordinals/ordinals.dl [9:1-9:11];n('Bart').;0
+@n-nonrecursive-rule;n;./ordinals/ordinals.dl [9:1-9:11];n('Bart').;3
+@t-nonrecursive-rule;n;./ordinals/ordinals.dl [10:1-10:11];n('Lisa').;0
+@n-nonrecursive-rule;n;./ordinals/ordinals.dl [10:1-10:11];n('Lisa').;4
+@t-nonrecursive-rule;n;./ordinals/ordinals.dl [11:1-11:13];n('Maggie').;1e-06
+@n-nonrecursive-rule;n;./ordinals/ordinals.dl [11:1-11:13];n('Maggie').;5
+@t-nonrecursive-relation;n;./ordinals/ordinals.dl [4:1-4:21];5.4e-05
+@n-nonrecursive-relation;n;./ordinals/ordinals.dl [4:1-4:21];5
+@t-nonrecursive-rule;r;./ordinals/ordinals.dl [16:1-16:37];r(1) :-     n(x),    n(y),    ord(x) < ord(y).;1.7e-05
+@n-nonrecursive-rule;r;./ordinals/ordinals.dl [16:1-16:37];r(1) :-     n(x),    n(y),    ord(x) < ord(y).;1
+@t-nonrecursive-rule;r;./ordinals/ordinals.dl [17:1-17:37];r(2) :-     n(x),    n(y),    ord(x) > ord(y).;6e-06
+@n-nonrecursive-rule;r;./ordinals/ordinals.dl [17:1-17:37];r(2) :-     n(x),    n(y),    ord(x) > ord(y).;2
+@t-nonrecursive-relation;r;./ordinals/ordinals.dl [14:1-14:30];6e-05
+@n-nonrecursive-relation;r;./ordinals/ordinals.dl [14:1-14:30];2
+@runtime;0.000245

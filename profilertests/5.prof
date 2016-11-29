@@ -1,0 +1,289 @@
+@start-debug
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [37:1-37:16];succ('0','1').;1.5e-05
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [37:1-37:16];succ('0','1').;1
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [38:1-38:16];succ('1','2').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [38:1-38:16];succ('1','2').;2
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [39:1-39:16];succ('2','3').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [39:1-39:16];succ('2','3').;3
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [40:1-40:16];succ('3','4').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [40:1-40:16];succ('3','4').;4
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [41:1-41:16];succ('4','5').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [41:1-41:16];succ('4','5').;5
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [42:1-42:16];succ('5','6').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [42:1-42:16];succ('5','6').;6
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [43:1-43:16];succ('6','7').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [43:1-43:16];succ('6','7').;7
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [44:1-44:16];succ('7','8').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [44:1-44:16];succ('7','8').;8
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [45:1-45:16];succ('8','9').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [45:1-45:16];succ('8','9').;9
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [46:1-46:17];succ('9','10').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [46:1-46:17];succ('9','10').;10
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [47:1-47:18];succ('10','11').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [47:1-47:18];succ('10','11').;11
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [48:1-48:18];succ('11','12').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [48:1-48:18];succ('11','12').;12
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [49:1-49:18];succ('12','13').;0
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [49:1-49:18];succ('12','13').;13
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [50:1-50:18];succ('13','14').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [50:1-50:18];succ('13','14').;14
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [51:1-51:18];succ('14','15').;0
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [51:1-51:18];succ('14','15').;15
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [52:1-52:18];succ('15','16').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [52:1-52:18];succ('15','16').;16
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [53:1-53:18];succ('16','17').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [53:1-53:18];succ('16','17').;17
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [54:1-54:18];succ('17','18').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [54:1-54:18];succ('17','18').;18
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [55:1-55:18];succ('18','19').;1e-06
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [55:1-55:18];succ('18','19').;19
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [56:1-56:18];succ('19','20').;0
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [56:1-56:18];succ('19','20').;20
+@t-nonrecursive-rule;succ;./ackermann/ackermann.dl [57:1-57:18];succ('20','21').;0
+@n-nonrecursive-rule;succ;./ackermann/ackermann.dl [57:1-57:18];succ('20','21').;21
+@t-nonrecursive-relation;succ;./ackermann/ackermann.dl [15:1-15:34];0.000127
+@n-nonrecursive-relation;succ;./ackermann/ackermann.dl [15:1-15:34];21
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [59:1-59:19];greaterThanZ('1').;5e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [59:1-59:19];greaterThanZ('1').;1
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [60:1-60:19];greaterThanZ('2').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [60:1-60:19];greaterThanZ('2').;2
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [61:1-61:19];greaterThanZ('3').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [61:1-61:19];greaterThanZ('3').;3
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [62:1-62:19];greaterThanZ('4').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [62:1-62:19];greaterThanZ('4').;4
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [63:1-63:19];greaterThanZ('5').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [63:1-63:19];greaterThanZ('5').;5
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [64:1-64:19];greaterThanZ('6').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [64:1-64:19];greaterThanZ('6').;6
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [65:1-65:19];greaterThanZ('7').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [65:1-65:19];greaterThanZ('7').;7
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [66:1-66:19];greaterThanZ('8').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [66:1-66:19];greaterThanZ('8').;8
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [67:1-67:19];greaterThanZ('9').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [67:1-67:19];greaterThanZ('9').;9
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [68:1-68:20];greaterThanZ('10').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [68:1-68:20];greaterThanZ('10').;10
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [69:1-69:20];greaterThanZ('11').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [69:1-69:20];greaterThanZ('11').;11
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [70:1-70:20];greaterThanZ('12').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [70:1-70:20];greaterThanZ('12').;12
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [71:1-71:20];greaterThanZ('13').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [71:1-71:20];greaterThanZ('13').;13
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [72:1-72:20];greaterThanZ('14').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [72:1-72:20];greaterThanZ('14').;14
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [73:1-73:20];greaterThanZ('15').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [73:1-73:20];greaterThanZ('15').;15
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [74:1-74:20];greaterThanZ('16').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [74:1-74:20];greaterThanZ('16').;16
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [75:1-75:20];greaterThanZ('17').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [75:1-75:20];greaterThanZ('17').;17
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [76:1-76:20];greaterThanZ('18').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [76:1-76:20];greaterThanZ('18').;18
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [77:1-77:20];greaterThanZ('19').;0
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [77:1-77:20];greaterThanZ('19').;19
+@t-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [78:1-78:20];greaterThanZ('20').;1e-06
+@n-nonrecursive-rule;greaterThanZ;./ackermann/ackermann.dl [78:1-78:20];greaterThanZ('20').;20
+@t-nonrecursive-relation;greaterThanZ;./ackermann/ackermann.dl [16:1-16:30];6.1e-05
+@n-nonrecursive-relation;greaterThanZ;./ackermann/ackermann.dl [16:1-16:30];20
+@t-nonrecursive-rule;ack;./ackermann/ackermann.dl [20:1-21:18];ack('0',N,Ans) :-     succ(N,Ans).;3.1e-05
+@n-nonrecursive-rule;ack;./ackermann/ackermann.dl [20:1-21:18];ack('0',N,Ans) :-     succ(N,Ans).;21
+@t-nonrecursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3.3e-05
+@n-nonrecursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];21
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;4.3e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;1
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000797
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000733
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001602
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;2.9e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000684
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000708
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001437
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1.2e-05
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.1e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;1
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.029019
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000683
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.029753
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];4e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;2.9e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000683
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00075
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001494
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2.3e-05
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;2.5e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000756
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000875
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001675
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];8e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.8e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;1
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000793
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000805
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001645
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];6e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.3e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000766
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00081
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001618
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];5e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.5e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000826
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00082
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001699
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.2e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00097
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000854
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001869
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.3e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000832
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000814
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001694
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];4e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.3e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000827
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000762
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001649
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;2.9e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000728
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000803
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001579
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.1e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000787
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000789
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001629
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.4e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00073
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000714
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.001497
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.8e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;1
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.001344
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000867
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;3
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.002282
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1.5e-05
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.2e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00156
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000766
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.00238
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];4e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.1e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.001117
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000844
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.002023
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.4e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000735
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.001394
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.002185
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;2.7e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000685
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.001014
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;2
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.00175
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];2
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3.4e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.00154
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.000759
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.002356
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];3e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.043253
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.003804
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;1
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.047133
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];1
+@c-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];4e-06
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;3e-05
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [23:1-26:22];ack(M,'0',Ans) :-     greaterThanZ(M),    succ(X,M),    ack(X,'1',Ans).;0
+@t-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.004679
+@n-recursive-rule;ack;0;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0
+@t-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0.030112
+@n-recursive-rule;ack;1;./ackermann/ackermann.dl [28:1-34:23];ack(M,N,Ans) :-     greaterThanZ(M),    greaterThanZ(N),    succ(X,M),    succ(Y,N),    ack(M,Y,Ans2),    ack(X,Ans2,Ans).;0
+@t-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0.034848
+@n-recursive-relation;ack;./ackermann/ackermann.dl [17:1-17:50];0
+@runtime;0.146558

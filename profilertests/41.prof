@@ -1,0 +1,239 @@
+@start-debug
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [105:6-105:42];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     gen(node,inf).;2e-05
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [105:6-105:42];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     gen(node,inf).;8
+@t-nonrecursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];5.4e-05
+@n-nonrecursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];8
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;2.7e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;13
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];5.7e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];13
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];1.9e-05
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;3.2e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;17
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];3.4e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];17
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];5e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;2.6e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;12
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];2.7e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];12
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];4e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;0.000599
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;2
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];0.000604
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];2
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];2e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;6e-06
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Available_Expressions.gen_kill_union.fs_kill(node,inf) :-     Available_Expressions.gen_kill_union.fs_kill(pred,inf),    edge(pred,node).;0
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];7e-06
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];0
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Available_Expressions.gen_kill_union.node(node) :-     edge(node,_).;1.1e-05
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Available_Expressions.gen_kill_union.node(node) :-     edge(node,_).;7
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Available_Expressions.gen_kill_union.node(node) :-     edge(_,node).;5e-06
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Available_Expressions.gen_kill_union.node(node) :-     edge(_,node).;8
+@t-nonrecursive-relation;Available_Expressions.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];2.5e-05
+@n-nonrecursive-relation;Available_Expressions.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];8
+@t-nonrecursive-rule;Available_Expressions.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Available_Expressions.node(node) :-     edge(node,_).;8e-06
+@n-nonrecursive-rule;Available_Expressions.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Available_Expressions.node(node) :-     edge(node,_).;7
+@t-nonrecursive-rule;Available_Expressions.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Available_Expressions.node(node) :-     edge(_,node).;4e-06
+@n-nonrecursive-rule;Available_Expressions.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Available_Expressions.node(node) :-     edge(_,node).;8
+@t-nonrecursive-relation;Available_Expressions.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];2e-05
+@n-nonrecursive-relation;Available_Expressions.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];8
+@t-nonrecursive-rule;Reaching_Definitions.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Reaching_Definitions.node(node) :-     edge(node,_).;8e-06
+@n-nonrecursive-rule;Reaching_Definitions.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Reaching_Definitions.node(node) :-     edge(node,_).;7
+@t-nonrecursive-rule;Reaching_Definitions.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Reaching_Definitions.node(node) :-     edge(_,node).;4e-06
+@n-nonrecursive-rule;Reaching_Definitions.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Reaching_Definitions.node(node) :-     edge(_,node).;8
+@t-nonrecursive-relation;Reaching_Definitions.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];2.1e-05
+@n-nonrecursive-relation;Reaching_Definitions.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];8
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.edge;./dfa_summary_function/dfa_summary_function.dl [154:7-154:53];Live_Variables.gen_kill_union.edge(src,des) :-     edge(des,src).;1.4e-05
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.edge;./dfa_summary_function/dfa_summary_function.dl [154:7-154:53];Live_Variables.gen_kill_union.edge(src,des) :-     edge(des,src).;11
+@t-nonrecursive-relation;Live_Variables.gen_kill_union.edge;./dfa_summary_function/dfa_summary_function.dl [28:7-28:36];1.7e-05
+@n-nonrecursive-relation;Live_Variables.gen_kill_union.edge;./dfa_summary_function/dfa_summary_function.dl [28:7-28:36];11
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Live_Variables.gen_kill_union.node(node) :-     Live_Variables.gen_kill_union.edge(node,_).;8e-06
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [45:7-45:34];Live_Variables.gen_kill_union.node(node) :-     Live_Variables.gen_kill_union.edge(node,_).;7
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Live_Variables.gen_kill_union.node(node) :-     Live_Variables.gen_kill_union.edge(_,node).;5e-06
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [46:7-46:34];Live_Variables.gen_kill_union.node(node) :-     Live_Variables.gen_kill_union.edge(_,node).;8
+@t-nonrecursive-relation;Live_Variables.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];2.8e-05
+@n-nonrecursive-relation;Live_Variables.gen_kill_union.node;./dfa_summary_function/dfa_summary_function.dl [43:7-43:28];8
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.gen;./dfa_summary_function/dfa_summary_function.dl [128:7-128:70];Available_Expressions.gen_kill_union.gen(node,inf) :-     kill(node,inf),    !gen(node,inf).;2.4e-05
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.gen;./dfa_summary_function/dfa_summary_function.dl [128:7-128:70];Available_Expressions.gen_kill_union.gen(node,inf) :-     kill(node,inf),    !gen(node,inf).;13
+@t-nonrecursive-relation;Available_Expressions.gen_kill_union.gen;./dfa_summary_function/dfa_summary_function.dl [59:7-59:43];3e-05
+@n-nonrecursive-relation;Available_Expressions.gen_kill_union.gen;./dfa_summary_function/dfa_summary_function.dl [59:7-59:43];13
+@t-nonrecursive-rule;universe;./dfa_summary_function/dfa_summary_function.dl [231:1-231:29];universe(inf) :-     gen(_,inf).;8e-06
+@n-nonrecursive-rule;universe;./dfa_summary_function/dfa_summary_function.dl [231:1-231:29];universe(inf) :-     gen(_,inf).;8
+@t-nonrecursive-rule;universe;./dfa_summary_function/dfa_summary_function.dl [232:1-232:30];universe(inf) :-     kill(_,inf).;7e-06
+@n-nonrecursive-rule;universe;./dfa_summary_function/dfa_summary_function.dl [232:1-232:30];universe(inf) :-     kill(_,inf).;11
+@t-nonrecursive-relation;universe;./dfa_summary_function/dfa_summary_function.dl [230:1-230:27];1.8e-05
+@n-nonrecursive-relation;universe;./dfa_summary_function/dfa_summary_function.dl [230:1-230:27];11
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [105:6-105:42];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     kill(node,inf).;1.7e-05
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [105:6-105:42];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     kill(node,inf).;20
+@t-nonrecursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];1.9e-05
+@n-nonrecursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];20
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;3.2e-05
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;12
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];4.1e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];12
+@c-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];5e-06
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;2.3e-05
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;6
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];3.7e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];6
+@c-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];3e-06
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;1.3e-05
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;6
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];1.4e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];6
+@c-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];2e-06
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;9e-06
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Live_Variables.gen_kill_union.fs_kill(node,inf) :-     Live_Variables.gen_kill_union.fs_kill(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node).;0
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];1e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];0
+@t-nonrecursive-rule;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [98:6-98:40];Reaching_Definitions.fs_gen(node,inf) :-     gen(node,inf).;1.1e-05
+@n-nonrecursive-rule;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [98:6-98:40];Reaching_Definitions.fs_gen(node,inf) :-     gen(node,inf).;8
+@t-nonrecursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];1.3e-05
+@n-nonrecursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];8
+@t-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;3.3e-05
+@n-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;10
+@t-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];4.6e-05
+@n-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];10
+@c-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];5e-06
+@t-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;2.9e-05
+@n-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;11
+@t-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3e-05
+@n-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];11
+@c-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];5e-06
+@t-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;2.2e-05
+@n-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;8
+@t-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];2.4e-05
+@n-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];8
+@c-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3e-06
+@t-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;2e-05
+@n-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;3
+@t-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];2.6e-05
+@n-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3
+@c-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];2e-06
+@t-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;4e-06
+@n-recursive-rule;Reaching_Definitions.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Reaching_Definitions.fs_gen(node,inf) :-     Reaching_Definitions.fs_gen(pred,inf),    edge(pred,node),    !kill(node,inf).;0
+@t-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];9e-06
+@n-recursive-relation;Reaching_Definitions.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];0
+@t-nonrecursive-rule;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [105:6-105:42];Reaching_Definitions.fs_kill(node,inf) :-     kill(node,inf).;1.9e-05
+@n-nonrecursive-rule;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [105:6-105:42];Reaching_Definitions.fs_kill(node,inf) :-     kill(node,inf).;20
+@t-nonrecursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];2.2e-05
+@n-nonrecursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];20
+@t-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;4.7e-05
+@n-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;25
+@t-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];6.3e-05
+@n-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];25
+@c-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];8e-06
+@t-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;5.1e-05
+@n-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;27
+@t-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];5.8e-05
+@n-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];27
+@c-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];1.3e-05
+@t-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;3.6e-05
+@n-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;10
+@t-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];3.8e-05
+@n-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];10
+@c-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];3e-06
+@t-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;1.7e-05
+@n-recursive-rule;Reaching_Definitions.fs_kill;0;./dfa_summary_function/dfa_summary_function.dl [106:6-106:62];Reaching_Definitions.fs_kill(node,inf) :-     Reaching_Definitions.fs_kill(pred,inf),    edge(pred,node).;0
+@t-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];1.9e-05
+@n-recursive-relation;Reaching_Definitions.fs_kill;./dfa_summary_function/dfa_summary_function.dl [88:6-88:46];0
+@t-nonrecursive-rule;Reaching_Definitions.startvalue;./dfa_summary_function/dfa_summary_function.dl [256:1-256:60];Reaching_Definitions.startvalue(i) :-     gen(1,i),    !kill(1,i).;1.2e-05
+@n-nonrecursive-rule;Reaching_Definitions.startvalue;./dfa_summary_function/dfa_summary_function.dl [256:1-256:60];Reaching_Definitions.startvalue(i) :-     gen(1,i),    !kill(1,i).;1
+@t-nonrecursive-relation;Reaching_Definitions.startvalue;./dfa_summary_function/dfa_summary_function.dl [69:7-69:40];1.9e-05
+@n-nonrecursive-relation;Reaching_Definitions.startvalue;./dfa_summary_function/dfa_summary_function.dl [69:7-69:40];1
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [98:6-98:40];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.gen(node,inf).;1.2e-05
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [98:6-98:40];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.gen(node,inf).;13
+@t-nonrecursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];1.4e-05
+@n-nonrecursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];13
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;4.4e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;16
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];6.3e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];16
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];6e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;5.2e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;17
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];6e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];17
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];6e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;3.3e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;10
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3.5e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];10
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];4e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;3e-05
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;3
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3.2e-05
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3
+@c-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];1e-06
+@t-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;5e-06
+@n-recursive-rule;Available_Expressions.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Available_Expressions.gen_kill_union.fs_gen(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(pred,inf),    edge(pred,node),    !gen(node,inf).;0
+@t-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];7e-06
+@n-recursive-relation;Available_Expressions.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];0
+@t-nonrecursive-rule;Available_Expressions.startvalue;./dfa_summary_function/dfa_summary_function.dl [246:1-246:69];Available_Expressions.startvalue(inf) :-     universe(inf),    !kill(1,inf).;1.4e-05
+@n-nonrecursive-rule;Available_Expressions.startvalue;./dfa_summary_function/dfa_summary_function.dl [246:1-246:69];Available_Expressions.startvalue(inf) :-     universe(inf),    !kill(1,inf).;3
+@t-nonrecursive-relation;Available_Expressions.startvalue;./dfa_summary_function/dfa_summary_function.dl [69:7-69:40];2.2e-05
+@n-nonrecursive-relation;Available_Expressions.startvalue;./dfa_summary_function/dfa_summary_function.dl [69:7-69:40];3
+@t-nonrecursive-rule;Reaching_Definitions.out;./dfa_summary_function/dfa_summary_function.dl [113:6-113:40];Reaching_Definitions.out(node,inf) :-     Reaching_Definitions.fs_gen(node,inf).;0.000623
+@n-nonrecursive-rule;Reaching_Definitions.out;./dfa_summary_function/dfa_summary_function.dl [113:6-113:40];Reaching_Definitions.out(node,inf) :-     Reaching_Definitions.fs_gen(node,inf).;40
+@t-nonrecursive-rule;Reaching_Definitions.out;./dfa_summary_function/dfa_summary_function.dl [114:6-114:71];Reaching_Definitions.out(node,inf) :-     Reaching_Definitions.node(node),    Reaching_Definitions.startvalue(inf),    !Reaching_Definitions.fs_kill(node,inf).;1e-05
+@n-nonrecursive-rule;Reaching_Definitions.out;./dfa_summary_function/dfa_summary_function.dl [114:6-114:71];Reaching_Definitions.out(node,inf) :-     Reaching_Definitions.node(node),    Reaching_Definitions.startvalue(inf),    !Reaching_Definitions.fs_kill(node,inf).;40
+@t-nonrecursive-relation;Reaching_Definitions.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];0.000654
+@n-nonrecursive-relation;Reaching_Definitions.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];40
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [113:6-113:40];Available_Expressions.gen_kill_union.out(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(node,inf).;4.8e-05
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [113:6-113:40];Available_Expressions.gen_kill_union.out(node,inf) :-     Available_Expressions.gen_kill_union.fs_gen(node,inf).;59
+@t-nonrecursive-rule;Available_Expressions.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [114:6-114:71];Available_Expressions.gen_kill_union.out(node,inf) :-     Available_Expressions.gen_kill_union.node(node),    Available_Expressions.startvalue(inf),    !Available_Expressions.gen_kill_union.fs_kill(node,inf).;2e-05
+@n-nonrecursive-rule;Available_Expressions.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [114:6-114:71];Available_Expressions.gen_kill_union.out(node,inf) :-     Available_Expressions.gen_kill_union.node(node),    Available_Expressions.startvalue(inf),    !Available_Expressions.gen_kill_union.fs_kill(node,inf).;63
+@t-nonrecursive-relation;Available_Expressions.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];8.2e-05
+@n-nonrecursive-relation;Available_Expressions.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];63
+@t-nonrecursive-rule;reaching_definitions;./dfa_summary_function/dfa_summary_function.dl [280:1-280:60];reaching_definitions(x,i) :-     Reaching_Definitions.out(x,i).;3.5e-05
+@n-nonrecursive-rule;reaching_definitions;./dfa_summary_function/dfa_summary_function.dl [280:1-280:60];reaching_definitions(x,i) :-     Reaching_Definitions.out(x,i).;40
+@t-nonrecursive-relation;reaching_definitions;./dfa_summary_function/dfa_summary_function.dl [279:1-279:54];4.1e-05
+@n-nonrecursive-relation;reaching_definitions;./dfa_summary_function/dfa_summary_function.dl [279:1-279:54];40
+@t-nonrecursive-rule;Available_Expressions.out;./dfa_summary_function/dfa_summary_function.dl [138:7-138:81];Available_Expressions.out(node,inf) :-     Available_Expressions.node(node),    universe(inf),    !Available_Expressions.gen_kill_union.out(node,inf).;6.3e-05
+@n-nonrecursive-rule;Available_Expressions.out;./dfa_summary_function/dfa_summary_function.dl [138:7-138:81];Available_Expressions.out(node,inf) :-     Available_Expressions.node(node),    universe(inf),    !Available_Expressions.gen_kill_union.out(node,inf).;25
+@t-nonrecursive-relation;Available_Expressions.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];6.6e-05
+@n-nonrecursive-relation;Available_Expressions.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];25
+@t-nonrecursive-rule;available_expressions;./dfa_summary_function/dfa_summary_function.dl [276:1-276:62];available_expressions(x,i) :-     Available_Expressions.out(x,i).;2.5e-05
+@n-nonrecursive-rule;available_expressions;./dfa_summary_function/dfa_summary_function.dl [276:1-276:62];available_expressions(x,i) :-     Available_Expressions.out(x,i).;25
+@t-nonrecursive-relation;available_expressions;./dfa_summary_function/dfa_summary_function.dl [275:1-275:55];3.7e-05
+@n-nonrecursive-relation;available_expressions;./dfa_summary_function/dfa_summary_function.dl [275:1-275:55];25
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [98:6-98:40];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     use(node,inf).;1.9e-05
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [98:6-98:40];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     use(node,inf).;19
+@t-nonrecursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];2.1e-05
+@n-nonrecursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];19
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;5.7e-05
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;8
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];5.9e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];8
+@c-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];5e-06
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;2.7e-05
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;4
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3.3e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];4
+@c-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];3e-06
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;3.2e-05
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;2
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];4.9e-05
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];2
+@c-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];2e-06
+@t-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;6e-06
+@n-recursive-rule;Live_Variables.gen_kill_union.fs_gen;0;./dfa_summary_function/dfa_summary_function.dl [99:6-99:77];Live_Variables.gen_kill_union.fs_gen(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(pred,inf),    Live_Variables.gen_kill_union.edge(pred,node),    !kill(node,inf).;0
+@t-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];8e-06
+@n-recursive-relation;Live_Variables.gen_kill_union.fs_gen;./dfa_summary_function/dfa_summary_function.dl [93:6-93:45];0
+@t-nonrecursive-rule;Live_Variables.startvalue;./dfa_summary_function/dfa_summary_function.dl [267:1-267:54];Live_Variables.startvalue(i) :-     use(8,i),    !kill(8,i).;1.2e-05
+@n-nonrecursive-rule;Live_Variables.startvalue;./dfa_summary_function/dfa_summary_function.dl [267:1-267:54];Live_Variables.startvalue(i) :-     use(8,i),    !kill(8,i).;4
+@t-nonrecursive-relation;Live_Variables.startvalue;./dfa_summary_function/dfa_summary_function.dl [69:7-69:40];1.4e-05
+@n-nonrecursive-relation;Live_Variables.startvalue;./dfa_summary_function/dfa_summary_function.dl [69:7-69:40];4
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [113:6-113:40];Live_Variables.gen_kill_union.out(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(node,inf).;2.6e-05
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [113:6-113:40];Live_Variables.gen_kill_union.out(node,inf) :-     Live_Variables.gen_kill_union.fs_gen(node,inf).;33
+@t-nonrecursive-rule;Live_Variables.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [114:6-114:71];Live_Variables.gen_kill_union.out(node,inf) :-     Live_Variables.gen_kill_union.node(node),    Live_Variables.startvalue(inf),    !Live_Variables.gen_kill_union.fs_kill(node,inf).;3.1e-05
+@n-nonrecursive-rule;Live_Variables.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [114:6-114:71];Live_Variables.gen_kill_union.out(node,inf) :-     Live_Variables.gen_kill_union.node(node),    Live_Variables.startvalue(inf),    !Live_Variables.gen_kill_union.fs_kill(node,inf).;33
+@t-nonrecursive-relation;Live_Variables.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];6.7e-05
+@n-nonrecursive-relation;Live_Variables.gen_kill_union.out;./dfa_summary_function/dfa_summary_function.dl [79:7-79:43];33
+@t-nonrecursive-rule;live_variables;./dfa_summary_function/dfa_summary_function.dl [284:1-284:48];live_variables(x,i) :-     Live_Variables.gen_kill_union.out(x,i).;2.9e-05
+@n-nonrecursive-rule;live_variables;./dfa_summary_function/dfa_summary_function.dl [284:1-284:48];live_variables(x,i) :-     Live_Variables.gen_kill_union.out(x,i).;33
+@t-nonrecursive-relation;live_variables;./dfa_summary_function/dfa_summary_function.dl [283:1-283:48];4.2e-05
+@n-nonrecursive-relation;live_variables;./dfa_summary_function/dfa_summary_function.dl [283:1-283:48];33
+@runtime;0.007002

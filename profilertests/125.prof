@@ -1,0 +1,32 @@
+@start-debug
+@t-nonrecursive-rule;A;./trans/trans.dl [11:1-11:12];A('a','b').;1.4e-05
+@n-nonrecursive-rule;A;./trans/trans.dl [11:1-11:12];A('a','b').;1
+@t-nonrecursive-rule;A;./trans/trans.dl [12:1-12:12];A('b','c').;2e-06
+@n-nonrecursive-rule;A;./trans/trans.dl [12:1-12:12];A('b','c').;2
+@t-nonrecursive-rule;A;./trans/trans.dl [13:1-13:12];A('c','d').;1e-06
+@n-nonrecursive-rule;A;./trans/trans.dl [13:1-13:12];A('c','d').;3
+@t-nonrecursive-rule;A;./trans/trans.dl [14:1-14:12];A('d','e').;1e-06
+@n-nonrecursive-rule;A;./trans/trans.dl [14:1-14:12];A('d','e').;4
+@t-nonrecursive-relation;A;./trans/trans.dl [5:1-5:26];5.6e-05
+@n-nonrecursive-relation;A;./trans/trans.dl [5:1-5:26];4
+@t-recursive-rule;A;0;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;1.8e-05
+@n-recursive-rule;A;0;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;0
+@t-recursive-rule;A;1;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;1.5e-05
+@n-recursive-rule;A;1;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;3
+@t-recursive-relation;A;./trans/trans.dl [5:1-5:26];7.3e-05
+@n-recursive-relation;A;./trans/trans.dl [5:1-5:26];3
+@c-recursive-relation;A;./trans/trans.dl [5:1-5:26];3e-06
+@t-recursive-rule;A;0;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;1.3e-05
+@n-recursive-rule;A;0;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;2
+@t-recursive-rule;A;1;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;1e-05
+@n-recursive-rule;A;1;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;3
+@t-recursive-relation;A;./trans/trans.dl [5:1-5:26];2.6e-05
+@n-recursive-relation;A;./trans/trans.dl [5:1-5:26];3
+@c-recursive-relation;A;./trans/trans.dl [5:1-5:26];2e-06
+@t-recursive-rule;A;0;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;5e-06
+@n-recursive-rule;A;0;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;0
+@t-recursive-rule;A;1;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;7e-06
+@n-recursive-rule;A;1;./trans/trans.dl [8:1-8:26];A(x,z) :-     A(x,y),    A(y,z).;0
+@t-recursive-relation;A;./trans/trans.dl [5:1-5:26];2.1e-05
+@n-recursive-relation;A;./trans/trans.dl [5:1-5:26];0
+@runtime;0.000342

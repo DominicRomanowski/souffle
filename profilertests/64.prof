@@ -1,0 +1,98 @@
+@start-debug
+@t-nonrecursive-rule;R;./linksum/linksum.dl [24:1-24:8];R(0,0).;1.7e-05
+@n-nonrecursive-rule;R;./linksum/linksum.dl [24:1-24:8];R(0,0).;1
+@t-nonrecursive-rule;R;./linksum/linksum.dl [25:1-25:8];R(1,0).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [25:1-25:8];R(1,0).;2
+@t-nonrecursive-rule;R;./linksum/linksum.dl [26:1-26:8];R(1,1).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [26:1-26:8];R(1,1).;3
+@t-nonrecursive-rule;R;./linksum/linksum.dl [27:1-27:8];R(2,0).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [27:1-27:8];R(2,0).;4
+@t-nonrecursive-rule;R;./linksum/linksum.dl [28:1-28:8];R(2,1).;0
+@n-nonrecursive-rule;R;./linksum/linksum.dl [28:1-28:8];R(2,1).;5
+@t-nonrecursive-rule;R;./linksum/linksum.dl [29:1-29:8];R(2,2).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [29:1-29:8];R(2,2).;6
+@t-nonrecursive-rule;R;./linksum/linksum.dl [30:1-30:8];R(0,3).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [30:1-30:8];R(0,3).;7
+@t-nonrecursive-rule;R;./linksum/linksum.dl [31:1-31:8];R(1,3).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [31:1-31:8];R(1,3).;8
+@t-nonrecursive-rule;R;./linksum/linksum.dl [32:1-32:8];R(3,2).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [32:1-32:8];R(3,2).;9
+@t-nonrecursive-rule;R;./linksum/linksum.dl [33:1-33:8];R(3,3).;0
+@n-nonrecursive-rule;R;./linksum/linksum.dl [33:1-33:8];R(3,3).;10
+@t-nonrecursive-rule;R;./linksum/linksum.dl [34:1-34:8];R(0,4).;0
+@n-nonrecursive-rule;R;./linksum/linksum.dl [34:1-34:8];R(0,4).;11
+@t-nonrecursive-rule;R;./linksum/linksum.dl [35:1-35:8];R(4,1).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [35:1-35:8];R(4,1).;12
+@t-nonrecursive-rule;R;./linksum/linksum.dl [36:1-36:8];R(2,4).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [36:1-36:8];R(2,4).;13
+@t-nonrecursive-rule;R;./linksum/linksum.dl [37:1-37:8];R(3,4).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [37:1-37:8];R(3,4).;14
+@t-nonrecursive-rule;R;./linksum/linksum.dl [38:1-38:8];R(4,4).;0
+@n-nonrecursive-rule;R;./linksum/linksum.dl [38:1-38:8];R(4,4).;15
+@t-nonrecursive-rule;R;./linksum/linksum.dl [39:1-39:8];R(0,5).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [39:1-39:8];R(0,5).;16
+@t-nonrecursive-rule;R;./linksum/linksum.dl [40:1-40:8];R(1,5).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [40:1-40:8];R(1,5).;17
+@t-nonrecursive-rule;R;./linksum/linksum.dl [41:1-41:8];R(2,5).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [41:1-41:8];R(2,5).;18
+@t-nonrecursive-rule;R;./linksum/linksum.dl [42:1-42:8];R(3,5).;0
+@n-nonrecursive-rule;R;./linksum/linksum.dl [42:1-42:8];R(3,5).;19
+@t-nonrecursive-rule;R;./linksum/linksum.dl [43:1-43:8];R(4,5).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [43:1-43:8];R(4,5).;20
+@t-nonrecursive-rule;R;./linksum/linksum.dl [44:1-44:8];R(5,5).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [44:1-44:8];R(5,5).;21
+@t-nonrecursive-rule;R;./linksum/linksum.dl [45:1-45:8];R(5,0).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [45:1-45:8];R(5,0).;22
+@t-nonrecursive-rule;R;./linksum/linksum.dl [46:1-46:8];R(5,1).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [46:1-46:8];R(5,1).;23
+@t-nonrecursive-rule;R;./linksum/linksum.dl [47:1-47:8];R(5,2).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [47:1-47:8];R(5,2).;24
+@t-nonrecursive-rule;R;./linksum/linksum.dl [48:1-48:8];R(5,3).;0
+@n-nonrecursive-rule;R;./linksum/linksum.dl [48:1-48:8];R(5,3).;25
+@t-nonrecursive-rule;R;./linksum/linksum.dl [49:1-49:8];R(5,4).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [49:1-49:8];R(5,4).;26
+@t-nonrecursive-rule;R;./linksum/linksum.dl [50:1-50:8];R(5,5).;1e-06
+@n-nonrecursive-rule;R;./linksum/linksum.dl [50:1-50:8];R(5,5).;26
+@t-nonrecursive-relation;R;./linksum/linksum.dl [8:1-8:29];0.000144
+@n-nonrecursive-relation;R;./linksum/linksum.dl [8:1-8:29];26
+@t-nonrecursive-rule;A;./linksum/linksum.dl [13:1-13:22];A(X,Y,(X+Y)) :-     R(X,Y).;3.8e-05
+@n-nonrecursive-rule;A;./linksum/linksum.dl [13:1-13:22];A(X,Y,(X+Y)) :-     R(X,Y).;26
+@t-nonrecursive-relation;A;./linksum/linksum.dl [7:1-7:39];3.9e-05
+@n-nonrecursive-relation;A;./linksum/linksum.dl [7:1-7:39];26
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [15:1-15:13];Edge(1,2,1).;6e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [15:1-15:13];Edge(1,2,1).;1
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [16:1-16:13];Edge(1,3,1).;2e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [16:1-16:13];Edge(1,3,1).;2
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [17:1-17:13];Edge(2,6,1).;1e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [17:1-17:13];Edge(2,6,1).;3
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [18:1-18:13];Edge(2,4,1).;1e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [18:1-18:13];Edge(2,4,1).;4
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [19:1-19:13];Edge(4,2,1).;1e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [19:1-19:13];Edge(4,2,1).;5
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [20:1-20:13];Edge(3,5,1).;1e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [20:1-20:13];Edge(3,5,1).;6
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [21:1-21:13];Edge(3,4,1).;1e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [21:1-21:13];Edge(3,4,1).;7
+@t-nonrecursive-rule;Edge;./linksum/linksum.dl [22:1-22:13];Edge(5,6,1).;1e-06
+@n-nonrecursive-rule;Edge;./linksum/linksum.dl [22:1-22:13];Edge(5,6,1).;8
+@t-nonrecursive-relation;Edge;./linksum/linksum.dl [5:1-5:42];4.1e-05
+@n-nonrecursive-relation;Edge;./linksum/linksum.dl [5:1-5:42];8
+@t-nonrecursive-rule;Linksum;./linksum/linksum.dl [10:1-10:31];Linksum(X,Y,N) :-     Edge(X,Y,N).;1.4e-05
+@n-nonrecursive-rule;Linksum;./linksum/linksum.dl [10:1-10:31];Linksum(X,Y,N) :-     Edge(X,Y,N).;8
+@t-nonrecursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];1.5e-05
+@n-nonrecursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];8
+@t-recursive-rule;Linksum;0;./linksum/linksum.dl [11:1-11:59];Linksum(X,Y,R) :-     Edge(X,Z,N),    Linksum(Z,Y,M),    A(M,N,R).;4e-05
+@n-recursive-rule;Linksum;0;./linksum/linksum.dl [11:1-11:59];Linksum(X,Y,R) :-     Edge(X,Z,N),    Linksum(Z,Y,M),    A(M,N,R).;8
+@t-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];4.2e-05
+@n-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];8
+@c-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];3e-06
+@t-recursive-rule;Linksum;0;./linksum/linksum.dl [11:1-11:59];Linksum(X,Y,R) :-     Edge(X,Z,N),    Linksum(Z,Y,M),    A(M,N,R).;3.1e-05
+@n-recursive-rule;Linksum;0;./linksum/linksum.dl [11:1-11:59];Linksum(X,Y,R) :-     Edge(X,Z,N),    Linksum(Z,Y,M),    A(M,N,R).;7
+@t-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];3.2e-05
+@n-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];7
+@c-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];3e-06
+@t-recursive-rule;Linksum;0;./linksum/linksum.dl [11:1-11:59];Linksum(X,Y,R) :-     Edge(X,Z,N),    Linksum(Z,Y,M),    A(M,N,R).;1.6e-05
+@n-recursive-rule;Linksum;0;./linksum/linksum.dl [11:1-11:59];Linksum(X,Y,R) :-     Edge(X,Z,N),    Linksum(Z,Y,M),    A(M,N,R).;0
+@t-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];1.7e-05
+@n-recursive-relation;Linksum;./linksum/linksum.dl [6:1-6:52];0
+@runtime;0.000563

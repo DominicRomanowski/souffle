@@ -1,0 +1,113 @@
+@start-debug
+@t-nonrecursive-rule;base;./tc/tc.dl [24:1-24:15];base('a','b').;1.3e-05
+@n-nonrecursive-rule;base;./tc/tc.dl [24:1-24:15];base('a','b').;1
+@t-nonrecursive-rule;base;./tc/tc.dl [25:1-25:15];base('b','c').;1e-06
+@n-nonrecursive-rule;base;./tc/tc.dl [25:1-25:15];base('b','c').;2
+@t-nonrecursive-rule;base;./tc/tc.dl [26:1-26:15];base('c','d').;1e-06
+@n-nonrecursive-rule;base;./tc/tc.dl [26:1-26:15];base('c','d').;3
+@t-nonrecursive-rule;base;./tc/tc.dl [27:1-27:15];base('d','e').;1e-06
+@n-nonrecursive-rule;base;./tc/tc.dl [27:1-27:15];base('d','e').;4
+@t-nonrecursive-rule;base;./tc/tc.dl [28:1-28:15];base('e','f').;1e-06
+@n-nonrecursive-rule;base;./tc/tc.dl [28:1-28:15];base('e','f').;5
+@t-nonrecursive-rule;base;./tc/tc.dl [29:1-29:15];base('f','g').;1e-06
+@n-nonrecursive-rule;base;./tc/tc.dl [29:1-29:15];base('f','g').;6
+@t-nonrecursive-relation;base;./tc/tc.dl [8:1-8:43];5.4e-05
+@n-nonrecursive-relation;base;./tc/tc.dl [8:1-8:43];6
+@t-nonrecursive-rule;tc;./tc/tc.dl [20:1-20:22];tc(X,Y) :-     base(X,Y).;1.7e-05
+@n-nonrecursive-rule;tc;./tc/tc.dl [20:1-20:22];tc(X,Y) :-     base(X,Y).;6
+@t-nonrecursive-relation;tc;./tc/tc.dl [9:1-9:41];5.3e-05
+@n-nonrecursive-relation;tc;./tc/tc.dl [9:1-9:41];6
+@t-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.5e-05
+@n-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;0
+@t-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.6e-05
+@n-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;5
+@t-recursive-relation;tc;./tc/tc.dl [9:1-9:41];3.4e-05
+@n-recursive-relation;tc;./tc/tc.dl [9:1-9:41];5
+@c-recursive-relation;tc;./tc/tc.dl [9:1-9:41];3e-06
+@t-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.9e-05
+@n-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;4
+@t-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.6e-05
+@n-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;7
+@t-recursive-relation;tc;./tc/tc.dl [9:1-9:41];4.5e-05
+@n-recursive-relation;tc;./tc/tc.dl [9:1-9:41];7
+@c-recursive-relation;tc;./tc/tc.dl [9:1-9:41];5e-06
+@t-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.9e-05
+@n-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;3
+@t-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.9e-05
+@n-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;3
+@t-recursive-relation;tc;./tc/tc.dl [9:1-9:41];4.1e-05
+@n-recursive-relation;tc;./tc/tc.dl [9:1-9:41];3
+@c-recursive-relation;tc;./tc/tc.dl [9:1-9:41];2e-06
+@t-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;4e-06
+@n-recursive-rule;tc;0;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;0
+@t-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;1.2e-05
+@n-recursive-rule;tc;1;./tc/tc.dl [21:1-21:28];tc(X,Y) :-     tc(X,Z),    tc(Z,Y).;0
+@t-recursive-relation;tc;./tc/tc.dl [9:1-9:41];1.9e-05
+@n-recursive-relation;tc;./tc/tc.dl [9:1-9:41];0
+@t-nonrecursive-rule;tcl;./tc/tc.dl [12:1-12:24];tcl(X,Y) :-     base(X,Y).;9e-06
+@n-nonrecursive-rule;tcl;./tc/tc.dl [12:1-12:24];tcl(X,Y) :-     base(X,Y).;6
+@t-nonrecursive-relation;tcl;./tc/tc.dl [6:1-6:42];1.1e-05
+@n-nonrecursive-relation;tcl;./tc/tc.dl [6:1-6:42];6
+@t-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;1.5e-05
+@n-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;5
+@t-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];1.6e-05
+@n-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];5
+@c-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];2e-06
+@t-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;9e-06
+@n-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;4
+@t-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];1e-05
+@n-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];4
+@c-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];2e-06
+@t-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;7e-06
+@n-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;3
+@t-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];2.1e-05
+@n-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];3
+@c-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];2e-06
+@t-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;5e-06
+@n-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;2
+@t-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];7e-06
+@n-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];2
+@c-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];1e-06
+@t-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;3e-06
+@n-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;1
+@t-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];5e-06
+@n-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];1
+@c-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];0
+@t-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;2e-06
+@n-recursive-rule;tcl;0;./tc/tc.dl [13:1-13:33];tcl(X,Y) :-     tcl(X,Z),    base(Z,Y).;0
+@t-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];7e-06
+@n-recursive-relation;tcl;./tc/tc.dl [6:1-6:42];0
+@t-nonrecursive-rule;tcr;./tc/tc.dl [16:1-16:23];tcr(X,Y) :-     base(X,Y).;9e-06
+@n-nonrecursive-rule;tcr;./tc/tc.dl [16:1-16:23];tcr(X,Y) :-     base(X,Y).;6
+@t-nonrecursive-relation;tcr;./tc/tc.dl [7:1-7:42];1.1e-05
+@n-nonrecursive-relation;tcr;./tc/tc.dl [7:1-7:42];6
+@t-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;1.5e-05
+@n-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;5
+@t-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1.6e-05
+@n-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];5
+@c-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];2e-06
+@t-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;8e-06
+@n-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;4
+@t-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1e-05
+@n-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];4
+@c-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1e-06
+@t-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;7e-06
+@n-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;3
+@t-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];9e-06
+@n-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];3
+@c-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1e-06
+@t-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;6e-06
+@n-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;2
+@t-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];8e-06
+@n-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];2
+@c-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1e-06
+@t-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;6e-06
+@n-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;1
+@t-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];7e-06
+@n-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1
+@c-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];1e-06
+@t-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;4e-06
+@n-recursive-rule;tcr;0;./tc/tc.dl [17:1-17:33];tcr(X,Y) :-     base(X,Z),    tcr(Z,Y).;0
+@t-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];5e-06
+@n-recursive-relation;tcr;./tc/tc.dl [7:1-7:42];0
+@runtime;0.001263

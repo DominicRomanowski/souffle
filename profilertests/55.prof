@@ -1,0 +1,52 @@
+@start-debug
+@t-nonrecursive-rule;t;./grammar/grammar.dl [16:1-16:16];t('1','a','2').;1.9e-05
+@n-nonrecursive-rule;t;./grammar/grammar.dl [16:1-16:16];t('1','a','2').;1
+@t-nonrecursive-rule;t;./grammar/grammar.dl [17:1-17:16];t('2','b','3').;1e-06
+@n-nonrecursive-rule;t;./grammar/grammar.dl [17:1-17:16];t('2','b','3').;2
+@t-nonrecursive-rule;t;./grammar/grammar.dl [18:1-18:16];t('3','a','4').;1e-06
+@n-nonrecursive-rule;t;./grammar/grammar.dl [18:1-18:16];t('3','a','4').;3
+@t-nonrecursive-rule;t;./grammar/grammar.dl [19:1-19:16];t('4','b','5').;2e-06
+@n-nonrecursive-rule;t;./grammar/grammar.dl [19:1-19:16];t('4','b','5').;4
+@t-nonrecursive-rule;t;./grammar/grammar.dl [20:1-20:16];t('5','a','6').;1e-06
+@n-nonrecursive-rule;t;./grammar/grammar.dl [20:1-20:16];t('5','a','6').;5
+@t-nonrecursive-relation;t;./grammar/grammar.dl [13:1-13:52];6.2e-05
+@n-nonrecursive-relation;t;./grammar/grammar.dl [13:1-13:52];5
+@t-nonrecursive-rule;a;./grammar/grammar.dl [22:1-22:22];a(F,L) :-     t(F,'a',L).;1.6e-05
+@n-nonrecursive-rule;a;./grammar/grammar.dl [22:1-22:22];a(F,L) :-     t(F,'a',L).;3
+@t-nonrecursive-relation;a;./grammar/grammar.dl [14:1-14:40];5.3e-05
+@n-nonrecursive-relation;a;./grammar/grammar.dl [14:1-14:40];3
+@t-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;1.5e-05
+@n-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;2
+@t-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;5e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;2
+@t-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];2.5e-05
+@n-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];2
+@c-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];3e-06
+@t-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;4e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;0
+@t-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;9e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;2
+@t-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];2.3e-05
+@n-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];2
+@c-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];2e-06
+@t-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;5e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;1
+@t-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;3e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;1
+@t-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];1e-05
+@n-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];1
+@c-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];0
+@t-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;2e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;0
+@t-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;3e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;1
+@t-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];1.2e-05
+@n-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];1
+@c-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];1e-06
+@t-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;2e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [23:1-23:30];a(F,L) :-     a(F,M),    t(M,'b',L).;0
+@t-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;2e-06
+@n-recursive-rule;a;0;./grammar/grammar.dl [24:1-24:30];a(F,L) :-     a(F,M),    t(M,'a',L).;0
+@t-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];6e-06
+@n-recursive-relation;a;./grammar/grammar.dl [14:1-14:40];0
+@runtime;0.000472

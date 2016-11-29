@@ -1,0 +1,32 @@
+@start-debug
+@t-nonrecursive-rule;p;./mutrecursion/mutrecursion.dl [11:1-11:8];p('a').;1.3e-05
+@n-nonrecursive-rule;p;./mutrecursion/mutrecursion.dl [11:1-11:8];p('a').;1
+@t-nonrecursive-rule;p;./mutrecursion/mutrecursion.dl [12:1-12:8];p('b').;0
+@n-nonrecursive-rule;p;./mutrecursion/mutrecursion.dl [12:1-12:8];p('b').;2
+@t-nonrecursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];4.5e-05
+@n-nonrecursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];2
+@t-nonrecursive-rule;q;./mutrecursion/mutrecursion.dl [13:1-13:8];q('c').;2e-06
+@n-nonrecursive-rule;q;./mutrecursion/mutrecursion.dl [13:1-13:8];q('c').;1
+@t-nonrecursive-rule;q;./mutrecursion/mutrecursion.dl [14:1-14:8];q('d').;1e-06
+@n-nonrecursive-rule;q;./mutrecursion/mutrecursion.dl [14:1-14:8];q('d').;2
+@t-nonrecursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];5e-06
+@n-nonrecursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];2
+@t-recursive-rule;p;0;./mutrecursion/mutrecursion.dl [16:1-16:14];p(X) :-     q(X).;1.4e-05
+@n-recursive-rule;p;0;./mutrecursion/mutrecursion.dl [16:1-16:14];p(X) :-     q(X).;2
+@t-recursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];4.8e-05
+@n-recursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];2
+@t-recursive-rule;q;0;./mutrecursion/mutrecursion.dl [17:1-17:14];q(X) :-     p(X).;4e-06
+@n-recursive-rule;q;0;./mutrecursion/mutrecursion.dl [17:1-17:14];q(X) :-     p(X).;2
+@t-recursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];6e-06
+@n-recursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];2
+@c-recursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];2e-06
+@c-recursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];1e-06
+@t-recursive-rule;p;0;./mutrecursion/mutrecursion.dl [16:1-16:14];p(X) :-     q(X).;2e-06
+@n-recursive-rule;p;0;./mutrecursion/mutrecursion.dl [16:1-16:14];p(X) :-     q(X).;0
+@t-recursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];3e-06
+@n-recursive-relation;p;./mutrecursion/mutrecursion.dl [8:1-8:26];0
+@t-recursive-rule;q;0;./mutrecursion/mutrecursion.dl [17:1-17:14];q(X) :-     p(X).;2e-06
+@n-recursive-rule;q;0;./mutrecursion/mutrecursion.dl [17:1-17:14];q(X) :-     p(X).;0
+@t-recursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];9e-06
+@n-recursive-relation;q;./mutrecursion/mutrecursion.dl [9:1-9:26];0
+@runtime;0.00055

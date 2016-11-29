@@ -1,0 +1,80 @@
+@start-debug
+@t-nonrecursive-rule;A;./dnf/dnf.dl [11:1-11:6];A(0).;1.5e-05
+@n-nonrecursive-rule;A;./dnf/dnf.dl [11:1-11:6];A(0).;1
+@t-nonrecursive-relation;A;./dnf/dnf.dl [3:1-3:22];4.6e-05
+@n-nonrecursive-relation;A;./dnf/dnf.dl [3:1-3:22];1
+@t-nonrecursive-rule;B;./dnf/dnf.dl [14:1-14:6];B(1).;4e-06
+@n-nonrecursive-rule;B;./dnf/dnf.dl [14:1-14:6];B(1).;1
+@t-nonrecursive-rule;B;./dnf/dnf.dl [15:1-15:6];B(2).;1e-06
+@n-nonrecursive-rule;B;./dnf/dnf.dl [15:1-15:6];B(2).;2
+@t-nonrecursive-rule;B;./dnf/dnf.dl [16:1-16:6];B(3).;0
+@n-nonrecursive-rule;B;./dnf/dnf.dl [16:1-16:6];B(3).;3
+@t-nonrecursive-relation;B;./dnf/dnf.dl [4:1-4:22];1.1e-05
+@n-nonrecursive-relation;B;./dnf/dnf.dl [4:1-4:22];3
+@t-nonrecursive-rule;N;./dnf/dnf.dl [37:1-37:20];N(X) :-     A(X),    B(X).;1.1e-05
+@n-nonrecursive-rule;N;./dnf/dnf.dl [37:1-37:20];N(X) :-     A(X),    B(X).;0
+@t-nonrecursive-relation;N;./dnf/dnf.dl [36:1-36:29];1.3e-05
+@n-nonrecursive-relation;N;./dnf/dnf.dl [36:1-36:29];0
+@t-nonrecursive-rule;C;./dnf/dnf.dl [19:1-19:6];C(4).;5e-06
+@n-nonrecursive-rule;C;./dnf/dnf.dl [19:1-19:6];C(4).;1
+@t-nonrecursive-rule;C;./dnf/dnf.dl [20:1-20:6];C(5).;1e-06
+@n-nonrecursive-rule;C;./dnf/dnf.dl [20:1-20:6];C(5).;2
+@t-nonrecursive-rule;C;./dnf/dnf.dl [21:1-21:6];C(6).;1e-06
+@n-nonrecursive-rule;C;./dnf/dnf.dl [21:1-21:6];C(6).;3
+@t-nonrecursive-relation;C;./dnf/dnf.dl [5:1-5:22];4.3e-05
+@n-nonrecursive-relation;C;./dnf/dnf.dl [5:1-5:22];3
+@t-nonrecursive-rule;D;./dnf/dnf.dl [24:1-24:6];D(3).;4e-06
+@n-nonrecursive-rule;D;./dnf/dnf.dl [24:1-24:6];D(3).;1
+@t-nonrecursive-rule;D;./dnf/dnf.dl [25:1-25:6];D(4).;1e-06
+@n-nonrecursive-rule;D;./dnf/dnf.dl [25:1-25:6];D(4).;2
+@t-nonrecursive-relation;D;./dnf/dnf.dl [6:1-6:22];8e-06
+@n-nonrecursive-relation;D;./dnf/dnf.dl [6:1-6:22];2
+@t-nonrecursive-rule;R1;./dnf/dnf.dl [41:1-41:30];R1(X) :-     A(X).;6e-06
+@n-nonrecursive-rule;R1;./dnf/dnf.dl [41:1-41:30];R1(X) :-     A(X).;1
+@t-nonrecursive-rule;R1;./dnf/dnf.dl [41:1-41:30];R1(X) :-     B(X),    D(X).;4e-06
+@n-nonrecursive-rule;R1;./dnf/dnf.dl [41:1-41:30];R1(X) :-     B(X),    D(X).;2
+@t-nonrecursive-relation;R1;./dnf/dnf.dl [40:1-40:30];1.8e-05
+@n-nonrecursive-relation;R1;./dnf/dnf.dl [40:1-40:30];2
+@t-nonrecursive-rule;E;./dnf/dnf.dl [28:1-28:6];E(6).;5e-06
+@n-nonrecursive-rule;E;./dnf/dnf.dl [28:1-28:6];E(6).;1
+@t-nonrecursive-rule;E;./dnf/dnf.dl [29:1-29:6];E(7).;0
+@n-nonrecursive-rule;E;./dnf/dnf.dl [29:1-29:6];E(7).;2
+@t-nonrecursive-relation;E;./dnf/dnf.dl [7:1-7:22];8e-06
+@n-nonrecursive-relation;E;./dnf/dnf.dl [7:1-7:22];2
+@t-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     A(X).;5e-06
+@n-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     A(X).;1
+@t-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     B(X).;2e-06
+@n-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     B(X).;4
+@t-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     C(X).;2e-06
+@n-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     C(X).;7
+@t-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     D(X).;2e-06
+@n-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     D(X).;7
+@t-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     E(X).;2e-06
+@n-nonrecursive-rule;U;./dnf/dnf.dl [33:1-33:42];U(X) :-     E(X).;8
+@t-nonrecursive-relation;U;./dnf/dnf.dl [32:1-32:29];2.3e-05
+@n-nonrecursive-relation;U;./dnf/dnf.dl [32:1-32:29];8
+@t-nonrecursive-rule;R2;./dnf/dnf.dl [44:1-44:35];R2(X) :-     U(X),    !B(X),    !D(X).;1.2e-05
+@n-nonrecursive-rule;R2;./dnf/dnf.dl [44:1-44:35];R2(X) :-     U(X),    !B(X),    !D(X).;4
+@t-nonrecursive-relation;R2;./dnf/dnf.dl [43:1-43:30];1.4e-05
+@n-nonrecursive-relation;R2;./dnf/dnf.dl [43:1-43:30];4
+@t-nonrecursive-rule;R3;./dnf/dnf.dl [47:1-47:35];R3(X) :-     U(X),    !B(X).;9e-06
+@n-nonrecursive-rule;R3;./dnf/dnf.dl [47:1-47:35];R3(X) :-     U(X),    !B(X).;5
+@t-nonrecursive-rule;R3;./dnf/dnf.dl [47:1-47:35];R3(X) :-     U(X),    !D(X).;5e-06
+@n-nonrecursive-rule;R3;./dnf/dnf.dl [47:1-47:35];R3(X) :-     U(X),    !D(X).;7
+@t-nonrecursive-relation;R3;./dnf/dnf.dl [46:1-46:30];1.7e-05
+@n-nonrecursive-relation;R3;./dnf/dnf.dl [46:1-46:30];7
+@t-nonrecursive-rule;R4;./dnf/dnf.dl [50:1-50:35];R4(X) :-     U(X),    !B(X),    !D(X).;1e-05
+@n-nonrecursive-rule;R4;./dnf/dnf.dl [50:1-50:35];R4(X) :-     U(X),    !B(X),    !D(X).;4
+@t-nonrecursive-relation;R4;./dnf/dnf.dl [49:1-49:30];2.2e-05
+@n-nonrecursive-relation;R4;./dnf/dnf.dl [49:1-49:30];4
+@t-nonrecursive-rule;R5;./dnf/dnf.dl [53:1-53:37];R5(X) :-     U(X),    !B(X),    !D(X).;1e-05
+@n-nonrecursive-rule;R5;./dnf/dnf.dl [53:1-53:37];R5(X) :-     U(X),    !B(X),    !D(X).;4
+@t-nonrecursive-relation;R5;./dnf/dnf.dl [52:1-52:30];1.1e-05
+@n-nonrecursive-relation;R5;./dnf/dnf.dl [52:1-52:30];4
+@t-nonrecursive-rule;R6;./dnf/dnf.dl [56:1-56:33];R6(X) :-     U(X),    !B(X).;1.1e-05
+@n-nonrecursive-rule;R6;./dnf/dnf.dl [56:1-56:33];R6(X) :-     U(X),    !B(X).;5
+@t-nonrecursive-rule;R6;./dnf/dnf.dl [56:1-56:33];R6(X) :-     D(X),    U(X).;5e-06
+@n-nonrecursive-rule;R6;./dnf/dnf.dl [56:1-56:33];R6(X) :-     D(X),    U(X).;6
+@t-nonrecursive-relation;R6;./dnf/dnf.dl [55:1-55:30];1.8e-05
+@n-nonrecursive-relation;R6;./dnf/dnf.dl [55:1-55:30];6
+@runtime;0.001197

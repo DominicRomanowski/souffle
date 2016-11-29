@@ -1,0 +1,25 @@
+@start-debug
+@t-nonrecursive-rule;edge;./paths/paths.dl [11:1-11:15];edge('a','b').;1.7e-05
+@n-nonrecursive-rule;edge;./paths/paths.dl [11:1-11:15];edge('a','b').;1
+@t-nonrecursive-rule;edge;./paths/paths.dl [12:1-12:15];edge('a','c').;1e-06
+@n-nonrecursive-rule;edge;./paths/paths.dl [12:1-12:15];edge('a','c').;2
+@t-nonrecursive-rule;edge;./paths/paths.dl [13:1-13:15];edge('b','a').;1e-06
+@n-nonrecursive-rule;edge;./paths/paths.dl [13:1-13:15];edge('b','a').;3
+@t-nonrecursive-rule;edge;./paths/paths.dl [14:1-14:15];edge('b','d').;1e-06
+@n-nonrecursive-rule;edge;./paths/paths.dl [14:1-14:15];edge('b','d').;4
+@t-nonrecursive-relation;edge;./paths/paths.dl [9:1-9:43];5.9e-05
+@n-nonrecursive-relation;edge;./paths/paths.dl [9:1-9:43];4
+@t-nonrecursive-rule;path;./paths/paths.dl [17:1-17:24];path(X,Y) :-     edge(X,Y).;5.4e-05
+@n-nonrecursive-rule;path;./paths/paths.dl [17:1-17:24];path(X,Y) :-     edge(X,Y).;4
+@t-nonrecursive-relation;path;./paths/paths.dl [8:1-8:43];5.6e-05
+@n-nonrecursive-relation;path;./paths/paths.dl [8:1-8:43];4
+@t-recursive-rule;path;0;./paths/paths.dl [16:1-16:35];path(X,Y) :-     path(X,Z),    edge(Z,Y).;1.6e-05
+@n-recursive-rule;path;0;./paths/paths.dl [16:1-16:35];path(X,Y) :-     path(X,Z),    edge(Z,Y).;4
+@t-recursive-relation;path;./paths/paths.dl [8:1-8:43];1.9e-05
+@n-recursive-relation;path;./paths/paths.dl [8:1-8:43];4
+@c-recursive-relation;path;./paths/paths.dl [8:1-8:43];3e-06
+@t-recursive-rule;path;0;./paths/paths.dl [16:1-16:35];path(X,Y) :-     path(X,Z),    edge(Z,Y).;7e-06
+@n-recursive-rule;path;0;./paths/paths.dl [16:1-16:35];path(X,Y) :-     path(X,Z),    edge(Z,Y).;0
+@t-recursive-relation;path;./paths/paths.dl [8:1-8:43];9e-06
+@n-recursive-relation;path;./paths/paths.dl [8:1-8:43];0
+@runtime;0.000448

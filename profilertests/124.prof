@@ -1,0 +1,278 @@
+@start-debug
+@t-nonrecursive-rule;call;./traces/traces.dl [87:1-87:16];call('g1','f').;1.4e-05
+@n-nonrecursive-rule;call;./traces/traces.dl [87:1-87:16];call('g1','f').;1
+@t-nonrecursive-rule;call;./traces/traces.dl [96:1-96:16];call('e1','o').;1e-06
+@n-nonrecursive-rule;call;./traces/traces.dl [96:1-96:16];call('e1','o').;2
+@t-nonrecursive-rule;call;./traces/traces.dl [106:1-106:16];call('o1','e').;1e-06
+@n-nonrecursive-rule;call;./traces/traces.dl [106:1-106:16];call('o1','e').;3
+@t-nonrecursive-rule;call;./traces/traces.dl [120:1-120:16];call('m1','f').;1e-06
+@n-nonrecursive-rule;call;./traces/traces.dl [120:1-120:16];call('m1','f').;4
+@t-nonrecursive-rule;call;./traces/traces.dl [121:1-121:16];call('m3','g').;1e-06
+@n-nonrecursive-rule;call;./traces/traces.dl [121:1-121:16];call('m3','g').;5
+@t-nonrecursive-rule;call;./traces/traces.dl [122:1-122:16];call('m5','e').;1e-06
+@n-nonrecursive-rule;call;./traces/traces.dl [122:1-122:16];call('m5','e').;6
+@t-nonrecursive-relation;call;./traces/traces.dl [22:1-22:38];6.3e-05
+@n-nonrecursive-relation;call;./traces/traces.dl [22:1-22:38];6
+@t-nonrecursive-rule;p_start;./traces/traces.dl [77:1-77:19];p_start('f','f0').;6e-06
+@n-nonrecursive-rule;p_start;./traces/traces.dl [77:1-77:19];p_start('f','f0').;1
+@t-nonrecursive-rule;p_start;./traces/traces.dl [84:1-84:19];p_start('g','g0').;1e-06
+@n-nonrecursive-rule;p_start;./traces/traces.dl [84:1-84:19];p_start('g','g0').;2
+@t-nonrecursive-rule;p_start;./traces/traces.dl [92:1-92:19];p_start('e','e0').;0
+@n-nonrecursive-rule;p_start;./traces/traces.dl [92:1-92:19];p_start('e','e0').;3
+@t-nonrecursive-rule;p_start;./traces/traces.dl [102:1-102:19];p_start('o','o0').;1e-06
+@n-nonrecursive-rule;p_start;./traces/traces.dl [102:1-102:19];p_start('o','o0').;4
+@t-nonrecursive-rule;p_start;./traces/traces.dl [117:1-117:22];p_start('main','m0').;1e-06
+@n-nonrecursive-rule;p_start;./traces/traces.dl [117:1-117:22];p_start('main','m0').;5
+@t-nonrecursive-relation;p_start;./traces/traces.dl [15:1-15:46];1.7e-05
+@n-nonrecursive-relation;p_start;./traces/traces.dl [15:1-15:46];5
+@t-nonrecursive-rule;flow;./traces/traces.dl [71:1-71:17];flow('f0','f1').;7e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [71:1-71:17];flow('f0','f1').;1
+@t-nonrecursive-rule;flow;./traces/traces.dl [72:1-72:17];flow('f1','f2').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [72:1-72:17];flow('f1','f2').;2
+@t-nonrecursive-rule;flow;./traces/traces.dl [73:1-73:17];flow('f1','f3').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [73:1-73:17];flow('f1','f3').;3
+@t-nonrecursive-rule;flow;./traces/traces.dl [74:1-74:17];flow('f2','f4').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [74:1-74:17];flow('f2','f4').;4
+@t-nonrecursive-rule;flow;./traces/traces.dl [75:1-75:17];flow('f3','f4').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [75:1-75:17];flow('f3','f4').;5
+@t-nonrecursive-rule;flow;./traces/traces.dl [82:1-82:17];flow('g0','g1').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [82:1-82:17];flow('g0','g1').;6
+@t-nonrecursive-rule;flow;./traces/traces.dl [90:1-90:17];flow('e0','e1').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [90:1-90:17];flow('e0','e1').;7
+@t-nonrecursive-rule;flow;./traces/traces.dl [100:1-100:17];flow('o0','o1').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [100:1-100:17];flow('o0','o1').;8
+@t-nonrecursive-rule;flow;./traces/traces.dl [110:1-110:17];flow('m0','m1').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [110:1-110:17];flow('m0','m1').;9
+@t-nonrecursive-rule;flow;./traces/traces.dl [111:1-111:17];flow('m1','m2').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [111:1-111:17];flow('m1','m2').;10
+@t-nonrecursive-rule;flow;./traces/traces.dl [112:1-112:17];flow('m2','m3').;0
+@n-nonrecursive-rule;flow;./traces/traces.dl [112:1-112:17];flow('m2','m3').;11
+@t-nonrecursive-rule;flow;./traces/traces.dl [113:1-113:17];flow('m3','m4').;0
+@n-nonrecursive-rule;flow;./traces/traces.dl [113:1-113:17];flow('m3','m4').;12
+@t-nonrecursive-rule;flow;./traces/traces.dl [114:1-114:17];flow('m4','m5').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [114:1-114:17];flow('m4','m5').;13
+@t-nonrecursive-rule;flow;./traces/traces.dl [115:1-115:17];flow('m5','m6').;1e-06
+@n-nonrecursive-rule;flow;./traces/traces.dl [115:1-115:17];flow('m5','m6').;14
+@t-nonrecursive-relation;flow;./traces/traces.dl [19:1-19:44];4.8e-05
+@n-nonrecursive-relation;flow;./traces/traces.dl [19:1-19:44];14
+@t-nonrecursive-rule;p2i;./traces/traces.dl [137:1-137:26];p2i(p,i) :-     p_start(p,i).;1.5e-05
+@n-nonrecursive-rule;p2i;./traces/traces.dl [137:1-137:26];p2i(p,i) :-     p_start(p,i).;5
+@t-nonrecursive-relation;p2i;./traces/traces.dl [136:1-136:37];1.6e-05
+@n-nonrecursive-relation;p2i;./traces/traces.dl [136:1-136:37];5
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;1.5e-05
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;5
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1.8e-05
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];5
+@c-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];3e-06
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;1.2e-05
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;3
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1.4e-05
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];3
+@c-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];2e-06
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;7e-06
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;2
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];8e-06
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];2
+@c-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1e-06
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;4e-06
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;1
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];5e-06
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1
+@c-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1e-06
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;3e-06
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;1
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];5e-06
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1
+@c-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1e-06
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;3e-06
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;1
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];4e-06
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1
+@c-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];1e-06
+@t-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;2e-06
+@n-recursive-rule;p2i;0;./traces/traces.dl [138:1-138:33];p2i(p,j) :-     p2i(p,i),    flow(i,j).;0
+@t-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];8e-06
+@n-recursive-relation;p2i;./traces/traces.dl [136:1-136:37];0
+@t-nonrecursive-rule;call_graph;./traces/traces.dl [144:1-144:40];call_graph(s,t) :-     p2i(s,i),    call(i,t).;2.1e-05
+@n-nonrecursive-rule;call_graph;./traces/traces.dl [144:1-144:40];call_graph(s,t) :-     p2i(s,i),    call(i,t).;6
+@t-nonrecursive-relation;call_graph;./traces/traces.dl [143:1-143:46];2.3e-05
+@n-nonrecursive-relation;call_graph;./traces/traces.dl [143:1-143:46];6
+@t-nonrecursive-rule;rec_proc_reachable;./traces/traces.dl [149:1-149:44];rec_proc_reachable(a,b) :-     call_graph(a,b).;9e-06
+@n-nonrecursive-rule;rec_proc_reachable;./traces/traces.dl [149:1-149:44];rec_proc_reachable(a,b) :-     call_graph(a,b).;6
+@t-nonrecursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];1.1e-05
+@n-nonrecursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];6
+@t-recursive-rule;rec_proc_reachable;0;./traces/traces.dl [150:1-150:69];rec_proc_reachable(a,c) :-     rec_proc_reachable(a,b),    call_graph(b,c).;1.5e-05
+@n-recursive-rule;rec_proc_reachable;0;./traces/traces.dl [150:1-150:69];rec_proc_reachable(a,c) :-     rec_proc_reachable(a,b),    call_graph(b,c).;3
+@t-recursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];1.8e-05
+@n-recursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];3
+@c-recursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];2e-06
+@t-recursive-rule;rec_proc_reachable;0;./traces/traces.dl [150:1-150:69];rec_proc_reachable(a,c) :-     rec_proc_reachable(a,b),    call_graph(b,c).;3.1e-05
+@n-recursive-rule;rec_proc_reachable;0;./traces/traces.dl [150:1-150:69];rec_proc_reachable(a,c) :-     rec_proc_reachable(a,b),    call_graph(b,c).;0
+@t-recursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];3.8e-05
+@n-recursive-relation;rec_proc_reachable;./traces/traces.dl [148:1-148:50];0
+@t-nonrecursive-rule;rec_proc;./traces/traces.dl [153:1-153:40];rec_proc(p) :-     rec_proc_reachable(p,p).;9e-06
+@n-nonrecursive-rule;rec_proc;./traces/traces.dl [153:1-153:40];rec_proc(p) :-     rec_proc_reachable(p,p).;2
+@t-nonrecursive-relation;rec_proc;./traces/traces.dl [152:1-152:28];2.1e-05
+@n-nonrecursive-relation;rec_proc;./traces/traces.dl [152:1-152:28];2
+@t-nonrecursive-rule;call_graph_st;./traces/traces.dl [165:1-165:27];call_graph_st('main','f').;6e-06
+@n-nonrecursive-rule;call_graph_st;./traces/traces.dl [165:1-165:27];call_graph_st('main','f').;1
+@t-nonrecursive-rule;call_graph_st;./traces/traces.dl [166:1-166:27];call_graph_st('main','g').;2e-06
+@n-nonrecursive-rule;call_graph_st;./traces/traces.dl [166:1-166:27];call_graph_st('main','g').;2
+@t-nonrecursive-rule;call_graph_st;./traces/traces.dl [167:1-167:27];call_graph_st('main','e').;1e-06
+@n-nonrecursive-rule;call_graph_st;./traces/traces.dl [167:1-167:27];call_graph_st('main','e').;3
+@t-nonrecursive-rule;call_graph_st;./traces/traces.dl [168:1-168:24];call_graph_st('g','f').;1e-06
+@n-nonrecursive-rule;call_graph_st;./traces/traces.dl [168:1-168:24];call_graph_st('g','f').;4
+@t-nonrecursive-rule;call_graph_st;./traces/traces.dl [169:1-169:24];call_graph_st('e','o').;2e-06
+@n-nonrecursive-rule;call_graph_st;./traces/traces.dl [169:1-169:24];call_graph_st('e','o').;5
+@t-nonrecursive-relation;call_graph_st;./traces/traces.dl [158:1-158:49];2.1e-05
+@n-nonrecursive-relation;call_graph_st;./traces/traces.dl [158:1-158:49];5
+@t-nonrecursive-rule;ctxt;./traces/traces.dl [190:1-190:18];ctxt(0,0,'main').;5e-06
+@n-nonrecursive-rule;ctxt;./traces/traces.dl [190:1-190:18];ctxt(0,0,'main').;1
+@t-nonrecursive-relation;ctxt;./traces/traces.dl [178:1-178:50];7e-06
+@n-nonrecursive-relation;ctxt;./traces/traces.dl [178:1-178:50];1
+@t-recursive-rule;ctxt;0;./traces/traces.dl [191:1-191:60];ctxt(($+1),parent,t) :-     ctxt(parent,_,s),    call_graph_st(s,t).;1.5e-05
+@n-recursive-rule;ctxt;0;./traces/traces.dl [191:1-191:60];ctxt(($+1),parent,t) :-     ctxt(parent,_,s),    call_graph_st(s,t).;3
+@t-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];1.7e-05
+@n-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];3
+@c-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];1e-05
+@t-recursive-rule;ctxt;0;./traces/traces.dl [191:1-191:60];ctxt(($+1),parent,t) :-     ctxt(parent,_,s),    call_graph_st(s,t).;1.3e-05
+@n-recursive-rule;ctxt;0;./traces/traces.dl [191:1-191:60];ctxt(($+1),parent,t) :-     ctxt(parent,_,s),    call_graph_st(s,t).;2
+@t-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];1.4e-05
+@n-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];2
+@c-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];1e-06
+@t-recursive-rule;ctxt;0;./traces/traces.dl [191:1-191:60];ctxt(($+1),parent,t) :-     ctxt(parent,_,s),    call_graph_st(s,t).;3e-06
+@n-recursive-rule;ctxt;0;./traces/traces.dl [191:1-191:60];ctxt(($+1),parent,t) :-     ctxt(parent,_,s),    call_graph_st(s,t).;0
+@t-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];5e-06
+@n-recursive-relation;ctxt;./traces/traces.dl [178:1-178:50];0
+@t-nonrecursive-rule;ctxt_parent_closure;./traces/traces.dl [184:1-184:44];ctxt_parent_closure(id,id) :-     ctxt(id,_,_).;1e-05
+@n-nonrecursive-rule;ctxt_parent_closure;./traces/traces.dl [184:1-184:44];ctxt_parent_closure(id,id) :-     ctxt(id,_,_).;6
+@t-nonrecursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];2.9e-05
+@n-nonrecursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];6
+@t-recursive-rule;ctxt_parent_closure;0;./traces/traces.dl [185:1-185:71];ctxt_parent_closure(id,gp) :-     ctxt(id,p,_),    ctxt_parent_closure(p,gp).;1.6e-05
+@n-recursive-rule;ctxt_parent_closure;0;./traces/traces.dl [185:1-185:71];ctxt_parent_closure(id,gp) :-     ctxt(id,p,_),    ctxt_parent_closure(p,gp).;5
+@t-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];1.9e-05
+@n-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];5
+@c-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];3e-06
+@t-recursive-rule;ctxt_parent_closure;0;./traces/traces.dl [185:1-185:71];ctxt_parent_closure(id,gp) :-     ctxt(id,p,_),    ctxt_parent_closure(p,gp).;1.1e-05
+@n-recursive-rule;ctxt_parent_closure;0;./traces/traces.dl [185:1-185:71];ctxt_parent_closure(id,gp) :-     ctxt(id,p,_),    ctxt_parent_closure(p,gp).;2
+@t-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];1.7e-05
+@n-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];2
+@c-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];2e-06
+@t-recursive-rule;ctxt_parent_closure;0;./traces/traces.dl [185:1-185:71];ctxt_parent_closure(id,gp) :-     ctxt(id,p,_),    ctxt_parent_closure(p,gp).;4e-06
+@n-recursive-rule;ctxt_parent_closure;0;./traces/traces.dl [185:1-185:71];ctxt_parent_closure(id,gp) :-     ctxt(id,p,_),    ctxt_parent_closure(p,gp).;0
+@t-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];5e-06
+@n-recursive-relation;ctxt_parent_closure;./traces/traces.dl [183:1-183:51];0
+@t-nonrecursive-rule;ctxt_last;./traces/traces.dl [181:1-181:33];ctxt_last(id,p) :-     ctxt(id,_,p).;9e-06
+@n-nonrecursive-rule;ctxt_last;./traces/traces.dl [181:1-181:33];ctxt_last(id,p) :-     ctxt(id,_,p).;6
+@t-nonrecursive-relation;ctxt_last;./traces/traces.dl [180:1-180:39];1.1e-05
+@n-nonrecursive-relation;ctxt_last;./traces/traces.dl [180:1-180:39];6
+@t-nonrecursive-rule;ctxt_contains;./traces/traces.dl [188:1-188:69];ctxt_contains(id,proc) :-     ctxt_parent_closure(id,p),    ctxt(p,_,proc).;2.7e-05
+@n-nonrecursive-rule;ctxt_contains;./traces/traces.dl [188:1-188:69];ctxt_contains(id,proc) :-     ctxt_parent_closure(id,p),    ctxt(p,_,proc).;13
+@t-nonrecursive-relation;ctxt_contains;./traces/traces.dl [187:1-187:43];2.9e-05
+@n-nonrecursive-relation;ctxt_contains;./traces/traces.dl [187:1-187:43];13
+@t-nonrecursive-rule;pp;./traces/traces.dl [209:1-209:36];pp(i,c) :-     p2i(p,i),    ctxt_last(c,p).;3.6e-05
+@n-nonrecursive-rule;pp;./traces/traces.dl [209:1-209:36];pp(i,c) :-     p2i(p,i),    ctxt_last(c,p).;23
+@t-nonrecursive-relation;pp;./traces/traces.dl [208:1-208:35];3.8e-05
+@n-nonrecursive-relation;pp;./traces/traces.dl [208:1-208:35];23
+@t-nonrecursive-rule;rec_ctxt_link;./traces/traces.dl [200:1-200:83];rec_ctxt_link(f,t) :-     rec_proc(proc),    ctxt(t,_,proc),    ctxt_contains(f,proc),    f != t.;1.8e-05
+@n-nonrecursive-rule;rec_ctxt_link;./traces/traces.dl [200:1-200:83];rec_ctxt_link(f,t) :-     rec_proc(proc),    ctxt(t,_,proc),    ctxt_contains(f,proc),    f != t.;1
+@t-nonrecursive-relation;rec_ctxt_link;./traces/traces.dl [199:1-199:43];2.4e-05
+@n-nonrecursive-relation;rec_ctxt_link;./traces/traces.dl [199:1-199:43];1
+@t-nonrecursive-rule;p_end;./traces/traces.dl [78:1-78:17];p_end('f','f4').;5e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [78:1-78:17];p_end('f','f4').;1
+@t-nonrecursive-rule;p_end;./traces/traces.dl [85:1-85:17];p_end('g','g1').;1e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [85:1-85:17];p_end('g','g1').;2
+@t-nonrecursive-rule;p_end;./traces/traces.dl [93:1-93:17];p_end('e','e0').;1e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [93:1-93:17];p_end('e','e0').;3
+@t-nonrecursive-rule;p_end;./traces/traces.dl [94:1-94:17];p_end('e','e1').;1e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [94:1-94:17];p_end('e','e1').;4
+@t-nonrecursive-rule;p_end;./traces/traces.dl [103:1-103:17];p_end('o','o0').;1e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [103:1-103:17];p_end('o','o0').;5
+@t-nonrecursive-rule;p_end;./traces/traces.dl [104:1-104:17];p_end('o','o1').;1e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [104:1-104:17];p_end('o','o1').;6
+@t-nonrecursive-rule;p_end;./traces/traces.dl [118:1-118:20];p_end('main','m6').;1e-06
+@n-nonrecursive-rule;p_end;./traces/traces.dl [118:1-118:20];p_end('main','m6').;7
+@t-nonrecursive-relation;p_end;./traces/traces.dl [16:1-16:42];3e-05
+@n-nonrecursive-relation;p_end;./traces/traces.dl [16:1-16:42];7
+@t-nonrecursive-rule;pp_succ;./traces/traces.dl [217:1-217:48];pp_succ(ip,cp,is,cp) :-     pp(ip,cp),    flow(ip,is).;4e-05
+@n-nonrecursive-rule;pp_succ;./traces/traces.dl [217:1-217:48];pp_succ(ip,cp,is,cp) :-     pp(ip,cp),    flow(ip,is).;19
+@t-nonrecursive-rule;pp_succ;./traces/traces.dl [220:1-220:97];pp_succ(ip,cp,is,cs) :-     call(ip,proc),    pp(ip,cp),    p_start(proc,is),    pp(is,cs),    ctxt(cs,cp,proc).;3.3e-05
+@n-nonrecursive-rule;pp_succ;./traces/traces.dl [220:1-220:97];pp_succ(ip,cp,is,cs) :-     call(ip,proc),    pp(ip,cp),    p_start(proc,is),    pp(is,cs),    ctxt(cs,cp,proc).;24
+@t-nonrecursive-rule;pp_succ;./traces/traces.dl [223:1-223:84];pp_succ(ip,cp,is,cs) :-     call(is,proc),    pp(is,cs),    p_end(proc,ip),    ctxt(cp,cs,proc).;3.1e-05
+@n-nonrecursive-rule;pp_succ;./traces/traces.dl [223:1-223:84];pp_succ(ip,cp,is,cs) :-     call(is,proc),    pp(is,cs),    p_end(proc,ip),    ctxt(cp,cs,proc).;31
+@t-nonrecursive-rule;pp_succ;./traces/traces.dl [226:1-226:101];pp_succ(ip,cp,is,cs) :-     call(ip,proc),    pp(ip,cp),    p_start(proc,is),    pp(is,cs),    rec_ctxt_link(cp,cs).;2.2e-05
+@n-nonrecursive-rule;pp_succ;./traces/traces.dl [226:1-226:101];pp_succ(ip,cp,is,cs) :-     call(ip,proc),    pp(ip,cp),    p_start(proc,is),    pp(is,cs),    rec_ctxt_link(cp,cs).;32
+@t-nonrecursive-rule;pp_succ;./traces/traces.dl [229:1-229:88];pp_succ(ip,cp,is,cs) :-     call(is,proc),    pp(is,cs),    p_end(proc,ip),    rec_ctxt_link(cs,cp).;1.9e-05
+@n-nonrecursive-rule;pp_succ;./traces/traces.dl [229:1-229:88];pp_succ(ip,cp,is,cs) :-     call(is,proc),    pp(is,cs),    p_end(proc,ip),    rec_ctxt_link(cs,cp).;34
+@t-nonrecursive-relation;pp_succ;./traces/traces.dl [214:1-214:65];0.000159
+@n-nonrecursive-relation;pp_succ;./traces/traces.dl [214:1-214:65];34
+@t-nonrecursive-rule;processed_before;./traces/traces.dl [236:1-236:49];processed_before(pi,pc,i) :-     pp_succ(i,_,pi,pc).;4.3e-05
+@n-nonrecursive-rule;processed_before;./traces/traces.dl [236:1-236:49];processed_before(pi,pc,i) :-     pp_succ(i,_,pi,pc).;34
+@t-nonrecursive-relation;processed_before;./traces/traces.dl [235:1-235:63];4.5e-05
+@n-nonrecursive-relation;processed_before;./traces/traces.dl [235:1-235:63];34
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;0.000149
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;44
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0.000151
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];44
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];1.9e-05
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;0.000156
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;40
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0.000164
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];40
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];1.7e-05
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;0.000141
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;39
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0.000142
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];39
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];1.5e-05
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;0.000146
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;40
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0.000162
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];40
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];1.5e-05
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;0.000121
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;22
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0.000122
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];22
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];8e-06
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;9.1e-05
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;16
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0.0001
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];16
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];7e-06
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;7.9e-05
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;10
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];8.1e-05
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];10
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];4e-06
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;5.6e-05
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;4
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];6.3e-05
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];4
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];2e-06
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;6e-05
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;1
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];6.2e-05
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];1
+@c-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];1e-06
+@t-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;3.4e-05
+@n-recursive-rule;processed_before;0;./traces/traces.dl [237:1-237:74];processed_before(pi,pc,i) :-     pp_succ(a,b,pi,pc),    processed_before(a,b,i).;0
+@t-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];5.1e-05
+@n-recursive-relation;processed_before;./traces/traces.dl [235:1-235:63];0
+@t-nonrecursive-rule;res_e1;./traces/traces.dl [253:1-253:41];res_e1(i) :-     processed_before('e1',_,i).;1.5e-05
+@n-nonrecursive-rule;res_e1;./traces/traces.dl [253:1-253:41];res_e1(i) :-     processed_before('e1',_,i).;17
+@t-nonrecursive-relation;res_e1;./traces/traces.dl [252:1-252:35];1.6e-05
+@n-nonrecursive-relation;res_e1;./traces/traces.dl [252:1-252:35];17
+@t-nonrecursive-rule;res_m0;./traces/traces.dl [244:1-244:41];res_m0(i) :-     processed_before('m0',_,i).;2e-06
+@n-nonrecursive-rule;res_m0;./traces/traces.dl [244:1-244:41];res_m0(i) :-     processed_before('m0',_,i).;0
+@t-nonrecursive-relation;res_m0;./traces/traces.dl [243:1-243:35];4e-06
+@n-nonrecursive-relation;res_m0;./traces/traces.dl [243:1-243:35];0
+@t-nonrecursive-rule;res_m1;./traces/traces.dl [247:1-247:41];res_m1(i) :-     processed_before('m1',_,i).;1.1e-05
+@n-nonrecursive-rule;res_m1;./traces/traces.dl [247:1-247:41];res_m1(i) :-     processed_before('m1',_,i).;7
+@t-nonrecursive-relation;res_m1;./traces/traces.dl [246:1-246:35];1.3e-05
+@n-nonrecursive-relation;res_m1;./traces/traces.dl [246:1-246:35];7
+@t-nonrecursive-rule;res_m2;./traces/traces.dl [250:1-250:41];res_m2(i) :-     processed_before('m2',_,i).;8e-06
+@n-nonrecursive-rule;res_m2;./traces/traces.dl [250:1-250:41];res_m2(i) :-     processed_before('m2',_,i).;7
+@t-nonrecursive-relation;res_m2;./traces/traces.dl [249:1-249:35];1e-05
+@n-nonrecursive-relation;res_m2;./traces/traces.dl [249:1-249:35];7
+@runtime;0.003005

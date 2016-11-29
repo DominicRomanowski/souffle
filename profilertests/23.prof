@@ -1,0 +1,32 @@
+@start-debug
+@t-nonrecursive-rule;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:5-10:10];a.impl.R(0).;0.000664
+@n-nonrecursive-rule;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:5-10:10];a.impl.R(0).;1
+@t-nonrecursive-rule;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:11-10:16];a.impl.R(1).;1e-06
+@n-nonrecursive-rule;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:11-10:16];a.impl.R(1).;2
+@t-nonrecursive-rule;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:17-10:22];a.impl.R(2).;0
+@n-nonrecursive-rule;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:17-10:22];a.impl.R(2).;3
+@t-nonrecursive-relation;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [9:5-9:23];0.000701
+@n-nonrecursive-relation;a.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [9:5-9:23];3
+@t-nonrecursive-rule;AOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [32:1-32:22];AOut(x) :-     a.impl.R(x).;1.1e-05
+@n-nonrecursive-rule;AOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [32:1-32:22];AOut(x) :-     a.impl.R(x).;3
+@t-nonrecursive-relation;AOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [29:1-29:29];4.9e-05
+@n-nonrecursive-relation;AOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [29:1-29:29];3
+@t-nonrecursive-rule;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:5-10:10];d.impl.R(0).;6e-06
+@n-nonrecursive-rule;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:5-10:10];d.impl.R(0).;1
+@t-nonrecursive-rule;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:11-10:16];d.impl.R(1).;1e-06
+@n-nonrecursive-rule;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:11-10:16];d.impl.R(1).;2
+@t-nonrecursive-rule;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:17-10:22];d.impl.R(2).;1e-06
+@n-nonrecursive-rule;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [10:17-10:22];d.impl.R(2).;3
+@t-nonrecursive-relation;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [9:5-9:23];1.7e-05
+@n-nonrecursive-relation;d.impl.R;./comp-parametrized-inherit/comp-parametrized-inherit.dl [9:5-9:23];3
+@t-nonrecursive-rule;d.Deriv;./comp-parametrized-inherit/comp-parametrized-inherit.dl [21:5-21:15];d.Deriv(42).;5e-06
+@n-nonrecursive-rule;d.Deriv;./comp-parametrized-inherit/comp-parametrized-inherit.dl [21:5-21:15];d.Deriv(42).;1
+@t-nonrecursive-rule;d.Deriv;./comp-parametrized-inherit/comp-parametrized-inherit.dl [22:5-22:25];d.Deriv(n) :-     d.impl.R(n).;3e-06
+@n-nonrecursive-rule;d.Deriv;./comp-parametrized-inherit/comp-parametrized-inherit.dl [22:5-22:25];d.Deriv(n) :-     d.impl.R(n).;4
+@t-nonrecursive-relation;d.Deriv;./comp-parametrized-inherit/comp-parametrized-inherit.dl [20:5-20:26];1.1e-05
+@n-nonrecursive-relation;d.Deriv;./comp-parametrized-inherit/comp-parametrized-inherit.dl [20:5-20:26];4
+@t-nonrecursive-rule;DerivedOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [31:1-31:29];DerivedOut(x) :-     d.Deriv(x).;6e-06
+@n-nonrecursive-rule;DerivedOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [31:1-31:29];DerivedOut(x) :-     d.Deriv(x).;4
+@t-nonrecursive-relation;DerivedOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [28:1-28:35];1.3e-05
+@n-nonrecursive-relation;DerivedOut;./comp-parametrized-inherit/comp-parametrized-inherit.dl [28:1-28:35];4
+@runtime;0.001087

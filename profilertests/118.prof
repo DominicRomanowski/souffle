@@ -1,0 +1,251 @@
+@start-debug
+@t-nonrecursive-rule;R_E;./subtype2/subtype2.dl [32:1-32:10];R_E('E').;1.5e-05
+@n-nonrecursive-rule;R_E;./subtype2/subtype2.dl [32:1-32:10];R_E('E').;1
+@t-nonrecursive-relation;R_E;./subtype2/subtype2.dl [26:1-26:15];0.000139
+@n-nonrecursive-relation;R_E;./subtype2/subtype2.dl [26:1-26:15];1
+@t-nonrecursive-rule;R_D;./subtype2/subtype2.dl [27:1-27:18];R_D(x) :-     R_E(x).;1.4e-05
+@n-nonrecursive-rule;R_D;./subtype2/subtype2.dl [27:1-27:18];R_D(x) :-     R_E(x).;1
+@t-nonrecursive-rule;R_D;./subtype2/subtype2.dl [31:1-31:10];R_D('D').;1e-06
+@n-nonrecursive-rule;R_D;./subtype2/subtype2.dl [31:1-31:10];R_D('D').;2
+@t-nonrecursive-relation;R_D;./subtype2/subtype2.dl [23:1-23:15];2e-05
+@n-nonrecursive-relation;R_D;./subtype2/subtype2.dl [23:1-23:15];2
+@t-nonrecursive-rule;R_CA;./subtype2/subtype2.dl [111:1-111:12];R_CA('CA').;5e-06
+@n-nonrecursive-rule;R_CA;./subtype2/subtype2.dl [111:1-111:12];R_CA('CA').;1
+@t-nonrecursive-relation;R_CA;./subtype2/subtype2.dl [110:1-110:17];6e-06
+@n-nonrecursive-relation;R_CA;./subtype2/subtype2.dl [110:1-110:17];1
+@t-nonrecursive-rule;R_BA;./subtype2/subtype2.dl [103:1-103:12];R_BA('BA').;7e-06
+@n-nonrecursive-rule;R_BA;./subtype2/subtype2.dl [103:1-103:12];R_BA('BA').;1
+@t-nonrecursive-rule;R_BA;./subtype2/subtype2.dl [112:1-112:20];R_BA(x) :-     R_CA(x).;3e-06
+@n-nonrecursive-rule;R_BA;./subtype2/subtype2.dl [112:1-112:20];R_BA(x) :-     R_CA(x).;2
+@t-nonrecursive-relation;R_BA;./subtype2/subtype2.dl [102:1-102:17];1.3e-05
+@n-nonrecursive-relation;R_BA;./subtype2/subtype2.dl [102:1-102:17];2
+@t-nonrecursive-rule;R_CB;./subtype2/subtype2.dl [115:1-115:12];R_CB('CB').;4e-06
+@n-nonrecursive-rule;R_CB;./subtype2/subtype2.dl [115:1-115:12];R_CB('CB').;1
+@t-nonrecursive-relation;R_CB;./subtype2/subtype2.dl [114:1-114:17];6e-06
+@n-nonrecursive-relation;R_CB;./subtype2/subtype2.dl [114:1-114:17];1
+@t-nonrecursive-rule;R_BB;./subtype2/subtype2.dl [107:1-107:12];R_BB('BB').;3.7e-05
+@n-nonrecursive-rule;R_BB;./subtype2/subtype2.dl [107:1-107:12];R_BB('BB').;1
+@t-nonrecursive-rule;R_BB;./subtype2/subtype2.dl [116:1-116:20];R_BB(x) :-     R_CB(x).;2e-06
+@n-nonrecursive-rule;R_BB;./subtype2/subtype2.dl [116:1-116:20];R_BB(x) :-     R_CB(x).;2
+@t-nonrecursive-relation;R_BB;./subtype2/subtype2.dl [106:1-106:17];4.9e-05
+@n-nonrecursive-relation;R_BB;./subtype2/subtype2.dl [106:1-106:17];2
+@t-nonrecursive-rule;R_A;./subtype2/subtype2.dl [15:1-15:10];R_A('A').;2e-06
+@n-nonrecursive-rule;R_A;./subtype2/subtype2.dl [15:1-15:10];R_A('A').;1
+@t-nonrecursive-rule;R_A;./subtype2/subtype2.dl [51:1-51:26];R_A(x) :-     R_D(x).;2e-06
+@n-nonrecursive-rule;R_A;./subtype2/subtype2.dl [51:1-51:26];R_A(x) :-     R_D(x).;3
+@t-nonrecursive-rule;R_A;./subtype2/subtype2.dl [52:1-52:26];R_A(x) :-     R_D(x),    R_E(x).;5e-06
+@n-nonrecursive-rule;R_A;./subtype2/subtype2.dl [52:1-52:26];R_A(x) :-     R_D(x),    R_E(x).;3
+@t-nonrecursive-rule;R_A;./subtype2/subtype2.dl [54:1-54:26];R_A(x) :-     R_E(x).;2e-06
+@n-nonrecursive-rule;R_A;./subtype2/subtype2.dl [54:1-54:26];R_A(x) :-     R_E(x).;3
+@t-nonrecursive-rule;R_A;./subtype2/subtype2.dl [104:1-104:19];R_A(x) :-     R_BA(x).;2e-06
+@n-nonrecursive-rule;R_A;./subtype2/subtype2.dl [104:1-104:19];R_A(x) :-     R_BA(x).;5
+@t-nonrecursive-rule;R_A;./subtype2/subtype2.dl [108:1-108:19];R_A(x) :-     R_BB(x).;2e-06
+@n-nonrecursive-rule;R_A;./subtype2/subtype2.dl [108:1-108:19];R_A(x) :-     R_BB(x).;7
+@t-nonrecursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];2.6e-05
+@n-nonrecursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];7
+@t-nonrecursive-rule;R_B;./subtype2/subtype2.dl [29:1-29:10];R_B('B').;4e-06
+@n-nonrecursive-rule;R_B;./subtype2/subtype2.dl [29:1-29:10];R_B('B').;1
+@t-nonrecursive-rule;R_B;./subtype2/subtype2.dl [73:1-73:26];R_B(x) :-     R_D(x).;1e-06
+@n-nonrecursive-rule;R_B;./subtype2/subtype2.dl [73:1-73:26];R_B(x) :-     R_D(x).;3
+@t-nonrecursive-rule;R_B;./subtype2/subtype2.dl [74:1-74:26];R_B(x) :-     R_D(x),    R_E(x).;3e-06
+@n-nonrecursive-rule;R_B;./subtype2/subtype2.dl [74:1-74:26];R_B(x) :-     R_D(x),    R_E(x).;3
+@t-nonrecursive-rule;R_B;./subtype2/subtype2.dl [76:1-76:26];R_B(x) :-     R_E(x).;1e-06
+@n-nonrecursive-rule;R_B;./subtype2/subtype2.dl [76:1-76:26];R_B(x) :-     R_E(x).;3
+@t-nonrecursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];2.9e-05
+@n-nonrecursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];3
+@t-nonrecursive-rule;R_C;./subtype2/subtype2.dl [24:1-24:18];R_C(x) :-     R_D(x).;5e-06
+@n-nonrecursive-rule;R_C;./subtype2/subtype2.dl [24:1-24:18];R_C(x) :-     R_D(x).;2
+@t-nonrecursive-rule;R_C;./subtype2/subtype2.dl [30:1-30:10];R_C('C').;0
+@n-nonrecursive-rule;R_C;./subtype2/subtype2.dl [30:1-30:10];R_C('C').;3
+@t-nonrecursive-rule;R_C;./subtype2/subtype2.dl [94:1-94:26];R_C(x) :-     R_D(x).;2e-06
+@n-nonrecursive-rule;R_C;./subtype2/subtype2.dl [94:1-94:26];R_C(x) :-     R_D(x).;3
+@t-nonrecursive-rule;R_C;./subtype2/subtype2.dl [95:1-95:26];R_C(x) :-     R_D(x),    R_E(x).;3e-06
+@n-nonrecursive-rule;R_C;./subtype2/subtype2.dl [95:1-95:26];R_C(x) :-     R_D(x),    R_E(x).;3
+@t-nonrecursive-rule;R_C;./subtype2/subtype2.dl [97:1-97:26];R_C(x) :-     R_E(x).;2e-06
+@n-nonrecursive-rule;R_C;./subtype2/subtype2.dl [97:1-97:26];R_C(x) :-     R_E(x).;3
+@t-nonrecursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];2e-05
+@n-nonrecursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];3
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [18:1-18:18];R_A(x) :-     R_B(x).;8e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [18:1-18:18];R_A(x) :-     R_B(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [36:1-36:26];R_A(x) :-     R_A(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [36:1-36:26];R_A(x) :-     R_A(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;4e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;1
+@t-recursive-rule;R_A;1;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;3e-06
+@n-recursive-rule;R_A;1;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;1
+@t-recursive-rule;R_A;1;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;9.2e-05
+@n-recursive-rule;R_A;1;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [39:1-39:26];R_A(x) :-     R_A(x),    R_D(x).;4e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [39:1-39:26];R_A(x) :-     R_A(x),    R_D(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [40:1-40:26];R_A(x) :-     R_A(x),    R_E(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [40:1-40:26];R_A(x) :-     R_A(x),    R_E(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [42:1-42:26];R_A(x) :-     R_B(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [42:1-42:26];R_A(x) :-     R_B(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;4e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;1
+@t-recursive-rule;R_A;1;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;3e-06
+@n-recursive-rule;R_A;1;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [44:1-44:26];R_A(x) :-     R_B(x),    R_D(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [44:1-44:26];R_A(x) :-     R_B(x),    R_D(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [45:1-45:26];R_A(x) :-     R_B(x),    R_E(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [45:1-45:26];R_A(x) :-     R_B(x),    R_E(x).;1
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [47:1-47:26];R_A(x) :-     R_C(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [47:1-47:26];R_A(x) :-     R_C(x).;2
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [48:1-48:26];R_A(x) :-     R_C(x),    R_D(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [48:1-48:26];R_A(x) :-     R_C(x),    R_D(x).;2
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [49:1-49:26];R_A(x) :-     R_C(x),    R_E(x).;3e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [49:1-49:26];R_A(x) :-     R_C(x),    R_E(x).;2
+@t-recursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];0.000191
+@n-recursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];2
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [21:1-21:18];R_B(x) :-     R_C(x).;1e-05
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [21:1-21:18];R_B(x) :-     R_C(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;6e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;1
+@t-recursive-rule;R_B;1;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;5e-06
+@n-recursive-rule;R_B;1;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;5e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;1
+@t-recursive-rule;R_B;1;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;4e-06
+@n-recursive-rule;R_B;1;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [61:1-61:26];R_B(x) :-     R_A(x),    R_D(x).;4e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [61:1-61:26];R_B(x) :-     R_A(x),    R_D(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [62:1-62:26];R_B(x) :-     R_A(x),    R_E(x).;5e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [62:1-62:26];R_B(x) :-     R_A(x),    R_E(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [64:1-64:26];R_B(x) :-     R_B(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [64:1-64:26];R_B(x) :-     R_B(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;3e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;1
+@t-recursive-rule;R_B;1;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;2e-06
+@n-recursive-rule;R_B;1;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [66:1-66:26];R_B(x) :-     R_B(x),    R_D(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [66:1-66:26];R_B(x) :-     R_B(x),    R_D(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [67:1-67:26];R_B(x) :-     R_B(x),    R_E(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [67:1-67:26];R_B(x) :-     R_B(x),    R_E(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [69:1-69:26];R_B(x) :-     R_C(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [69:1-69:26];R_B(x) :-     R_C(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [70:1-70:26];R_B(x) :-     R_C(x),    R_D(x).;3e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [70:1-70:26];R_B(x) :-     R_C(x),    R_D(x).;1
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [71:1-71:26];R_B(x) :-     R_C(x),    R_E(x).;3e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [71:1-71:26];R_B(x) :-     R_C(x),    R_E(x).;1
+@t-recursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];8.5e-05
+@n-recursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];1
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;5e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_C;1;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;4e-06
+@n-recursive-rule;R_C;1;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [82:1-82:26];R_C(x) :-     R_A(x),    R_D(x).;5e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [82:1-82:26];R_C(x) :-     R_A(x),    R_D(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [83:1-83:26];R_C(x) :-     R_A(x),    R_E(x).;4e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [83:1-83:26];R_C(x) :-     R_A(x),    R_E(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;4e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_C;1;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;3e-06
+@n-recursive-rule;R_C;1;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [87:1-87:26];R_C(x) :-     R_B(x),    R_D(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [87:1-87:26];R_C(x) :-     R_B(x),    R_D(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [88:1-88:26];R_C(x) :-     R_B(x),    R_E(x).;3e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [88:1-88:26];R_C(x) :-     R_B(x),    R_E(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [90:1-90:26];R_C(x) :-     R_C(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [90:1-90:26];R_C(x) :-     R_C(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [91:1-91:26];R_C(x) :-     R_C(x),    R_D(x).;3e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [91:1-91:26];R_C(x) :-     R_C(x),    R_D(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [92:1-92:26];R_C(x) :-     R_C(x),    R_E(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [92:1-92:26];R_C(x) :-     R_C(x),    R_E(x).;0
+@t-recursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];6.4e-05
+@n-recursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];0
+@c-recursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];4e-06
+@c-recursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];2e-06
+@c-recursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];1e-06
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [18:1-18:18];R_A(x) :-     R_B(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [18:1-18:18];R_A(x) :-     R_B(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [36:1-36:26];R_A(x) :-     R_A(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [36:1-36:26];R_A(x) :-     R_A(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;0
+@t-recursive-rule;R_A;1;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;4e-06
+@n-recursive-rule;R_A;1;./subtype2/subtype2.dl [37:1-37:26];R_A(x) :-     R_A(x),    R_B(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_A;1;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;3e-06
+@n-recursive-rule;R_A;1;./subtype2/subtype2.dl [38:1-38:26];R_A(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [39:1-39:26];R_A(x) :-     R_A(x),    R_D(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [39:1-39:26];R_A(x) :-     R_A(x),    R_D(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [40:1-40:26];R_A(x) :-     R_A(x),    R_E(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [40:1-40:26];R_A(x) :-     R_A(x),    R_E(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [42:1-42:26];R_A(x) :-     R_B(x).;1e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [42:1-42:26];R_A(x) :-     R_B(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_A;1;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;3e-06
+@n-recursive-rule;R_A;1;./subtype2/subtype2.dl [43:1-43:26];R_A(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [44:1-44:26];R_A(x) :-     R_B(x),    R_D(x).;1e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [44:1-44:26];R_A(x) :-     R_B(x),    R_D(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [45:1-45:26];R_A(x) :-     R_B(x),    R_E(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [45:1-45:26];R_A(x) :-     R_B(x),    R_E(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [47:1-47:26];R_A(x) :-     R_C(x).;1e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [47:1-47:26];R_A(x) :-     R_C(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [48:1-48:26];R_A(x) :-     R_C(x),    R_D(x).;2e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [48:1-48:26];R_A(x) :-     R_C(x),    R_D(x).;0
+@t-recursive-rule;R_A;0;./subtype2/subtype2.dl [49:1-49:26];R_A(x) :-     R_C(x),    R_E(x).;1e-06
+@n-recursive-rule;R_A;0;./subtype2/subtype2.dl [49:1-49:26];R_A(x) :-     R_C(x),    R_E(x).;0
+@t-recursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];7e-05
+@n-recursive-relation;R_A;./subtype2/subtype2.dl [14:1-14:22];0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [21:1-21:18];R_B(x) :-     R_C(x).;1e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [21:1-21:18];R_B(x) :-     R_C(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;0
+@t-recursive-rule;R_B;1;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;4e-06
+@n-recursive-rule;R_B;1;./subtype2/subtype2.dl [59:1-59:26];R_B(x) :-     R_A(x),    R_B(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_B;1;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;6e-06
+@n-recursive-rule;R_B;1;./subtype2/subtype2.dl [60:1-60:26];R_B(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [61:1-61:26];R_B(x) :-     R_A(x),    R_D(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [61:1-61:26];R_B(x) :-     R_A(x),    R_D(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [62:1-62:26];R_B(x) :-     R_A(x),    R_E(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [62:1-62:26];R_B(x) :-     R_A(x),    R_E(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [64:1-64:26];R_B(x) :-     R_B(x).;1e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [64:1-64:26];R_B(x) :-     R_B(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_B;1;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;2e-06
+@n-recursive-rule;R_B;1;./subtype2/subtype2.dl [65:1-65:26];R_B(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [66:1-66:26];R_B(x) :-     R_B(x),    R_D(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [66:1-66:26];R_B(x) :-     R_B(x),    R_D(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [67:1-67:26];R_B(x) :-     R_B(x),    R_E(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [67:1-67:26];R_B(x) :-     R_B(x),    R_E(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [69:1-69:26];R_B(x) :-     R_C(x).;1e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [69:1-69:26];R_B(x) :-     R_C(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [70:1-70:26];R_B(x) :-     R_C(x),    R_D(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [70:1-70:26];R_B(x) :-     R_C(x),    R_D(x).;0
+@t-recursive-rule;R_B;0;./subtype2/subtype2.dl [71:1-71:26];R_B(x) :-     R_C(x),    R_E(x).;2e-06
+@n-recursive-rule;R_B;0;./subtype2/subtype2.dl [71:1-71:26];R_B(x) :-     R_C(x),    R_E(x).;0
+@t-recursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];5.7e-05
+@n-recursive-relation;R_B;./subtype2/subtype2.dl [17:1-17:15];0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;4e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_C;1;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;4e-06
+@n-recursive-rule;R_C;1;./subtype2/subtype2.dl [81:1-81:26];R_C(x) :-     R_A(x),    R_C(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [82:1-82:26];R_C(x) :-     R_A(x),    R_D(x).;3e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [82:1-82:26];R_C(x) :-     R_A(x),    R_D(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [83:1-83:26];R_C(x) :-     R_A(x),    R_E(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [83:1-83:26];R_C(x) :-     R_A(x),    R_E(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_C;1;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;3e-06
+@n-recursive-rule;R_C;1;./subtype2/subtype2.dl [86:1-86:26];R_C(x) :-     R_B(x),    R_C(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [87:1-87:26];R_C(x) :-     R_B(x),    R_D(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [87:1-87:26];R_C(x) :-     R_B(x),    R_D(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [88:1-88:26];R_C(x) :-     R_B(x),    R_E(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [88:1-88:26];R_C(x) :-     R_B(x),    R_E(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [90:1-90:26];R_C(x) :-     R_C(x).;1e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [90:1-90:26];R_C(x) :-     R_C(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [91:1-91:26];R_C(x) :-     R_C(x),    R_D(x).;1e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [91:1-91:26];R_C(x) :-     R_C(x),    R_D(x).;0
+@t-recursive-rule;R_C;0;./subtype2/subtype2.dl [92:1-92:26];R_C(x) :-     R_C(x),    R_E(x).;2e-06
+@n-recursive-rule;R_C;0;./subtype2/subtype2.dl [92:1-92:26];R_C(x) :-     R_C(x),    R_E(x).;0
+@t-recursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];5.1e-05
+@n-recursive-relation;R_C;./subtype2/subtype2.dl [20:1-20:15];0
+@runtime;0.001435

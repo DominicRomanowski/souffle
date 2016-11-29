@@ -1,0 +1,64 @@
+@start-debug
+@t-nonrecursive-rule;father;./family/family.dl [27:1-27:21];father('tom','amy').;1.6e-05
+@n-nonrecursive-rule;father;./family/family.dl [27:1-27:21];father('tom','amy').;1
+@t-nonrecursive-rule;father;./family/family.dl [28:1-28:22];father('tom','adam').;2e-06
+@n-nonrecursive-rule;father;./family/family.dl [28:1-28:22];father('tom','adam').;2
+@t-nonrecursive-rule;father;./family/family.dl [29:1-29:23];father('jack','fred').;1e-06
+@n-nonrecursive-rule;father;./family/family.dl [29:1-29:23];father('jack','fred').;3
+@t-nonrecursive-rule;father;./family/family.dl [30:1-30:26];father('tony','carolII').;1e-06
+@n-nonrecursive-rule;father;./family/family.dl [30:1-30:26];father('tony','carolII').;4
+@t-nonrecursive-rule;father;./family/family.dl [31:1-31:27];father('fred','carolIII').;0
+@n-nonrecursive-rule;father;./family/family.dl [31:1-31:27];father('fred','carolIII').;5
+@t-nonrecursive-relation;father;./family/family.dl [4:1-4:38];5.9e-05
+@n-nonrecursive-relation;father;./family/family.dl [4:1-4:38];5
+@t-nonrecursive-rule;mother;./family/family.dl [32:1-32:24];mother('graceI','amy').;6e-06
+@n-nonrecursive-rule;mother;./family/family.dl [32:1-32:24];mother('graceI','amy').;1
+@t-nonrecursive-rule;mother;./family/family.dl [33:1-33:22];mother('amy','fred').;1e-06
+@n-nonrecursive-rule;mother;./family/family.dl [33:1-33:22];mother('amy','fred').;2
+@t-nonrecursive-rule;mother;./family/family.dl [34:1-34:28];mother('carolI','carolII').;1e-06
+@n-nonrecursive-rule;mother;./family/family.dl [34:1-34:28];mother('carolI','carolII').;3
+@t-nonrecursive-rule;mother;./family/family.dl [35:1-35:30];mother('carolII','carolIII').;1e-06
+@n-nonrecursive-rule;mother;./family/family.dl [35:1-35:30];mother('carolII','carolIII').;4
+@t-nonrecursive-relation;mother;./family/family.dl [5:1-5:38];1.5e-05
+@n-nonrecursive-relation;mother;./family/family.dl [5:1-5:38];4
+@t-nonrecursive-rule;parent;./family/family.dl [13:1-13:28];parent(X,Y) :-     father(X,Y).;1.5e-05
+@n-nonrecursive-rule;parent;./family/family.dl [13:1-13:28];parent(X,Y) :-     father(X,Y).;5
+@t-nonrecursive-rule;parent;./family/family.dl [14:1-14:28];parent(X,Y) :-     mother(X,Y).;4e-06
+@n-nonrecursive-rule;parent;./family/family.dl [14:1-14:28];parent(X,Y) :-     mother(X,Y).;9
+@t-nonrecursive-relation;parent;./family/family.dl [6:1-6:45];2.9e-05
+@n-nonrecursive-relation;parent;./family/family.dl [6:1-6:45];9
+@t-nonrecursive-rule;ancestor;./family/family.dl [16:1-16:30];ancestor(X,Y) :-     parent(X,Y).;7e-06
+@n-nonrecursive-rule;ancestor;./family/family.dl [16:1-16:30];ancestor(X,Y) :-     parent(X,Y).;9
+@t-nonrecursive-relation;ancestor;./family/family.dl [7:1-7:47];9e-06
+@n-nonrecursive-relation;ancestor;./family/family.dl [7:1-7:47];9
+@t-recursive-rule;ancestor;0;./family/family.dl [17:1-17:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;2.1e-05
+@n-recursive-rule;ancestor;0;./family/family.dl [17:1-17:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;6
+@t-recursive-relation;ancestor;./family/family.dl [7:1-7:47];2.3e-05
+@n-recursive-relation;ancestor;./family/family.dl [7:1-7:47];6
+@c-recursive-relation;ancestor;./family/family.dl [7:1-7:47];3e-06
+@t-recursive-rule;ancestor;0;./family/family.dl [17:1-17:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;1e-05
+@n-recursive-rule;ancestor;0;./family/family.dl [17:1-17:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;2
+@t-recursive-relation;ancestor;./family/family.dl [7:1-7:47];1.1e-05
+@n-recursive-relation;ancestor;./family/family.dl [7:1-7:47];2
+@c-recursive-relation;ancestor;./family/family.dl [7:1-7:47];1e-06
+@t-recursive-rule;ancestor;0;./family/family.dl [17:1-17:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;5e-06
+@n-recursive-rule;ancestor;0;./family/family.dl [17:1-17:45];ancestor(X,Y) :-     parent(X,Z),    ancestor(Z,Y).;0
+@t-recursive-relation;ancestor;./family/family.dl [7:1-7:47];6e-06
+@n-recursive-relation;ancestor;./family/family.dl [7:1-7:47];0
+@t-nonrecursive-rule;sibling;./family/family.dl [21:1-21:50];sibling(X,Y) :-     parent(Z,X),    parent(Z,Y),    X != Y.;1.3e-05
+@n-nonrecursive-rule;sibling;./family/family.dl [21:1-21:50];sibling(X,Y) :-     parent(Z,X),    parent(Z,Y),    X != Y.;2
+@t-nonrecursive-relation;sibling;./family/family.dl [9:1-9:46];2.8e-05
+@n-nonrecursive-relation;sibling;./family/family.dl [9:1-9:46];2
+@t-nonrecursive-rule;cousin;./family/family.dl [23:1-23:82];cousin(X,Y) :-     ancestor(Z,X),    ancestor(Z,Y),    !sibling(X,Y),    !parent(X,Y),    X != Y.;6.3e-05
+@n-nonrecursive-rule;cousin;./family/family.dl [23:1-23:82];cousin(X,Y) :-     ancestor(Z,X),    ancestor(Z,Y),    !sibling(X,Y),    !parent(X,Y),    X != Y.;9
+@t-nonrecursive-relation;cousin;./family/family.dl [10:1-10:45];6.5e-05
+@n-nonrecursive-relation;cousin;./family/family.dl [10:1-10:45];9
+@t-nonrecursive-rule;grandmother;./family/family.dl [19:1-19:48];grandmother(X,Y) :-     mother(X,Z),    ancestor(Z,Y).;1.1e-05
+@n-nonrecursive-rule;grandmother;./family/family.dl [19:1-19:48];grandmother(X,Y) :-     mother(X,Z),    ancestor(Z,Y).;4
+@t-nonrecursive-relation;grandmother;./family/family.dl [8:1-8:50];1.2e-05
+@n-nonrecursive-relation;grandmother;./family/family.dl [8:1-8:50];4
+@t-nonrecursive-rule;relative;./family/family.dl [25:1-25:43];relative(X,Y) :-     sibling(X,Z),    parent(Z,Y).;7e-06
+@n-nonrecursive-rule;relative;./family/family.dl [25:1-25:43];relative(X,Y) :-     sibling(X,Z),    parent(Z,Y).;1
+@t-nonrecursive-relation;relative;./family/family.dl [11:1-11:47];1.4e-05
+@n-nonrecursive-relation;relative;./family/family.dl [11:1-11:47];1
+@runtime;0.001097

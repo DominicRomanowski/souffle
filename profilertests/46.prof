@@ -1,0 +1,65 @@
+@start-debug
+@t-nonrecursive-rule;fact;./factorial/factorial.dl [12:1-12:12];fact(0,1).;6e-06
+@n-nonrecursive-rule;fact;./factorial/factorial.dl [12:1-12:12];fact(0,1).;1
+@t-nonrecursive-relation;fact;./factorial/factorial.dl [4:1-4:38];3.3e-05
+@n-nonrecursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1.2e-05
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1.4e-05
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1.1e-05
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;6e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];8e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];2e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;6e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];7e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;4e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];5e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;2e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];9e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;2e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];3e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];0
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;2e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];3e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;3e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];4e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;2e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];3e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;2e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1.4e-05
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1e-06
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;2e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];4e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];1
+@c-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];0
+@t-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;1e-06
+@n-recursive-rule;fact;0;./factorial/factorial.dl [9:1-9:43];fact((I+1),(N*(I+1))) :-     fact(I,N),    !lim(I).;0
+@t-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];3e-06
+@n-recursive-relation;fact;./factorial/factorial.dl [4:1-4:38];0
+@runtime;0.000796

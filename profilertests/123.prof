@@ -1,0 +1,133 @@
+@start-debug
+@t-nonrecursive-rule;vertex;./topological_ordering/topological_ordering.dl [10:1-10:26];vertex(v) :-     vertices(v).;1.7e-05
+@n-nonrecursive-rule;vertex;./topological_ordering/topological_ordering.dl [10:1-10:26];vertex(v) :-     vertices(v).;14
+@t-nonrecursive-relation;vertex;./topological_ordering/topological_ordering.dl [9:1-9:30];5e-05
+@n-nonrecursive-relation;vertex;./topological_ordering/topological_ordering.dl [9:1-9:30];14
+@t-nonrecursive-rule;edge;./topological_ordering/topological_ordering.dl [15:1-15:55];edge(v1,v2) :-     vertex(v1),    vertex(v2),    edges(v1,v2).;0.00012
+@n-nonrecursive-rule;edge;./topological_ordering/topological_ordering.dl [15:1-15:55];edge(v1,v2) :-     vertex(v1),    vertex(v2),    edges(v1,v2).;16
+@t-nonrecursive-relation;edge;./topological_ordering/topological_ordering.dl [14:1-14:40];0.000123
+@n-nonrecursive-relation;edge;./topological_ordering/topological_ordering.dl [14:1-14:40];16
+@t-nonrecursive-rule;is_before;./topological_ordering/topological_ordering.dl [30:1-31:16];is_before(x,y) :-     edge(x,y).;1.6e-05
+@n-nonrecursive-rule;is_before;./topological_ordering/topological_ordering.dl [30:1-31:16];is_before(x,y) :-     edge(x,y).;16
+@t-nonrecursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];5.1e-05
+@n-nonrecursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];16
+@t-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;3.1e-05
+@n-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;0
+@t-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;3.1e-05
+@n-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;14
+@t-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];6.6e-05
+@n-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];14
+@c-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];5e-06
+@t-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;5.3e-05
+@n-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;14
+@t-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;5.3e-05
+@n-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;27
+@t-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];0.000108
+@n-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];27
+@c-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];7e-06
+@t-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;5.7e-05
+@n-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;7
+@t-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;6.2e-05
+@n-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;7
+@t-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];0.000122
+@n-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];7
+@c-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];9e-06
+@t-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;7e-06
+@n-recursive-rule;is_before;0;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;0
+@t-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;3.5e-05
+@n-recursive-rule;is_before;1;./topological_ordering/topological_ordering.dl [34:1-36:21];is_before(x,y) :-     is_before(x,z),    is_before(z,y).;0
+@t-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];6.1e-05
+@n-recursive-relation;is_before;./topological_ordering/topological_ordering.dl [18:1-18:45];0
+@t-nonrecursive-rule;is_after;./topological_ordering/topological_ordering.dl [39:1-40:16];is_after(x,y) :-     edge(y,x).;1.6e-05
+@n-nonrecursive-rule;is_after;./topological_ordering/topological_ordering.dl [39:1-40:16];is_after(x,y) :-     edge(y,x).;16
+@t-nonrecursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];1.8e-05
+@n-nonrecursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];16
+@t-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;3.2e-05
+@n-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0
+@t-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;3.7e-05
+@n-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;16
+@t-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];7.3e-05
+@n-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];16
+@c-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];7e-06
+@t-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;6.6e-05
+@n-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;11
+@t-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;7.1e-05
+@n-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;36
+@t-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];0.000145
+@n-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];36
+@c-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];2e-05
+@t-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0.000172
+@n-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;29
+@t-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0.000178
+@n-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;49
+@t-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];0.000361
+@n-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];49
+@c-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];2.3e-05
+@t-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0.000452
+@n-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;52
+@t-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0.000272
+@n-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;52
+@t-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];0.000747
+@n-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];52
+@c-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];2.6e-05
+@t-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0.000363
+@n-recursive-rule;is_after;0;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0
+@t-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0.000464
+@n-recursive-rule;is_after;1;./topological_ordering/topological_ordering.dl [43:1-45:20];is_after(x,y) :-     is_after(z,x),    is_after(y,z).;0
+@t-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];0.000843
+@n-recursive-relation;is_after;./topological_ordering/topological_ordering.dl [21:1-21:44];0
+@t-nonrecursive-rule;indices;./topological_ordering/topological_ordering.dl [48:1-51:17];indices(x,0) :-     vertex(x),    !edge(_,x),    !edge(x,_).;2.4e-05
+@n-nonrecursive-rule;indices;./topological_ordering/topological_ordering.dl [48:1-51:17];indices(x,0) :-     vertex(x),    !edge(_,x),    !edge(x,_).;1
+@t-nonrecursive-rule;indices;./topological_ordering/topological_ordering.dl [54:1-57:16];indices(x,1) :-     vertex(x),    edge(x,_),    !edge(_,x).;1.2e-05
+@n-nonrecursive-rule;indices;./topological_ordering/topological_ordering.dl [54:1-57:16];indices(x,1) :-     vertex(x),    edge(x,_),    !edge(_,x).;2
+@t-nonrecursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];4e-05
+@n-nonrecursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];2
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000131
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;12
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000141
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];12
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];4e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000166
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;11
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000169
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];11
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];4e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000148
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;10
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.00015
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];10
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];3e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000144
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;9
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000163
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];9
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];4e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000135
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;8
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000136
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];8
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];3e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000125
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;7
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000132
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];7
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];3e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000114
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;4
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000116
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];4
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];4e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0.000101
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;1
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000103
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];1
+@c-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];1e-06
+@t-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;9.5e-05
+@n-recursive-rule;indices;0;./topological_ordering/topological_ordering.dl [60:1-64:19];indices(x,(i+1)) :-     is_before(y,x),    is_after(x,y),    indices(y,i),    !is_before(x,y).;0
+@t-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0.000102
+@n-recursive-relation;indices;./topological_ordering/topological_ordering.dl [24:1-24:41];0
+@t-nonrecursive-rule;index;./topological_ordering/topological_ordering.dl [67:1-69:22];index(x,i) :-     indices(x,i),    !indices(x,(i+1)).;4.8e-05
+@n-nonrecursive-rule;index;./topological_ordering/topological_ordering.dl [67:1-69:22];index(x,i) :-     indices(x,i),    !indices(x,(i+1)).;14
+@t-nonrecursive-relation;index;./topological_ordering/topological_ordering.dl [27:1-27:39];5e-05
+@n-nonrecursive-relation;index;./topological_ordering/topological_ordering.dl [27:1-27:39];14
+@runtime;0.005777

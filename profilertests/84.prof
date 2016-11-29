@@ -1,0 +1,24 @@
+@start-debug
+@t-nonrecursive-rule;a;./neg6/neg6.dl [6:1-6:10];a(1,1,1).;1.7e-05
+@n-nonrecursive-rule;a;./neg6/neg6.dl [6:1-6:10];a(1,1,1).;1
+@t-nonrecursive-rule;a;./neg6/neg6.dl [7:1-7:10];a(1,2,2).;1e-06
+@n-nonrecursive-rule;a;./neg6/neg6.dl [7:1-7:10];a(1,2,2).;2
+@t-nonrecursive-rule;a;./neg6/neg6.dl [8:1-8:10];a(1,2,3).;1e-06
+@n-nonrecursive-rule;a;./neg6/neg6.dl [8:1-8:10];a(1,2,3).;3
+@t-nonrecursive-rule;a;./neg6/neg6.dl [9:1-9:10];a(2,1,1).;1e-06
+@n-nonrecursive-rule;a;./neg6/neg6.dl [9:1-9:10];a(2,1,1).;4
+@t-nonrecursive-rule;a;./neg6/neg6.dl [10:1-10:10];a(3,1,1).;1e-06
+@n-nonrecursive-rule;a;./neg6/neg6.dl [10:1-10:10];a(3,1,1).;5
+@t-nonrecursive-rule;a;./neg6/neg6.dl [11:1-11:10];a(4,2,3).;1e-06
+@n-nonrecursive-rule;a;./neg6/neg6.dl [11:1-11:10];a(4,2,3).;6
+@t-nonrecursive-relation;a;./neg6/neg6.dl [4:1-4:34];5.9e-05
+@n-nonrecursive-relation;a;./neg6/neg6.dl [4:1-4:34];6
+@t-nonrecursive-rule;b;./neg6/neg6.dl [14:1-14:29];b(x) :-     a(x,_,_),    !a(_,x,_).;2.3e-05
+@n-nonrecursive-rule;b;./neg6/neg6.dl [14:1-14:29];b(x) :-     a(x,_,_),    !a(_,x,_).;2
+@t-nonrecursive-relation;b;./neg6/neg6.dl [13:1-13:25];5.8e-05
+@n-nonrecursive-relation;b;./neg6/neg6.dl [13:1-13:25];2
+@t-nonrecursive-rule;c;./neg6/neg6.dl [17:1-17:29];c(x) :-     a(x,_,_),    !a(x,_,x).;1.8e-05
+@n-nonrecursive-rule;c;./neg6/neg6.dl [17:1-17:29];c(x) :-     a(x,_,_),    !a(x,_,x).;3
+@t-nonrecursive-relation;c;./neg6/neg6.dl [16:1-16:25];2.1e-05
+@n-nonrecursive-relation;c;./neg6/neg6.dl [16:1-16:25];3
+@runtime;0.000336

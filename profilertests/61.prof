@@ -1,0 +1,28 @@
+@start-debug
+@t-nonrecursive-rule;A;./index/index.dl [7:1-7:8];A(1,2).;1.2e-05
+@n-nonrecursive-rule;A;./index/index.dl [7:1-7:8];A(1,2).;1
+@t-nonrecursive-rule;A;./index/index.dl [8:1-8:8];A(3,4).;1e-06
+@n-nonrecursive-rule;A;./index/index.dl [8:1-8:8];A(3,4).;2
+@t-nonrecursive-rule;A;./index/index.dl [9:1-9:8];A(5,6).;1e-06
+@n-nonrecursive-rule;A;./index/index.dl [9:1-9:8];A(5,6).;3
+@t-nonrecursive-relation;A;./index/index.dl [4:1-4:36];4.5e-05
+@n-nonrecursive-relation;A;./index/index.dl [4:1-4:36];3
+@t-nonrecursive-rule;R;./index/index.dl [11:1-11:18];R(x,y) :-     A(x,y).;1.3e-05
+@n-nonrecursive-rule;R;./index/index.dl [11:1-11:18];R(x,y) :-     A(x,y).;3
+@t-nonrecursive-relation;R;./index/index.dl [5:1-5:36];1.5e-05
+@n-nonrecursive-relation;R;./index/index.dl [5:1-5:36];3
+@t-recursive-rule;R;0;./index/index.dl [13:1-13:28];R(x,b) :-     A(x,y),    R( _tmp_0,b),     _tmp_0 = (y+1).;1.1e-05
+@n-recursive-rule;R;0;./index/index.dl [13:1-13:28];R(x,b) :-     A(x,y),    R( _tmp_0,b),     _tmp_0 = (y+1).;2
+@t-recursive-relation;R;./index/index.dl [5:1-5:36];1.3e-05
+@n-recursive-relation;R;./index/index.dl [5:1-5:36];2
+@c-recursive-relation;R;./index/index.dl [5:1-5:36];2e-06
+@t-recursive-rule;R;0;./index/index.dl [13:1-13:28];R(x,b) :-     A(x,y),    R( _tmp_0,b),     _tmp_0 = (y+1).;7e-06
+@n-recursive-rule;R;0;./index/index.dl [13:1-13:28];R(x,b) :-     A(x,y),    R( _tmp_0,b),     _tmp_0 = (y+1).;1
+@t-recursive-relation;R;./index/index.dl [5:1-5:36];9e-06
+@n-recursive-relation;R;./index/index.dl [5:1-5:36];1
+@c-recursive-relation;R;./index/index.dl [5:1-5:36];1e-06
+@t-recursive-rule;R;0;./index/index.dl [13:1-13:28];R(x,b) :-     A(x,y),    R( _tmp_0,b),     _tmp_0 = (y+1).;3e-06
+@n-recursive-rule;R;0;./index/index.dl [13:1-13:28];R(x,b) :-     A(x,y),    R( _tmp_0,b),     _tmp_0 = (y+1).;0
+@t-recursive-relation;R;./index/index.dl [5:1-5:36];4e-06
+@n-recursive-relation;R;./index/index.dl [5:1-5:36];0
+@runtime;0.000316

@@ -1,0 +1,72 @@
+@start-debug
+@t-nonrecursive-rule;up_to_size;./nqueens/nqueens.dl [14:1-14:15];up_to_size(1).;8e-06
+@n-nonrecursive-rule;up_to_size;./nqueens/nqueens.dl [14:1-14:15];up_to_size(1).;1
+@t-nonrecursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];5.1e-05
+@n-nonrecursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];1
+@t-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;1.4e-05
+@n-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;1
+@t-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];1.6e-05
+@n-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];1
+@c-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];5e-06
+@t-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;5e-06
+@n-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;1
+@t-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];3.6e-05
+@n-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];1
+@c-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];2e-06
+@t-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;2e-06
+@n-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;1
+@t-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];4e-06
+@n-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];1
+@c-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];1e-06
+@t-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;1e-06
+@n-recursive-rule;up_to_size;0;./nqueens/nqueens.dl [15:1-15:46];up_to_size((x+1)) :-     up_to_size(x),    !size(x).;0
+@t-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];2e-06
+@n-recursive-relation;up_to_size;./nqueens/nqueens.dl [13:1-13:31];0
+@t-nonrecursive-rule;on_board;./nqueens/nqueens.dl [24:1-24:50];on_board([x,y]) :-     up_to_size(x),    up_to_size(y).;6.2e-05
+@n-nonrecursive-rule;on_board;./nqueens/nqueens.dl [24:1-24:50];on_board([x,y]) :-     up_to_size(x),    up_to_size(y).;16
+@t-nonrecursive-relation;on_board;./nqueens/nqueens.dl [23:1-23:31];6.4e-05
+@n-nonrecursive-relation;on_board;./nqueens/nqueens.dl [23:1-23:31];16
+@t-nonrecursive-rule;non_diagonals;./nqueens/nqueens.dl [33:1-33:117];non_diagonals([px,py],[qx,qy]) :-     on_board([px,py]),    on_board([qx,qy]),    (px-qx) != (py-qy),    (qx-px) != (py-qy).;0.000422
+@n-nonrecursive-rule;non_diagonals;./nqueens/nqueens.dl [33:1-33:117];non_diagonals([px,py],[qx,qy]) :-     on_board([px,py]),    on_board([qx,qy]),    (px-qx) != (py-qy),    (qx-px) != (py-qy).;184
+@t-nonrecursive-relation;non_diagonals;./nqueens/nqueens.dl [32:1-32:50];0.000426
+@n-nonrecursive-relation;non_diagonals;./nqueens/nqueens.dl [32:1-32:50];184
+@t-nonrecursive-rule;sympathetic;./nqueens/nqueens.dl [38:1-38:85];sympathetic([px,py],[qx,qy]) :-     non_diagonals([px,py],[qx,qy]),    px != qx,    py != qy.;0.000193
+@n-nonrecursive-rule;sympathetic;./nqueens/nqueens.dl [38:1-38:85];sympathetic([px,py],[qx,qy]) :-     non_diagonals([px,py],[qx,qy]),    px != qx,    py != qy.;88
+@t-nonrecursive-relation;sympathetic;./nqueens/nqueens.dl [37:1-37:48];0.000206
+@n-nonrecursive-relation;sympathetic;./nqueens/nqueens.dl [37:1-37:48];88
+@t-nonrecursive-rule;compatible;./nqueens/nqueens.dl [44:1-44:40];compatible([p,-],1) :-     on_board(p).;3e-05
+@n-nonrecursive-rule;compatible;./nqueens/nqueens.dl [44:1-44:40];compatible([p,-],1) :-     on_board(p).;16
+@t-nonrecursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];3.3e-05
+@n-nonrecursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];16
+@t-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.00358
+@n-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0
+@t-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.002734
+@n-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;44
+@t-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];0.006362
+@n-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];44
+@c-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];8e-06
+@t-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.011984
+@n-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0
+@t-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.038637
+@n-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;24
+@t-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];0.05065
+@n-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];24
+@c-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];2.5e-05
+@t-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.04863
+@n-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0
+@t-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.110776
+@n-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;2
+@t-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];0.15943
+@n-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];2
+@c-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];4e-06
+@t-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.000614
+@n-recursive-rule;compatible;0;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0
+@t-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0.12788
+@n-recursive-rule;compatible;1;./nqueens/nqueens.dl [45:1-45:155];compatible([[px,py],[[hx,hy],tail]],(n+1)) :-     sympathetic([px,py],[hx,hy]),    compatible([[px,py],tail],n),    compatible([[hx,hy],tail],n),    px > hx.;0
+@t-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];0.128515
+@n-recursive-relation;compatible;./nqueens/nqueens.dl [43:1-43:47];0
+@t-nonrecursive-rule;solution;./nqueens/nqueens.dl [9:1-9:44];solution(qs) :-     compatible(qs,s),    size(s).;2.8e-05
+@n-nonrecursive-rule;solution;./nqueens/nqueens.dl [9:1-9:44];solution(qs) :-     compatible(qs,s),    size(s).;2
+@t-nonrecursive-relation;solution;./nqueens/nqueens.dl [8:1-8:43];3e-05
+@n-nonrecursive-relation;solution;./nqueens/nqueens.dl [8:1-8:43];2
+@runtime;0.346264

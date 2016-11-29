@@ -1,0 +1,12 @@
+@start-debug
+@t-nonrecursive-rule;p;./rec_lists2/rec_lists2.dl [6:1-6:16];p([1,[2,-]]).;4.4e-05
+@n-nonrecursive-rule;p;./rec_lists2/rec_lists2.dl [6:1-6:16];p([1,[2,-]]).;1
+@t-nonrecursive-rule;p;./rec_lists2/rec_lists2.dl [7:1-7:16];p([2,[3,-]]).;4e-06
+@n-nonrecursive-rule;p;./rec_lists2/rec_lists2.dl [7:1-7:16];p([2,[3,-]]).;2
+@t-nonrecursive-relation;p;./rec_lists2/rec_lists2.dl [4:1-4:21];8e-05
+@n-nonrecursive-relation;p;./rec_lists2/rec_lists2.dl [4:1-4:21];2
+@t-nonrecursive-rule;r;./rec_lists2/rec_lists2.dl [10:1-10:27];r((a+b)) :-     p([a,[b,-]]).;9e-06
+@n-nonrecursive-rule;r;./rec_lists2/rec_lists2.dl [10:1-10:27];r((a+b)) :-     p([a,[b,-]]).;2
+@t-nonrecursive-relation;r;./rec_lists2/rec_lists2.dl [9:1-9:30];1e-05
+@n-nonrecursive-relation;r;./rec_lists2/rec_lists2.dl [9:1-9:30];2
+@runtime;0.000228
